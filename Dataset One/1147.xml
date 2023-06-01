@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:noNamespaceSchemaLocation="../other_file_types/dictionary.xsd">
+<!-- dictionary_invalid_xsd.xml
+ - Copyright (c) 2013 by Dr. Herong Yang, herongyang.com
+-->
+ <word acronym="yes">
+  <name>XML</name>
+  <definition reference="Herong's Notes">eXtensible Markup 
+Language.</definition>
+  <update date="23-Dec-2003"/>
+ </word>
+ <word symbol="true">
+  <name><</name>
+  <definition>Mathematical symbol representing the "less than"
+logical operation, like: 1<2.</definition>
+  <definition>Reserved symbol in XML representing the beginning of 
+tags, like: <![CDATA[<p>Hello world!</p>]]>
+  </definition>
+  <update editor="Herong Yang"/>
+ </word>
+ <word symbol="no" acronym="false">
+  <name>extensible</name>
+  <definition>Capable of being extended.</definition>
+ </word>
+</dictionary>
