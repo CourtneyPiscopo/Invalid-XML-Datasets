@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+"<xml SRC=""xsstest.xml"" ID=I></xml><SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN>"

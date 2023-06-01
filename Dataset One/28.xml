@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sites>
+	<site *="2">
+		<title>Dave Eddy</title>
+		<url>http://www.daveeddy.com</url>
+	</site>
+	<site *="4">
+		<title>Lights and Shapes</title>
+		<url>http://lightsandshapes.com</url>
+	</site>
+	<site *="3" nsfw="false">
+		<title>Duck Duck Go</title>
+		<url>http://www.duckduckgo.com</url>
+	</site>
+</sites>

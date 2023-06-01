@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Vehicles>
+    <Cars>BMW</Cars>
+    <Cars>Audi</Cars>
+    <Cars>Mercedes</Cars>
+    <Cars>Toyota</Bikes>
+    <Cars>Honda</Bikes>
+    <Bikes>Royal Enfield</Cars>
+    <Bikes>Hero</Cars>
+    <Bikes>Suzuki</Bikes>
+</Vehicles>

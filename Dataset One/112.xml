@@ -1,0 +1,4 @@
+<ns1:fox a="xxx" ns1:b="qqq"
+    xmlns="http://example.org"/>
+   <fox a="xxx" ns1:b="qqq"
+    xmlns="http://example.org" xmlns:ns1="http://example.org"/>

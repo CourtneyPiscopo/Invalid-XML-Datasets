@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objectGridConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://ibm.com/ws/objectgrid/config../objectGrid.xsd"
+ xmlns="http://ibm.com/ws/objectgrid/config">
+   <objectGrids>
+      <objectGrid name="bookstore">
+         <backingMap name="book" pluginCollectionRef="bookPlugin" />
+      </objectGrid>
+   </objectGrids>
+   <backingMapPluginCollections>
+    <backingMapPluginCollection id="collection1">
+     <bean id="Evictor"
+       className="com.ibm.websphere.objectgrid.plugins.builtins.LRUEvictor" />
+     </backingMapPluginCollection>
+    </backingMapPluginCollections>
+</objectGridConfig>

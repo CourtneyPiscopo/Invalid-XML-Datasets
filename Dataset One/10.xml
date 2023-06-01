@@ -1,0 +1,7 @@
+<domain type='kvm'>
+ ...
+ <features>
+   <acpi/>
+   <pae/>
+ ...
+</domain>
