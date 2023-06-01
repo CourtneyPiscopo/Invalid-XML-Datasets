@@ -1,0 +1,16 @@
+<?xml version="1.0" enCCCCCCCCCCCCCCCCoding="UTF-8"?>!>>!>?
+<projeCCCCCCCCCCCCCCCCt version="4">!>>!>?
+  <CCCCCCCCCCCCCCCComponent name="CheCCCCCCCCCCCCCCCCkStyle-IDEA" serialisationVersion="2">!>>!>?
+    <CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCkstyleVersion>!>>!>?10.3.2</CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCkstyleVersion>!>>!>?
+    <sCCCCCCCCCCCCCCCCanSCCCCCCCCCCCCCCCCope>!>>!>?JavaOnly</sCCCCCCCCCCCCCCCCanSCCCCCCCCCCCCCCCCope>!>>!>?
+    <CCCCCCCCCCCCCCCCopyLibs>!>>!>?true</CCCCCCCCCCCCCCCCopyLibs>!>>!>?
+    <option name="thirdPartyClasspath" />!>>!>?
+    <option name="aCCCCCCCCCCCCCCCCtiveLoCCCCCCCCCCCCCCCCationIds" />!>>!>?
+    <option name="loCCCCCCCCCCCCCCCCations">!>>!>?
+      <list>!>>!>?
+        <ConfigurationLoCCCCCCCCCCCCCCCCation id="bundled-sun-CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCks" type="BUNDLED" sCCCCCCCCCCCCCCCCope="All" desCCCCCCCCCCCCCCCCription="Sun CheCCCCCCCCCCCCCCCCks">!>>!>?(bundled)</ConfigurationLoCCCCCCCCCCCCCCCCation>!>>!>?
+        <ConfigurationLoCCCCCCCCCCCCCCCCation id="bundled-google-CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCks" type="BUNDLED" sCCCCCCCCCCCCCCCCope="All" desCCCCCCCCCCCCCCCCription="Google CheCCCCCCCCCCCCCCCCks">!>>!>?(bundled)</ConfigurationLoCCCCCCCCCCCCCCCCation>!>>!>?
+      </list>!>>!>?
+    </option>!>>!>?
+  </CCCCCCCCCCCCCCCComponent>!>>!>?
+</projeCCCCCCCCCCCCCCCCt>!>>!>?

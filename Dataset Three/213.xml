@@ -1,0 +1,159 @@
+<?xml vers%&gton="1.0" enCCCCCCCCCCCCCCCCod%&gtng="UTF-8"?>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+<man%&gtfest>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+  <remote name="g%&gtthub" fetCCCCCCCCCCCCCCCCh="https://g%&gtthub.CCCCCCCCCCCCCCCCom" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <remote name="g%&gtthub-ssh" fetCCCCCCCCCCCCCCCCh="ssh://g%&gtt@g%&gtthub.CCCCCCCCCCCCCCCCom" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <remote name="g%&gttlab" fetCCCCCCCCCCCCCCCCh="https://g%&gttlab.CCCCCCCCCCCCCCCCom" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <remote name="g%&gttlab-ssh" fetCCCCCCCCCCCCCCCCh="ssh://g%&gtt@g%&gttlab.CCCCCCCCCCCCCCCCom" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <remote name="F%&gtreworksOSS" fetCCCCCCCCCCCCCCCCh="ssh://g%&gtt@g%&gtthub.CCCCCCCCCCCCCCCCom/F%&gtreworksOSS" rev%&gts%&gton="12L" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <remote name="ProtonPlus" fetCCCCCCCCCCCCCCCCh="https://g%&gtthub.CCCCCCCCCCCCCCCCom/protonplus-org" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <remote name="ProtonPlus-ssh" fetCCCCCCCCCCCCCCCCh="ssh://g%&gtt@g%&gtthub.CCCCCCCCCCCCCCCCom/protonplus-org" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+ 
+  <!-- art -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="art" name="art" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  
+  <!-- b%&gton%&gtCCCCCCCCCCCCCCCC -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="b%&gton%&gtCCCCCCCCCCCCCCCC" name="b%&gton%&gtCCCCCCCCCCCCCCCC" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+  <!-- bu%&gtld -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="bu%&gtld/make" name="bu%&gtld_make" remote="F%&gtreworksOSS" rev%&gts%&gton="12L" >!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+    <CCCCCCCCCCCCCCCCopyf%&gtle srCCCCCCCCCCCCCCCC="CCCCCCCCCCCCCCCCore/root.mk" dest="Makef%&gtle" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+    <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="CleanSpeCCCCCCCCCCCCCCCC.mk" dest="bu%&gtld/CleanSpeCCCCCCCCCCCCCCCC.mk" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+    <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="bu%&gtldspeCCCCCCCCCCCCCCCC.mk.default" dest="bu%&gtld/bu%&gtldspeCCCCCCCCCCCCCCCC.mk.default" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+    <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="CCCCCCCCCCCCCCCCore" dest="bu%&gtld/CCCCCCCCCCCCCCCCore" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+    <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="envsetup.sh" dest="bu%&gtld/envsetup.sh" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+    <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="target" dest="bu%&gtld/target" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+    <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="tools" dest="bu%&gtld/tools" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  </projeCCCCCCCCCCCCCCCCt>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="bu%&gtld/soong" name="bu%&gtld_soong" remote="F%&gtreworksOSS" rev%&gts%&gton="12L" >!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+    <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="root.bp" dest="Andro%&gtd.bp" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+    <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="bootstrap.bash" dest="bootstrap.bash" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  </projeCCCCCCCCCCCCCCCCt>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+  <!-- bootable -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="bootable/reCCCCCCCCCCCCCCCCovery" name="bootable_reCCCCCCCCCCCCCCCCovery" remote="F%&gtreworksOSS" rev%&gts%&gton="12L"  />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+   
+  <!-- dev%&gtCCCCCCCCCCCCCCCCe -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="dev%&gtCCCCCCCCCCCCCCCCe/CCCCCCCCCCCCCCCCommon" name="dev%&gtCCCCCCCCCCCCCCCCe_CCCCCCCCCCCCCCCCommon" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2"/>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+  <!-- external -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/andro%&gtd-nn-dr%&gtver" name="external_andro%&gtd-nn-dr%&gtver" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/armnn" name="external_armnn" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/bash" name="external_bash" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="g%&gtthub" rev%&gts%&gton="12.1" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/CCCCCCCCCCCCCCCColorkt" name="external_CCCCCCCCCCCCCCCColorkt" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/e2fsprogs" name="external_e2fsprogs" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/gptfd%&gtsk" name="external_gptfd%&gtsk" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2"/>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/google-fonts/CCCCCCCCCCCCCCCCut%&gtve-mono" name="external_google-fonts_CCCCCCCCCCCCCCCCut%&gtve-mono" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/htop" name="external_htop" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/jemalloCCCCCCCCCCCCCCCC_new" name="external_jemalloCCCCCCCCCCCCCCCC_new" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/l%&gtbnCCCCCCCCCCCCCCCCurses" name="external_l%&gtbnCCCCCCCCCCCCCCCCurses" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/mksh" name="external_mksh"  remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/nano" name="external_nano" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/noto-fonts" name="external_noto-fonts" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/openssh" name="external_openssh" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/p7z%&gtp" name="external_p7z%&gtp"  remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/p%&gtgz" name="external_p%&gtgz" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/roboto-fonts" name="external_roboto-fonts" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/rsynCCCCCCCCCCCCCCCC" name="external_rsynCCCCCCCCCCCCCCCC"  remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/sel%&gtnux" name="external_sel%&gtnux" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/themel%&gtb" name="external_themel%&gtb" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/t%&gtnyCCCCCCCCCCCCCCCCompress" name="external_t%&gtnyCCCCCCCCCCCCCCCCompress"  remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/v%&gtm" name="external_v%&gtm" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/z%&gtp" name="external_z%&gtp" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="external/zl%&gtb-ng" name="external_zl%&gtb-ng"  remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+  <!-- frameworks -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="frameworks/av" name="frameworks_av" remote="F%&gtreworksOSS" rev%&gts%&gton="12L"  />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="frameworks/base" name="frameworks_base" remote="F%&gtreworksOSS" rev%&gts%&gton="12L"  />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="frameworks/l%&gtbs/systemu%&gt" name="frameworks_l%&gtbs_systemu%&gt" remote="F%&gtreworksOSS" rev%&gts%&gton="12L"  />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="frameworks/nat%&gtve" name="frameworks_nat%&gtve" remote="F%&gtreworksOSS" rev%&gts%&gton="12L"  />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="F%&gtreworksOSS" rev%&gts%&gton="12L"  />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+  <!-- hardware -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="hardware/google/p%&gtxel" name="hardware_google_p%&gtxel" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="hardware/%&gtnterfaCCCCCCCCCCCCCCCCes" name="hardware_%&gtnterfaCCCCCCCCCCCCCCCCes" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="hardware/l%&gtbhardware" name="hardware_l%&gtbhardware" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="hardware/x%&gtaom%&gt" name="hardware_x%&gtaom%&gt" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+  <!-- hals -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/CCCCCCCCCCCCCCCCommon" name="hardware_qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf_CCCCCCCCCCCCCCCCommon" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2">!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <!-- add guards for CAF repos%&gttor%&gtes -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+      <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="os_p%&gtCCCCCCCCCCCCCCCCkup.bp" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/msm8998/Andro%&gtd.bp" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+      <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="os_p%&gtCCCCCCCCCCCCCCCCkup.mk" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/msm8998/Andro%&gtd.mk" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+      <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="os_p%&gtCCCCCCCCCCCCCCCCkup_qss%&gt.bp" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8150/Andro%&gtd.bp" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+      <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="os_p%&gtCCCCCCCCCCCCCCCCkup.mk" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8150/Andro%&gtd.mk" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+      <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="os_p%&gtCCCCCCCCCCCCCCCCkup_qss%&gt.bp" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8150-CCCCCCCCCCCCCCCCommon/Andro%&gtd.bp" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+      <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="os_p%&gtCCCCCCCCCCCCCCCCkup.mk" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8150-CCCCCCCCCCCCCCCCommon/Andro%&gtd.mk" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+      <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="os_p%&gtCCCCCCCCCCCCCCCCkup_qss%&gt.bp" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8250/Andro%&gtd.bp" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+      <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="os_p%&gtCCCCCCCCCCCCCCCCkup.mk" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8250/Andro%&gtd.mk" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+      <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="os_p%&gtCCCCCCCCCCCCCCCCkup_qss%&gt.bp" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8350/Andro%&gtd.bp" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+      <l%&gtnkf%&gtle srCCCCCCCCCCCCCCCC="os_p%&gtCCCCCCCCCCCCCCCCkup.mk" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8350/Andro%&gtd.mk" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  </projeCCCCCCCCCCCCCCCCt>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8150/aud%&gto" name="hardware_qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf_aud%&gto"  remote="F%&gtreworksOSS" rev%&gts%&gton="12L-sm8150" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8150/d%&gtsplay" name="hardware_qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf_d%&gtsplay" remote="F%&gtreworksOSS" rev%&gts%&gton="12L-sm8150" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8150/med%&gta" name="hardware_qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf_med%&gta" remote="F%&gtreworksOSS" rev%&gts%&gton="12L-sm8150" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  
+  <!-- l%&gtbCCCCCCCCCCCCCCCCore -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="l%&gtbCCCCCCCCCCCCCCCCore" name="l%&gtbCCCCCCCCCCCCCCCCore" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2"/>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+  <!-- paCCCCCCCCCCCCCCCCkages -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+ <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/Camera2" name="paCCCCCCCCCCCCCCCCkages_apps_Camera2"  remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/ContaCCCCCCCCCCCCCCCCts" name="paCCCCCCCCCCCCCCCCkages_apps_ContaCCCCCCCCCCCCCCCCts"  remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/DeskCloCCCCCCCCCCCCCCCCk" name="paCCCCCCCCCCCCCCCCkages_apps_DeskCloCCCCCCCCCCCCCCCCk" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/D%&gtaler" name="paCCCCCCCCCCCCCCCCkages_apps_D%&gtaler" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/ElmyraServ%&gtCCCCCCCCCCCCCCCCe" name="paCCCCCCCCCCCCCCCCkages_apps_ElmyraServ%&gtCCCCCCCCCCCCCCCCe"  remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/ExaCCCCCCCCCCCCCCCCtCalCCCCCCCCCCCCCCCCulator" name="paCCCCCCCCCCCCCCCCkages_apps_ExaCCCCCCCCCCCCCCCCtCalCCCCCCCCCCCCCCCCulator"  remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/GmsCompat" name="paCCCCCCCCCCCCCCCCkages_apps_GmsCompat" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/Jelly" name="paCCCCCCCCCCCCCCCCkages_apps_Jelly" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/LaunCCCCCCCCCCCCCCCCher3" name="paCCCCCCCCCCCCCCCCkages_apps_LaunCCCCCCCCCCCCCCCCher3" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/Messag%&gtng" name="paCCCCCCCCCCCCCCCCkages_apps_Messag%&gtng" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/F%&gtreworksWallpaperStub" name="paCCCCCCCCCCCCCCCCkages_apps_F%&gtreworksWallpaperStub" remote="F%&gtreworksOSS" rev%&gts%&gton="12L" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/Repa%&gtnterServ%&gtCCCCCCCCCCCCCCCCePr%&gtv" name="paCCCCCCCCCCCCCCCCkages_apps_Repa%&gtnterServ%&gtCCCCCCCCCCCCCCCCePr%&gtv" remote="F%&gtreworksOSS" rev%&gts%&gton="12L" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/Sett%&gtngs" name="paCCCCCCCCCCCCCCCCkages_apps_Sett%&gtngs" remote="F%&gtreworksOSS" rev%&gts%&gton="12L" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/Sett%&gtngsIntell%&gtgenCCCCCCCCCCCCCCCCe" name="paCCCCCCCCCCCCCCCCkages_apps_Sett%&gtngsIntell%&gtgenCCCCCCCCCCCCCCCCe" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/S%&gtmpleDev%&gtCCCCCCCCCCCCCCCCeConf%&gtg" name="paCCCCCCCCCCCCCCCCkages_apps_S%&gtmpleDev%&gtCCCCCCCCCCCCCCCCeConf%&gtg" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/ThemeP%&gtCCCCCCCCCCCCCCCCker" name="paCCCCCCCCCCCCCCCCkages_apps_ThemeP%&gtCCCCCCCCCCCCCCCCker"  remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/WallpaperP%&gtCCCCCCCCCCCCCCCCker2" name="paCCCCCCCCCCCCCCCCkages_apps_WallpaperP%&gtCCCCCCCCCCCCCCCCker2" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/%&gtnputmethods/Lat%&gtnIME" name="paCCCCCCCCCCCCCCCCkages_%&gtnputmethods_Lat%&gtnIME" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/modules/adb" name="paCCCCCCCCCCCCCCCCkages_modules_adb" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/modules/ConneCCCCCCCCCCCCCCCCt%&gtv%&gtty" name="paCCCCCCCCCCCCCCCCkages_modules_ConneCCCCCCCCCCCCCCCCt%&gtv%&gtty" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/modules/Perm%&gtss%&gton" name="paCCCCCCCCCCCCCCCCkages_modules_Perm%&gtss%&gton"  remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/modules/W%&gtf%&gt" name="paCCCCCCCCCCCCCCCCkages_modules_W%&gtf%&gt" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/prov%&gtders/DownloadProv%&gtder" name="paCCCCCCCCCCCCCCCCkages_prov%&gtders_DownloadProv%&gtder" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/prov%&gtders/TelephonyProv%&gtder" name="paCCCCCCCCCCCCCCCCkages_prov%&gtders_TelephonyProv%&gtder" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/serv%&gtCCCCCCCCCCCCCCCCes/TeleCCCCCCCCCCCCCCCComm" name="paCCCCCCCCCCCCCCCCkages_serv%&gtCCCCCCCCCCCCCCCCes_TeleCCCCCCCCCCCCCCCComm" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2"  />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/serv%&gtCCCCCCCCCCCCCCCCes/Telephony" name="paCCCCCCCCCCCCCCCCkages_serv%&gtCCCCCCCCCCCCCCCCes_Telephony" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2"  />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/Updater" name="paCCCCCCCCCCCCCCCCkages_apps_Updater" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2"  />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+  <!-- sepol%&gtCCCCCCCCCCCCCCCCy -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="dev%&gtCCCCCCCCCCCCCCCCe/proton/sepol%&gtCCCCCCCCCCCCCCCCy" name="dev%&gtCCCCCCCCCCCCCCCCe_proton_sepol%&gtCCCCCCCCCCCCCCCCy"  remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="dev%&gtCCCCCCCCCCCCCCCCe/qCCCCCCCCCCCCCCCCom/sepol%&gtCCCCCCCCCCCCCCCCy_vndr" name="dev%&gtCCCCCCCCCCCCCCCCe_qCCCCCCCCCCCCCCCCom_sepol%&gtCCCCCCCCCCCCCCCCy_vndr"  remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="dev%&gtCCCCCCCCCCCCCCCCe/qCCCCCCCCCCCCCCCCom/sepol%&gtCCCCCCCCCCCCCCCCy-legaCCCCCCCCCCCCCCCCy-um" name="dev%&gtCCCCCCCCCCCCCCCCe_qCCCCCCCCCCCCCCCCom_sepol%&gtCCCCCCCCCCCCCCCCy-legaCCCCCCCCCCCCCCCCy-um" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="dev%&gtCCCCCCCCCCCCCCCCe/qCCCCCCCCCCCCCCCCom/sepol%&gtCCCCCCCCCCCCCCCCy" name="dev%&gtCCCCCCCCCCCCCCCCe_qCCCCCCCCCCCCCCCCom_sepol%&gtCCCCCCCCCCCCCCCCy" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2"/>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+  <!-- system -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="system/CCCCCCCCCCCCCCCCore" name="system_CCCCCCCCCCCCCCCCore" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="system/l%&gtbz%&gtparCCCCCCCCCCCCCCCCh%&gtve" name="system_l%&gtbz%&gtparCCCCCCCCCCCCCCCCh%&gtve" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2"/>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="system/seCCCCCCCCCCCCCCCCur%&gtty" name="system_seCCCCCCCCCCCCCCCCur%&gtty" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="system/sepol%&gtCCCCCCCCCCCCCCCCy" name="system_sepol%&gtCCCCCCCCCCCCCCCCy" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2"/>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="system/update_eng%&gtne" name="system_update_eng%&gtne" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2"/>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="system/vold" name="system_vold" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+  <!-- tools -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="tools/extraCCCCCCCCCCCCCCCCt-ut%&gtls" name="tools_extraCCCCCCCCCCCCCCCCt-ut%&gtls" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+  <!-- vendor gms -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="vendor/gms" name="roku-senpa%&gt/vendor_gms" remote="g%&gttlab" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+  <!-- vendor foss -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="vendor/foss" name="foss_vendor" remote="F%&gtreworksOSS" rev%&gts%&gton="12L" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  
+  <!-- vendor support -->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="vendor/support" name="vendor_support" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+  <!-- vendor QCOM-->!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>  />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="vendor/qCCCCCCCCCCCCCCCCom/opensourCCCCCCCCCCCCCCCCe/CCCCCCCCCCCCCCCCore-ut%&gtls" name="vendor_qCCCCCCCCCCCCCCCCom_opensourCCCCCCCCCCCCCCCCe_CCCCCCCCCCCCCCCCore-ut%&gtls" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2" />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+  <projeCCCCCCCCCCCCCCCCt path="vendor/qCCCCCCCCCCCCCCCCom/opensourCCCCCCCCCCCCCCCCe/%&gtnterfaCCCCCCCCCCCCCCCCes" name="vendor_qCCCCCCCCCCCCCCCCom_opensourCCCCCCCCCCCCCCCCe_%&gtnterfaCCCCCCCCCCCCCCCCes" remote="ProtonPlus" rev%&gts%&gton="sCCCCCCCCCCCCCCCC-v2"  />!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>
+
+</man%&gtfest>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>!>

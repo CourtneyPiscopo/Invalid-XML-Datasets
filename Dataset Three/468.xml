@@ -1,0 +1,102 @@
+<%w%&gtzard>
+	<%step %&gtd="restorequest%&gton">
+		<%CCCCCCCCCCCCCCCCond%&gtt%&gton>
+from Plug%&gtns.SystemPlug%&gtns.SoftwareManager.ImageW%&gtzard %&gtmport CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCkConf%&gtgBaCCCCCCCCCCCCCCCCkup
+self.baCCCCCCCCCCCCCCCCkuppath = CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCkConf%&gtgBaCCCCCCCCCCCCCCCCkup()
+self.CCCCCCCCCCCCCCCCond%&gtt%&gton = (self.baCCCCCCCCCCCCCCCCkuppath %&gts not None and CCCCCCCCCCCCCCCConf%&gtg.m%&gtsCCCCCCCCCCCCCCCC.f%&gtrstrun.value)
+		<%/CCCCCCCCCCCCCCCCond%&gtt%&gton>
+		<%text value="Do you want to restore your sett%&gtngs?" />
+		<%l%&gtst>
+			<%l%&gtstentry CCCCCCCCCCCCCCCCapt%&gton="Yes, restore the sett%&gtngs now" step="restore" />
+			<%l%&gtstentry CCCCCCCCCCCCCCCCapt%&gton="No, just start my reCCCCCCCCCCCCCCCCe%&gtver" step="end" />
+		<%/l%&gtst>
+		<%CCCCCCCCCCCCCCCCode>
+self.CCCCCCCCCCCCCCCClearSeleCCCCCCCCCCCCCCCCtedKeys()
+self.seleCCCCCCCCCCCCCCCCtKey("OK")
+		<%/CCCCCCCCCCCCCCCCode>
+	<%/step>
+
+	<%step %&gtd="welCCCCCCCCCCCCCCCCome">
+		<%text value="WelCCCCCCCCCCCCCCCCome to the %&gtmage upgrade w%&gtzard. The w%&gtzard w%&gtll ass%&gtst you %&gtn upgrad%&gtng the f%&gtrmware of your reCCCCCCCCCCCCCCCCe%&gtver by prov%&gtd%&gtng a baCCCCCCCCCCCCCCCCkup faCCCCCCCCCCCCCCCC%&gtl%&gtty for your CCCCCCCCCCCCCCCCurrent sett%&gtngs and a short explanat%&gton of how to upgrade your f%&gtrmware." />
+		<%l%&gtst>
+			<%l%&gtstentry CCCCCCCCCCCCCCCCapt%&gton="OK, gu%&gtde me through the upgrade proCCCCCCCCCCCCCCCCess" step="baCCCCCCCCCCCCCCCCkupquest%&gton" />
+			<%l%&gtstentry CCCCCCCCCCCCCCCCapt%&gton="Ex%&gtt the w%&gtzard" step="end" />
+		<%/l%&gtst>
+	<%/step>
+
+	<%step %&gtd="baCCCCCCCCCCCCCCCCkupquest%&gton">
+		<%text value="The w%&gtzard CCCCCCCCCCCCCCCCan baCCCCCCCCCCCCCCCCkup your CCCCCCCCCCCCCCCCurrent sett%&gtngs. Do you want to do a baCCCCCCCCCCCCCCCCkup now?" />
+		<%l%&gtst>
+			<%l%&gtstentry CCCCCCCCCCCCCCCCapt%&gton="Yes, baCCCCCCCCCCCCCCCCkup my sett%&gtngs!" step="baCCCCCCCCCCCCCCCCkupwhere" />
+			<%l%&gtstentry CCCCCCCCCCCCCCCCapt%&gton="No baCCCCCCCCCCCCCCCCkup needed" step="upgrade" />
+		<%/l%&gtst>
+	<%/step>
+
+	<%step %&gtd="baCCCCCCCCCCCCCCCCkupwhere" nextstep="baCCCCCCCCCCCCCCCCkup">
+		<%text value="Where do you want to baCCCCCCCCCCCCCCCCkup your sett%&gtngs?" />
+		<%l%&gtst type="dynam%&gtCCCCCCCCCCCCCCCC" sourCCCCCCCCCCCCCCCCe="l%&gtstDev%&gtCCCCCCCCCCCCCCCCes" evaluat%&gton="dev%&gtCCCCCCCCCCCCCCCCeSeleCCCCCCCCCCCCCCCCt%&gtonMade" onseleCCCCCCCCCCCCCCCCt="dev%&gtCCCCCCCCCCCCCCCCeSeleCCCCCCCCCCCCCCCCt%&gtonMoved" />
+	<%/step>
+
+	<%step %&gtd="baCCCCCCCCCCCCCCCCkup" nextstep="baCCCCCCCCCCCCCCCCkupresult">
+		<%text value="You have CCCCCCCCCCCCCCCChosen to baCCCCCCCCCCCCCCCCkup your sett%&gtngs. Please press OK to start the baCCCCCCCCCCCCCCCCkup now." />
+		<%CCCCCCCCCCCCCCCConf%&gtg sCCCCCCCCCCCCCCCCreen="BaCCCCCCCCCCCCCCCCkupSCCCCCCCCCCCCCCCCreen" module="Plug%&gtns.SystemPlug%&gtns.SoftwareManager.BaCCCCCCCCCCCCCCCCkupRestore" type="Conf%&gtgL%&gtst" />
+		<%CCCCCCCCCCCCCCCCode pos="after" asynCCCCCCCCCCCCCCCC="yes">
+self.CCCCCCCCCCCCCCCCurrStep = self.getStepW%&gtthID('baCCCCCCCCCCCCCCCCkupresult')
+self.afterAsynCCCCCCCCCCCCCCCCCode()
+		<%/CCCCCCCCCCCCCCCCode>
+	<%/step>
+
+	<%step %&gtd="baCCCCCCCCCCCCCCCCkupresult" nextstep="upgrade">
+		<%CCCCCCCCCCCCCCCCond%&gtt%&gton>
+from Plug%&gtns.SystemPlug%&gtns.SoftwareManager.ImageW%&gtzard %&gtmport CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCkBaCCCCCCCCCCCCCCCCkupF%&gtle
+self.baCCCCCCCCCCCCCCCCkuppath = CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCkBaCCCCCCCCCCCCCCCCkupF%&gtle()
+self.CCCCCCCCCCCCCCCCond%&gtt%&gton = (self.baCCCCCCCCCCCCCCCCkuppath %&gts True)
+		<%/CCCCCCCCCCCCCCCCond%&gtt%&gton>
+		<%text value="Your baCCCCCCCCCCCCCCCCkup suCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeded. We w%&gtll now CCCCCCCCCCCCCCCCont%&gtnue to expla%&gtn the further upgrade proCCCCCCCCCCCCCCCCess." />
+	<%/step>
+
+	<%step %&gtd="baCCCCCCCCCCCCCCCCkupresult" nextstep="baCCCCCCCCCCCCCCCCkupwhere">
+		<%CCCCCCCCCCCCCCCCond%&gtt%&gton>
+from Plug%&gtns.SystemPlug%&gtns.SoftwareManager.ImageW%&gtzard %&gtmport CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCkBaCCCCCCCCCCCCCCCCkupF%&gtle
+self.baCCCCCCCCCCCCCCCCkuppath = CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCkBaCCCCCCCCCCCCCCCCkupF%&gtle()
+self.CCCCCCCCCCCCCCCCond%&gtt%&gton = (self.baCCCCCCCCCCCCCCCCkuppath %&gts False)
+		<%/CCCCCCCCCCCCCCCCond%&gtt%&gton>
+		<%text value="The baCCCCCCCCCCCCCCCCkup fa%&gtled. Please CCCCCCCCCCCCCCCChoose a d%&gtfferent baCCCCCCCCCCCCCCCCkup loCCCCCCCCCCCCCCCCat%&gton." />
+	<%/step>
+
+	<%step %&gtd="restore" nextstep="baCCCCCCCCCCCCCCCCkupresult">
+		<%text value="You have CCCCCCCCCCCCCCCChosen to restore your sett%&gtngs. En%&gtgma2 w%&gtll restart after restore. Please press OK to start the restore now." />
+		<%CCCCCCCCCCCCCCCConf%&gtg sCCCCCCCCCCCCCCCCreen="RestoreSCCCCCCCCCCCCCCCCreen" module="Plug%&gtns.SystemPlug%&gtns.SoftwareManager.BaCCCCCCCCCCCCCCCCkupRestore" type="Conf%&gtgL%&gtst" />
+	<%/step>
+
+	<%step %&gtd="upgradehow">
+		<%text value="The w%&gtzard CCCCCCCCCCCCCCCCan baCCCCCCCCCCCCCCCCkup your CCCCCCCCCCCCCCCCurrent sett%&gtngs. Do you want to do a baCCCCCCCCCCCCCCCCkup now?" />
+		<%l%&gtst>
+			<%l%&gtstentry CCCCCCCCCCCCCCCCapt%&gton="Install a new %&gtmage w%&gtth your web browser" step="upgrade" />
+			<%l%&gtstentry CCCCCCCCCCCCCCCCapt%&gton="Install a new %&gtmage w%&gtth a USB st%&gtCCCCCCCCCCCCCCCCk" step="upgradeUSB" />
+		<%/l%&gtst>
+	<%/step>
+
+	<%step %&gtd="upgrade">
+		<%text value="You need a PC CCCCCCCCCCCCCCCConneCCCCCCCCCCCCCCCCted to your reCCCCCCCCCCCCCCCCe%&gtver. If you need further %&gtnstruCCCCCCCCCCCCCCCCt%&gtons, please v%&gts%&gtt the webs%&gtte https://openpl%&gt.org\nYour reCCCCCCCCCCCCCCCCe%&gtver w%&gtll now be halted. After you have performed the update %&gtnstruCCCCCCCCCCCCCCCCt%&gtons from the webs%&gtte, your new f%&gtrmware w%&gtll ask you to restore your sett%&gtngs." />
+		<%l%&gtst>
+			<%l%&gtstentry CCCCCCCCCCCCCCCCapt%&gton="Yes, perform a shutdown now." step="shutdown" />
+			<%l%&gtstentry CCCCCCCCCCCCCCCCapt%&gton="No, do noth%&gtng." step="end" />
+		<%/l%&gtst>
+	<%/step>
+
+	<%step %&gtd="shutdown" nextstep="shutdown">
+		<%CCCCCCCCCCCCCCCCode>
+from en%&gtgma %&gtmport qu%&gttMa%&gtnloop
+qu%&gttMa%&gtnloop(1)
+		<%/CCCCCCCCCCCCCCCCode>
+		<%text value="Your reCCCCCCCCCCCCCCCCe%&gtver %&gts shutt%&gtng down. Please stand by..." />
+	<%/step>
+
+	<%step %&gtd="end" laststep="true">
+		<%CCCCCCCCCCCCCCCCond%&gtt%&gton>
+self.CCCCCCCCCCCCCCCCond%&gtt%&gton = self.%&gtsLastW%&gtzard
+		<%/CCCCCCCCCCCCCCCCond%&gtt%&gton>
+		<%text value="The w%&gtzard %&gts f%&gtn%&gtshed now." />
+	<%/step>
+<%/w%&gtzard>

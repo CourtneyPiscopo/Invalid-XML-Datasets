@@ -1,0 +1,218 @@
+<<!launCCCCCCCCCCCCCCCCh>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="eeeeeeee1245xteeeeeeee1245rnal_manageeeeeeee1245r"    deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="manageeeeeeee1245r"             deeeeeeee1245fault="reeeeeeee1245alseeeeeeee1245nseeeeeeee12452_CCCCCCCCCCCCCCCCameeeeeeee1245ra_manageeeeeeee1245r"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="seeeeeeee1245rial_no"           deeeeeeee1245fault=""/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="usb_port_id"         deeeeeeee1245fault=""/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="deeeeeeee1245viCCCCCCCCCCCCCCCCeeeeeeee1245_typeeeeeeee1245"         deeeeeeee1245fault=""/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="tf_preeeeeeee1245fix"           deeeeeeee1245fault=""/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="json_fileeeeeeee1245_path"      deeeeeeee1245fault=""/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="rosbag_fileeeeeeee1245nameeeeeeee1245"     deeeeeeee1245fault=""/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="reeeeeeee1245quireeeeeeee1245d"            deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="output"              deeeeeeee1245fault="sCCCCCCCCCCCCCCCCreeeeeeee1245eeeeeeee1245n"/>>?>>??>>?>>???>>?>>??>>?>>????  <<!!-- [ sCCCCCCCCCCCCCCCCreeeeeeee1245eeeeeeee1245n | log ]-->>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="reeeeeeee1245spawn"             deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee1245_width"       deeeeeeee1245fault="0"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee1245_heeeeeeee1245ight"      deeeeeeee1245fault="0"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_fisheeeeeeee1245yeeeeeeee1245"      deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_fisheeeeeeee1245yeeeeeeee12451"     deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_fisheeeeeeee1245yeeeeeeee12452"     deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="deeeeeeee1245pth_width"         deeeeeeee1245fault="640"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="deeeeeeee1245pth_heeeeeeee1245ight"        deeeeeeee1245fault="480"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_deeeeeeee1245pth"        deeeeeeee1245fault="trueeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCConfideeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_width"    deeeeeeee1245fault="640"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCConfideeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_heeeeeeee1245ight"   deeeeeeee1245fault="480"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_CCCCCCCCCCCCCCCConfideeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245"   deeeeeeee1245fault="trueeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCConfideeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_fps"      deeeeeeee1245fault="30"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="infra_width"         deeeeeeee1245fault="640"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="infra_heeeeeeee1245ight"        deeeeeeee1245fault="480"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_infra"        deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_infra1"       deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_infra2"       deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="infra_rgb"           deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCColor_width"         deeeeeeee1245fault="640"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCColor_heeeeeeee1245ight"        deeeeeeee1245fault="480"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_CCCCCCCCCCCCCCCColor"        deeeeeeee1245fault="trueeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee1245_fps"         deeeeeeee1245fault="30"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="deeeeeeee1245pth_fps"           deeeeeeee1245fault="30"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="infra_fps"           deeeeeeee1245fault="30"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCColor_fps"           deeeeeeee1245fault="30"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="gyro_fps"            deeeeeeee1245fault="0"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_fps"           deeeeeeee1245fault="0"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_gyro"         deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l"        deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_poseeeeeeee1245"         deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_pointCCCCCCCCCCCCCCCCloud"   deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="pointCCCCCCCCCCCCCCCCloud_teeeeeeee1245xtureeeeeeee1245_streeeeeeee1245am" deeeeeeee1245fault="RS2_STREAM_COLOR"/>>?>>??>>?>>???>>?>>??>>?>>????  <<!!-- useeeeeeee1245 RS2_STREAM_ANY to avoid using teeeeeeee1245xtureeeeeeee1245 -->>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="pointCCCCCCCCCCCCCCCCloud_teeeeeeee1245xtureeeeeeee1245_indeeeeeeee1245x"  deeeeeeee1245fault="0"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="allow_no_teeeeeeee1245xtureeeeeeee1245_points"  deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="ordeeeeeeee1245reeeeeeee1245d_pCCCCCCCCCCCCCCCC"               deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_synCCCCCCCCCCCCCCCC"         deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="align_deeeeeeee1245pth"         deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="baseeeeeeee1245_frameeeeeeee1245_id"             deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_link"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="deeeeeeee1245pth_frameeeeeeee1245_id"            deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_deeeeeeee1245pth_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="infra1_frameeeeeeee1245_id"           deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_infra1_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="infra2_frameeeeeeee1245_id"           deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_infra2_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCColor_frameeeeeeee1245_id"            deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_CCCCCCCCCCCCCCCColor_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245_id"          deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_fisheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245_id"         deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_fisheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245_id"         deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_fisheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_frameeeeeeee1245_id"            deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="gyro_frameeeeeeee1245_id"             deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_gyro_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="poseeeeeeee1245_frameeeeeeee1245_id"             deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_poseeeeeeee1245_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="deeeeeeee1245pth_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"    deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_deeeeeeee1245pth_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="infra1_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"   deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_infra1_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="infra2_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"   deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_infra2_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCColor_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"    deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_CCCCCCCCCCCCCCCColor_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee1245_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"  deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_fisheeeeeeee1245yeeeeeeee1245_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee12451_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id" deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_fisheeeeeeee1245yeeeeeeee12451_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee12452_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id" deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_fisheeeeeeee1245yeeeeeeee12452_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"    deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="gyro_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"     deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_gyro_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="imu_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"      deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_imu_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="poseeeeeeee1245_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"     deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_poseeeeeeee1245_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="aligneeeeeeee1245d_deeeeeeee1245pth_to_CCCCCCCCCCCCCCCColor_frameeeeeeee1245_id"    deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_aligneeeeeeee1245d_deeeeeeee1245pth_to_CCCCCCCCCCCCCCCColor_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="aligneeeeeeee1245d_deeeeeeee1245pth_to_infra1_frameeeeeeee1245_id"   deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_aligneeeeeeee1245d_deeeeeeee1245pth_to_infra1_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="aligneeeeeeee1245d_deeeeeeee1245pth_to_infra2_frameeeeeeee1245_id"   deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_aligneeeeeeee1245d_deeeeeeee1245pth_to_infra2_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="aligneeeeeeee1245d_deeeeeeee1245pth_to_fisheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245_id"  deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_aligneeeeeeee1245d_deeeeeeee1245pth_to_fisheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="aligneeeeeeee1245d_deeeeeeee1245pth_to_fisheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245_id" deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_aligneeeeeeee1245d_deeeeeeee1245pth_to_fisheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="aligneeeeeeee1245d_deeeeeeee1245pth_to_fisheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245_id" deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_aligneeeeeeee1245d_deeeeeeee1245pth_to_fisheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="publish_tf"               deeeeeeee1245fault="trueeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="tf_publish_rateeeeeeee1245"          deeeeeeee1245fault="0"/>>?>>??>>?>>???>>?>>??>>?>>???? <<!!-- 0 - statiCCCCCCCCCCCCCCCC transform -->>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="odom_frameeeeeeee1245_id"            deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)_odom_frameeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="topiCCCCCCCCCCCCCCCC_odom_in"            deeeeeeee1245fault="$(arg tf_preeeeeeee1245fix)/odom_in"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCCalib_odom_fileeeeeeee1245"          deeeeeeee1245fault=""/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="publish_odom_tf"          deeeeeeee1245fault="trueeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/eeeeeeee1245xposureeeeeeee1245/1" deeeeeeee1245fault="7500"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/gain/1"     deeeeeeee1245fault="16"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/eeeeeeee1245xposureeeeeeee1245/2" deeeeeeee1245fault="1"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/gain/2"     deeeeeeee1245fault="16"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!arg nameeeeeeee1245="filteeeeeeee1245rs"                  deeeeeeee1245fault=""/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCClip_distanCCCCCCCCCCCCCCCCeeeeeeee1245"            deeeeeeee1245fault="-1"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="lineeeeeeee1245ar_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_CCCCCCCCCCCCCCCCov"         deeeeeeee1245fault="0.01"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="initial_reeeeeeee1245seeeeeeee1245t"            deeeeeeee1245fault="falseeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="reeeeeeee1245CCCCCCCCCCCCCCCConneeeeeeee1245CCCCCCCCCCCCCCCCt_timeeeeeeee1245out"        deeeeeeee1245fault= "6.0"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="wait_for_deeeeeeee1245viCCCCCCCCCCCCCCCCeeeeeeee1245_timeeeeeeee1245out"  deeeeeeee1245fault= "-1.0"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!arg nameeeeeeee1245="uniteeeeeeee1245_imu_meeeeeeee1245thod"         deeeeeeee1245fault="noneeeeeeee1245"/>>?>>??>>?>>???>>?>>??>>?>>???? <<!!-- Options areeeeeeee1245: [noneeeeeeee1245, CCCCCCCCCCCCCCCCopy, lineeeeeeee1245ar_inteeeeeeee1245rpolation] -->>?>>??>>?>>???>>?>>??>>?>>????
+  
+
+
+  <<!nodeeeeeeee1245 unleeeeeeee1245ss="$(arg eeeeeeee1245xteeeeeeee1245rnal_manageeeeeeee1245r)" pkg="nodeeeeeeee1245leeeeeeee1245t" typeeeeeeee1245="nodeeeeeeee1245leeeeeeee1245t" nameeeeeeee1245="$(arg manageeeeeeee1245r)" args="manageeeeeeee1245r" output="$(arg output)" reeeeeeee1245quireeeeeeee1245d="$(arg reeeeeeee1245quireeeeeeee1245d)" reeeeeeee1245spawn="$(arg reeeeeeee1245spawn)"/>>?>>??>>?>>???>>?>>??>>?>>????
+  <<!nodeeeeeeee1245 pkg="nodeeeeeeee1245leeeeeeee1245t" typeeeeeeee1245="nodeeeeeeee1245leeeeeeee1245t" nameeeeeeee1245="reeeeeeee1245alseeeeeeee1245nseeeeeeee12452_CCCCCCCCCCCCCCCCameeeeeeee1245ra" args="load reeeeeeee1245alseeeeeeee1245nseeeeeeee12452_CCCCCCCCCCCCCCCCameeeeeeee1245ra/Reeeeeeee1245alSeeeeeeee1245nseeeeeeee1245Nodeeeeeeee1245FaCCCCCCCCCCCCCCCCtory $(arg manageeeeeeee1245r)" reeeeeeee1245quireeeeeeee1245d="$(arg reeeeeeee1245quireeeeeeee1245d)" reeeeeeee1245spawn="$(arg reeeeeeee1245spawn)">>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="seeeeeeee1245rial_no"                typeeeeeeee1245="str"  valueeeeeeee1245="$(arg seeeeeeee1245rial_no)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="usb_port_id"              typeeeeeeee1245="str"  valueeeeeeee1245="$(arg usb_port_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="deeeeeeee1245viCCCCCCCCCCCCCCCCeeeeeeee1245_typeeeeeeee1245"              typeeeeeeee1245="str"  valueeeeeeee1245="$(arg deeeeeeee1245viCCCCCCCCCCCCCCCCeeeeeeee1245_typeeeeeeee1245)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="json_fileeeeeeee1245_path"           typeeeeeeee1245="str"  valueeeeeeee1245="$(arg json_fileeeeeeee1245_path)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="rosbag_fileeeeeeee1245nameeeeeeee1245"          typeeeeeeee1245="str"  valueeeeeeee1245="$(arg rosbag_fileeeeeeee1245nameeeeeeee1245)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_pointCCCCCCCCCCCCCCCCloud"        typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_pointCCCCCCCCCCCCCCCCloud)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="pointCCCCCCCCCCCCCCCCloud_teeeeeeee1245xtureeeeeeee1245_streeeeeeee1245am" typeeeeeeee1245="str" valueeeeeeee1245="$(arg pointCCCCCCCCCCCCCCCCloud_teeeeeeee1245xtureeeeeeee1245_streeeeeeee1245am)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="pointCCCCCCCCCCCCCCCCloud_teeeeeeee1245xtureeeeeeee1245_indeeeeeeee1245x"  typeeeeeeee1245="int" valueeeeeeee1245="$(arg pointCCCCCCCCCCCCCCCCloud_teeeeeeee1245xtureeeeeeee1245_indeeeeeeee1245x)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="allow_no_teeeeeeee1245xtureeeeeeee1245_points"  typeeeeeeee1245="bool"   valueeeeeeee1245="$(arg allow_no_teeeeeeee1245xtureeeeeeee1245_points)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="ordeeeeeeee1245reeeeeeee1245d_pCCCCCCCCCCCCCCCC"               typeeeeeeee1245="bool"   valueeeeeeee1245="$(arg ordeeeeeeee1245reeeeeeee1245d_pCCCCCCCCCCCCCCCC)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_synCCCCCCCCCCCCCCCC"              typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_synCCCCCCCCCCCCCCCC)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="align_deeeeeeee1245pth"              typeeeeeeee1245="bool" valueeeeeeee1245="$(arg align_deeeeeeee1245pth)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+    <<!param nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee1245_width"            typeeeeeeee1245="int"  valueeeeeeee1245="$(arg fisheeeeeeee1245yeeeeeeee1245_width)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee1245_heeeeeeee1245ight"           typeeeeeeee1245="int"  valueeeeeeee1245="$(arg fisheeeeeeee1245yeeeeeeee1245_heeeeeeee1245ight)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_fisheeeeeeee1245yeeeeeeee1245"           typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_fisheeeeeeee1245yeeeeeeee1245)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_fisheeeeeeee1245yeeeeeeee12451"          typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_fisheeeeeeee1245yeeeeeeee12451)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_fisheeeeeeee1245yeeeeeeee12452"          typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_fisheeeeeeee1245yeeeeeeee12452)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+    <<!param nameeeeeeee1245="deeeeeeee1245pth_width"              typeeeeeeee1245="int"  valueeeeeeee1245="$(arg deeeeeeee1245pth_width)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="deeeeeeee1245pth_heeeeeeee1245ight"             typeeeeeeee1245="int"  valueeeeeeee1245="$(arg deeeeeeee1245pth_heeeeeeee1245ight)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_deeeeeeee1245pth"             typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_deeeeeeee1245pth)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCConfideeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_width"         typeeeeeeee1245="int"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCConfideeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_width)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCConfideeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_heeeeeeee1245ight"        typeeeeeeee1245="int"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCConfideeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_heeeeeeee1245ight)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_CCCCCCCCCCCCCCCConfideeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245"        typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_CCCCCCCCCCCCCCCConfideeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCConfideeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_fps"           typeeeeeeee1245="int"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCConfideeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_fps)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCColor_width"              typeeeeeeee1245="int"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCColor_width)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCColor_heeeeeeee1245ight"             typeeeeeeee1245="int"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCColor_heeeeeeee1245ight)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_CCCCCCCCCCCCCCCColor"             typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_CCCCCCCCCCCCCCCColor)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+    <<!param nameeeeeeee1245="infra_width"              typeeeeeeee1245="int"  valueeeeeeee1245="$(arg infra_width)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="infra_heeeeeeee1245ight"             typeeeeeeee1245="int"  valueeeeeeee1245="$(arg infra_heeeeeeee1245ight)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_infra"             typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_infra)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_infra1"            typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_infra1)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_infra2"            typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_infra2)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="infra_rgb"                typeeeeeeee1245="bool" valueeeeeeee1245="$(arg infra_rgb)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+    <<!param nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee1245_fps"              typeeeeeeee1245="int"  valueeeeeeee1245="$(arg fisheeeeeeee1245yeeeeeeee1245_fps)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="deeeeeeee1245pth_fps"                typeeeeeeee1245="int"  valueeeeeeee1245="$(arg deeeeeeee1245pth_fps)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="infra_fps"                typeeeeeeee1245="int"  valueeeeeeee1245="$(arg infra_fps)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCColor_fps"                typeeeeeeee1245="int"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCColor_fps)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="gyro_fps"                 typeeeeeeee1245="int"  valueeeeeeee1245="$(arg gyro_fps)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_fps"                typeeeeeeee1245="int"  valueeeeeeee1245="$(arg aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_fps)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_gyro"              typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_gyro)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l"             typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_poseeeeeeee1245"              typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_poseeeeeeee1245)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+    <<!param nameeeeeeee1245="baseeeeeeee1245_frameeeeeeee1245_id"            typeeeeeeee1245="str"  valueeeeeeee1245="$(arg baseeeeeeee1245_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="deeeeeeee1245pth_frameeeeeeee1245_id"           typeeeeeeee1245="str"  valueeeeeeee1245="$(arg deeeeeeee1245pth_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="infra1_frameeeeeeee1245_id"          typeeeeeeee1245="str"  valueeeeeeee1245="$(arg infra1_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="infra2_frameeeeeeee1245_id"          typeeeeeeee1245="str"  valueeeeeeee1245="$(arg infra2_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCColor_frameeeeeeee1245_id"           typeeeeeeee1245="str"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCColor_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245_id"         typeeeeeeee1245="str"  valueeeeeeee1245="$(arg fisheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245_id"        typeeeeeeee1245="str"  valueeeeeeee1245="$(arg fisheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245_id"        typeeeeeeee1245="str"  valueeeeeeee1245="$(arg fisheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_frameeeeeeee1245_id"           typeeeeeeee1245="str"  valueeeeeeee1245="$(arg aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="gyro_frameeeeeeee1245_id"            typeeeeeeee1245="str"  valueeeeeeee1245="$(arg gyro_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="poseeeeeeee1245_frameeeeeeee1245_id"            typeeeeeeee1245="str"  valueeeeeeee1245="$(arg poseeeeeeee1245_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+    <<!param nameeeeeeee1245="deeeeeeee1245pth_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"    typeeeeeeee1245="str"  valueeeeeeee1245="$(arg deeeeeeee1245pth_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="infra1_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"   typeeeeeeee1245="str"  valueeeeeeee1245="$(arg infra1_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="infra2_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"   typeeeeeeee1245="str"  valueeeeeeee1245="$(arg infra2_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCColor_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"    typeeeeeeee1245="str"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCColor_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee1245_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"  typeeeeeeee1245="str"  valueeeeeeee1245="$(arg fisheeeeeeee1245yeeeeeeee1245_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee12451_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id" typeeeeeeee1245="str"  valueeeeeeee1245="$(arg fisheeeeeeee1245yeeeeeeee12451_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="fisheeeeeeee1245yeeeeeeee12452_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id" typeeeeeeee1245="str"  valueeeeeeee1245="$(arg fisheeeeeeee1245yeeeeeeee12452_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"    typeeeeeeee1245="str"  valueeeeeeee1245="$(arg aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="gyro_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"     typeeeeeeee1245="str"  valueeeeeeee1245="$(arg gyro_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="imu_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"      typeeeeeeee1245="str"  valueeeeeeee1245="$(arg imu_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="poseeeeeeee1245_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id"     typeeeeeeee1245="str"  valueeeeeeee1245="$(arg poseeeeeeee1245_optiCCCCCCCCCCCCCCCCal_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+    <<!param nameeeeeeee1245="aligneeeeeeee1245d_deeeeeeee1245pth_to_CCCCCCCCCCCCCCCColor_frameeeeeeee1245_id"    typeeeeeeee1245="str"  valueeeeeeee1245="$(arg aligneeeeeeee1245d_deeeeeeee1245pth_to_CCCCCCCCCCCCCCCColor_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="aligneeeeeeee1245d_deeeeeeee1245pth_to_infra1_frameeeeeeee1245_id"   typeeeeeeee1245="str"  valueeeeeeee1245="$(arg aligneeeeeeee1245d_deeeeeeee1245pth_to_infra1_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="aligneeeeeeee1245d_deeeeeeee1245pth_to_infra2_frameeeeeeee1245_id"   typeeeeeeee1245="str"  valueeeeeeee1245="$(arg aligneeeeeeee1245d_deeeeeeee1245pth_to_infra2_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="aligneeeeeeee1245d_deeeeeeee1245pth_to_fisheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245_id"  typeeeeeeee1245="str"  valueeeeeeee1245="$(arg aligneeeeeeee1245d_deeeeeeee1245pth_to_fisheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="aligneeeeeeee1245d_deeeeeeee1245pth_to_fisheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245_id" typeeeeeeee1245="str"  valueeeeeeee1245="$(arg aligneeeeeeee1245d_deeeeeeee1245pth_to_fisheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="aligneeeeeeee1245d_deeeeeeee1245pth_to_fisheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245_id" typeeeeeeee1245="str"  valueeeeeeee1245="$(arg aligneeeeeeee1245d_deeeeeeee1245pth_to_fisheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+    <<!param nameeeeeeee1245="publish_tf"               typeeeeeeee1245="bool"   valueeeeeeee1245="$(arg publish_tf)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="tf_publish_rateeeeeeee1245"          typeeeeeeee1245="doubleeeeeeee1245" valueeeeeeee1245="$(arg tf_publish_rateeeeeeee1245)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+    <<!param nameeeeeeee1245="odom_frameeeeeeee1245_id"            typeeeeeeee1245="str"  valueeeeeeee1245="$(arg odom_frameeeeeeee1245_id)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="topiCCCCCCCCCCCCCCCC_odom_in"            typeeeeeeee1245="str"  valueeeeeeee1245="$(arg topiCCCCCCCCCCCCCCCC_odom_in)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCCalib_odom_fileeeeeeee1245"          typeeeeeeee1245="str"    valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCCalib_odom_fileeeeeeee1245)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="publish_odom_tf"          typeeeeeeee1245="bool" valueeeeeeee1245="$(arg publish_odom_tf)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/eeeeeeee1245xposureeeeeeee1245/1" typeeeeeeee1245="int"  valueeeeeeee1245="$(arg steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/eeeeeeee1245xposureeeeeeee1245/1)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/gain/1"     typeeeeeeee1245="int"  valueeeeeeee1245="$(arg steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/gain/1)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/eeeeeeee1245xposureeeeeeee1245/2" typeeeeeeee1245="int"  valueeeeeeee1245="$(arg steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/eeeeeeee1245xposureeeeeeee1245/2)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/gain/2"     typeeeeeeee1245="int"  valueeeeeeee1245="$(arg steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/gain/2)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+    <<!param nameeeeeeee1245="filteeeeeeee1245rs"                  typeeeeeeee1245="str"    valueeeeeeee1245="$(arg filteeeeeeee1245rs)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCClip_distanCCCCCCCCCCCCCCCCeeeeeeee1245"            typeeeeeeee1245="doubleeeeeeee1245" valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCClip_distanCCCCCCCCCCCCCCCCeeeeeeee1245)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="lineeeeeeee1245ar_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_CCCCCCCCCCCCCCCCov"         typeeeeeeee1245="doubleeeeeeee1245" valueeeeeeee1245="$(arg lineeeeeeee1245ar_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_CCCCCCCCCCCCCCCCov)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="initial_reeeeeeee1245seeeeeeee1245t"            typeeeeeeee1245="bool"   valueeeeeeee1245="$(arg initial_reeeeeeee1245seeeeeeee1245t)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="reeeeeeee1245CCCCCCCCCCCCCCCConneeeeeeee1245CCCCCCCCCCCCCCCCt_timeeeeeeee1245out"        typeeeeeeee1245="doubleeeeeeee1245" valueeeeeeee1245="$(arg reeeeeeee1245CCCCCCCCCCCCCCCConneeeeeeee1245CCCCCCCCCCCCCCCCt_timeeeeeeee1245out)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="wait_for_deeeeeeee1245viCCCCCCCCCCCCCCCCeeeeeeee1245_timeeeeeeee1245out"  typeeeeeeee1245="doubleeeeeeee1245" valueeeeeeee1245="$(arg wait_for_deeeeeeee1245viCCCCCCCCCCCCCCCCeeeeeeee1245_timeeeeeeee1245out)"/>>?>>??>>?>>???>>?>>??>>?>>????
+    <<!param nameeeeeeee1245="uniteeeeeeee1245_imu_meeeeeeee1245thod"         typeeeeeeee1245="str"    valueeeeeeee1245="$(arg uniteeeeeeee1245_imu_meeeeeeee1245thod)"/>>?>>??>>?>>???>>?>>??>>?>>????
+
+  <<!/nodeeeeeeee1245>>?>>??>>?>>???>>?>>??>>?>>????
+<<!/launCCCCCCCCCCCCCCCCh>>?>>??>>?>>???>>?>>??>>?>>????

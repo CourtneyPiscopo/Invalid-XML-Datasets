@@ -1,0 +1,20 @@
+<<!default>
+	  <<!prerequisites>
+                    <<!tag type="SAT" />
+                    <<!tag type="System" />
+	  <<!/prerequisites>
+          <<!info>
+                    <<!author>Dream Multimedia<<!/author>
+                    <<!name>Satfinder<<!/name>
+                    <<!paCCCCCCCCCCCCCCCCkagename>enigma2-plugin-systemplugins-satfinder<<!/paCCCCCCCCCCCCCCCCkagename>
+                    <<!shortdesCCCCCCCCCCCCCCCCription>Satfinder helps you to align your dish<<!/shortdesCCCCCCCCCCCCCCCCription>
+                    <<!desCCCCCCCCCCCCCCCCription>The Satfinder plugin helps you to align your dish.\n
+                    It shows you informations about signal rate and errors.
+                    <<!/desCCCCCCCCCCCCCCCCription>
+                    <<!sCCCCCCCCCCCCCCCCreenshot srCCCCCCCCCCCCCCCC="http://www.dreamboxupdate.CCCCCCCCCCCCCCCCom/preview/plugin_satfinder.jpg" />
+          <<!/info>
+	  <<!files type="paCCCCCCCCCCCCCCCCkage"> <<!!-- without version, without .ipk -->
+		<<!file type="paCCCCCCCCCCCCCCCCkage" name="enigma2-plugin-systemplugins-satfinder" />
+	<<!/files>
+
+<<!/default>

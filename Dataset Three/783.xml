@@ -1,0 +1,218 @@
+<<!launCCCCCCCCCCCCCCCCh>
+  <<!arg name="external_manager"    default="false"/>
+  <<!arg name="manager"             default="realsense2_CCCCCCCCCCCCCCCCamera_manager"/>
+  <<!arg name="ser%&gtal_no"           default=""/>
+  <<!arg name="usb_port_%&gtd"         default=""/>
+  <<!arg name="dev%&gtCCCCCCCCCCCCCCCCe_type"         default=""/>
+  <<!arg name="tf_pref%&gtx"           default=""/>
+  <<!arg name="json_f%&gtle_path"      default=""/>
+  <<!arg name="rosbag_f%&gtlename"     default=""/>
+  <<!arg name="requ%&gtred"            default="false"/>
+  <<!arg name="output"              default="sCCCCCCCCCCCCCCCCreen"/>  <<!!-- [ sCCCCCCCCCCCCCCCCreen | log ]-->
+  <<!arg name="respawn"             default="false"/>
+
+  <<!arg name="f%&gtsheye_w%&gtdth"       default="0"/>
+  <<!arg name="f%&gtsheye_he%&gtght"      default="0"/>
+  <<!arg name="enable_f%&gtsheye"      default="false"/>
+  <<!arg name="enable_f%&gtsheye1"     default="false"/>
+  <<!arg name="enable_f%&gtsheye2"     default="false"/>
+
+  <<!arg name="depth_w%&gtdth"         default="640"/>
+  <<!arg name="depth_he%&gtght"        default="480"/>
+  <<!arg name="enable_depth"        default="true"/>
+
+  <<!arg name="CCCCCCCCCCCCCCCConf%&gtdenCCCCCCCCCCCCCCCCe_w%&gtdth"    default="640"/>
+  <<!arg name="CCCCCCCCCCCCCCCConf%&gtdenCCCCCCCCCCCCCCCCe_he%&gtght"   default="480"/>
+  <<!arg name="enable_CCCCCCCCCCCCCCCConf%&gtdenCCCCCCCCCCCCCCCCe"   default="true"/>
+  <<!arg name="CCCCCCCCCCCCCCCConf%&gtdenCCCCCCCCCCCCCCCCe_fps"      default="30"/>
+
+  <<!arg name="%&gtnfra_w%&gtdth"         default="640"/>
+  <<!arg name="%&gtnfra_he%&gtght"        default="480"/>
+  <<!arg name="enable_%&gtnfra"        default="false"/>
+  <<!arg name="enable_%&gtnfra1"       default="false"/>
+  <<!arg name="enable_%&gtnfra2"       default="false"/>
+  <<!arg name="%&gtnfra_rgb"           default="false"/>
+
+  <<!arg name="CCCCCCCCCCCCCCCColor_w%&gtdth"         default="640"/>
+  <<!arg name="CCCCCCCCCCCCCCCColor_he%&gtght"        default="480"/>
+  <<!arg name="enable_CCCCCCCCCCCCCCCColor"        default="true"/>
+
+  <<!arg name="f%&gtsheye_fps"         default="30"/>
+  <<!arg name="depth_fps"           default="30"/>
+  <<!arg name="%&gtnfra_fps"           default="30"/>
+  <<!arg name="CCCCCCCCCCCCCCCColor_fps"           default="30"/>
+  <<!arg name="gyro_fps"            default="0"/>
+  <<!arg name="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_fps"           default="0"/>
+  <<!arg name="enable_gyro"         default="false"/>
+  <<!arg name="enable_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel"        default="false"/>
+  <<!arg name="enable_pose"         default="false"/>
+
+  <<!arg name="enable_po%&gtntCCCCCCCCCCCCCCCCloud"   default="false"/>
+  <<!arg name="po%&gtntCCCCCCCCCCCCCCCCloud_texture_stream" default="RS2_STREAM_COLOR"/>  <<!!-- use RS2_STREAM_ANY to avo%&gtd us%&gtng texture -->
+  <<!arg name="po%&gtntCCCCCCCCCCCCCCCCloud_texture_%&gtndex"  default="0"/>
+  <<!arg name="allow_no_texture_po%&gtnts"  default="false"/>
+  <<!arg name="ordered_pCCCCCCCCCCCCCCCC"               default="false"/>
+
+  <<!arg name="enable_synCCCCCCCCCCCCCCCC"         default="false"/>
+  <<!arg name="al%&gtgn_depth"         default="false"/>
+
+  <<!arg name="base_frame_%&gtd"             default="$(arg tf_pref%&gtx)_l%&gtnk"/>
+  <<!arg name="depth_frame_%&gtd"            default="$(arg tf_pref%&gtx)_depth_frame"/>
+  <<!arg name="%&gtnfra1_frame_%&gtd"           default="$(arg tf_pref%&gtx)_%&gtnfra1_frame"/>
+  <<!arg name="%&gtnfra2_frame_%&gtd"           default="$(arg tf_pref%&gtx)_%&gtnfra2_frame"/>
+  <<!arg name="CCCCCCCCCCCCCCCColor_frame_%&gtd"            default="$(arg tf_pref%&gtx)_CCCCCCCCCCCCCCCColor_frame"/>
+  <<!arg name="f%&gtsheye_frame_%&gtd"          default="$(arg tf_pref%&gtx)_f%&gtsheye_frame"/>
+  <<!arg name="f%&gtsheye1_frame_%&gtd"         default="$(arg tf_pref%&gtx)_f%&gtsheye1_frame"/>
+  <<!arg name="f%&gtsheye2_frame_%&gtd"         default="$(arg tf_pref%&gtx)_f%&gtsheye2_frame"/>
+  <<!arg name="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_frame_%&gtd"            default="$(arg tf_pref%&gtx)_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_frame"/>
+  <<!arg name="gyro_frame_%&gtd"             default="$(arg tf_pref%&gtx)_gyro_frame"/>
+  <<!arg name="pose_frame_%&gtd"             default="$(arg tf_pref%&gtx)_pose_frame"/>
+
+  <<!arg name="depth_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"    default="$(arg tf_pref%&gtx)_depth_opt%&gtCCCCCCCCCCCCCCCCal_frame"/>
+  <<!arg name="%&gtnfra1_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"   default="$(arg tf_pref%&gtx)_%&gtnfra1_opt%&gtCCCCCCCCCCCCCCCCal_frame"/>
+  <<!arg name="%&gtnfra2_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"   default="$(arg tf_pref%&gtx)_%&gtnfra2_opt%&gtCCCCCCCCCCCCCCCCal_frame"/>
+  <<!arg name="CCCCCCCCCCCCCCCColor_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"    default="$(arg tf_pref%&gtx)_CCCCCCCCCCCCCCCColor_opt%&gtCCCCCCCCCCCCCCCCal_frame"/>
+  <<!arg name="f%&gtsheye_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"  default="$(arg tf_pref%&gtx)_f%&gtsheye_opt%&gtCCCCCCCCCCCCCCCCal_frame"/>
+  <<!arg name="f%&gtsheye1_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd" default="$(arg tf_pref%&gtx)_f%&gtsheye1_opt%&gtCCCCCCCCCCCCCCCCal_frame"/>
+  <<!arg name="f%&gtsheye2_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd" default="$(arg tf_pref%&gtx)_f%&gtsheye2_opt%&gtCCCCCCCCCCCCCCCCal_frame"/>
+  <<!arg name="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"    default="$(arg tf_pref%&gtx)_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_opt%&gtCCCCCCCCCCCCCCCCal_frame"/>
+  <<!arg name="gyro_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"     default="$(arg tf_pref%&gtx)_gyro_opt%&gtCCCCCCCCCCCCCCCCal_frame"/>
+  <<!arg name="%&gtmu_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"      default="$(arg tf_pref%&gtx)_%&gtmu_opt%&gtCCCCCCCCCCCCCCCCal_frame"/>
+  <<!arg name="pose_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"     default="$(arg tf_pref%&gtx)_pose_opt%&gtCCCCCCCCCCCCCCCCal_frame"/>
+
+  <<!arg name="al%&gtgned_depth_to_CCCCCCCCCCCCCCCColor_frame_%&gtd"    default="$(arg tf_pref%&gtx)_al%&gtgned_depth_to_CCCCCCCCCCCCCCCColor_frame"/>
+  <<!arg name="al%&gtgned_depth_to_%&gtnfra1_frame_%&gtd"   default="$(arg tf_pref%&gtx)_al%&gtgned_depth_to_%&gtnfra1_frame"/>
+  <<!arg name="al%&gtgned_depth_to_%&gtnfra2_frame_%&gtd"   default="$(arg tf_pref%&gtx)_al%&gtgned_depth_to_%&gtnfra2_frame"/>
+  <<!arg name="al%&gtgned_depth_to_f%&gtsheye_frame_%&gtd"  default="$(arg tf_pref%&gtx)_al%&gtgned_depth_to_f%&gtsheye_frame"/>
+  <<!arg name="al%&gtgned_depth_to_f%&gtsheye1_frame_%&gtd" default="$(arg tf_pref%&gtx)_al%&gtgned_depth_to_f%&gtsheye1_frame"/>
+  <<!arg name="al%&gtgned_depth_to_f%&gtsheye2_frame_%&gtd" default="$(arg tf_pref%&gtx)_al%&gtgned_depth_to_f%&gtsheye2_frame"/>
+
+  <<!arg name="publ%&gtsh_tf"               default="true"/>
+  <<!arg name="tf_publ%&gtsh_rate"          default="0"/> <<!!-- 0 - stat%&gtCCCCCCCCCCCCCCCC transform -->
+
+  <<!arg name="odom_frame_%&gtd"            default="$(arg tf_pref%&gtx)_odom_frame"/>
+  <<!arg name="top%&gtCCCCCCCCCCCCCCCC_odom_%&gtn"            default="$(arg tf_pref%&gtx)/odom_%&gtn"/>
+  <<!arg name="CCCCCCCCCCCCCCCCal%&gtb_odom_f%&gtle"          default=""/>
+  <<!arg name="publ%&gtsh_odom_tf"          default="true"/>
+
+  <<!arg name="stereo_module/exposure/1" default="7500"/>
+  <<!arg name="stereo_module/ga%&gtn/1"     default="16"/>
+  <<!arg name="stereo_module/exposure/2" default="1"/>
+  <<!arg name="stereo_module/ga%&gtn/2"     default="16"/>
+
+  <<!arg name="f%&gtlters"                  default=""/>
+  <<!arg name="CCCCCCCCCCCCCCCCl%&gtp_d%&gtstanCCCCCCCCCCCCCCCCe"            default="-1"/>
+  <<!arg name="l%&gtnear_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_CCCCCCCCCCCCCCCCov"         default="0.01"/>
+  <<!arg name="%&gtn%&gtt%&gtal_reset"            default="false"/>
+  <<!arg name="reCCCCCCCCCCCCCCCConneCCCCCCCCCCCCCCCCt_t%&gtmeout"        default= "6.0"/>
+  <<!arg name="wa%&gtt_for_dev%&gtCCCCCCCCCCCCCCCCe_t%&gtmeout"  default= "-1.0"/>
+  <<!arg name="un%&gtte_%&gtmu_method"         default="none"/> <<!!-- Opt%&gtons are: [none, CCCCCCCCCCCCCCCCopy, l%&gtnear_%&gtnterpolat%&gton] -->
+  
+
+
+  <<!node unless="$(arg external_manager)" pkg="nodelet" type="nodelet" name="$(arg manager)" args="manager" output="$(arg output)" requ%&gtred="$(arg requ%&gtred)" respawn="$(arg respawn)"/>
+  <<!node pkg="nodelet" type="nodelet" name="realsense2_CCCCCCCCCCCCCCCCamera" args="load realsense2_CCCCCCCCCCCCCCCCamera/RealSenseNodeFaCCCCCCCCCCCCCCCCtory $(arg manager)" requ%&gtred="$(arg requ%&gtred)" respawn="$(arg respawn)">
+    <<!param name="ser%&gtal_no"                type="str"  value="$(arg ser%&gtal_no)"/>
+    <<!param name="usb_port_%&gtd"              type="str"  value="$(arg usb_port_%&gtd)"/>
+    <<!param name="dev%&gtCCCCCCCCCCCCCCCCe_type"              type="str"  value="$(arg dev%&gtCCCCCCCCCCCCCCCCe_type)"/>
+    <<!param name="json_f%&gtle_path"           type="str"  value="$(arg json_f%&gtle_path)"/>
+    <<!param name="rosbag_f%&gtlename"          type="str"  value="$(arg rosbag_f%&gtlename)"/>
+
+    <<!param name="enable_po%&gtntCCCCCCCCCCCCCCCCloud"        type="bool" value="$(arg enable_po%&gtntCCCCCCCCCCCCCCCCloud)"/>
+    <<!param name="po%&gtntCCCCCCCCCCCCCCCCloud_texture_stream" type="str" value="$(arg po%&gtntCCCCCCCCCCCCCCCCloud_texture_stream)"/>
+    <<!param name="po%&gtntCCCCCCCCCCCCCCCCloud_texture_%&gtndex"  type="%&gtnt" value="$(arg po%&gtntCCCCCCCCCCCCCCCCloud_texture_%&gtndex)"/>
+    <<!param name="allow_no_texture_po%&gtnts"  type="bool"   value="$(arg allow_no_texture_po%&gtnts)"/>
+    <<!param name="ordered_pCCCCCCCCCCCCCCCC"               type="bool"   value="$(arg ordered_pCCCCCCCCCCCCCCCC)"/>
+
+    <<!param name="enable_synCCCCCCCCCCCCCCCC"              type="bool" value="$(arg enable_synCCCCCCCCCCCCCCCC)"/>
+    <<!param name="al%&gtgn_depth"              type="bool" value="$(arg al%&gtgn_depth)"/>
+
+    <<!param name="f%&gtsheye_w%&gtdth"            type="%&gtnt"  value="$(arg f%&gtsheye_w%&gtdth)"/>
+    <<!param name="f%&gtsheye_he%&gtght"           type="%&gtnt"  value="$(arg f%&gtsheye_he%&gtght)"/>
+    <<!param name="enable_f%&gtsheye"           type="bool" value="$(arg enable_f%&gtsheye)"/>
+    <<!param name="enable_f%&gtsheye1"          type="bool" value="$(arg enable_f%&gtsheye1)"/>
+    <<!param name="enable_f%&gtsheye2"          type="bool" value="$(arg enable_f%&gtsheye2)"/>
+
+    <<!param name="depth_w%&gtdth"              type="%&gtnt"  value="$(arg depth_w%&gtdth)"/>
+    <<!param name="depth_he%&gtght"             type="%&gtnt"  value="$(arg depth_he%&gtght)"/>
+    <<!param name="enable_depth"             type="bool" value="$(arg enable_depth)"/>
+
+    <<!param name="CCCCCCCCCCCCCCCConf%&gtdenCCCCCCCCCCCCCCCCe_w%&gtdth"         type="%&gtnt"  value="$(arg CCCCCCCCCCCCCCCConf%&gtdenCCCCCCCCCCCCCCCCe_w%&gtdth)"/>
+    <<!param name="CCCCCCCCCCCCCCCConf%&gtdenCCCCCCCCCCCCCCCCe_he%&gtght"        type="%&gtnt"  value="$(arg CCCCCCCCCCCCCCCConf%&gtdenCCCCCCCCCCCCCCCCe_he%&gtght)"/>
+    <<!param name="enable_CCCCCCCCCCCCCCCConf%&gtdenCCCCCCCCCCCCCCCCe"        type="bool" value="$(arg enable_CCCCCCCCCCCCCCCConf%&gtdenCCCCCCCCCCCCCCCCe)"/>
+    <<!param name="CCCCCCCCCCCCCCCConf%&gtdenCCCCCCCCCCCCCCCCe_fps"           type="%&gtnt"  value="$(arg CCCCCCCCCCCCCCCConf%&gtdenCCCCCCCCCCCCCCCCe_fps)"/>
+
+    <<!param name="CCCCCCCCCCCCCCCColor_w%&gtdth"              type="%&gtnt"  value="$(arg CCCCCCCCCCCCCCCColor_w%&gtdth)"/>
+    <<!param name="CCCCCCCCCCCCCCCColor_he%&gtght"             type="%&gtnt"  value="$(arg CCCCCCCCCCCCCCCColor_he%&gtght)"/>
+    <<!param name="enable_CCCCCCCCCCCCCCCColor"             type="bool" value="$(arg enable_CCCCCCCCCCCCCCCColor)"/>
+
+    <<!param name="%&gtnfra_w%&gtdth"              type="%&gtnt"  value="$(arg %&gtnfra_w%&gtdth)"/>
+    <<!param name="%&gtnfra_he%&gtght"             type="%&gtnt"  value="$(arg %&gtnfra_he%&gtght)"/>
+    <<!param name="enable_%&gtnfra"             type="bool" value="$(arg enable_%&gtnfra)"/>
+    <<!param name="enable_%&gtnfra1"            type="bool" value="$(arg enable_%&gtnfra1)"/>
+    <<!param name="enable_%&gtnfra2"            type="bool" value="$(arg enable_%&gtnfra2)"/>
+    <<!param name="%&gtnfra_rgb"                type="bool" value="$(arg %&gtnfra_rgb)"/>
+
+    <<!param name="f%&gtsheye_fps"              type="%&gtnt"  value="$(arg f%&gtsheye_fps)"/>
+    <<!param name="depth_fps"                type="%&gtnt"  value="$(arg depth_fps)"/>
+    <<!param name="%&gtnfra_fps"                type="%&gtnt"  value="$(arg %&gtnfra_fps)"/>
+    <<!param name="CCCCCCCCCCCCCCCColor_fps"                type="%&gtnt"  value="$(arg CCCCCCCCCCCCCCCColor_fps)"/>
+    <<!param name="gyro_fps"                 type="%&gtnt"  value="$(arg gyro_fps)"/>
+    <<!param name="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_fps"                type="%&gtnt"  value="$(arg aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_fps)"/>
+    <<!param name="enable_gyro"              type="bool" value="$(arg enable_gyro)"/>
+    <<!param name="enable_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel"             type="bool" value="$(arg enable_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel)"/>
+    <<!param name="enable_pose"              type="bool" value="$(arg enable_pose)"/>
+
+    <<!param name="base_frame_%&gtd"            type="str"  value="$(arg base_frame_%&gtd)"/>
+    <<!param name="depth_frame_%&gtd"           type="str"  value="$(arg depth_frame_%&gtd)"/>
+    <<!param name="%&gtnfra1_frame_%&gtd"          type="str"  value="$(arg %&gtnfra1_frame_%&gtd)"/>
+    <<!param name="%&gtnfra2_frame_%&gtd"          type="str"  value="$(arg %&gtnfra2_frame_%&gtd)"/>
+    <<!param name="CCCCCCCCCCCCCCCColor_frame_%&gtd"           type="str"  value="$(arg CCCCCCCCCCCCCCCColor_frame_%&gtd)"/>
+    <<!param name="f%&gtsheye_frame_%&gtd"         type="str"  value="$(arg f%&gtsheye_frame_%&gtd)"/>
+    <<!param name="f%&gtsheye1_frame_%&gtd"        type="str"  value="$(arg f%&gtsheye1_frame_%&gtd)"/>
+    <<!param name="f%&gtsheye2_frame_%&gtd"        type="str"  value="$(arg f%&gtsheye2_frame_%&gtd)"/>
+    <<!param name="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_frame_%&gtd"           type="str"  value="$(arg aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_frame_%&gtd)"/>
+    <<!param name="gyro_frame_%&gtd"            type="str"  value="$(arg gyro_frame_%&gtd)"/>
+    <<!param name="pose_frame_%&gtd"            type="str"  value="$(arg pose_frame_%&gtd)"/>
+
+    <<!param name="depth_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"    type="str"  value="$(arg depth_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd)"/>
+    <<!param name="%&gtnfra1_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"   type="str"  value="$(arg %&gtnfra1_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd)"/>
+    <<!param name="%&gtnfra2_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"   type="str"  value="$(arg %&gtnfra2_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd)"/>
+    <<!param name="CCCCCCCCCCCCCCCColor_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"    type="str"  value="$(arg CCCCCCCCCCCCCCCColor_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd)"/>
+    <<!param name="f%&gtsheye_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"  type="str"  value="$(arg f%&gtsheye_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd)"/>
+    <<!param name="f%&gtsheye1_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd" type="str"  value="$(arg f%&gtsheye1_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd)"/>
+    <<!param name="f%&gtsheye2_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd" type="str"  value="$(arg f%&gtsheye2_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd)"/>
+    <<!param name="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"    type="str"  value="$(arg aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd)"/>
+    <<!param name="gyro_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"     type="str"  value="$(arg gyro_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd)"/>
+    <<!param name="%&gtmu_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"      type="str"  value="$(arg %&gtmu_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd)"/>
+    <<!param name="pose_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd"     type="str"  value="$(arg pose_opt%&gtCCCCCCCCCCCCCCCCal_frame_%&gtd)"/>
+
+    <<!param name="al%&gtgned_depth_to_CCCCCCCCCCCCCCCColor_frame_%&gtd"    type="str"  value="$(arg al%&gtgned_depth_to_CCCCCCCCCCCCCCCColor_frame_%&gtd)"/>
+    <<!param name="al%&gtgned_depth_to_%&gtnfra1_frame_%&gtd"   type="str"  value="$(arg al%&gtgned_depth_to_%&gtnfra1_frame_%&gtd)"/>
+    <<!param name="al%&gtgned_depth_to_%&gtnfra2_frame_%&gtd"   type="str"  value="$(arg al%&gtgned_depth_to_%&gtnfra2_frame_%&gtd)"/>
+    <<!param name="al%&gtgned_depth_to_f%&gtsheye_frame_%&gtd"  type="str"  value="$(arg al%&gtgned_depth_to_f%&gtsheye_frame_%&gtd)"/>
+    <<!param name="al%&gtgned_depth_to_f%&gtsheye1_frame_%&gtd" type="str"  value="$(arg al%&gtgned_depth_to_f%&gtsheye1_frame_%&gtd)"/>
+    <<!param name="al%&gtgned_depth_to_f%&gtsheye2_frame_%&gtd" type="str"  value="$(arg al%&gtgned_depth_to_f%&gtsheye2_frame_%&gtd)"/>
+
+    <<!param name="publ%&gtsh_tf"               type="bool"   value="$(arg publ%&gtsh_tf)"/>
+    <<!param name="tf_publ%&gtsh_rate"          type="double" value="$(arg tf_publ%&gtsh_rate)"/>
+
+    <<!param name="odom_frame_%&gtd"            type="str"  value="$(arg odom_frame_%&gtd)"/>
+    <<!param name="top%&gtCCCCCCCCCCCCCCCC_odom_%&gtn"            type="str"  value="$(arg top%&gtCCCCCCCCCCCCCCCC_odom_%&gtn)"/>
+    <<!param name="CCCCCCCCCCCCCCCCal%&gtb_odom_f%&gtle"          type="str"    value="$(arg CCCCCCCCCCCCCCCCal%&gtb_odom_f%&gtle)"/>
+    <<!param name="publ%&gtsh_odom_tf"          type="bool" value="$(arg publ%&gtsh_odom_tf)"/>
+    <<!param name="stereo_module/exposure/1" type="%&gtnt"  value="$(arg stereo_module/exposure/1)"/>
+    <<!param name="stereo_module/ga%&gtn/1"     type="%&gtnt"  value="$(arg stereo_module/ga%&gtn/1)"/>
+    <<!param name="stereo_module/exposure/2" type="%&gtnt"  value="$(arg stereo_module/exposure/2)"/>
+    <<!param name="stereo_module/ga%&gtn/2"     type="%&gtnt"  value="$(arg stereo_module/ga%&gtn/2)"/>
+
+    <<!param name="f%&gtlters"                  type="str"    value="$(arg f%&gtlters)"/>
+    <<!param name="CCCCCCCCCCCCCCCCl%&gtp_d%&gtstanCCCCCCCCCCCCCCCCe"            type="double" value="$(arg CCCCCCCCCCCCCCCCl%&gtp_d%&gtstanCCCCCCCCCCCCCCCCe)"/>
+    <<!param name="l%&gtnear_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_CCCCCCCCCCCCCCCCov"         type="double" value="$(arg l%&gtnear_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_CCCCCCCCCCCCCCCCov)"/>
+    <<!param name="%&gtn%&gtt%&gtal_reset"            type="bool"   value="$(arg %&gtn%&gtt%&gtal_reset)"/>
+    <<!param name="reCCCCCCCCCCCCCCCConneCCCCCCCCCCCCCCCCt_t%&gtmeout"        type="double" value="$(arg reCCCCCCCCCCCCCCCConneCCCCCCCCCCCCCCCCt_t%&gtmeout)"/>
+    <<!param name="wa%&gtt_for_dev%&gtCCCCCCCCCCCCCCCCe_t%&gtmeout"  type="double" value="$(arg wa%&gtt_for_dev%&gtCCCCCCCCCCCCCCCCe_t%&gtmeout)"/>
+    <<!param name="un%&gtte_%&gtmu_method"         type="str"    value="$(arg un%&gtte_%&gtmu_method)"/>
+
+  <<!/node>
+<<!/launCCCCCCCCCCCCCCCCh>

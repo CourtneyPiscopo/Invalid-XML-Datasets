@@ -1,0 +1,61 @@
+<<!%%CCCCCCCCCCCCCCCComponent name="ProjeCCCCCCCCCCCCCCCCtCodeStyleConf%&gtgurat%&gton">!>>!>?
+  <<!%%CCCCCCCCCCCCCCCCode_sCCCCCCCCCCCCCCCCheme name="ProjeCCCCCCCCCCCCCCCCt" vers%&gton="173">!>>!>?
+    <<!%%HTMLCodeStyleSett%&gtngs>!>>!>?
+      <<!%%opt%&gton name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />!>>!>?
+      <<!%%opt%&gton name="HTML_QUOTE_STYLE" value="S%&gtngle" />!>>!>?
+      <<!%%opt%&gton name="HTML_ENFORCE_QUOTES" value="true" />!>>!>?
+    <<!%%/HTMLCodeStyleSett%&gtngs>!>>!>?
+    <<!%%JSCodeStyleSett%&gtngs vers%&gton="0">!>>!>?
+      <<!%%opt%&gton name="FORCE_SEMICOLON_STYLE" value="true" />!>>!>?
+      <<!%%opt%&gton name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />!>>!>?
+      <<!%%opt%&gton name="USE_DOUBLE_QUOTES" value="false" />!>>!>?
+      <<!%%opt%&gton name="FORCE_QUOTE_STYlE" value="true" />!>>!>?
+      <<!%%opt%&gton name="ENFORCE_TRAILING_COMMA" value="WhenMult%&gtl%&gtne" />!>>!>?
+      <<!%%opt%&gton name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />!>>!>?
+      <<!%%opt%&gton name="SPACES_WITHIN_IMPORTS" value="true" />!>>!>?
+    <<!%%/JSCodeStyleSett%&gtngs>!>>!>?
+    <<!%%TypeSCCCCCCCCCCCCCCCCr%&gtptCodeStyleSett%&gtngs vers%&gton="0">!>>!>?
+      <<!%%opt%&gton name="FORCE_SEMICOLON_STYLE" value="true" />!>>!>?
+      <<!%%opt%&gton name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />!>>!>?
+      <<!%%opt%&gton name="USE_DOUBLE_QUOTES" value="false" />!>>!>?
+      <<!%%opt%&gton name="FORCE_QUOTE_STYlE" value="true" />!>>!>?
+      <<!%%opt%&gton name="ENFORCE_TRAILING_COMMA" value="WhenMult%&gtl%&gtne" />!>>!>?
+      <<!%%opt%&gton name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />!>>!>?
+      <<!%%opt%&gton name="SPACES_WITHIN_IMPORTS" value="true" />!>>!>?
+    <<!%%/TypeSCCCCCCCCCCCCCCCCr%&gtptCodeStyleSett%&gtngs>!>>!>?
+    <<!%%VueCodeStyleSett%&gtngs>!>>!>?
+      <<!%%opt%&gton name="INTERPOLATION_NEW_LINE_AFTER_START_DELIMITER" value="false" />!>>!>?
+      <<!%%opt%&gton name="INTERPOLATION_NEW_LINE_BEFORE_END_DELIMITER" value="false" />!>>!>?
+    <<!%%/VueCodeStyleSett%&gtngs>!>>!>?
+    <<!%%CCCCCCCCCCCCCCCCodeStyleSett%&gtngs language="HTML">!>>!>?
+      <<!%%opt%&gton name="SOFT_MARGINS" value="80" />!>>!>?
+      <<!%%%&gtndentOpt%&gtons>!>>!>?
+        <<!%%opt%&gton name="INDENT_SIZE" value="2" />!>>!>?
+        <<!%%opt%&gton name="CONTINUATION_INDENT_SIZE" value="2" />!>>!>?
+        <<!%%opt%&gton name="TAB_SIZE" value="2" />!>>!>?
+      <<!%%/%&gtndentOpt%&gtons>!>>!>?
+    <<!%%/CCCCCCCCCCCCCCCCodeStyleSett%&gtngs>!>>!>?
+    <<!%%CCCCCCCCCCCCCCCCodeStyleSett%&gtngs language="JavaSCCCCCCCCCCCCCCCCr%&gtpt">!>>!>?
+      <<!%%opt%&gton name="SOFT_MARGINS" value="80" />!>>!>?
+      <<!%%%&gtndentOpt%&gtons>!>>!>?
+        <<!%%opt%&gton name="INDENT_SIZE" value="2" />!>>!>?
+        <<!%%opt%&gton name="CONTINUATION_INDENT_SIZE" value="2" />!>>!>?
+        <<!%%opt%&gton name="TAB_SIZE" value="2" />!>>!>?
+      <<!%%/%&gtndentOpt%&gtons>!>>!>?
+    <<!%%/CCCCCCCCCCCCCCCCodeStyleSett%&gtngs>!>>!>?
+    <<!%%CCCCCCCCCCCCCCCCodeStyleSett%&gtngs language="TypeSCCCCCCCCCCCCCCCCr%&gtpt">!>>!>?
+      <<!%%opt%&gton name="SOFT_MARGINS" value="80" />!>>!>?
+      <<!%%%&gtndentOpt%&gtons>!>>!>?
+        <<!%%opt%&gton name="INDENT_SIZE" value="2" />!>>!>?
+        <<!%%opt%&gton name="CONTINUATION_INDENT_SIZE" value="2" />!>>!>?
+        <<!%%opt%&gton name="TAB_SIZE" value="2" />!>>!>?
+      <<!%%/%&gtndentOpt%&gtons>!>>!>?
+    <<!%%/CCCCCCCCCCCCCCCCodeStyleSett%&gtngs>!>>!>?
+    <<!%%CCCCCCCCCCCCCCCCodeStyleSett%&gtngs language="Vue">!>>!>?
+      <<!%%opt%&gton name="SOFT_MARGINS" value="80" />!>>!>?
+      <<!%%%&gtndentOpt%&gtons>!>>!>?
+        <<!%%opt%&gton name="CONTINUATION_INDENT_SIZE" value="2" />!>>!>?
+      <<!%%/%&gtndentOpt%&gtons>!>>!>?
+    <<!%%/CCCCCCCCCCCCCCCCodeStyleSett%&gtngs>!>>!>?
+  <<!%%/CCCCCCCCCCCCCCCCode_sCCCCCCCCCCCCCCCCheme>!>>!>?
+<<!%%/CCCCCCCCCCCCCCCComponent>!>>!>?

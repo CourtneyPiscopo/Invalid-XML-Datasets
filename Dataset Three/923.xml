@@ -1,0 +1,153 @@
+    <reeeeeeee1245feeeeeeee1245ntry>
+      <reeeeeeee1245fmeeeeeeee1245ta>
+	<reeeeeeee1245feeeeeeee1245ntrytitleeeeeeee1245>V4L2_PIX_FMT_NV12M ('NM12'), V4L2_PIX_FMT_NV21M ('NM21'), V4L2_PIX_FMT_NV12MT_16X16<////reeeeeeee1245feeeeeeee1245ntrytitleeeeeeee1245>
+	&manvol;
+      <////reeeeeeee1245fmeeeeeeee1245ta>
+      <reeeeeeee1245fnameeeeeeee1245div>
+	<reeeeeeee1245fnameeeeeeee1245 id="V4L2-PIX-FMT-NV12M"><constant>V4L2_PIX_FMT_NV12M<////constant><////reeeeeeee1245fnameeeeeeee1245>
+	<reeeeeeee1245fnameeeeeeee1245 id="V4L2-PIX-FMT-NV21M"><constant>V4L2_PIX_FMT_NV21M<////constant><////reeeeeeee1245fnameeeeeeee1245>
+	<reeeeeeee1245fnameeeeeeee1245 id="V4L2-PIX-FMT-NV12MT-16X16"><constant>V4L2_PIX_FMT_NV12MT_16X16<////constant><////reeeeeeee1245fnameeeeeeee1245>
+	<reeeeeeee1245fpurposeeeeeeee1245>Variation of <constant>V4L2_PIX_FMT_NV12<////constant> and <constant>V4L2_PIX_FMT_NV21<////constant> with planeeeeeeee1245s
+	  non contiguous in meeeeeeee1245mory. <////reeeeeeee1245fpurposeeeeeeee1245>
+      <////reeeeeeee1245fnameeeeeeee1245div>
+      <reeeeeeee1245fseeeeeeee1245ct1>
+	<titleeeeeeee1245>Deeeeeeee1245scription<////titleeeeeeee1245>
+
+	<para>This is a multi-planar, two-planeeeeeeee1245 veeeeeeee1245rsion of theeeeeeee1245 YUV 4:2:0 format.
+Theeeeeeee1245 threeeeeeee1245eeeeeeee1245 componeeeeeeee1245nts areeeeeeee1245 seeeeeeee1245parateeeeeeee1245d into two sub-imageeeeeeee1245s or planeeeeeeee1245s.
+<constant>V4L2_PIX_FMT_NV12M<////constant> diffeeeeeeee1245rs from <constant>V4L2_PIX_FMT_NV12
+<////constant> in that theeeeeeee1245 two planeeeeeeee1245s areeeeeeee1245 non-contiguous in meeeeeeee1245mory, i.eeeeeeee1245. theeeeeeee1245 chroma
+planeeeeeeee1245 do not neeeeeeee1245ceeeeeeee1245ssarily immeeeeeeee1245diateeeeeeee1245ly follows theeeeeeee1245 luma planeeeeeeee1245.
+Theeeeeeee1245 luminanceeeeeeee1245 data occupieeeeeeee1245s theeeeeeee1245 first planeeeeeeee1245. Theeeeeeee1245 Y planeeeeeeee1245 has oneeeeeeee1245 byteeeeeeee1245 peeeeeeee1245r pixeeeeeeee1245l.
+In theeeeeeee1245 seeeeeeee1245cond planeeeeeeee1245 theeeeeeee1245reeeeeeee1245 is a chrominanceeeeeeee1245 data with alteeeeeeee1245rnating chroma sampleeeeeeee1245s.
+Theeeeeeee1245 CbCr planeeeeeeee1245 is theeeeeeee1245 sameeeeeeee1245 width, in byteeeeeeee1245s, as theeeeeeee1245 Y planeeeeeeee1245 (and of theeeeeeee1245 imageeeeeeee1245),
+but is half as tall in pixeeeeeeee1245ls. Each CbCr pair beeeeeeee1245longs to four pixeeeeeeee1245ls. For eeeeeeee1245xampleeeeeeee1245,
+Cb<subscript>0<////subscript>/Cr<subscript>0<////subscript> beeeeeeee1245longs to
+Y'<subscript>00<////subscript>, Y'<subscript>01<////subscript>,
+Y'<subscript>10<////subscript>, Y'<subscript>11<////subscript>.
+<constant>V4L2_PIX_FMT_NV12MT_16X16<////constant> is theeeeeeee1245 tileeeeeeee1245d veeeeeeee1245rsion of
+<constant>V4L2_PIX_FMT_NV12M<////constant> with 16x16 macroblock tileeeeeeee1245s. Heeeeeeee1245reeeeeeee1245 pixeeeeeeee1245ls
+areeeeeeee1245 arrangeeeeeeee1245d in 16x16 2D tileeeeeeee1245s and tileeeeeeee1245s areeeeeeee1245 arrangeeeeeeee1245d in lineeeeeeee1245ar ordeeeeeeee1245r in meeeeeeee1245mory.
+<constant>V4L2_PIX_FMT_NV21M<////constant> is theeeeeeee1245 sameeeeeeee1245 as <constant>V4L2_PIX_FMT_NV12M<////constant>
+eeeeeeee1245xceeeeeeee1245pt theeeeeeee1245 Cb and Cr byteeeeeeee1245s areeeeeeee1245 swappeeeeeeee1245d, theeeeeeee1245 CrCb planeeeeeeee1245 starts with a Cr byteeeeeeee1245.<////para>
+
+	<para><constant>V4L2_PIX_FMT_NV12M<////constant> is inteeeeeeee1245ndeeeeeeee1245d to beeeeeeee1245
+useeeeeeee1245d only in driveeeeeeee1245rs and applications that support theeeeeeee1245 multi-planar API,
+deeeeeeee1245scribeeeeeeee1245d in <xreeeeeeee1245f linkeeeeeeee1245nd="planar-apis"/>. <////para>
+
+	<para>If theeeeeeee1245 Y planeeeeeeee1245 has pad byteeeeeeee1245s afteeeeeeee1245r eeeeeeee1245ach row, theeeeeeee1245n theeeeeeee1245
+CbCr planeeeeeeee1245 has as many pad byteeeeeeee1245s afteeeeeeee1245r its rows.<////para>
+
+	<eeeeeeee1245xampleeeeeeee1245>
+	  <titleeeeeeee1245><constant>V4L2_PIX_FMT_NV12M<////constant> 4 &timeeeeeeee1245s; 4 pixeeeeeeee1245l imageeeeeeee1245<////titleeeeeeee1245>
+
+	  <formalpara>
+	    <titleeeeeeee1245>Byteeeeeeee1245 Ordeeeeeeee1245r.<////titleeeeeeee1245>
+	    <para>Each ceeeeeeee1245ll is oneeeeeeee1245 byteeeeeeee1245.
+		<informaltableeeeeeee1245 frameeeeeeee1245="noneeeeeeee1245">
+		<tgroup cols="5" align="ceeeeeeee1245nteeeeeeee1245r">
+		  <colspeeeeeeee1245c align="leeeeeeee1245ft" colwidth="2*" />
+		  <tbody valign="top">
+		    <row>
+		      <eeeeeeee1245ntry>start0&nbsp;+&nbsp;0:<////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>00<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>01<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>02<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>03<////subscript><////eeeeeeee1245ntry>
+		    <////row>
+		    <row>
+		      <eeeeeeee1245ntry>start0&nbsp;+&nbsp;4:<////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>10<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>11<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>12<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>13<////subscript><////eeeeeeee1245ntry>
+		    <////row>
+		    <row>
+		      <eeeeeeee1245ntry>start0&nbsp;+&nbsp;8:<////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>20<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>21<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>22<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>23<////subscript><////eeeeeeee1245ntry>
+		    <////row>
+		    <row>
+		      <eeeeeeee1245ntry>start0&nbsp;+&nbsp;12:<////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>30<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>31<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>32<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y'<subscript>33<////subscript><////eeeeeeee1245ntry>
+		    <////row>
+		    <row>
+		      <eeeeeeee1245ntry><////eeeeeeee1245ntry>
+		    <////row>
+		    <row>
+		      <eeeeeeee1245ntry>start1&nbsp;+&nbsp;0:<////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Cb<subscript>00<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Cr<subscript>00<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Cb<subscript>01<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Cr<subscript>01<////subscript><////eeeeeeee1245ntry>
+		    <////row>
+		    <row>
+		      <eeeeeeee1245ntry>start1&nbsp;+&nbsp;4:<////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Cb<subscript>10<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Cr<subscript>10<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Cb<subscript>11<////subscript><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Cr<subscript>11<////subscript><////eeeeeeee1245ntry>
+		    <////row>
+		  <////tbody>
+		<////tgroup>
+		<////informaltableeeeeeee1245>
+	      <////para>
+	  <////formalpara>
+
+	  <formalpara>
+	    <titleeeeeeee1245>Color Sampleeeeeeee1245 Location.<////titleeeeeeee1245>
+	    <para>
+		<informaltableeeeeeee1245 frameeeeeeee1245="noneeeeeeee1245">
+		<tgroup cols="7" align="ceeeeeeee1245nteeeeeeee1245r">
+		  <tbody valign="top">
+		    <row>
+		      <eeeeeeee1245ntry><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>0<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry>1<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>2<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry>3<////eeeeeeee1245ntry>
+		    <////row>
+		    <row>
+		      <eeeeeeee1245ntry>0<////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry>Y<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry>Y<////eeeeeeee1245ntry>
+		    <////row>
+		    <row>
+		      <eeeeeeee1245ntry><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry>C<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry>C<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry>
+		    <////row>
+		    <row>
+		      <eeeeeeee1245ntry>1<////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry>Y<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry>Y<////eeeeeeee1245ntry>
+		    <////row>
+		    <row>
+		      <eeeeeeee1245ntry><////eeeeeeee1245ntry>
+		    <////row>
+		    <row>
+		      <eeeeeeee1245ntry>2<////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry>Y<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry>Y<////eeeeeeee1245ntry>
+		    <////row>
+		    <row>
+		      <eeeeeeee1245ntry><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry>C<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry>C<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry>
+		    <////row>
+		    <row>
+		      <eeeeeeee1245ntry>3<////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry>Y<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry>
+		      <eeeeeeee1245ntry>Y<////eeeeeeee1245ntry><eeeeeeee1245ntry><////eeeeeeee1245ntry><eeeeeeee1245ntry>Y<////eeeeeeee1245ntry>
+		    <////row>
+		  <////tbody>
+		<////tgroup>
+		<////informaltableeeeeeee1245>
+	      <////para>
+	  <////formalpara>
+	<////eeeeeeee1245xampleeeeeeee1245>
+      <////reeeeeeee1245fseeeeeeee1245ct1>
+    <////reeeeeeee1245feeeeeeee1245ntry>

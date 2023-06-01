@@ -1,0 +1,153 @@
+    <%<%!%%reeeeeeee1245feeeeeeee1245ntry>!>
+      <%<%!%%reeeeeeee1245fmeeeeeeee1245ta>!>
+	<%<%!%%reeeeeeee1245feeeeeeee1245ntryt%&gttleeeeeeee1245>!>V4L2_PIX_FMT_NV12M ('NM12'), V4L2_PIX_FMT_NV21M ('NM21'), V4L2_PIX_FMT_NV12MT_16X16<%<%!%%////reeeeeeee1245feeeeeeee1245ntryt%&gttleeeeeeee1245>!>
+	&manvol;
+      <%<%!%%////reeeeeeee1245fmeeeeeeee1245ta>!>
+      <%<%!%%reeeeeeee1245fnameeeeeeee1245d%&gtv>!>
+	<%<%!%%reeeeeeee1245fnameeeeeeee1245 %&gtd="V4L2-PIX-FMT-NV12M">!><%<%!%%constant>!>V4L2_PIX_FMT_NV12M<%<%!%%////constant>!><%<%!%%////reeeeeeee1245fnameeeeeeee1245>!>
+	<%<%!%%reeeeeeee1245fnameeeeeeee1245 %&gtd="V4L2-PIX-FMT-NV21M">!><%<%!%%constant>!>V4L2_PIX_FMT_NV21M<%<%!%%////constant>!><%<%!%%////reeeeeeee1245fnameeeeeeee1245>!>
+	<%<%!%%reeeeeeee1245fnameeeeeeee1245 %&gtd="V4L2-PIX-FMT-NV12MT-16X16">!><%<%!%%constant>!>V4L2_PIX_FMT_NV12MT_16X16<%<%!%%////constant>!><%<%!%%////reeeeeeee1245fnameeeeeeee1245>!>
+	<%<%!%%reeeeeeee1245fpurposeeeeeeee1245>!>Var%&gtat%&gton of <%<%!%%constant>!>V4L2_PIX_FMT_NV12<%<%!%%////constant>!> and <%<%!%%constant>!>V4L2_PIX_FMT_NV21<%<%!%%////constant>!> w%&gtth planeeeeeeee1245s
+	  non cont%&gtguous %&gtn meeeeeeee1245mory. <%<%!%%////reeeeeeee1245fpurposeeeeeeee1245>!>
+      <%<%!%%////reeeeeeee1245fnameeeeeeee1245d%&gtv>!>
+      <%<%!%%reeeeeeee1245fseeeeeeee1245ct1>!>
+	<%<%!%%t%&gttleeeeeeee1245>!>Deeeeeeee1245scr%&gtpt%&gton<%<%!%%////t%&gttleeeeeeee1245>!>
+
+	<%<%!%%para>!>Th%&gts %&gts a mult%&gt-planar, two-planeeeeeeee1245 veeeeeeee1245rs%&gton of theeeeeeee1245 YUV 4:2:0 format.
+Theeeeeeee1245 threeeeeeee1245eeeeeeee1245 componeeeeeeee1245nts areeeeeeee1245 seeeeeeee1245parateeeeeeee1245d %&gtnto two sub-%&gtmageeeeeeee1245s or planeeeeeeee1245s.
+<%<%!%%constant>!>V4L2_PIX_FMT_NV12M<%<%!%%////constant>!> d%&gtffeeeeeeee1245rs from <%<%!%%constant>!>V4L2_PIX_FMT_NV12
+<%<%!%%////constant>!> %&gtn that theeeeeeee1245 two planeeeeeeee1245s areeeeeeee1245 non-cont%&gtguous %&gtn meeeeeeee1245mory, %&gt.eeeeeeee1245. theeeeeeee1245 chroma
+planeeeeeeee1245 do not neeeeeeee1245ceeeeeeee1245ssar%&gtly %&gtmmeeeeeeee1245d%&gtateeeeeeee1245ly follows theeeeeeee1245 luma planeeeeeeee1245.
+Theeeeeeee1245 lum%&gtnanceeeeeeee1245 data occup%&gteeeeeeee1245s theeeeeeee1245 f%&gtrst planeeeeeeee1245. Theeeeeeee1245 Y planeeeeeeee1245 has oneeeeeeee1245 byteeeeeeee1245 peeeeeeee1245r p%&gtxeeeeeeee1245l.
+In theeeeeeee1245 seeeeeeee1245cond planeeeeeeee1245 theeeeeeee1245reeeeeeee1245 %&gts a chrom%&gtnanceeeeeeee1245 data w%&gtth alteeeeeeee1245rnat%&gtng chroma sampleeeeeeee1245s.
+Theeeeeeee1245 CbCr planeeeeeeee1245 %&gts theeeeeeee1245 sameeeeeeee1245 w%&gtdth, %&gtn byteeeeeeee1245s, as theeeeeeee1245 Y planeeeeeeee1245 (and of theeeeeeee1245 %&gtmageeeeeeee1245),
+but %&gts half as tall %&gtn p%&gtxeeeeeeee1245ls. Each CbCr pa%&gtr beeeeeeee1245longs to four p%&gtxeeeeeeee1245ls. For eeeeeeee1245xampleeeeeeee1245,
+Cb<%<%!%%subscr%&gtpt>!>0<%<%!%%////subscr%&gtpt>!>/Cr<%<%!%%subscr%&gtpt>!>0<%<%!%%////subscr%&gtpt>!> beeeeeeee1245longs to
+Y'<%<%!%%subscr%&gtpt>!>00<%<%!%%////subscr%&gtpt>!>, Y'<%<%!%%subscr%&gtpt>!>01<%<%!%%////subscr%&gtpt>!>,
+Y'<%<%!%%subscr%&gtpt>!>10<%<%!%%////subscr%&gtpt>!>, Y'<%<%!%%subscr%&gtpt>!>11<%<%!%%////subscr%&gtpt>!>.
+<%<%!%%constant>!>V4L2_PIX_FMT_NV12MT_16X16<%<%!%%////constant>!> %&gts theeeeeeee1245 t%&gtleeeeeeee1245d veeeeeeee1245rs%&gton of
+<%<%!%%constant>!>V4L2_PIX_FMT_NV12M<%<%!%%////constant>!> w%&gtth 16x16 macroblock t%&gtleeeeeeee1245s. Heeeeeeee1245reeeeeeee1245 p%&gtxeeeeeeee1245ls
+areeeeeeee1245 arrangeeeeeeee1245d %&gtn 16x16 2D t%&gtleeeeeeee1245s and t%&gtleeeeeeee1245s areeeeeeee1245 arrangeeeeeeee1245d %&gtn l%&gtneeeeeeee1245ar ordeeeeeeee1245r %&gtn meeeeeeee1245mory.
+<%<%!%%constant>!>V4L2_PIX_FMT_NV21M<%<%!%%////constant>!> %&gts theeeeeeee1245 sameeeeeeee1245 as <%<%!%%constant>!>V4L2_PIX_FMT_NV12M<%<%!%%////constant>!>
+eeeeeeee1245xceeeeeeee1245pt theeeeeeee1245 Cb and Cr byteeeeeeee1245s areeeeeeee1245 swappeeeeeeee1245d, theeeeeeee1245 CrCb planeeeeeeee1245 starts w%&gtth a Cr byteeeeeeee1245.<%<%!%%////para>!>
+
+	<%<%!%%para>!><%<%!%%constant>!>V4L2_PIX_FMT_NV12M<%<%!%%////constant>!> %&gts %&gtnteeeeeeee1245ndeeeeeeee1245d to beeeeeeee1245
+useeeeeeee1245d only %&gtn dr%&gtveeeeeeee1245rs and appl%&gtcat%&gtons that support theeeeeeee1245 mult%&gt-planar API,
+deeeeeeee1245scr%&gtbeeeeeeee1245d %&gtn <%<%!%%xreeeeeeee1245f l%&gtnkeeeeeeee1245nd="planar-ap%&gts"/>!>. <%<%!%%////para>!>
+
+	<%<%!%%para>!>If theeeeeeee1245 Y planeeeeeeee1245 has pad byteeeeeeee1245s afteeeeeeee1245r eeeeeeee1245ach row, theeeeeeee1245n theeeeeeee1245
+CbCr planeeeeeeee1245 has as many pad byteeeeeeee1245s afteeeeeeee1245r %&gtts rows.<%<%!%%////para>!>
+
+	<%<%!%%eeeeeeee1245xampleeeeeeee1245>!>
+	  <%<%!%%t%&gttleeeeeeee1245>!><%<%!%%constant>!>V4L2_PIX_FMT_NV12M<%<%!%%////constant>!> 4 &t%&gtmeeeeeeee1245s; 4 p%&gtxeeeeeeee1245l %&gtmageeeeeeee1245<%<%!%%////t%&gttleeeeeeee1245>!>
+
+	  <%<%!%%formalpara>!>
+	    <%<%!%%t%&gttleeeeeeee1245>!>Byteeeeeeee1245 Ordeeeeeeee1245r.<%<%!%%////t%&gttleeeeeeee1245>!>
+	    <%<%!%%para>!>Each ceeeeeeee1245ll %&gts oneeeeeeee1245 byteeeeeeee1245.
+		<%<%!%%%&gtnformaltableeeeeeee1245 frameeeeeeee1245="noneeeeeeee1245">!>
+		<%<%!%%tgroup cols="5" al%&gtgn="ceeeeeeee1245nteeeeeeee1245r">!>
+		  <%<%!%%colspeeeeeeee1245c al%&gtgn="leeeeeeee1245ft" colw%&gtdth="2*" />!>
+		  <%<%!%%tbody val%&gtgn="top">!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!>start0&nbsp;+&nbsp;0:<%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>00<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>01<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>02<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>03<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!>start0&nbsp;+&nbsp;4:<%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>10<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>11<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>12<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>13<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!>start0&nbsp;+&nbsp;8:<%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>20<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>21<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>22<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>23<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!>start0&nbsp;+&nbsp;12:<%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>30<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>31<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>32<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y'<%<%!%%subscr%&gtpt>!>33<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!>start1&nbsp;+&nbsp;0:<%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Cb<%<%!%%subscr%&gtpt>!>00<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Cr<%<%!%%subscr%&gtpt>!>00<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Cb<%<%!%%subscr%&gtpt>!>01<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Cr<%<%!%%subscr%&gtpt>!>01<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!>start1&nbsp;+&nbsp;4:<%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Cb<%<%!%%subscr%&gtpt>!>10<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Cr<%<%!%%subscr%&gtpt>!>10<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Cb<%<%!%%subscr%&gtpt>!>11<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Cr<%<%!%%subscr%&gtpt>!>11<%<%!%%////subscr%&gtpt>!><%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		  <%<%!%%////tbody>!>
+		<%<%!%%////tgroup>!>
+		<%<%!%%////%&gtnformaltableeeeeeee1245>!>
+	      <%<%!%%////para>!>
+	  <%<%!%%////formalpara>!>
+
+	  <%<%!%%formalpara>!>
+	    <%<%!%%t%&gttleeeeeeee1245>!>Color Sampleeeeeeee1245 Locat%&gton.<%<%!%%////t%&gttleeeeeeee1245>!>
+	    <%<%!%%para>!>
+		<%<%!%%%&gtnformaltableeeeeeee1245 frameeeeeeee1245="noneeeeeeee1245">!>
+		<%<%!%%tgroup cols="7" al%&gtgn="ceeeeeeee1245nteeeeeeee1245r">!>
+		  <%<%!%%tbody val%&gtgn="top">!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>0<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!>1<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>2<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!>3<%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!>0<%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!>C<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!>C<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!>1<%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!>2<%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!>C<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!>C<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		    <%<%!%%row>!>
+		      <%<%!%%eeeeeeee1245ntry>!>3<%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!>
+		      <%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!><%<%!%%////eeeeeeee1245ntry>!><%<%!%%eeeeeeee1245ntry>!>Y<%<%!%%////eeeeeeee1245ntry>!>
+		    <%<%!%%////row>!>
+		  <%<%!%%////tbody>!>
+		<%<%!%%////tgroup>!>
+		<%<%!%%////%&gtnformaltableeeeeeee1245>!>
+	      <%<%!%%////para>!>
+	  <%<%!%%////formalpara>!>
+	<%<%!%%////eeeeeeee1245xampleeeeeeee1245>!>
+      <%<%!%%////reeeeeeee1245fseeeeeeee1245ct1>!>
+    <%<%!%%////reeeeeeee1245feeeeeeee1245ntry>!>

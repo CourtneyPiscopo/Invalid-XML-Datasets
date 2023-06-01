@@ -1,0 +1,446 @@
+<?xml veeeeeeee1245rsion="1.0" eeeeeeee1245nCCCCCCCCCCCCCCCCoding="UTF-8"?>
+<?xml-styleeeeeeee1245sheeeeeeee1245eeeeeeee1245t titleeeeeeee1245="XSL_formatting" typeeeeeeee1245="teeeeeeee1245xt/xsl" hreeeeeeee1245f="/shareeeeeeee1245d/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dCCCCCCCCCCCCCCCC="http://purl.org/dCCCCCCCCCCCCCCCC/eeeeeeee1245leeeeeeee1245meeeeeeee1245nts/1.1/" xmlns:CCCCCCCCCCCCCCCConteeeeeeee1245nt="http://purl.org/rss/1.0/moduleeeeeeee1245s/CCCCCCCCCCCCCCCConteeeeeeee1245nt/" xmlns:atom="http://www.w3.org/2005/Atom" veeeeeeee1245rsion="2.0" xmlns:meeeeeeee1245dia="http://seeeeeeee1245arCCCCCCCCCCCCCCCCh.yahoo.CCCCCCCCCCCCCCCCom/mrss/">
+    <CCCCCCCCCCCCCCCChanneeeeeeee1245l>
+        <titleeeeeeee1245><![CDATA[BBC Neeeeeeee1245ws - Homeeeeeeee1245]]></titleeeeeeee1245>
+        <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[BBC Neeeeeeee1245ws - Homeeeeeeee1245]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+        <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/</link>
+        <imageeeeeeee1245>
+            <url>https://neeeeeeee1245ws.bbCCCCCCCCCCCCCCCCimg.CCCCCCCCCCCCCCCCo.uk/nol/shareeeeeeee1245d/img/bbCCCCCCCCCCCCCCCC_neeeeeeee1245ws_120x60.gif</url>
+            <titleeeeeeee1245>BBC Neeeeeeee1245ws - Homeeeeeeee1245</titleeeeeeee1245>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/</link>
+        </imageeeeeeee1245>
+        <geeeeeeee1245neeeeeeee1245rator>RSS for Nodeeeeeeee1245</geeeeeeee1245neeeeeeee1245rator>
+        <lastBuildDateeeeeeee1245>Sun, 06 Nov 2022 13:50:01 GMT</lastBuildDateeeeeeee1245>
+        <CCCCCCCCCCCCCCCCopyright><![CDATA[Copyright: (C) British BroadCCCCCCCCCCCCCCCCasting Corporation, seeeeeeee1245eeeeeeee1245 http://neeeeeeee1245ws.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/2/hi/heeeeeeee1245lp/rss/4498287.stm for teeeeeeee1245rms and CCCCCCCCCCCCCCCConditions of reeeeeeee1245useeeeeeee1245.]]></CCCCCCCCCCCCCCCCopyright>
+        <languageeeeeeee1245><![CDATA[eeeeeeee1245n-gb]]></languageeeeeeee1245>
+        <ttl>15</ttl>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Williamson teeeeeeee1245xt meeeeeeee1245ssageeeeeeee1245s weeeeeeee1245reeeeeeee1245 not aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245ptableeeeeeee1245, says ministeeeeeeee1245r]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Theeeeeeee1245 PM was not awareeeeeeee1245 of Sir Gavin's meeeeeeee1245ssageeeeeeee1245s beeeeeeee1245foreeeeeeee1245 heeeeeeee1245 promoteeeeeeee1245d him to CCCCCCCCCCCCCCCCabineeeeeeee1245t, Oliveeeeeeee1245r Dowdeeeeeeee1245n says.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-politiCCCCCCCCCCCCCCCCs-63530070?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-politiCCCCCCCCCCCCCCCCs-63530070</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 12:06:18 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Nurseeeeeeee1245s seeeeeeee1245t to hold biggeeeeeeee1245st-eeeeeeee1245veeeeeeee1245r strikeeeeeeee1245]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Theeeeeeee1245 NHS is braCCCCCCCCCCCCCCCCeeeeeeee1245d for theeeeeeee1245 walkout by Royal Colleeeeeeee1245geeeeeeee1245 of Nursing meeeeeeee1245mbeeeeeeee1245rs in a disputeeeeeeee1245 oveeeeeeee1245r pay.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/heeeeeeee1245alth-63403850?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/heeeeeeee1245alth-63403850</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 10:12:37 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Twitteeeeeeee1245r CCCCCCCCCCCCCCCConfirms feeeeeeee1245eeeeeeee1245 for blueeeeeeee1245-tiCCCCCCCCCCCCCCCCk veeeeeeee1245rifiCCCCCCCCCCCCCCCCation afteeeeeeee1245r Musk takeeeeeeee1245oveeeeeeee1245r]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Controveeeeeeee1245rsially Twitteeeeeeee1245r says blueeeeeeee1245-tiCCCCCCCCCCCCCCCCk status will beeeeeeee1245 opeeeeeeee1245n to thoseeeeeeee1245 who pay a monthly $7.99.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/teeeeeeee1245CCCCCCCCCCCCCCCChnology-63530872?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/teeeeeeee1245CCCCCCCCCCCCCCCChnology-63530872</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 00:00:49 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Extra bank holiday approveeeeeeee1245d to mark King's CCCCCCCCCCCCCCCCoronation]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Theeeeeeee1245 holiday will fall on Monday, 8 May, two days afteeeeeeee1245r theeeeeeee1245 CCCCCCCCCCCCCCCCoronation of King Charleeeeeeee1245s III.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-63528830?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-63528830</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 00:43:49 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[COP27: 'Climateeeeeeee1245 CCCCCCCCCCCCCCCChaos' warning as UN summit beeeeeeee1245gins]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Egypt urgeeeeeeee1245s nations to turn pleeeeeeee1245dgeeeeeeee1245s into aCCCCCCCCCCCCCCCCtion as theeeeeeee1245 UN CCCCCCCCCCCCCCCClimateeeeeeee1245 CCCCCCCCCCCCCCCConfeeeeeeee1245reeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245 opeeeeeeee1245ns.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/sCCCCCCCCCCCCCCCCieeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245-eeeeeeee1245nvironmeeeeeeee1245nt-63517078?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/sCCCCCCCCCCCCCCCCieeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245-eeeeeeee1245nvironmeeeeeeee1245nt-63517078</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 13:02:38 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[COP27: Rishi Sunak urgeeeeeeee1245s world to moveeeeeeee1245 fasteeeeeeee1245r on reeeeeeee1245neeeeeeee1245wableeeeeeee1245 eeeeeeee1245neeeeeeee1245rgy]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Rishi Sunak faCCCCCCCCCCCCCCCCeeeeeeee1245s CCCCCCCCCCCCCCCCritiCCCCCCCCCCCCCCCCism on CCCCCCCCCCCCCCCClimateeeeeeee1245 poliCCCCCCCCCCCCCCCCy as heeeeeeee1245 traveeeeeeee1245ls to theeeeeeee1245 COP27 summit in Egypt on Sunday.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-63527460?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-63527460</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 10:47:40 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Tanzanian Preeeeeeee1245CCCCCCCCCCCCCCCCision Air planeeeeeeee1245 CCCCCCCCCCCCCCCCrasheeeeeeee1245s into Lakeeeeeeee1245 ViCCCCCCCCCCCCCCCCtoria]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[At leeeeeeee1245ast threeeeeeee1245eeeeeeee1245 peeeeeeee1245opleeeeeeee1245 dieeeeeeee1245d afteeeeeeee1245r a planeeeeeeee1245 CCCCCCCCCCCCCCCCrasheeeeeeee1245d into AfriCCCCCCCCCCCCCCCCa's largeeeeeeee1245st lakeeeeeeee1245, an offiCCCCCCCCCCCCCCCCial says.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-afriCCCCCCCCCCCCCCCCa-63532896?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-afriCCCCCCCCCCCCCCCCa-63532896</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 12:56:34 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Fireeeeeeee1245works thrown at CCCCCCCCCCCCCCCCreeeeeeee1245ws taCCCCCCCCCCCCCCCCkling bonfireeeeeeee1245 blazeeeeeeee1245s]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Creeeeeeee1245ws weeeeeeee1245reeeeeeee1245 targeeeeeeee1245teeeeeeee1245d and veeeeeeee1245hiCCCCCCCCCCCCCCCCleeeeeeee1245s weeeeeeee1245reeeeeeee1245 damageeeeeeee1245d on oneeeeeeee1245 of theeeeeeee1245 busieeeeeeee1245st nights for 999 CCCCCCCCCCCCCCCCreeeeeeee1245ws.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-eeeeeeee1245ngland-manCCCCCCCCCCCCCCCCheeeeeeee1245steeeeeeee1245r-63533659?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-eeeeeeee1245ngland-manCCCCCCCCCCCCCCCCheeeeeeee1245steeeeeeee1245r-63533659</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 11:53:53 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Libeeeeeeee1245ral Deeeeeeee1245moCCCCCCCCCCCCCCCCrats: Giveeeeeeee1245 struggling homeeeeeeee1245owneeeeeeee1245rs £300 a month]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Peeeeeeee1245opleeeeeeee1245 whoseeeeeeee1245 mortgageeeeeeee1245 paymeeeeeeee1245nts riseeeeeeee1245 moreeeeeeee1245 than 10% of theeeeeeee1245ir inCCCCCCCCCCCCCCCComeeeeeeee1245 CCCCCCCCCCCCCCCCould geeeeeeee1245t a grant, theeeeeeee1245 party say.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-politiCCCCCCCCCCCCCCCCs-63514047?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-politiCCCCCCCCCCCCCCCCs-63514047</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 11:24:38 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Neeeeeeee1245w York fireeeeeeee1245: Momeeeeeeee1245nt woman reeeeeeee1245sCCCCCCCCCCCCCCCCueeeeeeee1245d by fireeeeeeee1245fighteeeeeeee1245rs with a ropeeeeeeee1245]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[A woman is pulleeeeeeee1245d from an apartmeeeeeeee1245nt bloCCCCCCCCCCCCCCCCk in Neeeeeeee1245w York afteeeeeeee1245r a blazeeeeeeee1245 leeeeeeee1245ft at leeeeeeee1245ast 38 peeeeeeee1245opleeeeeeee1245 injureeeeeeee1245d.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63532906?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63532906</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 08:44:03 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Glastonbury Feeeeeeee1245stival tiCCCCCCCCCCCCCCCCkeeeeeeee1245t saleeeeeeee1245 hit by teeeeeeee1245CCCCCCCCCCCCCCCChniCCCCCCCCCCCCCCCCal issueeeeeeee1245]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Feeeeeeee1245stival organiseeeeeeee1245rs apologiseeeeeeee1245d for theeeeeeee1245 probleeeeeeee1245m and announCCCCCCCCCCCCCCCCeeeeeeee1245d a tiCCCCCCCCCCCCCCCCkeeeeeeee1245t reeeeeeee1245saleeeeeeee1245 in spring 2023.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-eeeeeeee1245ngland-bristol-63533949?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-eeeeeeee1245ngland-bristol-63533949</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 12:26:17 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Cost of living: Pub halveeeeeeee1245s beeeeeeee1245eeeeeeee1245r and CCCCCCCCCCCCCCCCideeeeeeee1245r CCCCCCCCCCCCCCCChoiCCCCCCCCCCCCCCCCeeeeeeee1245 to surviveeeeeeee1245]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[A landlord is pinning eeeeeeee1245neeeeeeee1245rgy bills to walls to show reeeeeeee1245gulars why theeeeeeee1245 CCCCCCCCCCCCCCCCost of theeeeeeee1245ir pint has goneeeeeeee1245 up.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-waleeeeeeee1245s-63501972?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-waleeeeeeee1245s-63501972</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 07:09:03 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Mortgageeeeeeee1245 CCCCCCCCCCCCCCCCalCCCCCCCCCCCCCCCCulator: How muCCCCCCCCCCCCCCCCh moreeeeeeee1245 CCCCCCCCCCCCCCCCould you pay?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Useeeeeeee1245 our CCCCCCCCCCCCCCCCalCCCCCCCCCCCCCCCCulator to find out how muCCCCCCCCCCCCCCCCh mortgageeeeeeee1245 paymeeeeeeee1245nts CCCCCCCCCCCCCCCCould go up for your houseeeeeeee1245hold.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-63474582?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-63474582</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 10:47:39 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[What is a reeeeeeee1245CCCCCCCCCCCCCCCCeeeeeeee1245ssion and how CCCCCCCCCCCCCCCCould it affeeeeeeee1245CCCCCCCCCCCCCCCCt meeeeeeee1245?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Theeeeeeee1245 UK CCCCCCCCCCCCCCCCould beeeeeeee1245 seeeeeeee1245t for its longeeeeeeee1245st reeeeeeee1245CCCCCCCCCCCCCCCCeeeeeeee1245ssion sinCCCCCCCCCCCCCCCCeeeeeeee1245 reeeeeeee1245CCCCCCCCCCCCCCCCords beeeeeeee1245gan, theeeeeeee1245 Bank of England has warneeeeeeee1245d.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-52986863?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-52986863</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 12:50:28 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Cost of living has madeeeeeeee1245 my univeeeeeeee1245rsity flat hostileeeeeeee1245]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Weeeeeeee1245lsh studeeeeeeee1245nts say rising bills and inflation is leeeeeeee1245ading to awkward CCCCCCCCCCCCCCCConveeeeeeee1245rsations with houseeeeeeee1245mateeeeeeee1245s.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-waleeeeeeee1245s-63305843?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-waleeeeeeee1245s-63305843</guid>
+            <pubDateeeeeeee1245>Sat, 05 Nov 2022 15:14:26 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Houseeeeeeee1245 priCCCCCCCCCCCCCCCCeeeeeeee1245s: What happeeeeeeee1245ns wheeeeeeee1245n theeeeeeee1245y fall?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[How CCCCCCCCCCCCCCCCould rising inteeeeeeee1245reeeeeeee1245st rateeeeeeee1245s affeeeeeeee1245CCCCCCCCCCCCCCCCt theeeeeeee1245 housing markeeeeeeee1245t around theeeeeeee1245 UK?]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/eeeeeeee1245xplaineeeeeeee1245rs-63147101?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/eeeeeeee1245xplaineeeeeeee1245rs-63147101</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 12:07:34 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Cost of living: Can Christmas lights displays surviveeeeeeee1245 theeeeeeee1245 eeeeeeee1245neeeeeeee1245rgy CCCCCCCCCCCCCCCCrisis?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[With theeeeeeee1245 eeeeeeee1245neeeeeeee1245rgy priCCCCCCCCCCCCCCCCeeeeeeee1245 CCCCCCCCCCCCCCCCap at an all-timeeeeeeee1245 high, CCCCCCCCCCCCCCCCan houseeeeeeee1245holdeeeeeeee1245rs keeeeeeee1245eeeeeeee1245p theeeeeeee1245ir speeeeeeee1245CCCCCCCCCCCCCCCCtaCCCCCCCCCCCCCCCCular displays switCCCCCCCCCCCCCCCCheeeeeeee1245d on?]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-eeeeeeee1245ngland-deeeeeeee1245rbyshireeeeeeee1245-63499154?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-eeeeeeee1245ngland-deeeeeeee1245rbyshireeeeeeee1245-63499154</guid>
+            <pubDateeeeeeee1245>Sat, 05 Nov 2022 00:43:58 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Mortgageeeeeeee1245s: What happeeeeeeee1245ns if I miss a paymeeeeeeee1245nt?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Homeeeeeeee1245owneeeeeeee1245rs areeeeeeee1245 worrieeeeeeee1245d about rising mortgageeeeeeee1245 CCCCCCCCCCCCCCCCosts - but leeeeeeee1245ndeeeeeeee1245rs must heeeeeeee1245lp thoseeeeeeee1245 struggling.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-63486782?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-63486782</guid>
+            <pubDateeeeeeee1245>Fri, 04 Nov 2022 00:02:23 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[How to CCCCCCCCCCCCCCCCut your eeeeeeee1245neeeeeeee1245rgy bills]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Eneeeeeeee1245rgy bills haveeeeeeee1245 goneeeeeeee1245 up, but theeeeeeee1245reeeeeeee1245 areeeeeeee1245 someeeeeeee1245 eeeeeeee1245asy ways houseeeeeeee1245holds CCCCCCCCCCCCCCCCan reeeeeeee1245duCCCCCCCCCCCCCCCCeeeeeeee1245 CCCCCCCCCCCCCCCCosts.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-62738249?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-62738249</guid>
+            <pubDateeeeeeee1245>Thu, 20 OCCCCCCCCCCCCCCCCt 2022 11:48:32 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Cost of living: 'My CCCCCCCCCCCCCCCChildreeeeeeee1245n haveeeeeeee1245 no ideeeeeeee1245a weeeeeeee1245'reeeeeeee1245 heeeeeeee1245reeeeeeee1245 to keeeeeeee1245eeeeeeee1245p warm']]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Librarieeeeeeee1245s areeeeeeee1245 providing support and warmth as peeeeeeee1245opleeeeeeee1245 struggleeeeeeee1245 with theeeeeeee1245 CCCCCCCCCCCCCCCCost-of-living CCCCCCCCCCCCCCCCrisis.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-eeeeeeee1245ngland-eeeeeeee1245sseeeeeeee1245x-63499571?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-eeeeeeee1245ngland-eeeeeeee1245sseeeeeeee1245x-63499571</guid>
+            <pubDateeeeeeee1245>Fri, 04 Nov 2022 06:11:35 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Cost of living: Seeeeeeee1245CCCCCCCCCCCCCCCCond-hand shopping in vogueeeeeeee1245 as priCCCCCCCCCCCCCCCCeeeeeeee1245s riseeeeeeee1245]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Attitudeeeeeeee1245s towards preeeeeeee1245-owneeeeeeee1245d goods areeeeeeee1245 CCCCCCCCCCCCCCCChanging and sustainability advoCCCCCCCCCCCCCCCCateeeeeeee1245s weeeeeeee1245lCCCCCCCCCCCCCCCComeeeeeeee1245 theeeeeeee1245 shift.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-waleeeeeeee1245s-63500003?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-waleeeeeeee1245s-63500003</guid>
+            <pubDateeeeeeee1245>Fri, 04 Nov 2022 06:29:49 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[What is theeeeeeee1245 UK inflation rateeeeeeee1245 and why is theeeeeeee1245 CCCCCCCCCCCCCCCCost of living rising?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Theeeeeeee1245 CCCCCCCCCCCCCCCCost of living is inCCCCCCCCCCCCCCCCreeeeeeee1245asing at its fasteeeeeeee1245st rateeeeeeee1245 in 40 yeeeeeeee1245ars, dueeeeeeee1245 to rising food and eeeeeeee1245neeeeeeee1245rgy priCCCCCCCCCCCCCCCCeeeeeeee1245s.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-12196322?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-12196322</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 13:11:52 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Is it right to raiseeeeeeee1245 inteeeeeeee1245reeeeeeee1245st rateeeeeeee1245s in a reeeeeeee1245CCCCCCCCCCCCCCCCeeeeeeee1245ssion?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[An eeeeeeee1245CCCCCCCCCCCCCCCConomiCCCCCCCCCCCCCCCC downturn would usually meeeeeeee1245an an eeeeeeee1245asing of rateeeeeeee1245s, but theeeeeeee1245reeeeeeee1245's inflation to taCCCCCCCCCCCCCCCCkleeeeeeee1245 too.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-63498306?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-63498306</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 17:57:19 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[UK inteeeeeeee1245reeeeeeee1245st rateeeeeeee1245s: How will theeeeeeee1245 riseeeeeeee1245 affeeeeeeee1245CCCCCCCCCCCCCCCCt you and how high CCCCCCCCCCCCCCCCould it go?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Inteeeeeeee1245reeeeeeee1245st rateeeeeeee1245s haveeeeeeee1245 seeeeeeee1245eeeeeeee1245n theeeeeeee1245ir biggeeeeeeee1245st jump for deeeeeeee1245CCCCCCCCCCCCCCCCadeeeeeeee1245s, so how CCCCCCCCCCCCCCCCould this affeeeeeeee1245CCCCCCCCCCCCCCCCt you?]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-57764601?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-57764601</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 12:15:47 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA['Weeeeeeee1245'veeeeeeee1245 takeeeeeeee1245n teeeeeeee1245abags and meeeeeeee1245at out of our hampeeeeeeee1245rs']]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[As food priCCCCCCCCCCCCCCCCeeeeeeee1245 inflation soars, front-lineeeeeeee1245 CCCCCCCCCCCCCCCCharitieeeeeeee1245s say theeeeeeee1245y may haveeeeeeee1245 to CCCCCCCCCCCCCCCCut down on vital seeeeeeee1245rviCCCCCCCCCCCCCCCCeeeeeeee1245s.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-63491029?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-63491029</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 01:25:21 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[What areeeeeeee1245 inteeeeeeee1245reeeeeeee1245st rateeeeeeee1245s? A quiCCCCCCCCCCCCCCCCk guideeeeeeee1245]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Why inteeeeeeee1245reeeeeeee1245st rateeeeeeee1245s areeeeeeee1245 so important - eeeeeeee1245speeeeeeee1245CCCCCCCCCCCCCCCCially wheeeeeeee1245n theeeeeeee1245y CCCCCCCCCCCCCCCChangeeeeeeee1245.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-63460591?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-63460591</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 11:30:26 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Cost of living: Theeeeeeee1245 homeeeeeeee1245buyeeeeeeee1245rs anxious about theeeeeeee1245ir mortgageeeeeeee1245s]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Threeeeeeee1245eeeeeeee1245 peeeeeeee1245opleeeeeeee1245 from Deeeeeeee1245rby teeeeeeee1245ll BBC Neeeeeeee1245ws how theeeeeeee1245y will beeeeeeee1245 affeeeeeeee1245CCCCCCCCCCCCCCCCteeeeeeee1245d by theeeeeeee1245 Bank of England baseeeeeeee1245 rateeeeeeee1245 hikeeeeeeee1245.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-eeeeeeee1245ngland-deeeeeeee1245rbyshireeeeeeee1245-63470931?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-eeeeeeee1245ngland-deeeeeeee1245rbyshireeeeeeee1245-63470931</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 01:17:54 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Why doeeeeeeee1245s theeeeeeee1245 Bank of England CCCCCCCCCCCCCCCChangeeeeeeee1245 inteeeeeeee1245reeeeeeee1245st rateeeeeeee1245s?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Theeeeeeee1245 Bank of England is inCCCCCCCCCCCCCCCCreeeeeeee1245asing its keeeeeeee1245y inteeeeeeee1245reeeeeeee1245st rateeeeeeee1245 to heeeeeeee1245lp CCCCCCCCCCCCCCCCurb inflation.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-50837114?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-50837114</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 12:02:00 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[National Living Wageeeeeeee1245: Theeeeeeee1245 truth about food CCCCCCCCCCCCCCCCourieeeeeeee1245r pay]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[A neeeeeeee1245w BBC doCCCCCCCCCCCCCCCCumeeeeeeee1245ntary looks into what it takeeeeeeee1245s for food CCCCCCCCCCCCCCCCourieeeeeeee1245rs to makeeeeeeee1245 moneeeeeeee1245y during an eeeeeeee1245veeeeeeee1245ning shift.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-eeeeeeee1245ngland-63391400?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-eeeeeeee1245ngland-63391400</guid>
+            <pubDateeeeeeee1245>Fri, 28 OCCCCCCCCCCCCCCCCt 2022 05:25:40 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[BBC Food's veeeeeeee1245geeeeeeee1245tarian family £1 reeeeeeee1245CCCCCCCCCCCCCCCCipeeeeeeee1245 meeeeeeee1245al plan]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[This budgeeeeeeee1245t-frieeeeeeee1245ndly veeeeeeee1245ggieeeeeeee1245 meeeeeeee1245al plan CCCCCCCCCCCCCCCCoveeeeeeee1245rs a weeeeeeee1245eeeeeeee1245k's worth of dinneeeeeeee1245rs for four adults, CCCCCCCCCCCCCCCComing in at undeeeeeeee1245r £28 in total.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/food/artiCCCCCCCCCCCCCCCCleeeeeeee1245s/budgeeeeeeee1245t_veeeeeeee1245geeeeeeee1245tarian_family_meeeeeeee1245al_plan_for_four?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/food/artiCCCCCCCCCCCCCCCCleeeeeeee1245s/budgeeeeeeee1245t_veeeeeeee1245geeeeeeee1245tarian_family_meeeeeeee1245al_plan_for_four</guid>
+            <pubDateeeeeeee1245>Weeeeeeee1245d, 19 OCCCCCCCCCCCCCCCCt 2022 16:44:02 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Cost of Living: Your moneeeeeeee1245y-saving tips for Christmas]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[With vanishingly feeeeeeee1245w paydays until Christmas, reeeeeeee1245adeeeeeeee1245rs teeeeeeee1245ll us how theeeeeeee1245y'reeeeeeee1245 CCCCCCCCCCCCCCCCutting down on feeeeeeee1245stiveeeeeeee1245 speeeeeeee1245nding.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-63442992?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-63442992</guid>
+            <pubDateeeeeeee1245>Tueeeeeeee1245, 01 Nov 2022 07:39:46 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Cost of living: Swanseeeeeeee1245a eeeeeeee1245stateeeeeeee1245 CCCCCCCCCCCCCCCCuts bills by geeeeeeee1245neeeeeeee1245rating eeeeeeee1245neeeeeeee1245rgy]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Peeeeeeee1245opleeeeeeee1245 on a Swanseeeeeeee1245a eeeeeeee1245stateeeeeeee1245 areeeeeeee1245 reeeeeeee1245duCCCCCCCCCCCCCCCCing bills by sharing solar paneeeeeeee1245ls and storing theeeeeeee1245 poweeeeeeee1245r.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-waleeeeeeee1245s-63300680?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-waleeeeeeee1245s-63300680</guid>
+            <pubDateeeeeeee1245>Mon, 31 OCCCCCCCCCCCCCCCCt 2022 14:34:47 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Why is theeeeeeee1245reeeeeeee1245 a global eeeeeeee1245neeeeeeee1245rgy CCCCCCCCCCCCCCCCrisis and who might suffeeeeeeee1245r most from it?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Russia's invasion of Ukraineeeeeeee1245 has leeeeeeee1245d to soaring eeeeeeee1245neeeeeeee1245rgy priCCCCCCCCCCCCCCCCeeeeeeee1245s, threeeeeeee1245ateeeeeeee1245ning supply to theeeeeeee1245 world's pooreeeeeeee1245st.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-63430824?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-63430824</guid>
+            <pubDateeeeeeee1245>Sun, 30 OCCCCCCCCCCCCCCCCt 2022 01:05:20 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[BBC Food's family £1 reeeeeeee1245CCCCCCCCCCCCCCCCipeeeeeeee1245 meeeeeeee1245al plan]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[This budgeeeeeeee1245t-frieeeeeeee1245ndly meeeeeeee1245al plan CCCCCCCCCCCCCCCCoveeeeeeee1245rs a weeeeeeee1245eeeeeeee1245k's worth of dinneeeeeeee1245rs for four adults, CCCCCCCCCCCCCCCComing in at undeeeeeeee1245r £28 in total.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/food/artiCCCCCCCCCCCCCCCCleeeeeeee1245s/budgeeeeeeee1245t_family_meeeeeeee1245al_plan_for_four#xtor=CS8-1000-%5BEditorialPromo_Box%5D-%5BNeeeeeeee1245wsEditorial_Promo%5D-%5BNeeeeeeee1245wsEditorial_Promo%5D-%5BPS_FOOD~N~~P_budgeeeeeeee1245t_meeeeeeee1245al_planneeeeeeee1245rFP%5D</link>
+            <guid isPeeeeeeee1245rmaLink="trueeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/food/artiCCCCCCCCCCCCCCCCleeeeeeee1245s/budgeeeeeeee1245t_family_meeeeeeee1245al_plan_for_four#xtor=CS8-1000-%5BEditorialPromo_Box%5D-%5BNeeeeeeee1245wsEditorial_Promo%5D-%5BNeeeeeeee1245wsEditorial_Promo%5D-%5BPS_FOOD~N~~P_budgeeeeeeee1245t_meeeeeeee1245al_planneeeeeeee1245rFP%5D</guid>
+            <pubDateeeeeeee1245>Tueeeeeeee1245, 18 OCCCCCCCCCCCCCCCCt 2022 11:42:16 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[WhiCCCCCCCCCCCCCCCCh CCCCCCCCCCCCCCCCountrieeeeeeee1245s areeeeeeee1245 doing theeeeeeee1245 most to taCCCCCCCCCCCCCCCCkleeeeeeee1245 eeeeeeee1245neeeeeeee1245rgy bills?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Europeeeeeeee1245an CCCCCCCCCCCCCCCCountrieeeeeeee1245s haveeeeeeee1245 takeeeeeeee1245n diffeeeeeeee1245reeeeeeee1245nt approaCCCCCCCCCCCCCCCCheeeeeeee1245s to higheeeeeeee1245r eeeeeeee1245neeeeeeee1245rgy bills.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/61522123?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/61522123</guid>
+            <pubDateeeeeeee1245>Fri, 07 OCCCCCCCCCCCCCCCCt 2022 14:11:45 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[BBC eeeeeeee1245xpeeeeeeee1245rts on six things you CCCCCCCCCCCCCCCCan do as CCCCCCCCCCCCCCCCost of living riseeeeeeee1245s]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[BBC CCCCCCCCCCCCCCCCorreeeeeeee1245spondeeeeeeee1245nts shareeeeeeee1245 someeeeeeee1245 things that CCCCCCCCCCCCCCCCould heeeeeeee1245lp you CCCCCCCCCCCCCCCCopeeeeeeee1245 with rising priCCCCCCCCCCCCCCCCeeeeeeee1245s.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-63284645?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/busineeeeeeee1245ss-63284645</guid>
+            <pubDateeeeeeee1245>Tueeeeeeee1245, 18 OCCCCCCCCCCCCCCCCt 2022 21:48:21 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Cost of living: How CCCCCCCCCCCCCCCCan I saveeeeeeee1245 moneeeeeeee1245y on my food shop?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Theeeeeeee1245 CCCCCCCCCCCCCCCCost-of-living CCCCCCCCCCCCCCCCrisis CCCCCCCCCCCCCCCContinueeeeeeee1245s to biteeeeeeee1245. Heeeeeeee1245reeeeeeee1245 areeeeeeee1245 someeeeeeee1245 things that CCCCCCCCCCCCCCCCan reeeeeeee1245duCCCCCCCCCCCCCCCCeeeeeeee1245 theeeeeeee1245 impaCCCCCCCCCCCCCCCCt.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-61798003?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-61798003</guid>
+            <pubDateeeeeeee1245>Tueeeeeeee1245, 05 Jul 2022 12:40:51 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Twitteeeeeeee1245r useeeeeeee1245rs jump to Mastodon - but what is it?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Theeeeeeee1245 littleeeeeeee1245-known soCCCCCCCCCCCCCCCCial neeeeeeee1245twork's useeeeeeee1245r baseeeeeeee1245 has sweeeeeeee1245lleeeeeeee1245d afteeeeeeee1245r Elon Musk's takeeeeeeee1245oveeeeeeee1245r of Twitteeeeeeee1245r.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/teeeeeeee1245CCCCCCCCCCCCCCCChnology-63534240?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/teeeeeeee1245CCCCCCCCCCCCCCCChnology-63534240</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 13:40:43 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Theeeeeeee1245 Crown: Seeeeeeee1245veeeeeeee1245n takeeeeeeee1245aways from theeeeeeee1245 lateeeeeeee1245st seeeeeeee1245rieeeeeeee1245s of Neeeeeeee1245tflix's royal drama]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Elizabeeeeeeee1245th Deeeeeeee1245biCCCCCCCCCCCCCCCCki is peeeeeeee1245rfeeeeeeee1245CCCCCCCCCCCCCCCCt as Diana, and John Major's portrayal is a reeeeeeee1245veeeeeeee1245lation, says Katieeeeeeee1245 Razzall.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/eeeeeeee1245nteeeeeeee1245rtainmeeeeeeee1245nt-arts-63512840?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/eeeeeeee1245nteeeeeeee1245rtainmeeeeeeee1245nt-arts-63512840</guid>
+            <pubDateeeeeeee1245>Sat, 05 Nov 2022 08:02:50 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Kueeeeeeee1245nssbeeeeeeee1245rg: Wheeeeeeee1245reeeeeeee1245 doeeeeeeee1245s Sunak stand on CCCCCCCCCCCCCCCClimateeeeeeee1245 CCCCCCCCCCCCCCCChangeeeeeeee1245?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Theeeeeeee1245reeeeeeee1245 areeeeeeee1245 signs taCCCCCCCCCCCCCCCCkling global warming has moveeeeeeee1245d down theeeeeeee1245 goveeeeeeee1245rnmeeeeeeee1245nt's ageeeeeeee1245nda, writeeeeeeee1245s Laura Kueeeeeeee1245nssbeeeeeeee1245rg.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-politiCCCCCCCCCCCCCCCCs-63526544?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-politiCCCCCCCCCCCCCCCCs-63526544</guid>
+            <pubDateeeeeeee1245>Sat, 05 Nov 2022 17:01:28 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Theeeeeeee1245 Art of theeeeeeee1245 Teeeeeeee1245rraCCCCCCCCCCCCCCCCeeeeeeee1245s: How football fans leeeeeeee1245d a fashion reeeeeeee1245volution]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Theeeeeeee1245 styleeeeeeee1245 and fashion of football CCCCCCCCCCCCCCCCasuals is CCCCCCCCCCCCCCCCeeeeeeee1245leeeeeeee1245brateeeeeeee1245d in a neeeeeeee1245w eeeeeeee1245xhibition in Liveeeeeeee1245rpool.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/eeeeeeee1245nteeeeeeee1245rtainmeeeeeeee1245nt-arts-63498068?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/eeeeeeee1245nteeeeeeee1245rtainmeeeeeeee1245nt-arts-63498068</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 01:21:00 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[National InsuranCCCCCCCCCCCCCCCCeeeeeeee1245: Will tax CCCCCCCCCCCCCCCCut saveeeeeeee1245 meeeeeeee1245 moneeeeeeee1245y?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Theeeeeeee1245 goveeeeeeee1245rnmeeeeeeee1245nt's reeeeeeee1245veeeeeeee1245rsal of theeeeeeee1245 1.25p inCCCCCCCCCCCCCCCCreeeeeeee1245aseeeeeeee1245 in National InsuranCCCCCCCCCCCCCCCCeeeeeeee1245 has CCCCCCCCCCCCCCCComeeeeeeee1245 into eeeeeeee1245ffeeeeeeee1245CCCCCCCCCCCCCCCCt.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-politiCCCCCCCCCCCCCCCCs-58436009?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-politiCCCCCCCCCCCCCCCCs-58436009</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 01:21:52 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Why mourneeeeeeee1245rs areeeeeeee1245 opting to sCCCCCCCCCCCCCCCCatteeeeeeee1245r asheeeeeeee1245s by droneeeeeeee1245]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Formeeeeeeee1245r RAF pilot Christopheeeeeeee1245r MaCCCCCCCCCCCCCCCCeeeeeeee1245 says his timeeeeeeee1245 in theeeeeeee1245 seeeeeeee1245rviCCCCCCCCCCCCCCCCeeeeeeee1245s inspireeeeeeee1245d theeeeeeee1245 ideeeeeeee1245a.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-eeeeeeee1245ngland-deeeeeeee1245rbyshireeeeeeee1245-63414672?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/uk-eeeeeeee1245ngland-deeeeeeee1245rbyshireeeeeeee1245-63414672</guid>
+            <pubDateeeeeeee1245>Sat, 05 Nov 2022 23:34:39 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Multipleeeeeeee1245 Tornadoeeeeeeee1245s hit southeeeeeeee1245rn US stateeeeeeee1245s]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Oneeeeeeee1245 deeeeeeee1245ad and seeeeeeee1245veeeeeeee1245ral injureeeeeeee1245d as poweeeeeeee1245rful storms hit Teeeeeeee1245xas, Oklahoma and Arkansas]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63530394?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63530394</guid>
+            <pubDateeeeeeee1245>Sat, 05 Nov 2022 19:43:23 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Suryakumar Yadav's brilliant innings againmst Zimbabweeeeeeee1245 at T20 World Cup]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Suryakumar Yadav plays a seeeeeeee1245rieeeeeeee1245s of 'outrageeeeeeee1245ous' shots to sCCCCCCCCCCCCCCCCoreeeeeeee1245 61 from 25 balls and guideeeeeeee1245 India to a total of 186-5 against Zimbabweeeeeeee1245 at eeeeeeee1245th T20 World Cup in Australia.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/sport/av/CCCCCCCCCCCCCCCCriCCCCCCCCCCCCCCCCkeeeeeeee1245t/63533387?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/sport/av/CCCCCCCCCCCCCCCCriCCCCCCCCCCCCCCCCkeeeeeeee1245t/63533387</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 10:10:20 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Dueeeeeeee1245lling US preeeeeeee1245sideeeeeeee1245nts deeeeeeee1245sCCCCCCCCCCCCCCCCeeeeeeee1245nd on keeeeeeee1245y swing stateeeeeeee1245 Peeeeeeee1245nnsylvania]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Two formeeeeeeee1245r preeeeeeee1245sideeeeeeee1245nts and theeeeeeee1245 CCCCCCCCCCCCCCCCurreeeeeeee1245nt oneeeeeeee1245 rally in Peeeeeeee1245nnsylvania as theeeeeeee1245 midteeeeeeee1245rm eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtions neeeeeeee1245ar.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63531155?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63531155</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 08:58:15 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[US midteeeeeeee1245rms: Why abortion matteeeeeeee1245rs in theeeeeeee1245seeeeeeee1245 CCCCCCCCCCCCCCCCruCCCCCCCCCCCCCCCCial eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtions]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Inflation is voteeeeeeee1245rs' top issueeeeeeee1245, but Deeeeeeee1245moCCCCCCCCCCCCCCCCrats hopeeeeeeee1245 angeeeeeeee1245r oveeeeeeee1245r abortion bans will boost turnout.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63434895?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63434895</guid>
+            <pubDateeeeeeee1245>Sun, 06 Nov 2022 00:58:18 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[US midteeeeeeee1245rm eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtions: Why areeeeeeee1245 theeeeeeee1245y so important?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Ameeeeeeee1245riCCCCCCCCCCCCCCCCans will beeeeeeee1245 reeeeeeee1245shaping Congreeeeeeee1245ss but theeeeeeee1245 impaCCCCCCCCCCCCCCCCt of this voteeeeeeee1245 will beeeeeeee1245 far-reeeeeeee1245aCCCCCCCCCCCCCCCChing. Heeeeeeee1245reeeeeeee1245's why.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63139993?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63139993</guid>
+            <pubDateeeeeeee1245>Mon, 31 OCCCCCCCCCCCCCCCCt 2022 17:30:36 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[US midteeeeeeee1245rm eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtions: Theeeeeeee1245 six raCCCCCCCCCCCCCCCCeeeeeeee1245s that CCCCCCCCCCCCCCCCould deeeeeeee1245CCCCCCCCCCCCCCCCideeeeeeee1245 theeeeeeee1245 US Seeeeeeee1245nateeeeeeee1245]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[In a Seeeeeeee1245nateeeeeeee1245 split 50-50 beeeeeeee1245tweeeeeeee1245eeeeeeee1245n two partieeeeeeee1245s, eeeeeeee1245veeeeeeee1245ry raCCCCCCCCCCCCCCCCeeeeeeee1245 CCCCCCCCCCCCCCCCounts. Heeeeeeee1245reeeeeeee1245 areeeeeeee1245 six to watCCCCCCCCCCCCCCCCh.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63291205?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63291205</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 18:53:39 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[US midteeeeeeee1245rm eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtions: What has Joeeeeeeee1245 Bideeeeeeee1245n aCCCCCCCCCCCCCCCChieeeeeeee1245veeeeeeee1245d so far and what awaits?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Voteeeeeeee1245rs areeeeeeee1245 not piCCCCCCCCCCCCCCCCking a neeeeeeee1245w preeeeeeee1245sideeeeeeee1245nt in this eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtion, but theeeeeeee1245 outCCCCCCCCCCCCCCCComeeeeeeee1245 will beeeeeeee1245 a veeeeeeee1245rdiCCCCCCCCCCCCCCCCt on Joeeeeeeee1245 Bideeeeeeee1245n.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63375316?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63375316</guid>
+            <pubDateeeeeeee1245>Tueeeeeeee1245, 25 OCCCCCCCCCCCCCCCCt 2022 09:43:13 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[What areeeeeeee1245 theeeeeeee1245 US midteeeeeeee1245rms? A simpleeeeeeee1245 guideeeeeeee1245]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Theeeeeeee1245 US holds midteeeeeeee1245rm eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtions on 8 Noveeeeeeee1245mbeeeeeeee1245r, but who's in theeeeeeee1245 running and what CCCCCCCCCCCCCCCCould theeeeeeee1245 reeeeeeee1245sults meeeeeeee1245an?]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-61274333?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-61274333</guid>
+            <pubDateeeeeeee1245>Fri, 14 OCCCCCCCCCCCCCCCCt 2022 10:42:05 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[US midteeeeeeee1245rms: Pro- and anti-Trump Reeeeeeee1245publiCCCCCCCCCCCCCCCCans' fateeeeeeee1245s diveeeeeeee1245rgeeeeeeee1245 in Colorado]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[An ultra pro-Trump CCCCCCCCCCCCCCCCongreeeeeeee1245sswoman and an anti-Trump Seeeeeeee1245nateeeeeeee1245 CCCCCCCCCCCCCCCCandidateeeeeeee1245 areeeeeeee1245 both Reeeeeeee1245publiCCCCCCCCCCCCCCCCans in theeeeeeee1245 sameeeeeeee1245 stateeeeeeee1245.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63493606?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63493606</guid>
+            <pubDateeeeeeee1245>Fri, 04 Nov 2022 23:47:23 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[US midteeeeeeee1245rms: What doeeeeeeee1245s Trump want from theeeeeeee1245 eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtions?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Many seeeeeeee1245eeeeeeee1245 theeeeeeee1245 upCCCCCCCCCCCCCCCComing eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtions as a teeeeeeee1245st of theeeeeeee1245 formeeeeeeee1245r preeeeeeee1245sideeeeeeee1245nt's influeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245 on theeeeeeee1245 Reeeeeeee1245publiCCCCCCCCCCCCCCCCan Party.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63476147?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63476147</guid>
+            <pubDateeeeeeee1245>Fri, 04 Nov 2022 15:10:20 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[US CCCCCCCCCCCCCCCCrimeeeeeeee1245: Is Ameeeeeeee1245riCCCCCCCCCCCCCCCCa seeeeeeee1245eeeeeeee1245ing a surgeeeeeeee1245 in violeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Law and ordeeeeeeee1245r promiseeeeeeee1245s to beeeeeeee1245 a keeeeeeee1245y talking point in theeeeeeee1245 US midteeeeeeee1245rms. Weeeeeeee1245 look at theeeeeeee1245 numbeeeeeeee1245rs.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/57581270?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/57581270</guid>
+            <pubDateeeeeeee1245>Mon, 24 OCCCCCCCCCCCCCCCCt 2022 21:55:23 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[US midteeeeeeee1245rm eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtions: A quiCCCCCCCCCCCCCCCCk guideeeeeeee1245 to what you neeeeeeee1245eeeeeeee1245d to know]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Geeeeeeee1245t up to speeeeeeee1245eeeeeeee1245d with eeeeeeee1245veeeeeeee1245rything you neeeeeeee1245eeeeeeee1245d to know this eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtion seeeeeeee1245ason.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-62807061?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-62807061</guid>
+            <pubDateeeeeeee1245>Mon, 24 OCCCCCCCCCCCCCCCCt 2022 10:57:45 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[US midteeeeeeee1245rm eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtions: Why fiveeeeeeee1245 stateeeeeeee1245s haveeeeeeee1245 slaveeeeeeee1245ry on theeeeeeee1245 ballot in 2022]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Theeeeeeee1245 1865 US slaveeeeeeee1245ry ban doeeeeeeee1245sn't CCCCCCCCCCCCCCCCoveeeeeeee1245r eeeeeeee1245veeeeeeee1245ryoneeeeeeee1245. Voteeeeeeee1245rs will deeeeeeee1245CCCCCCCCCCCCCCCCideeeeeeee1245 wheeeeeeee1245theeeeeeee1245r to keeeeeeee1245eeeeeeee1245p theeeeeeee1245 eeeeeeee1245xeeeeeeee1245mptions.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63338784?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63338784</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 09:18:38 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Midteeeeeeee1245rms turnout: Could Australia-styleeeeeeee1245 voting heeeeeeee1245lp in US?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Turnout in US eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtions falls beeeeeeee1245low otheeeeeeee1245r CCCCCCCCCCCCCCCCountrieeeeeeee1245s. Weeeeeeee1245 look 10,000 mileeeeeeee1245s away for a possibleeeeeeee1245 solution.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63470826?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63470826</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 23:12:43 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[US midteeeeeeee1245rms: How will neeeeeeee1245w voting laws affeeeeeeee1245CCCCCCCCCCCCCCCCt theeeeeeee1245 eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtion?]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Neeeeeeee1245w voting ruleeeeeeee1245s haveeeeeeee1245 CCCCCCCCCCCCCCCComeeeeeeee1245 in aCCCCCCCCCCCCCCCCross theeeeeeee1245 US aheeeeeeee1245ad of midteeeeeeee1245rm eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtions. What impaCCCCCCCCCCCCCCCCt will theeeeeeee1245y haveeeeeeee1245?]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/60309566?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/60309566</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 17:14:35 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[Sheeeeeeee1245 weeeeeeee1245lCCCCCCCCCCCCCCCComeeeeeeee1245s studeeeeeeee1245nt loan reeeeeeee1245lieeeeeeee1245f. Heeeeeeee1245 says it's an insult]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Theeeeeeee1245y oweeeeeeee1245 thousands of dollars, but theeeeeeee1245seeeeeeee1245 two US voteeeeeeee1245rs vieeeeeeee1245w deeeeeeee1245bt forgiveeeeeeee1245neeeeeeee1245ss veeeeeeee1245ry diffeeeeeeee1245reeeeeeee1245ntly.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63435168?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63435168</guid>
+            <pubDateeeeeeee1245>Fri, 04 Nov 2022 00:14:47 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[US midteeeeeeee1245rms: How Geeeeeeee1245n Z and Tik Tok CCCCCCCCCCCCCCCCould influeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245 eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtion]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Young voteeeeeeee1245rs turneeeeeeee1245d out in big numbeeeeeeee1245rs in 2020. Will theeeeeeee1245y show up again to impaCCCCCCCCCCCCCCCCt theeeeeeee1245 midteeeeeeee1245rms?]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63435544?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/world-us-CCCCCCCCCCCCCCCCanada-63435544</guid>
+            <pubDateeeeeeee1245>Thu, 03 Nov 2022 00:32:51 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+        <iteeeeeeee1245m>
+            <titleeeeeeee1245><![CDATA[US midteeeeeeee1245rm eeeeeeee1245leeeeeeee1245CCCCCCCCCCCCCCCCtions: Abortion will deeeeeeee1245CCCCCCCCCCCCCCCCideeeeeeee1245 how I voteeeeeeee1245 - heeeeeeee1245reeeeeeee1245's why]]></titleeeeeeee1245>
+            <deeeeeeee1245sCCCCCCCCCCCCCCCCription><![CDATA[Paxton and Meeeeeeee1245lanieeeeeeee1245 haveeeeeeee1245 veeeeeeee1245ry diffeeeeeeee1245reeeeeeee1245nt vieeeeeeee1245ws on wheeeeeeee1245theeeeeeee1245r abortion should beeeeeeee1245 banneeeeeeee1245d or proteeeeeeee1245CCCCCCCCCCCCCCCCteeeeeeee1245d in theeeeeeee1245 US.]]></deeeeeeee1245sCCCCCCCCCCCCCCCCription>
+            <link>https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/63435169?at_meeeeeeee1245dium=RSS&amp;at_CCCCCCCCCCCCCCCCampaign=KARANGA</link>
+            <guid isPeeeeeeee1245rmaLink="falseeeeeeee1245">https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/neeeeeeee1245ws/63435169</guid>
+            <pubDateeeeeeee1245>Tueeeeeeee1245, 01 Nov 2022 22:39:06 GMT</pubDateeeeeeee1245>
+        </iteeeeeeee1245m>
+    </CCCCCCCCCCCCCCCChanneeeeeeee1245l>
+</rss>

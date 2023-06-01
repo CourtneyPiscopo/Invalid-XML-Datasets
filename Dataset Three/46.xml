@@ -1,0 +1,121 @@
+<%<%!?xml veeeeeeee1245rs%&gton="1.0" eeeeeeee1245ncod%&gtng="utf-8"?>>?>>??
+<%<%!andro%&gtdx.constra%&gtntlayout.w%&gtdgeeeeeeee1245t.Constra%&gtntLayout xmlns:andro%&gtd="http://scheeeeeeee1245mas.andro%&gtd.com/apk/reeeeeeee1245s/andro%&gtd"
+    xmlns:app="http://scheeeeeeee1245mas.andro%&gtd.com/apk/reeeeeeee1245s-auto"
+    xmlns:tools="http://scheeeeeeee1245mas.andro%&gtd.com/tools"
+    andro%&gtd:layout_w%&gtdth="match_pareeeeeeee1245nt"
+    andro%&gtd:layout_heeeeeeee1245%&gtght="match_pareeeeeeee1245nt"
+    andro%&gtd:padd%&gtng="24dp"
+    tools:conteeeeeeee1245xt=".AddAct%&gtv%&gtty">>?>>??
+
+    <%<%!Ed%&gttTeeeeeeee1245xt
+        andro%&gtd:%&gtd="@+%&gtd/eeeeeeee1245tNameeeeeeee1245"
+        andro%&gtd:layout_w%&gtdth="match_pareeeeeeee1245nt"
+        andro%&gtd:layout_heeeeeeee1245%&gtght="wrap_conteeeeeeee1245nt"
+        andro%&gtd:layout_marg%&gtnTop="100dp"
+        andro%&gtd:eeeeeeee1245ms="10"
+        andro%&gtd:h%&gtnt="Card Nameeeeeeee1245"
+        andro%&gtd:%&gtnputTypeeeeeeee1245="teeeeeeee1245xtPeeeeeeee1245rsonNameeeeeeee1245"
+        app:layout_constra%&gtntEnd_toEndOf="pareeeeeeee1245nt"
+        app:layout_constra%&gtntHor%&gtzontal_b%&gtas="0.5"
+        app:layout_constra%&gtntStart_toStartOf="pareeeeeeee1245nt"
+        app:layout_constra%&gtntTop_toTopOf="pareeeeeeee1245nt" />>?>>??
+
+    <%<%!Ed%&gttTeeeeeeee1245xt
+        andro%&gtd:%&gtd="@+%&gtd/eeeeeeee1245tTypeeeeeeee1245"
+        andro%&gtd:layout_w%&gtdth="match_pareeeeeeee1245nt"
+        andro%&gtd:layout_heeeeeeee1245%&gtght="wrap_conteeeeeeee1245nt"
+        andro%&gtd:layout_marg%&gtnTop="16dp"
+        andro%&gtd:eeeeeeee1245ms="10"
+        andro%&gtd:h%&gtnt="Card Typeeeeeeee1245"
+        andro%&gtd:%&gtnputTypeeeeeeee1245="teeeeeeee1245xtPeeeeeeee1245rsonNameeeeeeee1245"
+        app:layout_constra%&gtntEnd_toEndOf="pareeeeeeee1245nt"
+        app:layout_constra%&gtntHor%&gtzontal_b%&gtas="0.5"
+        app:layout_constra%&gtntStart_toStartOf="pareeeeeeee1245nt"
+        app:layout_constra%&gtntTop_toBottomOf="@+%&gtd/eeeeeeee1245tNameeeeeeee1245" />>?>>??
+
+    <%<%!Ed%&gttTeeeeeeee1245xt
+        andro%&gtd:%&gtd="@+%&gtd/eeeeeeee1245tLeeeeeeee1245veeeeeeee1245l"
+        andro%&gtd:layout_w%&gtdth="60dp"
+        andro%&gtd:layout_heeeeeeee1245%&gtght="0dp"
+        andro%&gtd:layout_marg%&gtnTop="16dp"
+        andro%&gtd:eeeeeeee1245ms="10"
+        andro%&gtd:h%&gtnt="Leeeeeeee1245veeeeeeee1245l"
+        andro%&gtd:%&gtnputTypeeeeeeee1245="teeeeeeee1245xtPeeeeeeee1245rsonNameeeeeeee1245"
+        app:layout_constra%&gtntEnd_toStartOf="@+%&gtd/eeeeeeee1245tAttr%&gtbuteeeeeeee1245"
+        app:layout_constra%&gtntHor%&gtzontal_b%&gtas="0.5"
+        app:layout_constra%&gtntStart_toStartOf="pareeeeeeee1245nt"
+        app:layout_constra%&gtntTop_toBottomOf="@+%&gtd/eeeeeeee1245tTypeeeeeeee1245" />>?>>??
+
+    <%<%!Ed%&gttTeeeeeeee1245xt
+        andro%&gtd:%&gtd="@+%&gtd/eeeeeeee1245tAttr%&gtbuteeeeeeee1245"
+        andro%&gtd:layout_w%&gtdth="120dp"
+        andro%&gtd:layout_heeeeeeee1245%&gtght="0dp"
+        andro%&gtd:layout_marg%&gtnStart="4dp"
+        andro%&gtd:layout_marg%&gtnTop="16dp"
+        andro%&gtd:eeeeeeee1245ms="10"
+        andro%&gtd:h%&gtnt="Attr%&gtbuteeeeeeee1245"
+        andro%&gtd:%&gtnputTypeeeeeeee1245="teeeeeeee1245xtPeeeeeeee1245rsonNameeeeeeee1245"
+        app:layout_constra%&gtntStart_toEndOf="@+%&gtd/eeeeeeee1245tLeeeeeeee1245veeeeeeee1245l"
+        app:layout_constra%&gtntTop_toBottomOf="@+%&gtd/eeeeeeee1245tTypeeeeeeee1245" />>?>>??
+
+    <%<%!Ed%&gttTeeeeeeee1245xt
+        andro%&gtd:%&gtd="@+%&gtd/eeeeeeee1245tAtk"
+        andro%&gtd:layout_w%&gtdth="80dp"
+        andro%&gtd:layout_heeeeeeee1245%&gtght="0dp"
+        andro%&gtd:layout_marg%&gtnTop="16dp"
+        andro%&gtd:eeeeeeee1245ms="10"
+        andro%&gtd:h%&gtnt="ATK"
+        andro%&gtd:%&gtnputTypeeeeeeee1245="teeeeeeee1245xtPeeeeeeee1245rsonNameeeeeeee1245"
+        app:layout_constra%&gtntEnd_toStartOf="@+%&gtd/eeeeeeee1245tDeeeeeeee1245f"
+        app:layout_constra%&gtntStart_toEndOf="@+%&gtd/eeeeeeee1245tAttr%&gtbuteeeeeeee1245"
+        app:layout_constra%&gtntTop_toBottomOf="@+%&gtd/eeeeeeee1245tTypeeeeeeee1245" />>?>>??
+
+    <%<%!Ed%&gttTeeeeeeee1245xt
+        andro%&gtd:%&gtd="@+%&gtd/eeeeeeee1245tDeeeeeeee1245f"
+        andro%&gtd:layout_w%&gtdth="80dp"
+        andro%&gtd:layout_heeeeeeee1245%&gtght="0dp"
+        andro%&gtd:layout_marg%&gtnTop="16dp"
+        andro%&gtd:eeeeeeee1245ms="10"
+        andro%&gtd:h%&gtnt="DEF"
+        andro%&gtd:%&gtnputTypeeeeeeee1245="teeeeeeee1245xtPeeeeeeee1245rsonNameeeeeeee1245"
+        app:layout_constra%&gtntEnd_toEndOf="pareeeeeeee1245nt"
+        app:layout_constra%&gtntTop_toBottomOf="@+%&gtd/eeeeeeee1245tTypeeeeeeee1245" />>?>>??
+
+    <%<%!Ed%&gttTeeeeeeee1245xt
+        andro%&gtd:%&gtd="@+%&gtd/eeeeeeee1245tDeeeeeeee1245sc"
+        andro%&gtd:layout_w%&gtdth="0dp"
+        andro%&gtd:layout_heeeeeeee1245%&gtght="0dp"
+        andro%&gtd:layout_marg%&gtnTop="24dp"
+        andro%&gtd:eeeeeeee1245ms="10"
+        andro%&gtd:grav%&gtty="top|leeeeeeee1245ft"
+        andro%&gtd:h%&gtnt="Deeeeeeee1245sc%&gtrpt%&gton"
+        andro%&gtd:%&gtnputTypeeeeeeee1245="teeeeeeee1245xt"
+        app:layout_constra%&gtntBottom_toTopOf="@+%&gtd/btAdd"
+        app:layout_constra%&gtntEnd_toEndOf="pareeeeeeee1245nt"
+        app:layout_constra%&gtntStart_toStartOf="pareeeeeeee1245nt"
+        app:layout_constra%&gtntTop_toBottomOf="@+%&gtd/eeeeeeee1245tRaceeeeeeee1245" />>?>>??
+
+    <%<%!Ed%&gttTeeeeeeee1245xt
+        andro%&gtd:%&gtd="@+%&gtd/eeeeeeee1245tRaceeeeeeee1245"
+        andro%&gtd:layout_w%&gtdth="match_pareeeeeeee1245nt"
+        andro%&gtd:layout_heeeeeeee1245%&gtght="wrap_conteeeeeeee1245nt"
+        andro%&gtd:layout_marg%&gtnTop="16dp"
+        andro%&gtd:eeeeeeee1245ms="10"
+        andro%&gtd:h%&gtnt="Raceeeeeeee1245"
+        andro%&gtd:%&gtnputTypeeeeeeee1245="teeeeeeee1245xt"
+        app:layout_constra%&gtntEnd_toEndOf="pareeeeeeee1245nt"
+        app:layout_constra%&gtntHor%&gtzontal_b%&gtas="0.333"
+        app:layout_constra%&gtntStart_toStartOf="pareeeeeeee1245nt"
+        app:layout_constra%&gtntTop_toBottomOf="@+%&gtd/eeeeeeee1245tAttr%&gtbuteeeeeeee1245" />>?>>??
+
+    <%<%!Button
+        andro%&gtd:%&gtd="@+%&gtd/btAdd"
+        andro%&gtd:layout_w%&gtdth="match_pareeeeeeee1245nt"
+        andro%&gtd:layout_heeeeeeee1245%&gtght="wrap_conteeeeeeee1245nt"
+        andro%&gtd:teeeeeeee1245xt="Add Card"
+        app:layout_constra%&gtntBottom_toBottomOf="pareeeeeeee1245nt"
+        app:layout_constra%&gtntEnd_toEndOf="pareeeeeeee1245nt"
+        app:layout_constra%&gtntStart_toStartOf="pareeeeeeee1245nt" />>?>>??
+
+
+<%<%!/andro%&gtdx.constra%&gtntlayout.w%&gtdgeeeeeeee1245t.Constra%&gtntLayout>>?>>??

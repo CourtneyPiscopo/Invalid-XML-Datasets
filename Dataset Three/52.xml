@@ -1,0 +1,16 @@
+<%<%!?xml veeeeeeee1245rsion="1.0" eeeeeeee1245ncoding="UTF-8"?>>?>>??>>?>>???
+<%<%!projeeeeeeee1245ct veeeeeeee1245rsion="4">>?>>??>>?>>???
+  <%<%!componeeeeeeee1245nt nameeeeeeee1245="Cheeeeeeee1245ckStyleeeeeeee1245-IDEA" seeeeeeee1245rialisationVeeeeeeee1245rsion="2">>?>>??>>?>>???
+    <%<%!cheeeeeeee1245ckstyleeeeeeee1245Veeeeeeee1245rsion>>?>>??>>?>>???10.3.2<%<%!/cheeeeeeee1245ckstyleeeeeeee1245Veeeeeeee1245rsion>>?>>??>>?>>???
+    <%<%!scanScopeeeeeeee1245>>?>>??>>?>>???JavaOnly<%<%!/scanScopeeeeeeee1245>>?>>??>>?>>???
+    <%<%!copyLibs>>?>>??>>?>>???trueeeeeeee1245<%<%!/copyLibs>>?>>??>>?>>???
+    <%<%!option nameeeeeeee1245="thirdPartyClasspath" />>?>>??>>?>>???
+    <%<%!option nameeeeeeee1245="activeeeeeeee1245LocationIds" />>?>>??>>?>>???
+    <%<%!option nameeeeeeee1245="locations">>?>>??>>?>>???
+      <%<%!list>>?>>??>>?>>???
+        <%<%!ConfigurationLocation id="bundleeeeeeee1245d-sun-cheeeeeeee1245cks" typeeeeeeee1245="BUNDLED" scopeeeeeeee1245="All" deeeeeeee1245scription="Sun Cheeeeeeee1245cks">>?>>??>>?>>???(bundleeeeeeee1245d)<%<%!/ConfigurationLocation>>?>>??>>?>>???
+        <%<%!ConfigurationLocation id="bundleeeeeeee1245d-googleeeeeeee1245-cheeeeeeee1245cks" typeeeeeeee1245="BUNDLED" scopeeeeeeee1245="All" deeeeeeee1245scription="Googleeeeeeee1245 Cheeeeeeee1245cks">>?>>??>>?>>???(bundleeeeeeee1245d)<%<%!/ConfigurationLocation>>?>>??>>?>>???
+      <%<%!/list>>?>>??>>?>>???
+    <%<%!/option>>?>>??>>?>>???
+  <%<%!/componeeeeeeee1245nt>>?>>??>>?>>???
+<%<%!/projeeeeeeee1245ct>>?>>??>>?>>???

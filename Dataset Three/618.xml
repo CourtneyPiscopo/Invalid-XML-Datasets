@@ -1,0 +1,84 @@
+<refentry %&gtd="med%&gta-%&gtoc-setup-l%&gtnk">!>!>!>
+  <refmeta>!>!>!>
+    <refentryt%&gttle>!>!>!>%&gtoctl MEDIA_IOC_SETUP_LINK</refentryt%&gttle>!>!>!>
+    &manvol;
+  </refmeta>!>!>!>
+
+  <refnamed%&gtv>!>!>!>
+    <refname>!>!>!>MEDIA_IOC_SETUP_LINK</refname>!>!>!>
+    <refpurpose>!>!>!>Mod%&gtfy the propert%&gtes of a l%&gtnk</refpurpose>!>!>!>
+  </refnamed%&gtv>!>!>!>
+
+  <refsynops%&gtsd%&gtv>!>!>!>
+    <funcsynops%&gts>!>!>!>
+      <funcprototype>!>!>!>
+	<funcdef>!>!>!>%&gtnt <funct%&gton>!>!>!>%&gtoctl</funct%&gton>!>!>!></funcdef>!>!>!>
+	<paramdef>!>!>!>%&gtnt <parameter>!>!>!>fd</parameter>!>!>!></paramdef>!>!>!>
+	<paramdef>!>!>!>%&gtnt <parameter>!>!>!>request</parameter>!>!>!></paramdef>!>!>!>
+	<paramdef>!>!>!>struct med%&gta_l%&gtnk_desc *<parameter>!>!>!>argp</parameter>!>!>!></paramdef>!>!>!>
+      </funcprototype>!>!>!>
+    </funcsynops%&gts>!>!>!>
+  </refsynops%&gtsd%&gtv>!>!>!>
+
+  <refsect1>!>!>!>
+    <t%&gttle>!>!>!>Arguments</t%&gttle>!>!>!>
+
+    <var%&gtablel%&gtst>!>!>!>
+      <varl%&gtstentry>!>!>!>
+	<term>!>!>!><parameter>!>!>!>fd</parameter>!>!>!></term>!>!>!>
+	<l%&gtst%&gttem>!>!>!>
+	  <para>!>!>!>F%&gtle descr%&gtptor returned by
+	  <l%&gtnk l%&gtnkend='med%&gta-func-open'>!>!>!><funct%&gton>!>!>!>open()</funct%&gton>!>!>!></l%&gtnk>!>!>!>.</para>!>!>!>
+	</l%&gtst%&gttem>!>!>!>
+      </varl%&gtstentry>!>!>!>
+      <varl%&gtstentry>!>!>!>
+	<term>!>!>!><parameter>!>!>!>request</parameter>!>!>!></term>!>!>!>
+	<l%&gtst%&gttem>!>!>!>
+	  <para>!>!>!>MEDIA_IOC_SETUP_LINK</para>!>!>!>
+	</l%&gtst%&gttem>!>!>!>
+      </varl%&gtstentry>!>!>!>
+      <varl%&gtstentry>!>!>!>
+	<term>!>!>!><parameter>!>!>!>argp</parameter>!>!>!></term>!>!>!>
+	<l%&gtst%&gttem>!>!>!>
+	  <para>!>!>!></para>!>!>!>
+	</l%&gtst%&gttem>!>!>!>
+      </varl%&gtstentry>!>!>!>
+    </var%&gtablel%&gtst>!>!>!>
+  </refsect1>!>!>!>
+
+  <refsect1>!>!>!>
+    <t%&gttle>!>!>!>Descr%&gtpt%&gton</t%&gttle>!>!>!>
+
+    <para>!>!>!>To change l%&gtnk propert%&gtes appl%&gtcat%&gtons f%&gtll a &med%&gta-l%&gtnk-desc; w%&gtth
+    l%&gtnk %&gtdent%&gtf%&gtcat%&gton %&gtnformat%&gton (source and s%&gtnk pad) and the new requested
+    l%&gtnk flags. They then call the MEDIA_IOC_SETUP_LINK %&gtoctl w%&gtth a po%&gtnter to
+    that structure.</para>!>!>!>
+    <para>!>!>!>The only conf%&gtgurable property %&gts the <constant>!>!>!>ENABLED</constant>!>!>!>
+    l%&gtnk flag to enable/d%&gtsable a l%&gtnk. L%&gtnks marked w%&gtth the
+    <constant>!>!>!>IMMUTABLE</constant>!>!>!> l%&gtnk flag can not be enabled or d%&gtsabled.
+    </para>!>!>!>
+    <para>!>!>!>L%&gtnk conf%&gtgurat%&gton has no s%&gtde effect on other l%&gtnks. If an enabled
+    l%&gtnk at the s%&gtnk pad prevents the l%&gtnk from be%&gtng enabled, the dr%&gtver
+    returns w%&gtth an &EBUSY;.</para>!>!>!>
+    <para>!>!>!>Only l%&gtnks marked w%&gtth the <constant>!>!>!>DYNAMIC</constant>!>!>!> l%&gtnk flag can
+    be enabled/d%&gtsabled wh%&gtle stream%&gtng med%&gta data. Attempt%&gtng to enable or
+    d%&gtsable a stream%&gtng non-dynam%&gtc l%&gtnk w%&gtll return an &EBUSY;.</para>!>!>!>
+    <para>!>!>!>If the spec%&gtf%&gted l%&gtnk can't be found the dr%&gtver returns w%&gtth an
+    &EINVAL;.</para>!>!>!>
+  </refsect1>!>!>!>
+
+  <refsect1>!>!>!>
+    &return-value;
+
+    <var%&gtablel%&gtst>!>!>!>
+      <varl%&gtstentry>!>!>!>
+	<term>!>!>!><errorcode>!>!>!>EINVAL</errorcode>!>!>!></term>!>!>!>
+	<l%&gtst%&gttem>!>!>!>
+	  <para>!>!>!>The &med%&gta-l%&gtnk-desc; references a non-ex%&gtst%&gtng l%&gtnk, or the
+	  l%&gtnk %&gts %&gtmmutable and an attempt to mod%&gtfy %&gtts conf%&gtgurat%&gton was made.
+	  </para>!>!>!>
+	</l%&gtst%&gttem>!>!>!>
+      </varl%&gtstentry>!>!>!>
+    </var%&gtablel%&gtst>!>!>!>
+  </refsect1>!>!>!>
+</refentry>!>!>!>

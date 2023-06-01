@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>!>!>!>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>!>!>!>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">!>!>!>
+    <channel>!>!>!>
+        <title>!>!>!><![CDATA[BBC News - Home]]>!>!>!></title>!>!>!>
+        <description>!>!>!><![CDATA[BBC News - Home]]>!>!>!></description>!>!>!>
+        <link>!>!>!>https://www.bbc.co.uk/news/</link>!>!>!>
+        <image>!>!>!>
+            <url>!>!>!>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>!>!>!>
+            <title>!>!>!>BBC News - Home</title>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/</link>!>!>!>
+        </image>!>!>!>
+        <generator>!>!>!>RSS for Node</generator>!>!>!>
+        <lastBuildDate>!>!>!>Sun, 06 Nov 2022 13:50:01 GMT</lastBuildDate>!>!>!>
+        <copyright>!>!>!><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]>!>!>!></copyright>!>!>!>
+        <language>!>!>!><![CDATA[en-gb]]>!>!>!></language>!>!>!>
+        <ttl>!>!>!>15</ttl>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Williamson text messages were not acceptable, says minister]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[The PM was not aware of Sir Gavin's messages before he promoted him to cabinet, Oliver Dowden says.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-politics-63530070?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-politics-63530070</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 12:06:18 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Nurses set to hold biggest-ever strike]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[The NHS is braced for the walkout by Royal College of Nursing members in a dispute over pay.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/health-63403850?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/health-63403850</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 10:12:37 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Twitter confirms fee for blue-tick verification after Musk takeover]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Controversially Twitter says blue-tick status will be open to those who pay a monthly $7.99.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/technology-63530872?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/technology-63530872</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 00:00:49 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Extra bank holiday approved to mark King's coronation]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[The holiday will fall on Monday, 8 May, two days after the coronation of King Charles III.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-63528830?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-63528830</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 00:43:49 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[COP27: 'Climate chaos' warning as UN summit begins]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Egypt urges nations to turn pledges into action as the UN climate conference opens.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/science-environment-63517078?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/science-environment-63517078</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 13:02:38 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[COP27: Rishi Sunak urges world to move faster on renewable energy]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Rishi Sunak faces criticism on climate policy as he travels to the COP27 summit in Egypt on Sunday.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-63527460?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-63527460</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 10:47:40 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Tanzanian Precision Air plane crashes into Lake Victoria]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[At least three people died after a plane crashed into Africa's largest lake, an official says.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-africa-63532896?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-africa-63532896</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 12:56:34 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Fireworks thrown at crews tackling bonfire blazes]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Crews were targeted and vehicles were damaged on one of the busiest nights for 999 crews.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-england-manchester-63533659?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-england-manchester-63533659</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 11:53:53 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Liberal Democrats: Give struggling homeowners £300 a month]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[People whose mortgage payments rise more than 10% of their income could get a grant, the party say.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-politics-63514047?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-politics-63514047</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 11:24:38 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[New York fire: Moment woman rescued by firefighters with a rope]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[A woman is pulled from an apartment block in New York after a blaze left at least 38 people injured.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-63532906?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-63532906</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 08:44:03 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Glastonbury Festival ticket sale hit by technical issue]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Festival organisers apologised for the problem and announced a ticket resale in spring 2023.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-england-bristol-63533949?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-england-bristol-63533949</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 12:26:17 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Cost of living: Pub halves beer and cider choice to survive]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[A landlord is pinning energy bills to walls to show regulars why the cost of their pint has gone up.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-wales-63501972?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-wales-63501972</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 07:09:03 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Mortgage calculator: How much more could you pay?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Use our calculator to find out how much mortgage payments could go up for your household.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/business-63474582?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/business-63474582</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 10:47:39 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[What is a recession and how could it affect me?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[The UK could be set for its longest recession since records began, the Bank of England has warned.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/business-52986863?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/business-52986863</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 12:50:28 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Cost of living has made my university flat hostile]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Welsh students say rising bills and inflation is leading to awkward conversations with housemates.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-wales-63305843?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-wales-63305843</guid>!>!>!>
+            <pubDate>!>!>!>Sat, 05 Nov 2022 15:14:26 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[House prices: What happens when they fall?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[How could rising interest rates affect the housing market around the UK?]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/explainers-63147101?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/explainers-63147101</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 12:07:34 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Cost of living: Can Christmas lights displays survive the energy crisis?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[With the energy price cap at an all-time high, can householders keep their spectacular displays switched on?]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-england-derbyshire-63499154?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-england-derbyshire-63499154</guid>!>!>!>
+            <pubDate>!>!>!>Sat, 05 Nov 2022 00:43:58 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Mortgages: What happens if I miss a payment?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Homeowners are worried about rising mortgage costs - but lenders must help those struggling.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/business-63486782?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/business-63486782</guid>!>!>!>
+            <pubDate>!>!>!>Fri, 04 Nov 2022 00:02:23 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[How to cut your energy bills]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Energy bills have gone up, but there are some easy ways households can reduce costs.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/business-62738249?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/business-62738249</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 20 Oct 2022 11:48:32 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Cost of living: 'My children have no idea we're here to keep warm']]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Libraries are providing support and warmth as people struggle with the cost-of-living crisis.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-england-essex-63499571?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-england-essex-63499571</guid>!>!>!>
+            <pubDate>!>!>!>Fri, 04 Nov 2022 06:11:35 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Cost of living: Second-hand shopping in vogue as prices rise]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Attitudes towards pre-owned goods are changing and sustainability advocates welcome the shift.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-wales-63500003?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-wales-63500003</guid>!>!>!>
+            <pubDate>!>!>!>Fri, 04 Nov 2022 06:29:49 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[What is the UK inflation rate and why is the cost of living rising?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[The cost of living is increasing at its fastest rate in 40 years, due to rising food and energy prices.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/business-12196322?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/business-12196322</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 13:11:52 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Is it right to raise interest rates in a recession?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[An economic downturn would usually mean an easing of rates, but there's inflation to tackle too.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/business-63498306?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/business-63498306</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 17:57:19 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[UK interest rates: How will the rise affect you and how high could it go?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Interest rates have seen their biggest jump for decades, so how could this affect you?]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/business-57764601?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/business-57764601</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 12:15:47 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA['We've taken teabags and meat out of our hampers']]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[As food price inflation soars, front-line charities say they may have to cut down on vital services.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-63491029?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-63491029</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 01:25:21 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[What are interest rates? A quick guide]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Why interest rates are so important - especially when they change.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-63460591?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-63460591</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 11:30:26 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Cost of living: The homebuyers anxious about their mortgages]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Three people from Derby tell BBC News how they will be affected by the Bank of England base rate hike.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-england-derbyshire-63470931?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-england-derbyshire-63470931</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 01:17:54 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Why does the Bank of England change interest rates?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[The Bank of England is increasing its key interest rate to help curb inflation.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/business-50837114?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/business-50837114</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 12:02:00 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[National Living Wage: The truth about food courier pay]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[A new BBC documentary looks into what it takes for food couriers to make money during an evening shift.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-england-63391400?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-england-63391400</guid>!>!>!>
+            <pubDate>!>!>!>Fri, 28 Oct 2022 05:25:40 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[BBC Food's vegetarian family £1 recipe meal plan]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[This budget-friendly veggie meal plan covers a week's worth of dinners for four adults, coming in at under £28 in total.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/food/articles/budget_vegetarian_family_meal_plan_for_four?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/food/articles/budget_vegetarian_family_meal_plan_for_four</guid>!>!>!>
+            <pubDate>!>!>!>Wed, 19 Oct 2022 16:44:02 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Cost of Living: Your money-saving tips for Christmas]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[With vanishingly few paydays until Christmas, readers tell us how they're cutting down on festive spending.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-63442992?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-63442992</guid>!>!>!>
+            <pubDate>!>!>!>Tue, 01 Nov 2022 07:39:46 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Cost of living: Swansea estate cuts bills by generating energy]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[People on a Swansea estate are reducing bills by sharing solar panels and storing the power.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-wales-63300680?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-wales-63300680</guid>!>!>!>
+            <pubDate>!>!>!>Mon, 31 Oct 2022 14:34:47 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Why is there a global energy crisis and who might suffer most from it?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Russia's invasion of Ukraine has led to soaring energy prices, threatening supply to the world's poorest.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-63430824?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-63430824</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 30 Oct 2022 01:05:20 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[BBC Food's family £1 recipe meal plan]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[This budget-friendly meal plan covers a week's worth of dinners for four adults, coming in at under £28 in total.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/food/articles/budget_family_meal_plan_for_four#xtor=CS8-1000-%5BEditorialPromo_Box%5D-%5BNewsEditorial_Promo%5D-%5BNewsEditorial_Promo%5D-%5BPS_FOOD~N~~P_budget_meal_plannerFP%5D</link>!>!>!>
+            <guid isPermaLink="true">!>!>!>https://www.bbc.co.uk/food/articles/budget_family_meal_plan_for_four#xtor=CS8-1000-%5BEditorialPromo_Box%5D-%5BNewsEditorial_Promo%5D-%5BNewsEditorial_Promo%5D-%5BPS_FOOD~N~~P_budget_meal_plannerFP%5D</guid>!>!>!>
+            <pubDate>!>!>!>Tue, 18 Oct 2022 11:42:16 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Which countries are doing the most to tackle energy bills?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[European countries have taken different approaches to higher energy bills.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/61522123?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/61522123</guid>!>!>!>
+            <pubDate>!>!>!>Fri, 07 Oct 2022 14:11:45 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[BBC experts on six things you can do as cost of living rises]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[BBC correspondents share some things that could help you cope with rising prices.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/business-63284645?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/business-63284645</guid>!>!>!>
+            <pubDate>!>!>!>Tue, 18 Oct 2022 21:48:21 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Cost of living: How can I save money on my food shop?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[The cost-of-living crisis continues to bite. Here are some things that can reduce the impact.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-61798003?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-61798003</guid>!>!>!>
+            <pubDate>!>!>!>Tue, 05 Jul 2022 12:40:51 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Twitter users jump to Mastodon - but what is it?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[The little-known social network's user base has swelled after Elon Musk's takeover of Twitter.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/technology-63534240?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/technology-63534240</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 13:40:43 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[The Crown: Seven takeaways from the latest series of Netflix's royal drama]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Elizabeth Debicki is perfect as Diana, and John Major's portrayal is a revelation, says Katie Razzall.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/entertainment-arts-63512840?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/entertainment-arts-63512840</guid>!>!>!>
+            <pubDate>!>!>!>Sat, 05 Nov 2022 08:02:50 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Kuenssberg: Where does Sunak stand on climate change?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[There are signs tackling global warming has moved down the government's agenda, writes Laura Kuenssberg.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-politics-63526544?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-politics-63526544</guid>!>!>!>
+            <pubDate>!>!>!>Sat, 05 Nov 2022 17:01:28 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[The Art of the Terraces: How football fans led a fashion revolution]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[The style and fashion of football casuals is celebrated in a new exhibition in Liverpool.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/entertainment-arts-63498068?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/entertainment-arts-63498068</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 01:21:00 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[National Insurance: Will tax cut save me money?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[The government's reversal of the 1.25p increase in National Insurance has come into effect.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-politics-58436009?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-politics-58436009</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 01:21:52 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Why mourners are opting to scatter ashes by drone]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Former RAF pilot Christopher Mace says his time in the services inspired the idea.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/uk-england-derbyshire-63414672?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/uk-england-derbyshire-63414672</guid>!>!>!>
+            <pubDate>!>!>!>Sat, 05 Nov 2022 23:34:39 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Multiple Tornadoes hit southern US states]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[One dead and several injured as powerful storms hit Texas, Oklahoma and Arkansas]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-63530394?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-63530394</guid>!>!>!>
+            <pubDate>!>!>!>Sat, 05 Nov 2022 19:43:23 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Suryakumar Yadav's brilliant innings againmst Zimbabwe at T20 World Cup]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Suryakumar Yadav plays a series of 'outrageous' shots to score 61 from 25 balls and guide India to a total of 186-5 against Zimbabwe at eth T20 World Cup in Australia.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/sport/av/cricket/63533387?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/sport/av/cricket/63533387</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 10:10:20 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Duelling US presidents descend on key swing state Pennsylvania]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Two former presidents and the current one rally in Pennsylvania as the midterm elections near.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-63531155?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-63531155</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 08:58:15 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[US midterms: Why abortion matters in these crucial elections]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Inflation is voters' top issue, but Democrats hope anger over abortion bans will boost turnout.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-63434895?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-63434895</guid>!>!>!>
+            <pubDate>!>!>!>Sun, 06 Nov 2022 00:58:18 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[US midterm elections: Why are they so important?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Americans will be reshaping Congress but the impact of this vote will be far-reaching. Here's why.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-63139993?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-63139993</guid>!>!>!>
+            <pubDate>!>!>!>Mon, 31 Oct 2022 17:30:36 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[US midterm elections: The six races that could decide the US Senate]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[In a Senate split 50-50 between two parties, every race counts. Here are six to watch.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-63291205?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-63291205</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 18:53:39 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[US midterm elections: What has Joe Biden achieved so far and what awaits?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Voters are not picking a new president in this election, but the outcome will be a verdict on Joe Biden.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-63375316?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-63375316</guid>!>!>!>
+            <pubDate>!>!>!>Tue, 25 Oct 2022 09:43:13 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[What are the US midterms? A simple guide]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[The US holds midterm elections on 8 November, but who's in the running and what could the results mean?]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-61274333?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-61274333</guid>!>!>!>
+            <pubDate>!>!>!>Fri, 14 Oct 2022 10:42:05 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[US midterms: Pro- and anti-Trump Republicans' fates diverge in Colorado]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[An ultra pro-Trump congresswoman and an anti-Trump Senate candidate are both Republicans in the same state.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-63493606?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-63493606</guid>!>!>!>
+            <pubDate>!>!>!>Fri, 04 Nov 2022 23:47:23 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[US midterms: What does Trump want from the elections?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Many see the upcoming elections as a test of the former president's influence on the Republican Party.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-63476147?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-63476147</guid>!>!>!>
+            <pubDate>!>!>!>Fri, 04 Nov 2022 15:10:20 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[US crime: Is America seeing a surge in violence?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Law and order promises to be a key talking point in the US midterms. We look at the numbers.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/57581270?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/57581270</guid>!>!>!>
+            <pubDate>!>!>!>Mon, 24 Oct 2022 21:55:23 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[US midterm elections: A quick guide to what you need to know]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Get up to speed with everything you need to know this election season.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-62807061?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-62807061</guid>!>!>!>
+            <pubDate>!>!>!>Mon, 24 Oct 2022 10:57:45 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[US midterm elections: Why five states have slavery on the ballot in 2022]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[The 1865 US slavery ban doesn't cover everyone. Voters will decide whether to keep the exemptions.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-63338784?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-63338784</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 09:18:38 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[Midterms turnout: Could Australia-style voting help in US?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Turnout in US elections falls below other countries. We look 10,000 miles away for a possible solution.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-63470826?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-63470826</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 23:12:43 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[US midterms: How will new voting laws affect the election?]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[New voting rules have come in across the US ahead of midterm elections. What impact will they have?]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/60309566?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/60309566</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 17:14:35 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[She welcomes student loan relief. He says it's an insult]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[They owe thousands of dollars, but these two US voters view debt forgiveness very differently.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-63435168?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-63435168</guid>!>!>!>
+            <pubDate>!>!>!>Fri, 04 Nov 2022 00:14:47 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[US midterms: How Gen Z and Tik Tok could influence election]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Young voters turned out in big numbers in 2020. Will they show up again to impact the midterms?]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/world-us-canada-63435544?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/world-us-canada-63435544</guid>!>!>!>
+            <pubDate>!>!>!>Thu, 03 Nov 2022 00:32:51 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+        <item>!>!>!>
+            <title>!>!>!><![CDATA[US midterm elections: Abortion will decide how I vote - here's why]]>!>!>!></title>!>!>!>
+            <description>!>!>!><![CDATA[Paxton and Melanie have very different views on whether abortion should be banned or protected in the US.]]>!>!>!></description>!>!>!>
+            <link>!>!>!>https://www.bbc.co.uk/news/63435169?at_medium=RSS&amp;at_campaign=KARANGA</link>!>!>!>
+            <guid isPermaLink="false">!>!>!>https://www.bbc.co.uk/news/63435169</guid>!>!>!>
+            <pubDate>!>!>!>Tue, 01 Nov 2022 22:39:06 GMT</pubDate>!>!>!>
+        </item>!>!>!>
+    </channel>!>!>!>
+</rss>!>!>!>

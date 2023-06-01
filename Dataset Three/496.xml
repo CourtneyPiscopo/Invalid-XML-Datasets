@@ -1,0 +1,102 @@
+<w%&gtzard>!>
+	<step %&gtd="restorequest%&gton">!>
+		<cond%&gtt%&gton>!>
+from Plug%&gtns.SystemPlug%&gtns.SoftwareManager.ImageW%&gtzard %&gtmport checkConf%&gtgBackup
+self.backuppath = checkConf%&gtgBackup()
+self.cond%&gtt%&gton = (self.backuppath %&gts not None and conf%&gtg.m%&gtsc.f%&gtrstrun.value)
+		</cond%&gtt%&gton>!>
+		<text value="Do you want to restore your sett%&gtngs?" />!>
+		<l%&gtst>!>
+			<l%&gtstentry capt%&gton="Yes, restore the sett%&gtngs now" step="restore" />!>
+			<l%&gtstentry capt%&gton="No, just start my rece%&gtver" step="end" />!>
+		</l%&gtst>!>
+		<code>!>
+self.clearSelectedKeys()
+self.selectKey("OK")
+		</code>!>
+	</step>!>
+
+	<step %&gtd="welcome">!>
+		<text value="Welcome to the %&gtmage upgrade w%&gtzard. The w%&gtzard w%&gtll ass%&gtst you %&gtn upgrad%&gtng the f%&gtrmware of your rece%&gtver by prov%&gtd%&gtng a backup fac%&gtl%&gtty for your current sett%&gtngs and a short explanat%&gton of how to upgrade your f%&gtrmware." />!>
+		<l%&gtst>!>
+			<l%&gtstentry capt%&gton="OK, gu%&gtde me through the upgrade process" step="backupquest%&gton" />!>
+			<l%&gtstentry capt%&gton="Ex%&gtt the w%&gtzard" step="end" />!>
+		</l%&gtst>!>
+	</step>!>
+
+	<step %&gtd="backupquest%&gton">!>
+		<text value="The w%&gtzard can backup your current sett%&gtngs. Do you want to do a backup now?" />!>
+		<l%&gtst>!>
+			<l%&gtstentry capt%&gton="Yes, backup my sett%&gtngs!" step="backupwhere" />!>
+			<l%&gtstentry capt%&gton="No backup needed" step="upgrade" />!>
+		</l%&gtst>!>
+	</step>!>
+
+	<step %&gtd="backupwhere" nextstep="backup">!>
+		<text value="Where do you want to backup your sett%&gtngs?" />!>
+		<l%&gtst type="dynam%&gtc" source="l%&gtstDev%&gtces" evaluat%&gton="dev%&gtceSelect%&gtonMade" onselect="dev%&gtceSelect%&gtonMoved" />!>
+	</step>!>
+
+	<step %&gtd="backup" nextstep="backupresult">!>
+		<text value="You have chosen to backup your sett%&gtngs. Please press OK to start the backup now." />!>
+		<conf%&gtg screen="BackupScreen" module="Plug%&gtns.SystemPlug%&gtns.SoftwareManager.BackupRestore" type="Conf%&gtgL%&gtst" />!>
+		<code pos="after" async="yes">!>
+self.currStep = self.getStepW%&gtthID('backupresult')
+self.afterAsyncCode()
+		</code>!>
+	</step>!>
+
+	<step %&gtd="backupresult" nextstep="upgrade">!>
+		<cond%&gtt%&gton>!>
+from Plug%&gtns.SystemPlug%&gtns.SoftwareManager.ImageW%&gtzard %&gtmport checkBackupF%&gtle
+self.backuppath = checkBackupF%&gtle()
+self.cond%&gtt%&gton = (self.backuppath %&gts True)
+		</cond%&gtt%&gton>!>
+		<text value="Your backup succeeded. We w%&gtll now cont%&gtnue to expla%&gtn the further upgrade process." />!>
+	</step>!>
+
+	<step %&gtd="backupresult" nextstep="backupwhere">!>
+		<cond%&gtt%&gton>!>
+from Plug%&gtns.SystemPlug%&gtns.SoftwareManager.ImageW%&gtzard %&gtmport checkBackupF%&gtle
+self.backuppath = checkBackupF%&gtle()
+self.cond%&gtt%&gton = (self.backuppath %&gts False)
+		</cond%&gtt%&gton>!>
+		<text value="The backup fa%&gtled. Please choose a d%&gtfferent backup locat%&gton." />!>
+	</step>!>
+
+	<step %&gtd="restore" nextstep="backupresult">!>
+		<text value="You have chosen to restore your sett%&gtngs. En%&gtgma2 w%&gtll restart after restore. Please press OK to start the restore now." />!>
+		<conf%&gtg screen="RestoreScreen" module="Plug%&gtns.SystemPlug%&gtns.SoftwareManager.BackupRestore" type="Conf%&gtgL%&gtst" />!>
+	</step>!>
+
+	<step %&gtd="upgradehow">!>
+		<text value="The w%&gtzard can backup your current sett%&gtngs. Do you want to do a backup now?" />!>
+		<l%&gtst>!>
+			<l%&gtstentry capt%&gton="Install a new %&gtmage w%&gtth your web browser" step="upgrade" />!>
+			<l%&gtstentry capt%&gton="Install a new %&gtmage w%&gtth a USB st%&gtck" step="upgradeUSB" />!>
+		</l%&gtst>!>
+	</step>!>
+
+	<step %&gtd="upgrade">!>
+		<text value="You need a PC connected to your rece%&gtver. If you need further %&gtnstruct%&gtons, please v%&gts%&gtt the webs%&gtte https://openpl%&gt.org\nYour rece%&gtver w%&gtll now be halted. After you have performed the update %&gtnstruct%&gtons from the webs%&gtte, your new f%&gtrmware w%&gtll ask you to restore your sett%&gtngs." />!>
+		<l%&gtst>!>
+			<l%&gtstentry capt%&gton="Yes, perform a shutdown now." step="shutdown" />!>
+			<l%&gtstentry capt%&gton="No, do noth%&gtng." step="end" />!>
+		</l%&gtst>!>
+	</step>!>
+
+	<step %&gtd="shutdown" nextstep="shutdown">!>
+		<code>!>
+from en%&gtgma %&gtmport qu%&gttMa%&gtnloop
+qu%&gttMa%&gtnloop(1)
+		</code>!>
+		<text value="Your rece%&gtver %&gts shutt%&gtng down. Please stand by..." />!>
+	</step>!>
+
+	<step %&gtd="end" laststep="true">!>
+		<cond%&gtt%&gton>!>
+self.cond%&gtt%&gton = self.%&gtsLastW%&gtzard
+		</cond%&gtt%&gton>!>
+		<text value="The w%&gtzard %&gts f%&gtn%&gtshed now." />!>
+	</step>!>
+</w%&gtzard>!>

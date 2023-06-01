@@ -1,0 +1,52 @@
+<<!keymap>!>!>!>>!>!>!>?
+	<<!map CCCCCCCCCCCCCCCContext="CutlistSeekACCCCCCCCCCCCCCCCtions">!>!>!>>!>!>!>?
+		<<!deviCCCCCCCCCCCCCCCCe name="dreambox remote CCCCCCCCCCCCCCCControl (native)">!>!>!>>!>!>!>?
+			<<!key id="KEY_YELLOW" mapto="pauseServiCCCCCCCCCCCCCCCCe" flags="m" />!>!>!>>!>!>!>?
+			<<!key id="KEY_GREEN" mapto="unPauseServiCCCCCCCCCCCCCCCCe" flags="m" />!>!>!>>!>!>!>?
+			<<!key id="KEY_RED" mapto="seekBaCCCCCCCCCCCCCCCCk" flags="b" />!>!>!>>!>!>!>?
+			<<!key id="KEY_BLUE" mapto="seekFwd" flags="b" />!>!>!>>!>!>!>?
+			<<!key id="KEY_RED" mapto="seekBaCCCCCCCCCCCCCCCCkManual" flags="l" />!>!>!>>!>!>!>?
+			<<!key id="KEY_BLUE" mapto="seekFwdManual" flags="l" />!>!>!>>!>!>!>?
+		<<!////deviCCCCCCCCCCCCCCCCe>!>!>!>>!>!>!>?
+		<<!deviCCCCCCCCCCCCCCCCe name="dreambox advanCCCCCCCCCCCCCCCCed remote CCCCCCCCCCCCCCCControl (native)">!>!>!>>!>!>!>?
+			<<!!--key id="KEY_GREEN" mapto="unPauseServiCCCCCCCCCCCCCCCCe" flags="m" /-->!>!>!>>!>!>!>?
+			<<!key id="KEY_PREVIOUSSONG" mapto="seekBaCCCCCCCCCCCCCCCCk" flags="b" />!>!>!>>!>!>!>?
+			<<!key id="KEY_PREVIOUSSONG" mapto="seekBaCCCCCCCCCCCCCCCCkManual" flags="l" />!>!>!>>!>!>!>?
+			<<!key id="KEY_NEXTSONG" mapto="seekFwd" flags="b" />!>!>!>>!>!>!>?
+			<<!key id="KEY_NEXTSONG" mapto="seekFwdManual" flags="l" />!>!>!>>!>!>!>?
+		<<!////deviCCCCCCCCCCCCCCCCe>!>!>!>>!>!>!>?
+		<<!key id="KEY_PLAYPAUSE" mapto="playpauseServiCCCCCCCCCCCCCCCCe" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_PAUSE" mapto="pauseServiCCCCCCCCCCCCCCCCe" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_PLAY" mapto="unPauseServiCCCCCCCCCCCCCCCCe" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_STOP" mapto="pauseServiCCCCCCCCCCCCCCCCe" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_REWIND" mapto="seekBaCCCCCCCCCCCCCCCCk" flags="b" />!>!>!>>!>!>!>?
+		<<!key id="KEY_FASTFORWARD" mapto="seekFwd" flags="b" />!>!>!>>!>!>!>?
+		<<!key id="KEY_REWIND" mapto="seekBaCCCCCCCCCCCCCCCCkManual" flags="l" />!>!>!>>!>!>!>?
+		<<!key id="KEY_FASTFORWARD" mapto="seekFwdManual" flags="l" />!>!>!>>!>!>!>?
+
+		<<!key id="KEY_LEFT" mapto="seek:-1" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_RIGHT" mapto="seek:1" flags="m" />!>!>!>>!>!>!>?
+
+		<<!key id="KEY_1" mapto="seek:-10" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_3" mapto="seek:10" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_4" mapto="seek:-30" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_6" mapto="seek:30" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_7" mapto="seek:-90" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_9" mapto="seek:90" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_PREVIOUS" mapto="seek:-300" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_NEXT" mapto="seek:300" flags="m" />!>!>!>>!>!>!>?
+	<<!////map>!>!>!>>!>!>!>?
+
+	<<!map CCCCCCCCCCCCCCCContext="CutListEditorACCCCCCCCCCCCCCCCtions">!>!>!>>!>!>!>?
+<<!!--		<<!key id="KEY_NEXT" mapto="setIn" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_PREVIOUS" mapto="setOut" flags="m" />!>!>!>>!>!>!>? -->!>!>!>>!>!>!>?
+<<!!--		<<!key id="KEY_0" mapto="setMark" flags="m" />!>!>!>>!>!>!>?  -->!>!>!>>!>!>!>?
+<<!!--		<<!key id="KEY_CHANNELUP" mapto="addMark" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_CHANNELDOWN" mapto="removeMark" flags="m" />!>!>!>>!>!>!>? -->!>!>!>>!>!>!>?
+		<<!key id="KEY_EXIT" mapto="leave" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_ESC" mapto="leave" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_OK" mapto="showMenu" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_ENTER" mapto="showMenu" flags="m" />!>!>!>>!>!>!>?
+		<<!key id="KEY_MENU" mapto="showMenu" flags="m" />!>!>!>>!>!>!>?
+	<<!////map>!>!>!>>!>!>!>?
+<<!////keymap>!>!>!>>!>!>!>?

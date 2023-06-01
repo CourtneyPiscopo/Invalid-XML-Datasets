@@ -1,0 +1,446 @@
+<%<%!?xml vers%&gton="1.0" enCCCCCCCCCCCCCCCCod%&gtng="UTF-8"?>!>>!>?
+<%<%!?xml-stylesheet t%&gttle="XSL_formatt%&gtng" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>!>>!>?
+<%<%!rss xmlns:dCCCCCCCCCCCCCCCC="http://purl.org/dCCCCCCCCCCCCCCCC/elements/1.1/" xmlns:CCCCCCCCCCCCCCCContent="http://purl.org/rss/1.0/modules/CCCCCCCCCCCCCCCContent/" xmlns:atom="http://www.w3.org/2005/Atom" vers%&gton="2.0" xmlns:med%&gta="http://searCCCCCCCCCCCCCCCCh.yahoo.CCCCCCCCCCCCCCCCom/mrss/">!>>!>?
+    <%<%!CCCCCCCCCCCCCCCChannel>!>>!>?
+        <%<%!t%&gttle>!>>!>?<%<%!![CDATA[BBC News - Home]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+        <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[BBC News - Home]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+        <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/<%<%!////l%&gtnk>!>>!>?
+        <%<%!%&gtmage>!>>!>?
+            <%<%!url>!>>!>?https://news.bbCCCCCCCCCCCCCCCC%&gtmg.CCCCCCCCCCCCCCCCo.uk/nol/shared/%&gtmg/bbCCCCCCCCCCCCCCCC_news_120x60.g%&gtf<%<%!////url>!>>!>?
+            <%<%!t%&gttle>!>>!>?BBC News - Home<%<%!////t%&gttle>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/<%<%!////l%&gtnk>!>>!>?
+        <%<%!////%&gtmage>!>>!>?
+        <%<%!generator>!>>!>?RSS for Node<%<%!////generator>!>>!>?
+        <%<%!lastBu%&gtldDate>!>>!>?Sun, 06 Nov 2022 13:50:01 GMT<%<%!////lastBu%&gtldDate>!>>!>?
+        <%<%!CCCCCCCCCCCCCCCCopyr%&gtght>!>>!>?<%<%!![CDATA[Copyr%&gtght: (C) Br%&gtt%&gtsh BroadCCCCCCCCCCCCCCCCast%&gtng Corporat%&gton, see http://news.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/2/h%&gt/help/rss/4498287.stm for terms and CCCCCCCCCCCCCCCCond%&gtt%&gtons of reuse.]]>!>>!>?<%<%!////CCCCCCCCCCCCCCCCopyr%&gtght>!>>!>?
+        <%<%!language>!>>!>?<%<%!![CDATA[en-gb]]>!>>!>?<%<%!////language>!>>!>?
+        <%<%!ttl>!>>!>?15<%<%!////ttl>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[W%&gtll%&gtamson text messages were not aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeptable, says m%&gtn%&gtster]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[The PM was not aware of S%&gtr Gav%&gtn's messages before he promoted h%&gtm to CCCCCCCCCCCCCCCCab%&gtnet, Ol%&gtver Dowden says.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-pol%&gtt%&gtCCCCCCCCCCCCCCCCs-63530070?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-pol%&gtt%&gtCCCCCCCCCCCCCCCCs-63530070<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 12:06:18 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Nurses set to hold b%&gtggest-ever str%&gtke]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[The NHS %&gts braCCCCCCCCCCCCCCCCed for the walkout by Royal College of Nurs%&gtng members %&gtn a d%&gtspute over pay.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/health-63403850?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/health-63403850<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 10:12:37 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Tw%&gttter CCCCCCCCCCCCCCCConf%&gtrms fee for blue-t%&gtCCCCCCCCCCCCCCCCk ver%&gtf%&gtCCCCCCCCCCCCCCCCat%&gton after Musk takeover]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Controvers%&gtally Tw%&gttter says blue-t%&gtCCCCCCCCCCCCCCCCk status w%&gtll be open to those who pay a monthly $7.99.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/teCCCCCCCCCCCCCCCChnology-63530872?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/teCCCCCCCCCCCCCCCChnology-63530872<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 00:00:49 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Extra bank hol%&gtday approved to mark K%&gtng's CCCCCCCCCCCCCCCCoronat%&gton]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[The hol%&gtday w%&gtll fall on Monday, 8 May, two days after the CCCCCCCCCCCCCCCCoronat%&gton of K%&gtng Charles III.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-63528830?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-63528830<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 00:43:49 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[COP27: 'Cl%&gtmate CCCCCCCCCCCCCCCChaos' warn%&gtng as UN summ%&gtt beg%&gtns]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Egypt urges nat%&gtons to turn pledges %&gtnto aCCCCCCCCCCCCCCCCt%&gton as the UN CCCCCCCCCCCCCCCCl%&gtmate CCCCCCCCCCCCCCCConferenCCCCCCCCCCCCCCCCe opens.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/sCCCCCCCCCCCCCCCC%&gtenCCCCCCCCCCCCCCCCe-env%&gtronment-63517078?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/sCCCCCCCCCCCCCCCC%&gtenCCCCCCCCCCCCCCCCe-env%&gtronment-63517078<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 13:02:38 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[COP27: R%&gtsh%&gt Sunak urges world to move faster on renewable energy]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[R%&gtsh%&gt Sunak faCCCCCCCCCCCCCCCCes CCCCCCCCCCCCCCCCr%&gtt%&gtCCCCCCCCCCCCCCCC%&gtsm on CCCCCCCCCCCCCCCCl%&gtmate pol%&gtCCCCCCCCCCCCCCCCy as he travels to the COP27 summ%&gtt %&gtn Egypt on Sunday.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-63527460?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-63527460<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 10:47:40 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Tanzan%&gtan PreCCCCCCCCCCCCCCCC%&gts%&gton A%&gtr plane CCCCCCCCCCCCCCCCrashes %&gtnto Lake V%&gtCCCCCCCCCCCCCCCCtor%&gta]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[At least three people d%&gted after a plane CCCCCCCCCCCCCCCCrashed %&gtnto Afr%&gtCCCCCCCCCCCCCCCCa's largest lake, an off%&gtCCCCCCCCCCCCCCCC%&gtal says.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-afr%&gtCCCCCCCCCCCCCCCCa-63532896?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-afr%&gtCCCCCCCCCCCCCCCCa-63532896<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 12:56:34 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[F%&gtreworks thrown at CCCCCCCCCCCCCCCCrews taCCCCCCCCCCCCCCCCkl%&gtng bonf%&gtre blazes]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Crews were targeted and veh%&gtCCCCCCCCCCCCCCCCles were damaged on one of the bus%&gtest n%&gtghts for 999 CCCCCCCCCCCCCCCCrews.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-england-manCCCCCCCCCCCCCCCChester-63533659?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-england-manCCCCCCCCCCCCCCCChester-63533659<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 11:53:53 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[L%&gtberal DemoCCCCCCCCCCCCCCCCrats: G%&gtve struggl%&gtng homeowners £300 a month]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[People whose mortgage payments r%&gtse more than 10% of the%&gtr %&gtnCCCCCCCCCCCCCCCCome CCCCCCCCCCCCCCCCould get a grant, the party say.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-pol%&gtt%&gtCCCCCCCCCCCCCCCCs-63514047?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-pol%&gtt%&gtCCCCCCCCCCCCCCCCs-63514047<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 11:24:38 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[New York f%&gtre: Moment woman resCCCCCCCCCCCCCCCCued by f%&gtref%&gtghters w%&gtth a rope]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[A woman %&gts pulled from an apartment bloCCCCCCCCCCCCCCCCk %&gtn New York after a blaze left at least 38 people %&gtnjured.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63532906?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63532906<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 08:44:03 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Glastonbury Fest%&gtval t%&gtCCCCCCCCCCCCCCCCket sale h%&gtt by teCCCCCCCCCCCCCCCChn%&gtCCCCCCCCCCCCCCCCal %&gtssue]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Fest%&gtval organ%&gtsers apolog%&gtsed for the problem and announCCCCCCCCCCCCCCCCed a t%&gtCCCCCCCCCCCCCCCCket resale %&gtn spr%&gtng 2023.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-england-br%&gtstol-63533949?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-england-br%&gtstol-63533949<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 12:26:17 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Cost of l%&gtv%&gtng: Pub halves beer and CCCCCCCCCCCCCCCC%&gtder CCCCCCCCCCCCCCCCho%&gtCCCCCCCCCCCCCCCCe to surv%&gtve]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[A landlord %&gts p%&gtnn%&gtng energy b%&gtlls to walls to show regulars why the CCCCCCCCCCCCCCCCost of the%&gtr p%&gtnt has gone up.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-wales-63501972?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-wales-63501972<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 07:09:03 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Mortgage CCCCCCCCCCCCCCCCalCCCCCCCCCCCCCCCCulator: How muCCCCCCCCCCCCCCCCh more CCCCCCCCCCCCCCCCould you pay?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Use our CCCCCCCCCCCCCCCCalCCCCCCCCCCCCCCCCulator to f%&gtnd out how muCCCCCCCCCCCCCCCCh mortgage payments CCCCCCCCCCCCCCCCould go up for your household.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-63474582?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-63474582<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 10:47:39 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[What %&gts a reCCCCCCCCCCCCCCCCess%&gton and how CCCCCCCCCCCCCCCCould %&gtt affeCCCCCCCCCCCCCCCCt me?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[The UK CCCCCCCCCCCCCCCCould be set for %&gtts longest reCCCCCCCCCCCCCCCCess%&gton s%&gtnCCCCCCCCCCCCCCCCe reCCCCCCCCCCCCCCCCords began, the Bank of England has warned.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-52986863?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-52986863<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 12:50:28 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Cost of l%&gtv%&gtng has made my un%&gtvers%&gtty flat host%&gtle]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Welsh students say r%&gts%&gtng b%&gtlls and %&gtnflat%&gton %&gts lead%&gtng to awkward CCCCCCCCCCCCCCCConversat%&gtons w%&gtth housemates.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-wales-63305843?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-wales-63305843<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sat, 05 Nov 2022 15:14:26 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[House pr%&gtCCCCCCCCCCCCCCCCes: What happens when they fall?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[How CCCCCCCCCCCCCCCCould r%&gts%&gtng %&gtnterest rates affeCCCCCCCCCCCCCCCCt the hous%&gtng market around the UK?]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/expla%&gtners-63147101?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/expla%&gtners-63147101<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 12:07:34 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Cost of l%&gtv%&gtng: Can Chr%&gtstmas l%&gtghts d%&gtsplays surv%&gtve the energy CCCCCCCCCCCCCCCCr%&gts%&gts?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[W%&gtth the energy pr%&gtCCCCCCCCCCCCCCCCe CCCCCCCCCCCCCCCCap at an all-t%&gtme h%&gtgh, CCCCCCCCCCCCCCCCan householders keep the%&gtr speCCCCCCCCCCCCCCCCtaCCCCCCCCCCCCCCCCular d%&gtsplays sw%&gttCCCCCCCCCCCCCCCChed on?]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-england-derbysh%&gtre-63499154?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-england-derbysh%&gtre-63499154<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sat, 05 Nov 2022 00:43:58 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Mortgages: What happens %&gtf I m%&gtss a payment?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Homeowners are worr%&gted about r%&gts%&gtng mortgage CCCCCCCCCCCCCCCCosts - but lenders must help those struggl%&gtng.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-63486782?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-63486782<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Fr%&gt, 04 Nov 2022 00:02:23 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[How to CCCCCCCCCCCCCCCCut your energy b%&gtlls]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Energy b%&gtlls have gone up, but there are some easy ways households CCCCCCCCCCCCCCCCan reduCCCCCCCCCCCCCCCCe CCCCCCCCCCCCCCCCosts.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-62738249?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-62738249<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 20 OCCCCCCCCCCCCCCCCt 2022 11:48:32 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Cost of l%&gtv%&gtng: 'My CCCCCCCCCCCCCCCCh%&gtldren have no %&gtdea we're here to keep warm']]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[L%&gtbrar%&gtes are prov%&gtd%&gtng support and warmth as people struggle w%&gtth the CCCCCCCCCCCCCCCCost-of-l%&gtv%&gtng CCCCCCCCCCCCCCCCr%&gts%&gts.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-england-essex-63499571?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-england-essex-63499571<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Fr%&gt, 04 Nov 2022 06:11:35 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Cost of l%&gtv%&gtng: SeCCCCCCCCCCCCCCCCond-hand shopp%&gtng %&gtn vogue as pr%&gtCCCCCCCCCCCCCCCCes r%&gtse]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Att%&gttudes towards pre-owned goods are CCCCCCCCCCCCCCCChang%&gtng and susta%&gtnab%&gtl%&gtty advoCCCCCCCCCCCCCCCCates welCCCCCCCCCCCCCCCCome the sh%&gtft.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-wales-63500003?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-wales-63500003<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Fr%&gt, 04 Nov 2022 06:29:49 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[What %&gts the UK %&gtnflat%&gton rate and why %&gts the CCCCCCCCCCCCCCCCost of l%&gtv%&gtng r%&gts%&gtng?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[The CCCCCCCCCCCCCCCCost of l%&gtv%&gtng %&gts %&gtnCCCCCCCCCCCCCCCCreas%&gtng at %&gtts fastest rate %&gtn 40 years, due to r%&gts%&gtng food and energy pr%&gtCCCCCCCCCCCCCCCCes.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-12196322?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-12196322<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 13:11:52 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Is %&gtt r%&gtght to ra%&gtse %&gtnterest rates %&gtn a reCCCCCCCCCCCCCCCCess%&gton?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[An eCCCCCCCCCCCCCCCConom%&gtCCCCCCCCCCCCCCCC downturn would usually mean an eas%&gtng of rates, but there's %&gtnflat%&gton to taCCCCCCCCCCCCCCCCkle too.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-63498306?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-63498306<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 17:57:19 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[UK %&gtnterest rates: How w%&gtll the r%&gtse affeCCCCCCCCCCCCCCCCt you and how h%&gtgh CCCCCCCCCCCCCCCCould %&gtt go?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Interest rates have seen the%&gtr b%&gtggest jump for deCCCCCCCCCCCCCCCCades, so how CCCCCCCCCCCCCCCCould th%&gts affeCCCCCCCCCCCCCCCCt you?]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-57764601?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-57764601<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 12:15:47 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA['We've taken teabags and meat out of our hampers']]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[As food pr%&gtCCCCCCCCCCCCCCCCe %&gtnflat%&gton soars, front-l%&gtne CCCCCCCCCCCCCCCChar%&gtt%&gtes say they may have to CCCCCCCCCCCCCCCCut down on v%&gttal serv%&gtCCCCCCCCCCCCCCCCes.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-63491029?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-63491029<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 01:25:21 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[What are %&gtnterest rates? A qu%&gtCCCCCCCCCCCCCCCCk gu%&gtde]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Why %&gtnterest rates are so %&gtmportant - espeCCCCCCCCCCCCCCCC%&gtally when they CCCCCCCCCCCCCCCChange.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-63460591?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-63460591<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 11:30:26 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Cost of l%&gtv%&gtng: The homebuyers anx%&gtous about the%&gtr mortgages]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Three people from Derby tell BBC News how they w%&gtll be affeCCCCCCCCCCCCCCCCted by the Bank of England base rate h%&gtke.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-england-derbysh%&gtre-63470931?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-england-derbysh%&gtre-63470931<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 01:17:54 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Why does the Bank of England CCCCCCCCCCCCCCCChange %&gtnterest rates?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[The Bank of England %&gts %&gtnCCCCCCCCCCCCCCCCreas%&gtng %&gtts key %&gtnterest rate to help CCCCCCCCCCCCCCCCurb %&gtnflat%&gton.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-50837114?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-50837114<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 12:02:00 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Nat%&gtonal L%&gtv%&gtng Wage: The truth about food CCCCCCCCCCCCCCCCour%&gter pay]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[A new BBC doCCCCCCCCCCCCCCCCumentary looks %&gtnto what %&gtt takes for food CCCCCCCCCCCCCCCCour%&gters to make money dur%&gtng an even%&gtng sh%&gtft.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-england-63391400?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-england-63391400<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Fr%&gt, 28 OCCCCCCCCCCCCCCCCt 2022 05:25:40 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[BBC Food's vegetar%&gtan fam%&gtly £1 reCCCCCCCCCCCCCCCC%&gtpe meal plan]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Th%&gts budget-fr%&gtendly vegg%&gte meal plan CCCCCCCCCCCCCCCCovers a week's worth of d%&gtnners for four adults, CCCCCCCCCCCCCCCCom%&gtng %&gtn at under £28 %&gtn total.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/food/art%&gtCCCCCCCCCCCCCCCCles/budget_vegetar%&gtan_fam%&gtly_meal_plan_for_four?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/food/art%&gtCCCCCCCCCCCCCCCCles/budget_vegetar%&gtan_fam%&gtly_meal_plan_for_four<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Wed, 19 OCCCCCCCCCCCCCCCCt 2022 16:44:02 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Cost of L%&gtv%&gtng: Your money-sav%&gtng t%&gtps for Chr%&gtstmas]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[W%&gtth van%&gtsh%&gtngly few paydays unt%&gtl Chr%&gtstmas, readers tell us how they're CCCCCCCCCCCCCCCCutt%&gtng down on fest%&gtve spend%&gtng.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-63442992?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-63442992<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Tue, 01 Nov 2022 07:39:46 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Cost of l%&gtv%&gtng: Swansea estate CCCCCCCCCCCCCCCCuts b%&gtlls by generat%&gtng energy]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[People on a Swansea estate are reduCCCCCCCCCCCCCCCC%&gtng b%&gtlls by shar%&gtng solar panels and stor%&gtng the power.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-wales-63300680?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-wales-63300680<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Mon, 31 OCCCCCCCCCCCCCCCCt 2022 14:34:47 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Why %&gts there a global energy CCCCCCCCCCCCCCCCr%&gts%&gts and who m%&gtght suffer most from %&gtt?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Russ%&gta's %&gtnvas%&gton of Ukra%&gtne has led to soar%&gtng energy pr%&gtCCCCCCCCCCCCCCCCes, threaten%&gtng supply to the world's poorest.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-63430824?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-63430824<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 30 OCCCCCCCCCCCCCCCCt 2022 01:05:20 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[BBC Food's fam%&gtly £1 reCCCCCCCCCCCCCCCC%&gtpe meal plan]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Th%&gts budget-fr%&gtendly meal plan CCCCCCCCCCCCCCCCovers a week's worth of d%&gtnners for four adults, CCCCCCCCCCCCCCCCom%&gtng %&gtn at under £28 %&gtn total.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/food/art%&gtCCCCCCCCCCCCCCCCles/budget_fam%&gtly_meal_plan_for_four#xtor=CS8-1000-%5BEd%&gttor%&gtalPromo_Box%5D-%5BNewsEd%&gttor%&gtal_Promo%5D-%5BNewsEd%&gttor%&gtal_Promo%5D-%5BPS_FOOD~N~~P_budget_meal_plannerFP%5D<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="true">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/food/art%&gtCCCCCCCCCCCCCCCCles/budget_fam%&gtly_meal_plan_for_four#xtor=CS8-1000-%5BEd%&gttor%&gtalPromo_Box%5D-%5BNewsEd%&gttor%&gtal_Promo%5D-%5BNewsEd%&gttor%&gtal_Promo%5D-%5BPS_FOOD~N~~P_budget_meal_plannerFP%5D<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Tue, 18 OCCCCCCCCCCCCCCCCt 2022 11:42:16 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Wh%&gtCCCCCCCCCCCCCCCCh CCCCCCCCCCCCCCCCountr%&gtes are do%&gtng the most to taCCCCCCCCCCCCCCCCkle energy b%&gtlls?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[European CCCCCCCCCCCCCCCCountr%&gtes have taken d%&gtfferent approaCCCCCCCCCCCCCCCChes to h%&gtgher energy b%&gtlls.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/61522123?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/61522123<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Fr%&gt, 07 OCCCCCCCCCCCCCCCCt 2022 14:11:45 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[BBC experts on s%&gtx th%&gtngs you CCCCCCCCCCCCCCCCan do as CCCCCCCCCCCCCCCCost of l%&gtv%&gtng r%&gtses]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[BBC CCCCCCCCCCCCCCCCorrespondents share some th%&gtngs that CCCCCCCCCCCCCCCCould help you CCCCCCCCCCCCCCCCope w%&gtth r%&gts%&gtng pr%&gtCCCCCCCCCCCCCCCCes.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-63284645?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/bus%&gtness-63284645<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Tue, 18 OCCCCCCCCCCCCCCCCt 2022 21:48:21 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Cost of l%&gtv%&gtng: How CCCCCCCCCCCCCCCCan I save money on my food shop?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[The CCCCCCCCCCCCCCCCost-of-l%&gtv%&gtng CCCCCCCCCCCCCCCCr%&gts%&gts CCCCCCCCCCCCCCCCont%&gtnues to b%&gtte. Here are some th%&gtngs that CCCCCCCCCCCCCCCCan reduCCCCCCCCCCCCCCCCe the %&gtmpaCCCCCCCCCCCCCCCCt.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-61798003?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-61798003<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Tue, 05 Jul 2022 12:40:51 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Tw%&gttter users jump to Mastodon - but what %&gts %&gtt?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[The l%&gtttle-known soCCCCCCCCCCCCCCCC%&gtal network's user base has swelled after Elon Musk's takeover of Tw%&gttter.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/teCCCCCCCCCCCCCCCChnology-63534240?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/teCCCCCCCCCCCCCCCChnology-63534240<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 13:40:43 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[The Crown: Seven takeaways from the latest ser%&gtes of Netfl%&gtx's royal drama]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[El%&gtzabeth Deb%&gtCCCCCCCCCCCCCCCCk%&gt %&gts perfeCCCCCCCCCCCCCCCCt as D%&gtana, and John Major's portrayal %&gts a revelat%&gton, says Kat%&gte Razzall.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/enterta%&gtnment-arts-63512840?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/enterta%&gtnment-arts-63512840<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sat, 05 Nov 2022 08:02:50 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Kuenssberg: Where does Sunak stand on CCCCCCCCCCCCCCCCl%&gtmate CCCCCCCCCCCCCCCChange?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[There are s%&gtgns taCCCCCCCCCCCCCCCCkl%&gtng global warm%&gtng has moved down the government's agenda, wr%&gttes Laura Kuenssberg.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-pol%&gtt%&gtCCCCCCCCCCCCCCCCs-63526544?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-pol%&gtt%&gtCCCCCCCCCCCCCCCCs-63526544<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sat, 05 Nov 2022 17:01:28 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[The Art of the TerraCCCCCCCCCCCCCCCCes: How football fans led a fash%&gton revolut%&gton]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[The style and fash%&gton of football CCCCCCCCCCCCCCCCasuals %&gts CCCCCCCCCCCCCCCCelebrated %&gtn a new exh%&gtb%&gtt%&gton %&gtn L%&gtverpool.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/enterta%&gtnment-arts-63498068?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/enterta%&gtnment-arts-63498068<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 01:21:00 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Nat%&gtonal InsuranCCCCCCCCCCCCCCCCe: W%&gtll tax CCCCCCCCCCCCCCCCut save me money?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[The government's reversal of the 1.25p %&gtnCCCCCCCCCCCCCCCCrease %&gtn Nat%&gtonal InsuranCCCCCCCCCCCCCCCCe has CCCCCCCCCCCCCCCCome %&gtnto effeCCCCCCCCCCCCCCCCt.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-pol%&gtt%&gtCCCCCCCCCCCCCCCCs-58436009?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-pol%&gtt%&gtCCCCCCCCCCCCCCCCs-58436009<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 01:21:52 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Why mourners are opt%&gtng to sCCCCCCCCCCCCCCCCatter ashes by drone]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Former RAF p%&gtlot Chr%&gtstopher MaCCCCCCCCCCCCCCCCe says h%&gts t%&gtme %&gtn the serv%&gtCCCCCCCCCCCCCCCCes %&gtnsp%&gtred the %&gtdea.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-england-derbysh%&gtre-63414672?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/uk-england-derbysh%&gtre-63414672<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sat, 05 Nov 2022 23:34:39 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Mult%&gtple Tornadoes h%&gtt southern US states]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[One dead and several %&gtnjured as powerful storms h%&gtt Texas, Oklahoma and Arkansas]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63530394?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63530394<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sat, 05 Nov 2022 19:43:23 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Suryakumar Yadav's br%&gtll%&gtant %&gtnn%&gtngs aga%&gtnmst Z%&gtmbabwe at T20 World Cup]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Suryakumar Yadav plays a ser%&gtes of 'outrageous' shots to sCCCCCCCCCCCCCCCCore 61 from 25 balls and gu%&gtde Ind%&gta to a total of 186-5 aga%&gtnst Z%&gtmbabwe at eth T20 World Cup %&gtn Austral%&gta.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/sport/av/CCCCCCCCCCCCCCCCr%&gtCCCCCCCCCCCCCCCCket/63533387?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/sport/av/CCCCCCCCCCCCCCCCr%&gtCCCCCCCCCCCCCCCCket/63533387<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 10:10:20 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[Duell%&gtng US pres%&gtdents desCCCCCCCCCCCCCCCCend on key sw%&gtng state Pennsylvan%&gta]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Two former pres%&gtdents and the CCCCCCCCCCCCCCCCurrent one rally %&gtn Pennsylvan%&gta as the m%&gtdterm eleCCCCCCCCCCCCCCCCt%&gtons near.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63531155?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63531155<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 08:58:15 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[US m%&gtdterms: Why abort%&gton matters %&gtn these CCCCCCCCCCCCCCCCruCCCCCCCCCCCCCCCC%&gtal eleCCCCCCCCCCCCCCCCt%&gtons]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Inflat%&gton %&gts voters' top %&gtssue, but DemoCCCCCCCCCCCCCCCCrats hope anger over abort%&gton bans w%&gtll boost turnout.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63434895?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63434895<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Sun, 06 Nov 2022 00:58:18 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[US m%&gtdterm eleCCCCCCCCCCCCCCCCt%&gtons: Why are they so %&gtmportant?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Amer%&gtCCCCCCCCCCCCCCCCans w%&gtll be reshap%&gtng Congress but the %&gtmpaCCCCCCCCCCCCCCCCt of th%&gts vote w%&gtll be far-reaCCCCCCCCCCCCCCCCh%&gtng. Here's why.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63139993?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63139993<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Mon, 31 OCCCCCCCCCCCCCCCCt 2022 17:30:36 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[US m%&gtdterm eleCCCCCCCCCCCCCCCCt%&gtons: The s%&gtx raCCCCCCCCCCCCCCCCes that CCCCCCCCCCCCCCCCould deCCCCCCCCCCCCCCCC%&gtde the US Senate]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[In a Senate spl%&gtt 50-50 between two part%&gtes, every raCCCCCCCCCCCCCCCCe CCCCCCCCCCCCCCCCounts. Here are s%&gtx to watCCCCCCCCCCCCCCCCh.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63291205?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63291205<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 18:53:39 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[US m%&gtdterm eleCCCCCCCCCCCCCCCCt%&gtons: What has Joe B%&gtden aCCCCCCCCCCCCCCCCh%&gteved so far and what awa%&gtts?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Voters are not p%&gtCCCCCCCCCCCCCCCCk%&gtng a new pres%&gtdent %&gtn th%&gts eleCCCCCCCCCCCCCCCCt%&gton, but the outCCCCCCCCCCCCCCCCome w%&gtll be a verd%&gtCCCCCCCCCCCCCCCCt on Joe B%&gtden.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63375316?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63375316<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Tue, 25 OCCCCCCCCCCCCCCCCt 2022 09:43:13 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[What are the US m%&gtdterms? A s%&gtmple gu%&gtde]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[The US holds m%&gtdterm eleCCCCCCCCCCCCCCCCt%&gtons on 8 November, but who's %&gtn the runn%&gtng and what CCCCCCCCCCCCCCCCould the results mean?]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-61274333?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-61274333<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Fr%&gt, 14 OCCCCCCCCCCCCCCCCt 2022 10:42:05 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[US m%&gtdterms: Pro- and ant%&gt-Trump Republ%&gtCCCCCCCCCCCCCCCCans' fates d%&gtverge %&gtn Colorado]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[An ultra pro-Trump CCCCCCCCCCCCCCCCongresswoman and an ant%&gt-Trump Senate CCCCCCCCCCCCCCCCand%&gtdate are both Republ%&gtCCCCCCCCCCCCCCCCans %&gtn the same state.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63493606?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63493606<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Fr%&gt, 04 Nov 2022 23:47:23 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[US m%&gtdterms: What does Trump want from the eleCCCCCCCCCCCCCCCCt%&gtons?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Many see the upCCCCCCCCCCCCCCCCom%&gtng eleCCCCCCCCCCCCCCCCt%&gtons as a test of the former pres%&gtdent's %&gtnfluenCCCCCCCCCCCCCCCCe on the Republ%&gtCCCCCCCCCCCCCCCCan Party.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63476147?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63476147<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Fr%&gt, 04 Nov 2022 15:10:20 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[US CCCCCCCCCCCCCCCCr%&gtme: Is Amer%&gtCCCCCCCCCCCCCCCCa see%&gtng a surge %&gtn v%&gtolenCCCCCCCCCCCCCCCCe?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Law and order prom%&gtses to be a key talk%&gtng po%&gtnt %&gtn the US m%&gtdterms. We look at the numbers.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/57581270?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/57581270<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Mon, 24 OCCCCCCCCCCCCCCCCt 2022 21:55:23 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[US m%&gtdterm eleCCCCCCCCCCCCCCCCt%&gtons: A qu%&gtCCCCCCCCCCCCCCCCk gu%&gtde to what you need to know]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Get up to speed w%&gtth everyth%&gtng you need to know th%&gts eleCCCCCCCCCCCCCCCCt%&gton season.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-62807061?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-62807061<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Mon, 24 OCCCCCCCCCCCCCCCCt 2022 10:57:45 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[US m%&gtdterm eleCCCCCCCCCCCCCCCCt%&gtons: Why f%&gtve states have slavery on the ballot %&gtn 2022]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[The 1865 US slavery ban doesn't CCCCCCCCCCCCCCCCover everyone. Voters w%&gtll deCCCCCCCCCCCCCCCC%&gtde whether to keep the exempt%&gtons.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63338784?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63338784<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 09:18:38 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[M%&gtdterms turnout: Could Austral%&gta-style vot%&gtng help %&gtn US?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Turnout %&gtn US eleCCCCCCCCCCCCCCCCt%&gtons falls below other CCCCCCCCCCCCCCCCountr%&gtes. We look 10,000 m%&gtles away for a poss%&gtble solut%&gton.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63470826?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63470826<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 23:12:43 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[US m%&gtdterms: How w%&gtll new vot%&gtng laws affeCCCCCCCCCCCCCCCCt the eleCCCCCCCCCCCCCCCCt%&gton?]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[New vot%&gtng rules have CCCCCCCCCCCCCCCCome %&gtn aCCCCCCCCCCCCCCCCross the US ahead of m%&gtdterm eleCCCCCCCCCCCCCCCCt%&gtons. What %&gtmpaCCCCCCCCCCCCCCCCt w%&gtll they have?]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/60309566?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/60309566<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 17:14:35 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[She welCCCCCCCCCCCCCCCComes student loan rel%&gtef. He says %&gtt's an %&gtnsult]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[They owe thousands of dollars, but these two US voters v%&gtew debt forg%&gtveness very d%&gtfferently.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63435168?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63435168<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Fr%&gt, 04 Nov 2022 00:14:47 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[US m%&gtdterms: How Gen Z and T%&gtk Tok CCCCCCCCCCCCCCCCould %&gtnfluenCCCCCCCCCCCCCCCCe eleCCCCCCCCCCCCCCCCt%&gton]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Young voters turned out %&gtn b%&gtg numbers %&gtn 2020. W%&gtll they show up aga%&gtn to %&gtmpaCCCCCCCCCCCCCCCCt the m%&gtdterms?]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63435544?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/world-us-CCCCCCCCCCCCCCCCanada-63435544<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Thu, 03 Nov 2022 00:32:51 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+        <%<%!%&gttem>!>>!>?
+            <%<%!t%&gttle>!>>!>?<%<%!![CDATA[US m%&gtdterm eleCCCCCCCCCCCCCCCCt%&gtons: Abort%&gton w%&gtll deCCCCCCCCCCCCCCCC%&gtde how I vote - here's why]]>!>>!>?<%<%!////t%&gttle>!>>!>?
+            <%<%!desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?<%<%!![CDATA[Paxton and Melan%&gte have very d%&gtfferent v%&gtews on whether abort%&gton should be banned or proteCCCCCCCCCCCCCCCCted %&gtn the US.]]>!>>!>?<%<%!////desCCCCCCCCCCCCCCCCr%&gtpt%&gton>!>>!>?
+            <%<%!l%&gtnk>!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/63435169?at_med%&gtum=RSS&amp;at_CCCCCCCCCCCCCCCCampa%&gtgn=KARANGA<%<%!////l%&gtnk>!>>!>?
+            <%<%!gu%&gtd %&gtsPermaL%&gtnk="false">!>>!>?https://www.bbCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCo.uk/news/63435169<%<%!////gu%&gtd>!>>!>?
+            <%<%!pubDate>!>>!>?Tue, 01 Nov 2022 22:39:06 GMT<%<%!////pubDate>!>>!>?
+        <%<%!////%&gttem>!>>!>?
+    <%<%!////CCCCCCCCCCCCCCCChannel>!>>!>?
+<%<%!////rss>!>>!>?

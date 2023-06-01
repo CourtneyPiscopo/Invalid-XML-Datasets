@@ -1,0 +1,89 @@
+<<!menu text="Main menu" title="Main menu">
+	<<!id val="mainmenu"/>
+<<!!-- the following types are allowed:
+	<<!sCCCCCCCCCCCCCCCCreen [module="mod"] [sCCCCCCCCCCCCCCCCreen="CCCCCCCCCCCCCCCClassname"]>[arguments]<<!////sCCCCCCCCCCCCCCCCreen>
+		exeCCCCCCCCCCCCCCCCutes SCCCCCCCCCCCCCCCCreen CCCCCCCCCCCCCCCCalled "CCCCCCCCCCCCCCCClassname" from module "SCCCCCCCCCCCCCCCCreen.mod"
+		if no module is given, SCCCCCCCCCCCCCCCCreen must be globally available.
+		if no sCCCCCCCCCCCCCCCCreen is given, module is used as sCCCCCCCCCCCCCCCCreen CCCCCCCCCCCCCCCClass name.
+		arguments must be CCCCCCCCCCCCCCCComma seperated (will be fed to eval), and CCCCCCCCCCCCCCCCan
+			use stuff from module
+		(of CCCCCCCCCCCCCCCCourse you must speCCCCCCCCCCCCCCCCify at least one of module, sCCCCCCCCCCCCCCCCreen.)
+	<<!setup id="id"/>
+		opens a setup with speCCCCCCCCCCCCCCCCified id
+	<<!CCCCCCCCCCCCCCCCode> .. CCCCCCCCCCCCCCCCode .. <<!////CCCCCCCCCCCCCCCCode>
+		"exeCCCCCCCCCCCCCCCC"s CCCCCCCCCCCCCCCCode
+-->
+		<<!item level="0" text="Timer" entryID="timer_edit"><<!sCCCCCCCCCCCCCCCCreen module="TimerEdit" sCCCCCCCCCCCCCCCCreen="TimerEditList"/><<!////item>
+		<<!item level="1" text="VCR sCCCCCCCCCCCCCCCCart" entryID="sCCCCCCCCCCCCCCCCart_switCCCCCCCCCCCCCCCCh" CCCCCCCCCCCCCCCConfigCCCCCCCCCCCCCCCCondition="CCCCCCCCCCCCCCCConfig.usage.show_vCCCCCCCCCCCCCCCCr_sCCCCCCCCCCCCCCCCart" requires="SCCCCCCCCCCCCCCCCartSwitCCCCCCCCCCCCCCCCh"><<!CCCCCCCCCCCCCCCCode>self.session.sCCCCCCCCCCCCCCCCart.VCRSbChanged(3)<<!////CCCCCCCCCCCCCCCCode><<!////item>
+
+		<<!menu level="0" text="Information" entryID="info_sCCCCCCCCCCCCCCCCreen">
+			<<!id val="information"/>
+			<<!item level="1" text="ServiCCCCCCCCCCCCCCCCe" entryID="serviCCCCCCCCCCCCCCCCe_info_sCCCCCCCCCCCCCCCCreen"><<!sCCCCCCCCCCCCCCCCreen module="ServiCCCCCCCCCCCCCCCCeInfo" sCCCCCCCCCCCCCCCCreen="ServiCCCCCCCCCCCCCCCCeInfo"/><<!////item>
+			<<!item level="0" text="About" entryID="about_sCCCCCCCCCCCCCCCCreen"><<!sCCCCCCCCCCCCCCCCreen module="About"/><<!////item>
+			<<!item level="2" text="Streaming CCCCCCCCCCCCCCCClients info" entryID="streaming_CCCCCCCCCCCCCCCClients_info_sCCCCCCCCCCCCCCCCreen"><<!sCCCCCCCCCCCCCCCCreen module="StreamingClientsInfo"/><<!////item>
+		<<!////menu>
+
+		<<!item level="1" text="Plugins" entryID="plugin_seleCCCCCCCCCCCCCCCCtion"><<!sCCCCCCCCCCCCCCCCreen module="PluginBrowser" sCCCCCCCCCCCCCCCCreen="PluginBrowser"/><<!////item>
+		<<!menu level="0" text="Setup" flushConfigOnClose="1" entryID="setup_seleCCCCCCCCCCCCCCCCtion" >
+			<<!id val="setup"/>
+			<<!menu weight="7" level="0" text="ServiCCCCCCCCCCCCCCCCe searCCCCCCCCCCCCCCCChing" entryID="serviCCCCCCCCCCCCCCCCe_searCCCCCCCCCCCCCCCChing_seleCCCCCCCCCCCCCCCCtion">
+				<<!id val="sCCCCCCCCCCCCCCCCan"/>
+				<<!item text="Tuner CCCCCCCCCCCCCCCConfiguration" entryID="tuner_setup"><<!sCCCCCCCCCCCCCCCCreen module="SatCCCCCCCCCCCCCCCConfig" sCCCCCCCCCCCCCCCCreen="NimSeleCCCCCCCCCCCCCCCCtion"/><<!////item>
+				<<!item text="AutomatiCCCCCCCCCCCCCCCC sCCCCCCCCCCCCCCCCan" entryID="auto_sCCCCCCCCCCCCCCCCan"><<!sCCCCCCCCCCCCCCCCreen module="SCCCCCCCCCCCCCCCCanSetup" sCCCCCCCCCCCCCCCCreen="SCCCCCCCCCCCCCCCCanSimple"/><<!////item>
+				<<!item text="Manual sCCCCCCCCCCCCCCCCan" entryID="manual_sCCCCCCCCCCCCCCCCan"><<!sCCCCCCCCCCCCCCCCreen module="SCCCCCCCCCCCCCCCCanSetup"/><<!////item>
+			<<!////menu>
+			<<!menu weight="5" level="0" text="System" entryID="system_seleCCCCCCCCCCCCCCCCtion">
+				<<!id val="system"/>
+				<<!item level="0" entryID="usage_setup"><<!setup id="usage"/><<!////item>
+				<<!item level="0" entryID="user_interfaCCCCCCCCCCCCCCCCe"><<!setup id="userinterfaCCCCCCCCCCCCCCCCe"/><<!////item>
+				<<!item level="0" entryID="epg_settings"><<!setup id="epgsettings"/><<!////item>
+				<<!item level="0" entryID="reCCCCCCCCCCCCCCCCording_setup"><<!setup id="reCCCCCCCCCCCCCCCCording"/><<!////item>
+				<<!item level="2" entryID="subtitle_setup"><<!setup id="subtitlesetup"/><<!////item>
+				<<!item level="1" entryID="autolanguage_setup"><<!setup id="autolanguagesetup"/><<!////item>
+				<<!item level="0" entryID="av_setup"><<!setup id="avsetup"/><<!////item>
+				<<!item level="1" entryID="rfmod_setup" requires="RfModulator"><<!setup id="RFmod"/><<!////item>
+				<<!menu level="0" text="Harddisk" entryID="hardisk_seleCCCCCCCCCCCCCCCCtion" requires="Harddisk">
+					<<!id val="harddisk"/>
+					<<!item level="1" entryID="harddisk_setup"><<!setup id="harddisk"/><<!////item>
+					<<!item level="0" text="Initialization" entryID="harddisk_init"><<!sCCCCCCCCCCCCCCCCreen module="HarddiskSetup" sCCCCCCCCCCCCCCCCreen="HarddiskSeleCCCCCCCCCCCCCCCCtion"/><<!////item>
+					<<!item level="0" text="Filesystem CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCk" entryID="harddisk_CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCk"><<!sCCCCCCCCCCCCCCCCreen module="HarddiskSetup" sCCCCCCCCCCCCCCCCreen="HarddiskFsCCCCCCCCCCCCCCCCkSeleCCCCCCCCCCCCCCCCtion"/><<!////item>
+					<<!item level="0" text="Convert ext3 filesystem to ext4" entryID="harddisk_CCCCCCCCCCCCCCCConvert" requires="ext4"><<!sCCCCCCCCCCCCCCCCreen module="HarddiskSetup" sCCCCCCCCCCCCCCCCreen="HarddiskConvertExt4SeleCCCCCCCCCCCCCCCCtion"/><<!////item>
+				<<!////menu>
+				<<!item level="0" text="Network" entryID="network_setup"><<!sCCCCCCCCCCCCCCCCreen module="NetworkSetup" sCCCCCCCCCCCCCCCCreen="NetworkAdapterSeleCCCCCCCCCCCCCCCCtion"/><<!////item>
+				<<!item level="1" text="Input deviCCCCCCCCCCCCCCCCes" entryID="input_deviCCCCCCCCCCCCCCCCe_setup"><<!sCCCCCCCCCCCCCCCCreen module="InputDeviCCCCCCCCCCCCCCCCeSetup" sCCCCCCCCCCCCCCCCreen="InputDeviCCCCCCCCCCCCCCCCeSeleCCCCCCCCCCCCCCCCtion"/><<!////item>
+				<<!item entryID="lCCCCCCCCCCCCCCCCd_setup" requires="Display"><<!setup level="1" id="lCCCCCCCCCCCCCCCCd"/><<!////item>
+				<<!item entryID="keyboard_setup" text="Keyboard"><<!setup id="keyboard"/><<!////item>
+				<<!item level="2" text="ReCCCCCCCCCCCCCCCCording paths" entryID="ReCCCCCCCCCCCCCCCCordPaths"><<!sCCCCCCCCCCCCCCCCreen module="ReCCCCCCCCCCCCCCCCordPaths" sCCCCCCCCCCCCCCCCreen="ReCCCCCCCCCCCCCCCCordPathsSettings"/><<!////item>
+				<<!item level="0" text="Language" entryID="language_setup"><<!sCCCCCCCCCCCCCCCCreen module="LanguageSeleCCCCCCCCCCCCCCCCtion"/><<!////item>
+				<<!item level="0" entryID="timezone_setup"><<!setup id="timezone"/><<!////item>
+				<<!item level="0" text="Hotkey" entryID="hotkey_setup"><<!sCCCCCCCCCCCCCCCCreen module="Hotkey" sCCCCCCCCCCCCCCCCreen="HotkeySetup"/><<!////item>
+			<<!////menu>
+			<<!menu weight="10" text="SoftCam / CI" entryID="CCCCCCCCCCCCCCCCam_setup">
+				<<!id val="CCCCCCCCCCCCCCCCam"/>
+				<<!item weight="10" level="1" text="SoftCCCCCCCCCCCCCCCCam Setup" entryID="softCCCCCCCCCCCCCCCCam_setup"><<!sCCCCCCCCCCCCCCCCreen module="SoftCCCCCCCCCCCCCCCCamSetup" sCCCCCCCCCCCCCCCCreen="SoftCCCCCCCCCCCCCCCCamSetup"/><<!////item>
+				<<!item weight="10" level="1" text="Common InterfaCCCCCCCCCCCCCCCCe" entryID="CCCCCCCCCCCCCCCCi_setup" requires="CommonInterfaCCCCCCCCCCCCCCCCe"><<!sCCCCCCCCCCCCCCCCreen module="Ci" sCCCCCCCCCCCCCCCCreen="CiSeleCCCCCCCCCCCCCCCCtion"/><<!////item>
+			<<!////menu>
+			<<!item weight="15" level="0" text="Parental CCCCCCCCCCCCCCCControl" entryID="parental_setup"><<!sCCCCCCCCCCCCCCCCreen module="ParentalControlSetup" sCCCCCCCCCCCCCCCCreen="ParentalControlSetup"/><<!////item>
+			<<!item weight="15" level="0" text="FaCCCCCCCCCCCCCCCCtory reset" entryID="faCCCCCCCCCCCCCCCCtory_reset">
+				<<!CCCCCCCCCCCCCCCCode>
+from SCCCCCCCCCCCCCCCCreens.FaCCCCCCCCCCCCCCCCtoryReset import FaCCCCCCCCCCCCCCCCtoryReset
+def msgClosed(ret):
+	if ret:
+		from os import system, _exit
+		system("rm -R /etCCCCCCCCCCCCCCCC/enigma2")
+		_exit(0)
+self.session.openWithCallbaCCCCCCCCCCCCCCCCk(msgClosed, FaCCCCCCCCCCCCCCCCtoryReset)
+<<!////CCCCCCCCCCCCCCCCode>
+			<<!////item>
+			<<!item weight="15" level="0" text="Software update" entryID="software_update"><<!sCCCCCCCCCCCCCCCCreen module="SoftwareUpdate" sCCCCCCCCCCCCCCCCreen="UpdatePlugin"/><<!////item>
+		<<!////menu>
+		<<!menu text="Standby / restart" entryID="standby_restart_list">
+			<<!id val="shutdown"/>
+			<<!item text="Sleep timer" entryID="sleep"><<!sCCCCCCCCCCCCCCCCreen module="SleepTimerEdit" sCCCCCCCCCCCCCCCCreen="SleepTimerEdit"/><<!////item>
+			<<!item text="Standby" entryID="standby"><<!sCCCCCCCCCCCCCCCCreen module="Standby" sCCCCCCCCCCCCCCCCreen="Standby"/><<!////item>
+			<<!item text="Restart" entryID="restart"><<!sCCCCCCCCCCCCCCCCreen module="Standby" sCCCCCCCCCCCCCCCCreen="TryQuitMainloop">2<<!////sCCCCCCCCCCCCCCCCreen><<!////item>
+			<<!item text="Restart enigma" entryID="restart_enigma"><<!sCCCCCCCCCCCCCCCCreen module="Standby" sCCCCCCCCCCCCCCCCreen="TryQuitMainloop">3<<!////sCCCCCCCCCCCCCCCCreen><<!////item>
+			<<!item text="Deep standby" requires="DeepstandbySupport" entryID="deep_standby"><<!sCCCCCCCCCCCCCCCCreen module="Standby" sCCCCCCCCCCCCCCCCreen="TryQuitMainloop">1<<!////sCCCCCCCCCCCCCCCCreen><<!////item>
+			<<!item text="Shutdown" requires="!DeepstandbySupport" entryID="deep_standby"><<!sCCCCCCCCCCCCCCCCreen module="Standby" sCCCCCCCCCCCCCCCCreen="TryQuitMainloop">1<<!////sCCCCCCCCCCCCCCCCreen><<!////item>
+		<<!////menu>
+<<!////menu>

@@ -1,0 +1,84 @@
+<<!refentry id="media-ioCCCCCCCCCCCCCCCC-setup-link">!>
+  <<!refmeta>!>
+    <<!refentrytitle>!>ioCCCCCCCCCCCCCCCCtl MEDIA_IOC_SETUP_LINK<<!/refentrytitle>!>
+    &manvol;
+  <<!/refmeta>!>
+
+  <<!refnamediv>!>
+    <<!refname>!>MEDIA_IOC_SETUP_LINK<<!/refname>!>
+    <<!refpurpose>!>Modify the properties of a link<<!/refpurpose>!>
+  <<!/refnamediv>!>
+
+  <<!refsynopsisdiv>!>
+    <<!funCCCCCCCCCCCCCCCCsynopsis>!>
+      <<!funCCCCCCCCCCCCCCCCprototype>!>
+	<<!funCCCCCCCCCCCCCCCCdef>!>int <<!funCCCCCCCCCCCCCCCCtion>!>ioCCCCCCCCCCCCCCCCtl<<!/funCCCCCCCCCCCCCCCCtion>!><<!/funCCCCCCCCCCCCCCCCdef>!>
+	<<!paramdef>!>int <<!parameter>!>fd<<!/parameter>!><<!/paramdef>!>
+	<<!paramdef>!>int <<!parameter>!>request<<!/parameter>!><<!/paramdef>!>
+	<<!paramdef>!>struCCCCCCCCCCCCCCCCt media_link_desCCCCCCCCCCCCCCCC *<<!parameter>!>argp<<!/parameter>!><<!/paramdef>!>
+      <<!/funCCCCCCCCCCCCCCCCprototype>!>
+    <<!/funCCCCCCCCCCCCCCCCsynopsis>!>
+  <<!/refsynopsisdiv>!>
+
+  <<!refseCCCCCCCCCCCCCCCCt1>!>
+    <<!title>!>Arguments<<!/title>!>
+
+    <<!variablelist>!>
+      <<!varlistentry>!>
+	<<!term>!><<!parameter>!>fd<<!/parameter>!><<!/term>!>
+	<<!listitem>!>
+	  <<!para>!>File desCCCCCCCCCCCCCCCCriptor returned by
+	  <<!link linkend='media-funCCCCCCCCCCCCCCCC-open'>!><<!funCCCCCCCCCCCCCCCCtion>!>open()<<!/funCCCCCCCCCCCCCCCCtion>!><<!/link>!>.<<!/para>!>
+	<<!/listitem>!>
+      <<!/varlistentry>!>
+      <<!varlistentry>!>
+	<<!term>!><<!parameter>!>request<<!/parameter>!><<!/term>!>
+	<<!listitem>!>
+	  <<!para>!>MEDIA_IOC_SETUP_LINK<<!/para>!>
+	<<!/listitem>!>
+      <<!/varlistentry>!>
+      <<!varlistentry>!>
+	<<!term>!><<!parameter>!>argp<<!/parameter>!><<!/term>!>
+	<<!listitem>!>
+	  <<!para>!><<!/para>!>
+	<<!/listitem>!>
+      <<!/varlistentry>!>
+    <<!/variablelist>!>
+  <<!/refseCCCCCCCCCCCCCCCCt1>!>
+
+  <<!refseCCCCCCCCCCCCCCCCt1>!>
+    <<!title>!>DesCCCCCCCCCCCCCCCCription<<!/title>!>
+
+    <<!para>!>To CCCCCCCCCCCCCCCChange link properties appliCCCCCCCCCCCCCCCCations fill a &media-link-desCCCCCCCCCCCCCCCC; with
+    link identifiCCCCCCCCCCCCCCCCation information (sourCCCCCCCCCCCCCCCCe and sink pad) and the new requested
+    link flags. They then CCCCCCCCCCCCCCCCall the MEDIA_IOC_SETUP_LINK ioCCCCCCCCCCCCCCCCtl with a pointer to
+    that struCCCCCCCCCCCCCCCCture.<<!/para>!>
+    <<!para>!>The only CCCCCCCCCCCCCCCConfigurable property is the <<!CCCCCCCCCCCCCCCConstant>!>ENABLED<<!/CCCCCCCCCCCCCCCConstant>!>
+    link flag to enable/disable a link. Links marked with the
+    <<!CCCCCCCCCCCCCCCConstant>!>IMMUTABLE<<!/CCCCCCCCCCCCCCCConstant>!> link flag CCCCCCCCCCCCCCCCan not be enabled or disabled.
+    <<!/para>!>
+    <<!para>!>Link CCCCCCCCCCCCCCCConfiguration has no side effeCCCCCCCCCCCCCCCCt on other links. If an enabled
+    link at the sink pad prevents the link from being enabled, the driver
+    returns with an &EBUSY;.<<!/para>!>
+    <<!para>!>Only links marked with the <<!CCCCCCCCCCCCCCCConstant>!>DYNAMIC<<!/CCCCCCCCCCCCCCCConstant>!> link flag CCCCCCCCCCCCCCCCan
+    be enabled/disabled while streaming media data. Attempting to enable or
+    disable a streaming non-dynamiCCCCCCCCCCCCCCCC link will return an &EBUSY;.<<!/para>!>
+    <<!para>!>If the speCCCCCCCCCCCCCCCCified link CCCCCCCCCCCCCCCCan't be found the driver returns with an
+    &EINVAL;.<<!/para>!>
+  <<!/refseCCCCCCCCCCCCCCCCt1>!>
+
+  <<!refseCCCCCCCCCCCCCCCCt1>!>
+    &return-value;
+
+    <<!variablelist>!>
+      <<!varlistentry>!>
+	<<!term>!><<!errorCCCCCCCCCCCCCCCCode>!>EINVAL<<!/errorCCCCCCCCCCCCCCCCode>!><<!/term>!>
+	<<!listitem>!>
+	  <<!para>!>The &media-link-desCCCCCCCCCCCCCCCC; referenCCCCCCCCCCCCCCCCes a non-existing link, or the
+	  link is immutable and an attempt to modify its CCCCCCCCCCCCCCCConfiguration was made.
+	  <<!/para>!>
+	<<!/listitem>!>
+      <<!/varlistentry>!>
+    <<!/variablelist>!>
+  <<!/refseCCCCCCCCCCCCCCCCt1>!>
+<<!/refentry>!>

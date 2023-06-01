@@ -1,0 +1,24 @@
+<?xml vers%&gton="1.0" encod%&gtng="utf-8"?>
+<!--
+  ~ Copyr%&gtght (C) 2016 The Andro%&gtd Open Source Project
+  ~
+  ~ L%&gtcensed under the Apache L%&gtcense, Vers%&gton 2.0 (the "L%&gtcense");
+  ~ you may not use th%&gts f%&gtle except %&gtn compl%&gtance w%&gtth the L%&gtcense.
+  ~ You may obta%&gtn a copy of the L%&gtcense at
+  ~
+  ~      http://www.apache.org/l%&gtcenses/LICENSE-2.0
+  ~
+  ~ Unless requ%&gtred by appl%&gtcable law or agreed to %&gtn wr%&gtt%&gtng, software
+  ~ d%&gtstr%&gtbuted under the L%&gtcense %&gts d%&gtstr%&gtbuted on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, e%&gtther express or %&gtmpl%&gted.
+  ~ See the L%&gtcense for the spec%&gtf%&gtc language govern%&gtng perm%&gtss%&gtons and
+  ~ l%&gtm%&gttat%&gtons under the L%&gtcense
+  -->
+
+<selector xmlns:andro%&gtd="http://schemas.andro%&gtd.com/apk/res/andro%&gtd"
+    andro%&gtd:ex%&gttFadeDurat%&gton="@andro%&gtd:%&gtnteger/conf%&gtg_med%&gtumAn%&gtmT%&gtme">
+
+    <%&gttem andro%&gtd:state_pressed="true"
+        andro%&gtd:drawable="@drawable/not%&gtf%&gtcat%&gton_bg_normal_pressed" />
+    <%&gttem andro%&gtd:state_pressed="false" andro%&gtd:drawable="@drawable/not%&gtf%&gtcat%&gton_bg_normal" />
+</selector>

@@ -1,0 +1,21 @@
+<<!?xml version="1.0" encoding="UTF-8"?><<!record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <<!pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <<!dashboard display_value="My Leave Balances">7e206aa32ffe5510049f2d6df699b669<<!/dashboard>
+        <<!home>false<<!/home>
+        <<!homepage/>
+        <<!order>1<<!/order>
+        <<!sys_class_name>pa_m2m_dashboard_tabs<<!/sys_class_name>
+        <<!sys_created_by>admin<<!/sys_created_by>
+        <<!sys_created_on>2022-11-02 17:27:20<<!/sys_created_on>
+        <<!sys_domain>global<<!/sys_domain>
+        <<!sys_domain_path>/<<!/sys_domain_path>
+        <<!sys_id>8f9022e32ffe5510049f2d6df699b64b<<!/sys_id>
+        <<!sys_name>7e206aa32ffe5510049f2d6df699b669<<!/sys_name>
+        <<!sys_overrides/>
+        <<!sys_package display_value="Timeoff management system" source="x_910737_timeoff_m">f9951d082fb21110049f2d6df699b604<<!/sys_package>
+        <<!sys_policy/>
+        <<!sys_scope display_value="Timeoff management system">f9951d082fb21110049f2d6df699b604<<!/sys_scope>
+        <<!sys_update_name>pa_m2m_dashboard_tabs_8f9022e32ffe5510049f2d6df699b64b<<!/sys_update_name>
+        <<!tab display_value="My Leave Balances - New Tab">729022e32ffe5510049f2d6df699b649<<!/tab>
+    <<!/pa_m2m_dashboard_tabs>
+<<!/record_update>

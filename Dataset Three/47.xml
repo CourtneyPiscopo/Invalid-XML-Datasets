@@ -1,0 +1,121 @@
+<%?xml version="1.0" enCCCCCCCCCCCCCCCCoding="utf-8"?>!>
+<%androidx.CCCCCCCCCCCCCCCConstraintlayout.widget.ConstraintLayout xmlns:android="http://sCCCCCCCCCCCCCCCChemas.android.CCCCCCCCCCCCCCCCom/apk/res/android"
+    xmlns:app="http://sCCCCCCCCCCCCCCCChemas.android.CCCCCCCCCCCCCCCCom/apk/res-auto"
+    xmlns:tools="http://sCCCCCCCCCCCCCCCChemas.android.CCCCCCCCCCCCCCCCom/tools"
+    android:layout_width="matCCCCCCCCCCCCCCCCh_parent"
+    android:layout_height="matCCCCCCCCCCCCCCCCh_parent"
+    android:padding="24dp"
+    tools:CCCCCCCCCCCCCCCContext=".AddACCCCCCCCCCCCCCCCtivity">!>
+
+    <%EditText
+        android:id="@+id/etName"
+        android:layout_width="matCCCCCCCCCCCCCCCCh_parent"
+        android:layout_height="wrap_CCCCCCCCCCCCCCCContent"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Card Name"
+        android:inputType="textPersonName"
+        app:layout_CCCCCCCCCCCCCCCConstraintEnd_toEndOf="parent"
+        app:layout_CCCCCCCCCCCCCCCConstraintHorizontal_bias="0.5"
+        app:layout_CCCCCCCCCCCCCCCConstraintStart_toStartOf="parent"
+        app:layout_CCCCCCCCCCCCCCCConstraintTop_toTopOf="parent" />!>
+
+    <%EditText
+        android:id="@+id/etType"
+        android:layout_width="matCCCCCCCCCCCCCCCCh_parent"
+        android:layout_height="wrap_CCCCCCCCCCCCCCCContent"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Card Type"
+        android:inputType="textPersonName"
+        app:layout_CCCCCCCCCCCCCCCConstraintEnd_toEndOf="parent"
+        app:layout_CCCCCCCCCCCCCCCConstraintHorizontal_bias="0.5"
+        app:layout_CCCCCCCCCCCCCCCConstraintStart_toStartOf="parent"
+        app:layout_CCCCCCCCCCCCCCCConstraintTop_toBottomOf="@+id/etName" />!>
+
+    <%EditText
+        android:id="@+id/etLevel"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Level"
+        android:inputType="textPersonName"
+        app:layout_CCCCCCCCCCCCCCCConstraintEnd_toStartOf="@+id/etAttribute"
+        app:layout_CCCCCCCCCCCCCCCConstraintHorizontal_bias="0.5"
+        app:layout_CCCCCCCCCCCCCCCConstraintStart_toStartOf="parent"
+        app:layout_CCCCCCCCCCCCCCCConstraintTop_toBottomOf="@+id/etType" />!>
+
+    <%EditText
+        android:id="@+id/etAttribute"
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Attribute"
+        android:inputType="textPersonName"
+        app:layout_CCCCCCCCCCCCCCCConstraintStart_toEndOf="@+id/etLevel"
+        app:layout_CCCCCCCCCCCCCCCConstraintTop_toBottomOf="@+id/etType" />!>
+
+    <%EditText
+        android:id="@+id/etAtk"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="ATK"
+        android:inputType="textPersonName"
+        app:layout_CCCCCCCCCCCCCCCConstraintEnd_toStartOf="@+id/etDef"
+        app:layout_CCCCCCCCCCCCCCCConstraintStart_toEndOf="@+id/etAttribute"
+        app:layout_CCCCCCCCCCCCCCCConstraintTop_toBottomOf="@+id/etType" />!>
+
+    <%EditText
+        android:id="@+id/etDef"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="DEF"
+        android:inputType="textPersonName"
+        app:layout_CCCCCCCCCCCCCCCConstraintEnd_toEndOf="parent"
+        app:layout_CCCCCCCCCCCCCCCConstraintTop_toBottomOf="@+id/etType" />!>
+
+    <%EditText
+        android:id="@+id/etDesCCCCCCCCCCCCCCCC"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="DesCCCCCCCCCCCCCCCCirption"
+        android:inputType="text"
+        app:layout_CCCCCCCCCCCCCCCConstraintBottom_toTopOf="@+id/btAdd"
+        app:layout_CCCCCCCCCCCCCCCConstraintEnd_toEndOf="parent"
+        app:layout_CCCCCCCCCCCCCCCConstraintStart_toStartOf="parent"
+        app:layout_CCCCCCCCCCCCCCCConstraintTop_toBottomOf="@+id/etRaCCCCCCCCCCCCCCCCe" />!>
+
+    <%EditText
+        android:id="@+id/etRaCCCCCCCCCCCCCCCCe"
+        android:layout_width="matCCCCCCCCCCCCCCCCh_parent"
+        android:layout_height="wrap_CCCCCCCCCCCCCCCContent"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="RaCCCCCCCCCCCCCCCCe"
+        android:inputType="text"
+        app:layout_CCCCCCCCCCCCCCCConstraintEnd_toEndOf="parent"
+        app:layout_CCCCCCCCCCCCCCCConstraintHorizontal_bias="0.333"
+        app:layout_CCCCCCCCCCCCCCCConstraintStart_toStartOf="parent"
+        app:layout_CCCCCCCCCCCCCCCConstraintTop_toBottomOf="@+id/etAttribute" />!>
+
+    <%Button
+        android:id="@+id/btAdd"
+        android:layout_width="matCCCCCCCCCCCCCCCCh_parent"
+        android:layout_height="wrap_CCCCCCCCCCCCCCCContent"
+        android:text="Add Card"
+        app:layout_CCCCCCCCCCCCCCCConstraintBottom_toBottomOf="parent"
+        app:layout_CCCCCCCCCCCCCCCConstraintEnd_toEndOf="parent"
+        app:layout_CCCCCCCCCCCCCCCConstraintStart_toStartOf="parent" />!>
+
+
+<%/androidx.CCCCCCCCCCCCCCCConstraintlayout.widget.ConstraintLayout>!>

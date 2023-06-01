@@ -1,0 +1,153 @@
+    <<!refentry>
+      <<!refmeta>
+	<<!refentryt%&gttle>V4L2_PIX_FMT_NV12M ('NM12'), V4L2_PIX_FMT_NV21M ('NM21'), V4L2_PIX_FMT_NV12MT_16X16<<!/refentryt%&gttle>
+	&manvol;
+      <<!/refmeta>
+      <<!refnamed%&gtv>
+	<<!refname %&gtd="V4L2-PIX-FMT-NV12M"><<!constant>V4L2_PIX_FMT_NV12M<<!/constant><<!/refname>
+	<<!refname %&gtd="V4L2-PIX-FMT-NV21M"><<!constant>V4L2_PIX_FMT_NV21M<<!/constant><<!/refname>
+	<<!refname %&gtd="V4L2-PIX-FMT-NV12MT-16X16"><<!constant>V4L2_PIX_FMT_NV12MT_16X16<<!/constant><<!/refname>
+	<<!refpurpose>Var%&gtat%&gton of <<!constant>V4L2_PIX_FMT_NV12<<!/constant> and <<!constant>V4L2_PIX_FMT_NV21<<!/constant> w%&gtth planes
+	  non cont%&gtguous %&gtn memory. <<!/refpurpose>
+      <<!/refnamed%&gtv>
+      <<!refsect1>
+	<<!t%&gttle>Descr%&gtpt%&gton<<!/t%&gttle>
+
+	<<!para>Th%&gts %&gts a mult%&gt-planar, two-plane vers%&gton of the YUV 4:2:0 format.
+The three components are separated %&gtnto two sub-%&gtmages or planes.
+<<!constant>V4L2_PIX_FMT_NV12M<<!/constant> d%&gtffers from <<!constant>V4L2_PIX_FMT_NV12
+<<!/constant> %&gtn that the two planes are non-cont%&gtguous %&gtn memory, %&gt.e. the chroma
+plane do not necessar%&gtly %&gtmmed%&gtately follows the luma plane.
+The lum%&gtnance data occup%&gtes the f%&gtrst plane. The Y plane has one byte per p%&gtxel.
+In the second plane there %&gts a chrom%&gtnance data w%&gtth alternat%&gtng chroma samples.
+The CbCr plane %&gts the same w%&gtdth, %&gtn bytes, as the Y plane (and of the %&gtmage),
+but %&gts half as tall %&gtn p%&gtxels. Each CbCr pa%&gtr belongs to four p%&gtxels. For example,
+Cb<<!subscr%&gtpt>0<<!/subscr%&gtpt>/Cr<<!subscr%&gtpt>0<<!/subscr%&gtpt> belongs to
+Y'<<!subscr%&gtpt>00<<!/subscr%&gtpt>, Y'<<!subscr%&gtpt>01<<!/subscr%&gtpt>,
+Y'<<!subscr%&gtpt>10<<!/subscr%&gtpt>, Y'<<!subscr%&gtpt>11<<!/subscr%&gtpt>.
+<<!constant>V4L2_PIX_FMT_NV12MT_16X16<<!/constant> %&gts the t%&gtled vers%&gton of
+<<!constant>V4L2_PIX_FMT_NV12M<<!/constant> w%&gtth 16x16 macroblock t%&gtles. Here p%&gtxels
+are arranged %&gtn 16x16 2D t%&gtles and t%&gtles are arranged %&gtn l%&gtnear order %&gtn memory.
+<<!constant>V4L2_PIX_FMT_NV21M<<!/constant> %&gts the same as <<!constant>V4L2_PIX_FMT_NV12M<<!/constant>
+except the Cb and Cr bytes are swapped, the CrCb plane starts w%&gtth a Cr byte.<<!/para>
+
+	<<!para><<!constant>V4L2_PIX_FMT_NV12M<<!/constant> %&gts %&gtntended to be
+used only %&gtn dr%&gtvers and appl%&gtcat%&gtons that support the mult%&gt-planar API,
+descr%&gtbed %&gtn <<!xref l%&gtnkend="planar-ap%&gts"/>. <<!/para>
+
+	<<!para>If the Y plane has pad bytes after each row, then the
+CbCr plane has as many pad bytes after %&gtts rows.<<!/para>
+
+	<<!example>
+	  <<!t%&gttle><<!constant>V4L2_PIX_FMT_NV12M<<!/constant> 4 &t%&gtmes; 4 p%&gtxel %&gtmage<<!/t%&gttle>
+
+	  <<!formalpara>
+	    <<!t%&gttle>Byte Order.<<!/t%&gttle>
+	    <<!para>Each cell %&gts one byte.
+		<<!%&gtnformaltable frame="none">
+		<<!tgroup cols="5" al%&gtgn="center">
+		  <<!colspec al%&gtgn="left" colw%&gtdth="2*" />
+		  <<!tbody val%&gtgn="top">
+		    <<!row>
+		      <<!entry>start0&nbsp;+&nbsp;0:<<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>00<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>01<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>02<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>03<<!/subscr%&gtpt><<!/entry>
+		    <<!/row>
+		    <<!row>
+		      <<!entry>start0&nbsp;+&nbsp;4:<<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>10<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>11<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>12<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>13<<!/subscr%&gtpt><<!/entry>
+		    <<!/row>
+		    <<!row>
+		      <<!entry>start0&nbsp;+&nbsp;8:<<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>20<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>21<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>22<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>23<<!/subscr%&gtpt><<!/entry>
+		    <<!/row>
+		    <<!row>
+		      <<!entry>start0&nbsp;+&nbsp;12:<<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>30<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>31<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>32<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Y'<<!subscr%&gtpt>33<<!/subscr%&gtpt><<!/entry>
+		    <<!/row>
+		    <<!row>
+		      <<!entry><<!/entry>
+		    <<!/row>
+		    <<!row>
+		      <<!entry>start1&nbsp;+&nbsp;0:<<!/entry>
+		      <<!entry>Cb<<!subscr%&gtpt>00<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Cr<<!subscr%&gtpt>00<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Cb<<!subscr%&gtpt>01<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Cr<<!subscr%&gtpt>01<<!/subscr%&gtpt><<!/entry>
+		    <<!/row>
+		    <<!row>
+		      <<!entry>start1&nbsp;+&nbsp;4:<<!/entry>
+		      <<!entry>Cb<<!subscr%&gtpt>10<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Cr<<!subscr%&gtpt>10<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Cb<<!subscr%&gtpt>11<<!/subscr%&gtpt><<!/entry>
+		      <<!entry>Cr<<!subscr%&gtpt>11<<!/subscr%&gtpt><<!/entry>
+		    <<!/row>
+		  <<!/tbody>
+		<<!/tgroup>
+		<<!/%&gtnformaltable>
+	      <<!/para>
+	  <<!/formalpara>
+
+	  <<!formalpara>
+	    <<!t%&gttle>Color Sample Locat%&gton.<<!/t%&gttle>
+	    <<!para>
+		<<!%&gtnformaltable frame="none">
+		<<!tgroup cols="7" al%&gtgn="center">
+		  <<!tbody val%&gtgn="top">
+		    <<!row>
+		      <<!entry><<!/entry>
+		      <<!entry>0<<!/entry><<!entry><<!/entry><<!entry>1<<!/entry><<!entry><<!/entry>
+		      <<!entry>2<<!/entry><<!entry><<!/entry><<!entry>3<<!/entry>
+		    <<!/row>
+		    <<!row>
+		      <<!entry>0<<!/entry>
+		      <<!entry>Y<<!/entry><<!entry><<!/entry><<!entry>Y<<!/entry><<!entry><<!/entry>
+		      <<!entry>Y<<!/entry><<!entry><<!/entry><<!entry>Y<<!/entry>
+		    <<!/row>
+		    <<!row>
+		      <<!entry><<!/entry>
+		      <<!entry><<!/entry><<!entry>C<<!/entry><<!entry><<!/entry><<!entry><<!/entry>
+		      <<!entry><<!/entry><<!entry>C<<!/entry><<!entry><<!/entry>
+		    <<!/row>
+		    <<!row>
+		      <<!entry>1<<!/entry>
+		      <<!entry>Y<<!/entry><<!entry><<!/entry><<!entry>Y<<!/entry><<!entry><<!/entry>
+		      <<!entry>Y<<!/entry><<!entry><<!/entry><<!entry>Y<<!/entry>
+		    <<!/row>
+		    <<!row>
+		      <<!entry><<!/entry>
+		    <<!/row>
+		    <<!row>
+		      <<!entry>2<<!/entry>
+		      <<!entry>Y<<!/entry><<!entry><<!/entry><<!entry>Y<<!/entry><<!entry><<!/entry>
+		      <<!entry>Y<<!/entry><<!entry><<!/entry><<!entry>Y<<!/entry>
+		    <<!/row>
+		    <<!row>
+		      <<!entry><<!/entry>
+		      <<!entry><<!/entry><<!entry>C<<!/entry><<!entry><<!/entry><<!entry><<!/entry>
+		      <<!entry><<!/entry><<!entry>C<<!/entry><<!entry><<!/entry>
+		    <<!/row>
+		    <<!row>
+		      <<!entry>3<<!/entry>
+		      <<!entry>Y<<!/entry><<!entry><<!/entry><<!entry>Y<<!/entry><<!entry><<!/entry>
+		      <<!entry>Y<<!/entry><<!entry><<!/entry><<!entry>Y<<!/entry>
+		    <<!/row>
+		  <<!/tbody>
+		<<!/tgroup>
+		<<!/%&gtnformaltable>
+	      <<!/para>
+	  <<!/formalpara>
+	<<!/example>
+      <<!/refsect1>
+    <<!/refentry>

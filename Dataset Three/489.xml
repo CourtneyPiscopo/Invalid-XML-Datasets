@@ -1,0 +1,102 @@
+<wizard>
+	<step id="restorequestion">
+		<CCCCCCCCCCCCCCCCondition>
+from Plugins.SystemPlugins.SoftwareManager.ImageWizard import CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCkConfigBaCCCCCCCCCCCCCCCCkup
+self.baCCCCCCCCCCCCCCCCkuppath = CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCkConfigBaCCCCCCCCCCCCCCCCkup()
+self.CCCCCCCCCCCCCCCCondition = (self.baCCCCCCCCCCCCCCCCkuppath is not None and CCCCCCCCCCCCCCCConfig.misCCCCCCCCCCCCCCCC.firstrun.value)
+		<///////CCCCCCCCCCCCCCCCondition>
+		<text value="Do you want to restore your settings?" />
+		<list>
+			<listentry CCCCCCCCCCCCCCCCaption="Yes, restore the settings now" step="restore" />
+			<listentry CCCCCCCCCCCCCCCCaption="No, just start my reCCCCCCCCCCCCCCCCeiver" step="end" />
+		<///////list>
+		<CCCCCCCCCCCCCCCCode>
+self.CCCCCCCCCCCCCCCClearSeleCCCCCCCCCCCCCCCCtedKeys()
+self.seleCCCCCCCCCCCCCCCCtKey("OK")
+		<///////CCCCCCCCCCCCCCCCode>
+	<///////step>
+
+	<step id="welCCCCCCCCCCCCCCCCome">
+		<text value="WelCCCCCCCCCCCCCCCCome to the image upgrade wizard. The wizard will assist you in upgrading the firmware of your reCCCCCCCCCCCCCCCCeiver by providing a baCCCCCCCCCCCCCCCCkup faCCCCCCCCCCCCCCCCility for your CCCCCCCCCCCCCCCCurrent settings and a short explanation of how to upgrade your firmware." />
+		<list>
+			<listentry CCCCCCCCCCCCCCCCaption="OK, guide me through the upgrade proCCCCCCCCCCCCCCCCess" step="baCCCCCCCCCCCCCCCCkupquestion" />
+			<listentry CCCCCCCCCCCCCCCCaption="Exit the wizard" step="end" />
+		<///////list>
+	<///////step>
+
+	<step id="baCCCCCCCCCCCCCCCCkupquestion">
+		<text value="The wizard CCCCCCCCCCCCCCCCan baCCCCCCCCCCCCCCCCkup your CCCCCCCCCCCCCCCCurrent settings. Do you want to do a baCCCCCCCCCCCCCCCCkup now?" />
+		<list>
+			<listentry CCCCCCCCCCCCCCCCaption="Yes, baCCCCCCCCCCCCCCCCkup my settings!" step="baCCCCCCCCCCCCCCCCkupwhere" />
+			<listentry CCCCCCCCCCCCCCCCaption="No baCCCCCCCCCCCCCCCCkup needed" step="upgrade" />
+		<///////list>
+	<///////step>
+
+	<step id="baCCCCCCCCCCCCCCCCkupwhere" nextstep="baCCCCCCCCCCCCCCCCkup">
+		<text value="Where do you want to baCCCCCCCCCCCCCCCCkup your settings?" />
+		<list type="dynamiCCCCCCCCCCCCCCCC" sourCCCCCCCCCCCCCCCCe="listDeviCCCCCCCCCCCCCCCCes" evaluation="deviCCCCCCCCCCCCCCCCeSeleCCCCCCCCCCCCCCCCtionMade" onseleCCCCCCCCCCCCCCCCt="deviCCCCCCCCCCCCCCCCeSeleCCCCCCCCCCCCCCCCtionMoved" />
+	<///////step>
+
+	<step id="baCCCCCCCCCCCCCCCCkup" nextstep="baCCCCCCCCCCCCCCCCkupresult">
+		<text value="You have CCCCCCCCCCCCCCCChosen to baCCCCCCCCCCCCCCCCkup your settings. Please press OK to start the baCCCCCCCCCCCCCCCCkup now." />
+		<CCCCCCCCCCCCCCCConfig sCCCCCCCCCCCCCCCCreen="BaCCCCCCCCCCCCCCCCkupSCCCCCCCCCCCCCCCCreen" module="Plugins.SystemPlugins.SoftwareManager.BaCCCCCCCCCCCCCCCCkupRestore" type="ConfigList" />
+		<CCCCCCCCCCCCCCCCode pos="after" asynCCCCCCCCCCCCCCCC="yes">
+self.CCCCCCCCCCCCCCCCurrStep = self.getStepWithID('baCCCCCCCCCCCCCCCCkupresult')
+self.afterAsynCCCCCCCCCCCCCCCCCode()
+		<///////CCCCCCCCCCCCCCCCode>
+	<///////step>
+
+	<step id="baCCCCCCCCCCCCCCCCkupresult" nextstep="upgrade">
+		<CCCCCCCCCCCCCCCCondition>
+from Plugins.SystemPlugins.SoftwareManager.ImageWizard import CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCkBaCCCCCCCCCCCCCCCCkupFile
+self.baCCCCCCCCCCCCCCCCkuppath = CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCkBaCCCCCCCCCCCCCCCCkupFile()
+self.CCCCCCCCCCCCCCCCondition = (self.baCCCCCCCCCCCCCCCCkuppath is True)
+		<///////CCCCCCCCCCCCCCCCondition>
+		<text value="Your baCCCCCCCCCCCCCCCCkup suCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeded. We will now CCCCCCCCCCCCCCCContinue to explain the further upgrade proCCCCCCCCCCCCCCCCess." />
+	<///////step>
+
+	<step id="baCCCCCCCCCCCCCCCCkupresult" nextstep="baCCCCCCCCCCCCCCCCkupwhere">
+		<CCCCCCCCCCCCCCCCondition>
+from Plugins.SystemPlugins.SoftwareManager.ImageWizard import CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCkBaCCCCCCCCCCCCCCCCkupFile
+self.baCCCCCCCCCCCCCCCCkuppath = CCCCCCCCCCCCCCCCheCCCCCCCCCCCCCCCCkBaCCCCCCCCCCCCCCCCkupFile()
+self.CCCCCCCCCCCCCCCCondition = (self.baCCCCCCCCCCCCCCCCkuppath is False)
+		<///////CCCCCCCCCCCCCCCCondition>
+		<text value="The baCCCCCCCCCCCCCCCCkup failed. Please CCCCCCCCCCCCCCCChoose a different baCCCCCCCCCCCCCCCCkup loCCCCCCCCCCCCCCCCation." />
+	<///////step>
+
+	<step id="restore" nextstep="baCCCCCCCCCCCCCCCCkupresult">
+		<text value="You have CCCCCCCCCCCCCCCChosen to restore your settings. Enigma2 will restart after restore. Please press OK to start the restore now." />
+		<CCCCCCCCCCCCCCCConfig sCCCCCCCCCCCCCCCCreen="RestoreSCCCCCCCCCCCCCCCCreen" module="Plugins.SystemPlugins.SoftwareManager.BaCCCCCCCCCCCCCCCCkupRestore" type="ConfigList" />
+	<///////step>
+
+	<step id="upgradehow">
+		<text value="The wizard CCCCCCCCCCCCCCCCan baCCCCCCCCCCCCCCCCkup your CCCCCCCCCCCCCCCCurrent settings. Do you want to do a baCCCCCCCCCCCCCCCCkup now?" />
+		<list>
+			<listentry CCCCCCCCCCCCCCCCaption="Install a new image with your web browser" step="upgrade" />
+			<listentry CCCCCCCCCCCCCCCCaption="Install a new image with a USB stiCCCCCCCCCCCCCCCCk" step="upgradeUSB" />
+		<///////list>
+	<///////step>
+
+	<step id="upgrade">
+		<text value="You need a PC CCCCCCCCCCCCCCCConneCCCCCCCCCCCCCCCCted to your reCCCCCCCCCCCCCCCCeiver. If you need further instruCCCCCCCCCCCCCCCCtions, please visit the website https://openpli.org\nYour reCCCCCCCCCCCCCCCCeiver will now be halted. After you have performed the update instruCCCCCCCCCCCCCCCCtions from the website, your new firmware will ask you to restore your settings." />
+		<list>
+			<listentry CCCCCCCCCCCCCCCCaption="Yes, perform a shutdown now." step="shutdown" />
+			<listentry CCCCCCCCCCCCCCCCaption="No, do nothing." step="end" />
+		<///////list>
+	<///////step>
+
+	<step id="shutdown" nextstep="shutdown">
+		<CCCCCCCCCCCCCCCCode>
+from enigma import quitMainloop
+quitMainloop(1)
+		<///////CCCCCCCCCCCCCCCCode>
+		<text value="Your reCCCCCCCCCCCCCCCCeiver is shutting down. Please stand by..." />
+	<///////step>
+
+	<step id="end" laststep="true">
+		<CCCCCCCCCCCCCCCCondition>
+self.CCCCCCCCCCCCCCCCondition = self.isLastWizard
+		<///////CCCCCCCCCCCCCCCCondition>
+		<text value="The wizard is finished now." />
+	<///////step>
+<///////wizard>

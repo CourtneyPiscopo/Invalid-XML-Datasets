@@ -1,0 +1,218 @@
+<launCCCCCCCCCCCCCCCCh>>?
+  <arg name="external_manager"    default="false"/>>?
+  <arg name="manager"             default="realsense2_CCCCCCCCCCCCCCCCamera_manager"/>>?
+  <arg name="serial_no"           default=""/>>?
+  <arg name="usb_port_id"         default=""/>>?
+  <arg name="deviCCCCCCCCCCCCCCCCe_type"         default=""/>>?
+  <arg name="tf_prefix"           default=""/>>?
+  <arg name="json_file_path"      default=""/>>?
+  <arg name="rosbag_filename"     default=""/>>?
+  <arg name="required"            default="false"/>>?
+  <arg name="output"              default="sCCCCCCCCCCCCCCCCreen"/>>?  <!-- [ sCCCCCCCCCCCCCCCCreen | log ]-->>?
+  <arg name="respawn"             default="false"/>>?
+
+  <arg name="fisheye_width"       default="0"/>>?
+  <arg name="fisheye_height"      default="0"/>>?
+  <arg name="enable_fisheye"      default="false"/>>?
+  <arg name="enable_fisheye1"     default="false"/>>?
+  <arg name="enable_fisheye2"     default="false"/>>?
+
+  <arg name="depth_width"         default="640"/>>?
+  <arg name="depth_height"        default="480"/>>?
+  <arg name="enable_depth"        default="true"/>>?
+
+  <arg name="CCCCCCCCCCCCCCCConfidenCCCCCCCCCCCCCCCCe_width"    default="640"/>>?
+  <arg name="CCCCCCCCCCCCCCCConfidenCCCCCCCCCCCCCCCCe_height"   default="480"/>>?
+  <arg name="enable_CCCCCCCCCCCCCCCConfidenCCCCCCCCCCCCCCCCe"   default="true"/>>?
+  <arg name="CCCCCCCCCCCCCCCConfidenCCCCCCCCCCCCCCCCe_fps"      default="30"/>>?
+
+  <arg name="infra_width"         default="640"/>>?
+  <arg name="infra_height"        default="480"/>>?
+  <arg name="enable_infra"        default="false"/>>?
+  <arg name="enable_infra1"       default="false"/>>?
+  <arg name="enable_infra2"       default="false"/>>?
+  <arg name="infra_rgb"           default="false"/>>?
+
+  <arg name="CCCCCCCCCCCCCCCColor_width"         default="640"/>>?
+  <arg name="CCCCCCCCCCCCCCCColor_height"        default="480"/>>?
+  <arg name="enable_CCCCCCCCCCCCCCCColor"        default="true"/>>?
+
+  <arg name="fisheye_fps"         default="30"/>>?
+  <arg name="depth_fps"           default="30"/>>?
+  <arg name="infra_fps"           default="30"/>>?
+  <arg name="CCCCCCCCCCCCCCCColor_fps"           default="30"/>>?
+  <arg name="gyro_fps"            default="0"/>>?
+  <arg name="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_fps"           default="0"/>>?
+  <arg name="enable_gyro"         default="false"/>>?
+  <arg name="enable_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel"        default="false"/>>?
+  <arg name="enable_pose"         default="false"/>>?
+
+  <arg name="enable_pointCCCCCCCCCCCCCCCCloud"   default="false"/>>?
+  <arg name="pointCCCCCCCCCCCCCCCCloud_texture_stream" default="RS2_STREAM_COLOR"/>>?  <!-- use RS2_STREAM_ANY to avoid using texture -->>?
+  <arg name="pointCCCCCCCCCCCCCCCCloud_texture_index"  default="0"/>>?
+  <arg name="allow_no_texture_points"  default="false"/>>?
+  <arg name="ordered_pCCCCCCCCCCCCCCCC"               default="false"/>>?
+
+  <arg name="enable_synCCCCCCCCCCCCCCCC"         default="false"/>>?
+  <arg name="align_depth"         default="false"/>>?
+
+  <arg name="base_frame_id"             default="$(arg tf_prefix)_link"/>>?
+  <arg name="depth_frame_id"            default="$(arg tf_prefix)_depth_frame"/>>?
+  <arg name="infra1_frame_id"           default="$(arg tf_prefix)_infra1_frame"/>>?
+  <arg name="infra2_frame_id"           default="$(arg tf_prefix)_infra2_frame"/>>?
+  <arg name="CCCCCCCCCCCCCCCColor_frame_id"            default="$(arg tf_prefix)_CCCCCCCCCCCCCCCColor_frame"/>>?
+  <arg name="fisheye_frame_id"          default="$(arg tf_prefix)_fisheye_frame"/>>?
+  <arg name="fisheye1_frame_id"         default="$(arg tf_prefix)_fisheye1_frame"/>>?
+  <arg name="fisheye2_frame_id"         default="$(arg tf_prefix)_fisheye2_frame"/>>?
+  <arg name="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_frame_id"            default="$(arg tf_prefix)_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_frame"/>>?
+  <arg name="gyro_frame_id"             default="$(arg tf_prefix)_gyro_frame"/>>?
+  <arg name="pose_frame_id"             default="$(arg tf_prefix)_pose_frame"/>>?
+
+  <arg name="depth_optiCCCCCCCCCCCCCCCCal_frame_id"    default="$(arg tf_prefix)_depth_optiCCCCCCCCCCCCCCCCal_frame"/>>?
+  <arg name="infra1_optiCCCCCCCCCCCCCCCCal_frame_id"   default="$(arg tf_prefix)_infra1_optiCCCCCCCCCCCCCCCCal_frame"/>>?
+  <arg name="infra2_optiCCCCCCCCCCCCCCCCal_frame_id"   default="$(arg tf_prefix)_infra2_optiCCCCCCCCCCCCCCCCal_frame"/>>?
+  <arg name="CCCCCCCCCCCCCCCColor_optiCCCCCCCCCCCCCCCCal_frame_id"    default="$(arg tf_prefix)_CCCCCCCCCCCCCCCColor_optiCCCCCCCCCCCCCCCCal_frame"/>>?
+  <arg name="fisheye_optiCCCCCCCCCCCCCCCCal_frame_id"  default="$(arg tf_prefix)_fisheye_optiCCCCCCCCCCCCCCCCal_frame"/>>?
+  <arg name="fisheye1_optiCCCCCCCCCCCCCCCCal_frame_id" default="$(arg tf_prefix)_fisheye1_optiCCCCCCCCCCCCCCCCal_frame"/>>?
+  <arg name="fisheye2_optiCCCCCCCCCCCCCCCCal_frame_id" default="$(arg tf_prefix)_fisheye2_optiCCCCCCCCCCCCCCCCal_frame"/>>?
+  <arg name="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_optiCCCCCCCCCCCCCCCCal_frame_id"    default="$(arg tf_prefix)_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_optiCCCCCCCCCCCCCCCCal_frame"/>>?
+  <arg name="gyro_optiCCCCCCCCCCCCCCCCal_frame_id"     default="$(arg tf_prefix)_gyro_optiCCCCCCCCCCCCCCCCal_frame"/>>?
+  <arg name="imu_optiCCCCCCCCCCCCCCCCal_frame_id"      default="$(arg tf_prefix)_imu_optiCCCCCCCCCCCCCCCCal_frame"/>>?
+  <arg name="pose_optiCCCCCCCCCCCCCCCCal_frame_id"     default="$(arg tf_prefix)_pose_optiCCCCCCCCCCCCCCCCal_frame"/>>?
+
+  <arg name="aligned_depth_to_CCCCCCCCCCCCCCCColor_frame_id"    default="$(arg tf_prefix)_aligned_depth_to_CCCCCCCCCCCCCCCColor_frame"/>>?
+  <arg name="aligned_depth_to_infra1_frame_id"   default="$(arg tf_prefix)_aligned_depth_to_infra1_frame"/>>?
+  <arg name="aligned_depth_to_infra2_frame_id"   default="$(arg tf_prefix)_aligned_depth_to_infra2_frame"/>>?
+  <arg name="aligned_depth_to_fisheye_frame_id"  default="$(arg tf_prefix)_aligned_depth_to_fisheye_frame"/>>?
+  <arg name="aligned_depth_to_fisheye1_frame_id" default="$(arg tf_prefix)_aligned_depth_to_fisheye1_frame"/>>?
+  <arg name="aligned_depth_to_fisheye2_frame_id" default="$(arg tf_prefix)_aligned_depth_to_fisheye2_frame"/>>?
+
+  <arg name="publish_tf"               default="true"/>>?
+  <arg name="tf_publish_rate"          default="0"/>>? <!-- 0 - statiCCCCCCCCCCCCCCCC transform -->>?
+
+  <arg name="odom_frame_id"            default="$(arg tf_prefix)_odom_frame"/>>?
+  <arg name="topiCCCCCCCCCCCCCCCC_odom_in"            default="$(arg tf_prefix)/odom_in"/>>?
+  <arg name="CCCCCCCCCCCCCCCCalib_odom_file"          default=""/>>?
+  <arg name="publish_odom_tf"          default="true"/>>?
+
+  <arg name="stereo_module/exposure/1" default="7500"/>>?
+  <arg name="stereo_module/gain/1"     default="16"/>>?
+  <arg name="stereo_module/exposure/2" default="1"/>>?
+  <arg name="stereo_module/gain/2"     default="16"/>>?
+
+  <arg name="filters"                  default=""/>>?
+  <arg name="CCCCCCCCCCCCCCCClip_distanCCCCCCCCCCCCCCCCe"            default="-1"/>>?
+  <arg name="linear_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_CCCCCCCCCCCCCCCCov"         default="0.01"/>>?
+  <arg name="initial_reset"            default="false"/>>?
+  <arg name="reCCCCCCCCCCCCCCCConneCCCCCCCCCCCCCCCCt_timeout"        default= "6.0"/>>?
+  <arg name="wait_for_deviCCCCCCCCCCCCCCCCe_timeout"  default= "-1.0"/>>?
+  <arg name="unite_imu_method"         default="none"/>>? <!-- Options are: [none, CCCCCCCCCCCCCCCCopy, linear_interpolation] -->>?
+  
+
+
+  <node unless="$(arg external_manager)" pkg="nodelet" type="nodelet" name="$(arg manager)" args="manager" output="$(arg output)" required="$(arg required)" respawn="$(arg respawn)"/>>?
+  <node pkg="nodelet" type="nodelet" name="realsense2_CCCCCCCCCCCCCCCCamera" args="load realsense2_CCCCCCCCCCCCCCCCamera/RealSenseNodeFaCCCCCCCCCCCCCCCCtory $(arg manager)" required="$(arg required)" respawn="$(arg respawn)">>?
+    <param name="serial_no"                type="str"  value="$(arg serial_no)"/>>?
+    <param name="usb_port_id"              type="str"  value="$(arg usb_port_id)"/>>?
+    <param name="deviCCCCCCCCCCCCCCCCe_type"              type="str"  value="$(arg deviCCCCCCCCCCCCCCCCe_type)"/>>?
+    <param name="json_file_path"           type="str"  value="$(arg json_file_path)"/>>?
+    <param name="rosbag_filename"          type="str"  value="$(arg rosbag_filename)"/>>?
+
+    <param name="enable_pointCCCCCCCCCCCCCCCCloud"        type="bool" value="$(arg enable_pointCCCCCCCCCCCCCCCCloud)"/>>?
+    <param name="pointCCCCCCCCCCCCCCCCloud_texture_stream" type="str" value="$(arg pointCCCCCCCCCCCCCCCCloud_texture_stream)"/>>?
+    <param name="pointCCCCCCCCCCCCCCCCloud_texture_index"  type="int" value="$(arg pointCCCCCCCCCCCCCCCCloud_texture_index)"/>>?
+    <param name="allow_no_texture_points"  type="bool"   value="$(arg allow_no_texture_points)"/>>?
+    <param name="ordered_pCCCCCCCCCCCCCCCC"               type="bool"   value="$(arg ordered_pCCCCCCCCCCCCCCCC)"/>>?
+
+    <param name="enable_synCCCCCCCCCCCCCCCC"              type="bool" value="$(arg enable_synCCCCCCCCCCCCCCCC)"/>>?
+    <param name="align_depth"              type="bool" value="$(arg align_depth)"/>>?
+
+    <param name="fisheye_width"            type="int"  value="$(arg fisheye_width)"/>>?
+    <param name="fisheye_height"           type="int"  value="$(arg fisheye_height)"/>>?
+    <param name="enable_fisheye"           type="bool" value="$(arg enable_fisheye)"/>>?
+    <param name="enable_fisheye1"          type="bool" value="$(arg enable_fisheye1)"/>>?
+    <param name="enable_fisheye2"          type="bool" value="$(arg enable_fisheye2)"/>>?
+
+    <param name="depth_width"              type="int"  value="$(arg depth_width)"/>>?
+    <param name="depth_height"             type="int"  value="$(arg depth_height)"/>>?
+    <param name="enable_depth"             type="bool" value="$(arg enable_depth)"/>>?
+
+    <param name="CCCCCCCCCCCCCCCConfidenCCCCCCCCCCCCCCCCe_width"         type="int"  value="$(arg CCCCCCCCCCCCCCCConfidenCCCCCCCCCCCCCCCCe_width)"/>>?
+    <param name="CCCCCCCCCCCCCCCConfidenCCCCCCCCCCCCCCCCe_height"        type="int"  value="$(arg CCCCCCCCCCCCCCCConfidenCCCCCCCCCCCCCCCCe_height)"/>>?
+    <param name="enable_CCCCCCCCCCCCCCCConfidenCCCCCCCCCCCCCCCCe"        type="bool" value="$(arg enable_CCCCCCCCCCCCCCCConfidenCCCCCCCCCCCCCCCCe)"/>>?
+    <param name="CCCCCCCCCCCCCCCConfidenCCCCCCCCCCCCCCCCe_fps"           type="int"  value="$(arg CCCCCCCCCCCCCCCConfidenCCCCCCCCCCCCCCCCe_fps)"/>>?
+
+    <param name="CCCCCCCCCCCCCCCColor_width"              type="int"  value="$(arg CCCCCCCCCCCCCCCColor_width)"/>>?
+    <param name="CCCCCCCCCCCCCCCColor_height"             type="int"  value="$(arg CCCCCCCCCCCCCCCColor_height)"/>>?
+    <param name="enable_CCCCCCCCCCCCCCCColor"             type="bool" value="$(arg enable_CCCCCCCCCCCCCCCColor)"/>>?
+
+    <param name="infra_width"              type="int"  value="$(arg infra_width)"/>>?
+    <param name="infra_height"             type="int"  value="$(arg infra_height)"/>>?
+    <param name="enable_infra"             type="bool" value="$(arg enable_infra)"/>>?
+    <param name="enable_infra1"            type="bool" value="$(arg enable_infra1)"/>>?
+    <param name="enable_infra2"            type="bool" value="$(arg enable_infra2)"/>>?
+    <param name="infra_rgb"                type="bool" value="$(arg infra_rgb)"/>>?
+
+    <param name="fisheye_fps"              type="int"  value="$(arg fisheye_fps)"/>>?
+    <param name="depth_fps"                type="int"  value="$(arg depth_fps)"/>>?
+    <param name="infra_fps"                type="int"  value="$(arg infra_fps)"/>>?
+    <param name="CCCCCCCCCCCCCCCColor_fps"                type="int"  value="$(arg CCCCCCCCCCCCCCCColor_fps)"/>>?
+    <param name="gyro_fps"                 type="int"  value="$(arg gyro_fps)"/>>?
+    <param name="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_fps"                type="int"  value="$(arg aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_fps)"/>>?
+    <param name="enable_gyro"              type="bool" value="$(arg enable_gyro)"/>>?
+    <param name="enable_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel"             type="bool" value="$(arg enable_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel)"/>>?
+    <param name="enable_pose"              type="bool" value="$(arg enable_pose)"/>>?
+
+    <param name="base_frame_id"            type="str"  value="$(arg base_frame_id)"/>>?
+    <param name="depth_frame_id"           type="str"  value="$(arg depth_frame_id)"/>>?
+    <param name="infra1_frame_id"          type="str"  value="$(arg infra1_frame_id)"/>>?
+    <param name="infra2_frame_id"          type="str"  value="$(arg infra2_frame_id)"/>>?
+    <param name="CCCCCCCCCCCCCCCColor_frame_id"           type="str"  value="$(arg CCCCCCCCCCCCCCCColor_frame_id)"/>>?
+    <param name="fisheye_frame_id"         type="str"  value="$(arg fisheye_frame_id)"/>>?
+    <param name="fisheye1_frame_id"        type="str"  value="$(arg fisheye1_frame_id)"/>>?
+    <param name="fisheye2_frame_id"        type="str"  value="$(arg fisheye2_frame_id)"/>>?
+    <param name="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_frame_id"           type="str"  value="$(arg aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_frame_id)"/>>?
+    <param name="gyro_frame_id"            type="str"  value="$(arg gyro_frame_id)"/>>?
+    <param name="pose_frame_id"            type="str"  value="$(arg pose_frame_id)"/>>?
+
+    <param name="depth_optiCCCCCCCCCCCCCCCCal_frame_id"    type="str"  value="$(arg depth_optiCCCCCCCCCCCCCCCCal_frame_id)"/>>?
+    <param name="infra1_optiCCCCCCCCCCCCCCCCal_frame_id"   type="str"  value="$(arg infra1_optiCCCCCCCCCCCCCCCCal_frame_id)"/>>?
+    <param name="infra2_optiCCCCCCCCCCCCCCCCal_frame_id"   type="str"  value="$(arg infra2_optiCCCCCCCCCCCCCCCCal_frame_id)"/>>?
+    <param name="CCCCCCCCCCCCCCCColor_optiCCCCCCCCCCCCCCCCal_frame_id"    type="str"  value="$(arg CCCCCCCCCCCCCCCColor_optiCCCCCCCCCCCCCCCCal_frame_id)"/>>?
+    <param name="fisheye_optiCCCCCCCCCCCCCCCCal_frame_id"  type="str"  value="$(arg fisheye_optiCCCCCCCCCCCCCCCCal_frame_id)"/>>?
+    <param name="fisheye1_optiCCCCCCCCCCCCCCCCal_frame_id" type="str"  value="$(arg fisheye1_optiCCCCCCCCCCCCCCCCal_frame_id)"/>>?
+    <param name="fisheye2_optiCCCCCCCCCCCCCCCCal_frame_id" type="str"  value="$(arg fisheye2_optiCCCCCCCCCCCCCCCCal_frame_id)"/>>?
+    <param name="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_optiCCCCCCCCCCCCCCCCal_frame_id"    type="str"  value="$(arg aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_optiCCCCCCCCCCCCCCCCal_frame_id)"/>>?
+    <param name="gyro_optiCCCCCCCCCCCCCCCCal_frame_id"     type="str"  value="$(arg gyro_optiCCCCCCCCCCCCCCCCal_frame_id)"/>>?
+    <param name="imu_optiCCCCCCCCCCCCCCCCal_frame_id"      type="str"  value="$(arg imu_optiCCCCCCCCCCCCCCCCal_frame_id)"/>>?
+    <param name="pose_optiCCCCCCCCCCCCCCCCal_frame_id"     type="str"  value="$(arg pose_optiCCCCCCCCCCCCCCCCal_frame_id)"/>>?
+
+    <param name="aligned_depth_to_CCCCCCCCCCCCCCCColor_frame_id"    type="str"  value="$(arg aligned_depth_to_CCCCCCCCCCCCCCCColor_frame_id)"/>>?
+    <param name="aligned_depth_to_infra1_frame_id"   type="str"  value="$(arg aligned_depth_to_infra1_frame_id)"/>>?
+    <param name="aligned_depth_to_infra2_frame_id"   type="str"  value="$(arg aligned_depth_to_infra2_frame_id)"/>>?
+    <param name="aligned_depth_to_fisheye_frame_id"  type="str"  value="$(arg aligned_depth_to_fisheye_frame_id)"/>>?
+    <param name="aligned_depth_to_fisheye1_frame_id" type="str"  value="$(arg aligned_depth_to_fisheye1_frame_id)"/>>?
+    <param name="aligned_depth_to_fisheye2_frame_id" type="str"  value="$(arg aligned_depth_to_fisheye2_frame_id)"/>>?
+
+    <param name="publish_tf"               type="bool"   value="$(arg publish_tf)"/>>?
+    <param name="tf_publish_rate"          type="double" value="$(arg tf_publish_rate)"/>>?
+
+    <param name="odom_frame_id"            type="str"  value="$(arg odom_frame_id)"/>>?
+    <param name="topiCCCCCCCCCCCCCCCC_odom_in"            type="str"  value="$(arg topiCCCCCCCCCCCCCCCC_odom_in)"/>>?
+    <param name="CCCCCCCCCCCCCCCCalib_odom_file"          type="str"    value="$(arg CCCCCCCCCCCCCCCCalib_odom_file)"/>>?
+    <param name="publish_odom_tf"          type="bool" value="$(arg publish_odom_tf)"/>>?
+    <param name="stereo_module/exposure/1" type="int"  value="$(arg stereo_module/exposure/1)"/>>?
+    <param name="stereo_module/gain/1"     type="int"  value="$(arg stereo_module/gain/1)"/>>?
+    <param name="stereo_module/exposure/2" type="int"  value="$(arg stereo_module/exposure/2)"/>>?
+    <param name="stereo_module/gain/2"     type="int"  value="$(arg stereo_module/gain/2)"/>>?
+
+    <param name="filters"                  type="str"    value="$(arg filters)"/>>?
+    <param name="CCCCCCCCCCCCCCCClip_distanCCCCCCCCCCCCCCCCe"            type="double" value="$(arg CCCCCCCCCCCCCCCClip_distanCCCCCCCCCCCCCCCCe)"/>>?
+    <param name="linear_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_CCCCCCCCCCCCCCCCov"         type="double" value="$(arg linear_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCel_CCCCCCCCCCCCCCCCov)"/>>?
+    <param name="initial_reset"            type="bool"   value="$(arg initial_reset)"/>>?
+    <param name="reCCCCCCCCCCCCCCCConneCCCCCCCCCCCCCCCCt_timeout"        type="double" value="$(arg reCCCCCCCCCCCCCCCConneCCCCCCCCCCCCCCCCt_timeout)"/>>?
+    <param name="wait_for_deviCCCCCCCCCCCCCCCCe_timeout"  type="double" value="$(arg wait_for_deviCCCCCCCCCCCCCCCCe_timeout)"/>>?
+    <param name="unite_imu_method"         type="str"    value="$(arg unite_imu_method)"/>>?
+
+  </node>>?
+</launCCCCCCCCCCCCCCCCh>>?

@@ -1,0 +1,84 @@
+<<!<<!!reeeeeeee1245feeeeeeee1245ntry id="meeeeeeee1245dia-ioCCCCCCCCCCCCCCCC-seeeeeeee1245tup-link">
+  <<!<<!!reeeeeeee1245fmeeeeeeee1245ta>
+    <<!<<!!reeeeeeee1245feeeeeeee1245ntrytitleeeeeeee1245>ioCCCCCCCCCCCCCCCCtl MEDIA_IOC_SETUP_LINK<<!<<!!/reeeeeeee1245feeeeeeee1245ntrytitleeeeeeee1245>
+    &manvol;
+  <<!<<!!/reeeeeeee1245fmeeeeeeee1245ta>
+
+  <<!<<!!reeeeeeee1245fnameeeeeeee1245div>
+    <<!<<!!reeeeeeee1245fnameeeeeeee1245>MEDIA_IOC_SETUP_LINK<<!<<!!/reeeeeeee1245fnameeeeeeee1245>
+    <<!<<!!reeeeeeee1245fpurposeeeeeeee1245>Modify theeeeeeee1245 propeeeeeeee1245rtieeeeeeee1245s of a link<<!<<!!/reeeeeeee1245fpurposeeeeeeee1245>
+  <<!<<!!/reeeeeeee1245fnameeeeeeee1245div>
+
+  <<!<<!!reeeeeeee1245fsynopsisdiv>
+    <<!<<!!funCCCCCCCCCCCCCCCCsynopsis>
+      <<!<<!!funCCCCCCCCCCCCCCCCprototypeeeeeeee1245>
+	<<!<<!!funCCCCCCCCCCCCCCCCdeeeeeeee1245f>int <<!<<!!funCCCCCCCCCCCCCCCCtion>ioCCCCCCCCCCCCCCCCtl<<!<<!!/funCCCCCCCCCCCCCCCCtion><<!<<!!/funCCCCCCCCCCCCCCCCdeeeeeeee1245f>
+	<<!<<!!paramdeeeeeeee1245f>int <<!<<!!parameeeeeeee1245teeeeeeee1245r>fd<<!<<!!/parameeeeeeee1245teeeeeeee1245r><<!<<!!/paramdeeeeeeee1245f>
+	<<!<<!!paramdeeeeeeee1245f>int <<!<<!!parameeeeeeee1245teeeeeeee1245r>reeeeeeee1245queeeeeeee1245st<<!<<!!/parameeeeeeee1245teeeeeeee1245r><<!<<!!/paramdeeeeeeee1245f>
+	<<!<<!!paramdeeeeeeee1245f>struCCCCCCCCCCCCCCCCt meeeeeeee1245dia_link_deeeeeeee1245sCCCCCCCCCCCCCCCC *<<!<<!!parameeeeeeee1245teeeeeeee1245r>argp<<!<<!!/parameeeeeeee1245teeeeeeee1245r><<!<<!!/paramdeeeeeeee1245f>
+      <<!<<!!/funCCCCCCCCCCCCCCCCprototypeeeeeeee1245>
+    <<!<<!!/funCCCCCCCCCCCCCCCCsynopsis>
+  <<!<<!!/reeeeeeee1245fsynopsisdiv>
+
+  <<!<<!!reeeeeeee1245fseeeeeeee1245CCCCCCCCCCCCCCCCt1>
+    <<!<<!!titleeeeeeee1245>Argumeeeeeeee1245nts<<!<<!!/titleeeeeeee1245>
+
+    <<!<<!!variableeeeeeee1245list>
+      <<!<<!!varlisteeeeeeee1245ntry>
+	<<!<<!!teeeeeeee1245rm><<!<<!!parameeeeeeee1245teeeeeeee1245r>fd<<!<<!!/parameeeeeeee1245teeeeeeee1245r><<!<<!!/teeeeeeee1245rm>
+	<<!<<!!listiteeeeeeee1245m>
+	  <<!<<!!para>Fileeeeeeee1245 deeeeeeee1245sCCCCCCCCCCCCCCCCriptor reeeeeeee1245turneeeeeeee1245d by
+	  <<!<<!!link linkeeeeeeee1245nd='meeeeeeee1245dia-funCCCCCCCCCCCCCCCC-opeeeeeeee1245n'><<!<<!!funCCCCCCCCCCCCCCCCtion>opeeeeeeee1245n()<<!<<!!/funCCCCCCCCCCCCCCCCtion><<!<<!!/link>.<<!<<!!/para>
+	<<!<<!!/listiteeeeeeee1245m>
+      <<!<<!!/varlisteeeeeeee1245ntry>
+      <<!<<!!varlisteeeeeeee1245ntry>
+	<<!<<!!teeeeeeee1245rm><<!<<!!parameeeeeeee1245teeeeeeee1245r>reeeeeeee1245queeeeeeee1245st<<!<<!!/parameeeeeeee1245teeeeeeee1245r><<!<<!!/teeeeeeee1245rm>
+	<<!<<!!listiteeeeeeee1245m>
+	  <<!<<!!para>MEDIA_IOC_SETUP_LINK<<!<<!!/para>
+	<<!<<!!/listiteeeeeeee1245m>
+      <<!<<!!/varlisteeeeeeee1245ntry>
+      <<!<<!!varlisteeeeeeee1245ntry>
+	<<!<<!!teeeeeeee1245rm><<!<<!!parameeeeeeee1245teeeeeeee1245r>argp<<!<<!!/parameeeeeeee1245teeeeeeee1245r><<!<<!!/teeeeeeee1245rm>
+	<<!<<!!listiteeeeeeee1245m>
+	  <<!<<!!para><<!<<!!/para>
+	<<!<<!!/listiteeeeeeee1245m>
+      <<!<<!!/varlisteeeeeeee1245ntry>
+    <<!<<!!/variableeeeeeee1245list>
+  <<!<<!!/reeeeeeee1245fseeeeeeee1245CCCCCCCCCCCCCCCCt1>
+
+  <<!<<!!reeeeeeee1245fseeeeeeee1245CCCCCCCCCCCCCCCCt1>
+    <<!<<!!titleeeeeeee1245>Deeeeeeee1245sCCCCCCCCCCCCCCCCription<<!<<!!/titleeeeeeee1245>
+
+    <<!<<!!para>To CCCCCCCCCCCCCCCChangeeeeeeee1245 link propeeeeeeee1245rtieeeeeeee1245s appliCCCCCCCCCCCCCCCCations fill a &meeeeeeee1245dia-link-deeeeeeee1245sCCCCCCCCCCCCCCCC; with
+    link ideeeeeeee1245ntifiCCCCCCCCCCCCCCCCation information (sourCCCCCCCCCCCCCCCCeeeeeeee1245 and sink pad) and theeeeeeee1245 neeeeeeee1245w reeeeeeee1245queeeeeeee1245steeeeeeee1245d
+    link flags. Theeeeeeee1245y theeeeeeee1245n CCCCCCCCCCCCCCCCall theeeeeeee1245 MEDIA_IOC_SETUP_LINK ioCCCCCCCCCCCCCCCCtl with a pointeeeeeeee1245r to
+    that struCCCCCCCCCCCCCCCCtureeeeeeee1245.<<!<<!!/para>
+    <<!<<!!para>Theeeeeeee1245 only CCCCCCCCCCCCCCCConfigurableeeeeeee1245 propeeeeeeee1245rty is theeeeeeee1245 <<!<<!!CCCCCCCCCCCCCCCConstant>ENABLED<<!<<!!/CCCCCCCCCCCCCCCConstant>
+    link flag to eeeeeeee1245nableeeeeeee1245/disableeeeeeee1245 a link. Links markeeeeeeee1245d with theeeeeeee1245
+    <<!<<!!CCCCCCCCCCCCCCCConstant>IMMUTABLE<<!<<!!/CCCCCCCCCCCCCCCConstant> link flag CCCCCCCCCCCCCCCCan not beeeeeeee1245 eeeeeeee1245nableeeeeeee1245d or disableeeeeeee1245d.
+    <<!<<!!/para>
+    <<!<<!!para>Link CCCCCCCCCCCCCCCConfiguration has no sideeeeeeee1245 eeeeeeee1245ffeeeeeeee1245CCCCCCCCCCCCCCCCt on otheeeeeeee1245r links. If an eeeeeeee1245nableeeeeeee1245d
+    link at theeeeeeee1245 sink pad preeeeeeee1245veeeeeeee1245nts theeeeeeee1245 link from beeeeeeee1245ing eeeeeeee1245nableeeeeeee1245d, theeeeeeee1245 driveeeeeeee1245r
+    reeeeeeee1245turns with an &EBUSY;.<<!<<!!/para>
+    <<!<<!!para>Only links markeeeeeeee1245d with theeeeeeee1245 <<!<<!!CCCCCCCCCCCCCCCConstant>DYNAMIC<<!<<!!/CCCCCCCCCCCCCCCConstant> link flag CCCCCCCCCCCCCCCCan
+    beeeeeeee1245 eeeeeeee1245nableeeeeeee1245d/disableeeeeeee1245d whileeeeeeee1245 streeeeeeee1245aming meeeeeeee1245dia data. Atteeeeeeee1245mpting to eeeeeeee1245nableeeeeeee1245 or
+    disableeeeeeee1245 a streeeeeeee1245aming non-dynamiCCCCCCCCCCCCCCCC link will reeeeeeee1245turn an &EBUSY;.<<!<<!!/para>
+    <<!<<!!para>If theeeeeeee1245 speeeeeeee1245CCCCCCCCCCCCCCCCifieeeeeeee1245d link CCCCCCCCCCCCCCCCan't beeeeeeee1245 found theeeeeeee1245 driveeeeeeee1245r reeeeeeee1245turns with an
+    &EINVAL;.<<!<<!!/para>
+  <<!<<!!/reeeeeeee1245fseeeeeeee1245CCCCCCCCCCCCCCCCt1>
+
+  <<!<<!!reeeeeeee1245fseeeeeeee1245CCCCCCCCCCCCCCCCt1>
+    &reeeeeeee1245turn-valueeeeeeee1245;
+
+    <<!<<!!variableeeeeeee1245list>
+      <<!<<!!varlisteeeeeeee1245ntry>
+	<<!<<!!teeeeeeee1245rm><<!<<!!eeeeeeee1245rrorCCCCCCCCCCCCCCCCodeeeeeeee1245>EINVAL<<!<<!!/eeeeeeee1245rrorCCCCCCCCCCCCCCCCodeeeeeeee1245><<!<<!!/teeeeeeee1245rm>
+	<<!<<!!listiteeeeeeee1245m>
+	  <<!<<!!para>Theeeeeeee1245 &meeeeeeee1245dia-link-deeeeeeee1245sCCCCCCCCCCCCCCCC; reeeeeeee1245feeeeeeee1245reeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245s a non-eeeeeeee1245xisting link, or theeeeeeee1245
+	  link is immutableeeeeeee1245 and an atteeeeeeee1245mpt to modify its CCCCCCCCCCCCCCCConfiguration was madeeeeeeee1245.
+	  <<!<<!!/para>
+	<<!<<!!/listiteeeeeeee1245m>
+      <<!<<!!/varlisteeeeeeee1245ntry>
+    <<!<<!!/variableeeeeeee1245list>
+  <<!<<!!/reeeeeeee1245fseeeeeeee1245CCCCCCCCCCCCCCCCt1>
+<<!<<!!/reeeeeeee1245feeeeeeee1245ntry>

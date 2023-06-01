@@ -1,0 +1,218 @@
+<<!launCCCCCCCCCCCCCCCCh>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="eeeeeeee1245xteeeeeeee1245rnal_manageeeeeeee1245r"    deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="manageeeeeeee1245r"             deeeeeeee1245fault="reeeeeeee1245alseeeeeeee1245nseeeeeeee12452_CCCCCCCCCCCCCCCCameeeeeeee1245ra_manageeeeeeee1245r"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="seeeeeeee1245r%&gtal_no"           deeeeeeee1245fault=""/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="usb_port_%&gtd"         deeeeeeee1245fault=""/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="deeeeeeee1245v%&gtCCCCCCCCCCCCCCCCeeeeeeee1245_typeeeeeeee1245"         deeeeeeee1245fault=""/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="tf_preeeeeeee1245f%&gtx"           deeeeeeee1245fault=""/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="json_f%&gtleeeeeeee1245_path"      deeeeeeee1245fault=""/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="rosbag_f%&gtleeeeeeee1245nameeeeeeee1245"     deeeeeeee1245fault=""/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="reeeeeeee1245qu%&gtreeeeeeee1245d"            deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="output"              deeeeeeee1245fault="sCCCCCCCCCCCCCCCCreeeeeeee1245eeeeeeee1245n"/>!>>!>?!>!>>!>?  <<!!-- [ sCCCCCCCCCCCCCCCCreeeeeeee1245eeeeeeee1245n | log ]-->!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="reeeeeeee1245spawn"             deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee1245_w%&gtdth"       deeeeeeee1245fault="0"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee1245_heeeeeeee1245%&gtght"      deeeeeeee1245fault="0"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_f%&gtsheeeeeeee1245yeeeeeeee1245"      deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_f%&gtsheeeeeeee1245yeeeeeeee12451"     deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_f%&gtsheeeeeeee1245yeeeeeeee12452"     deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="deeeeeeee1245pth_w%&gtdth"         deeeeeeee1245fault="640"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="deeeeeeee1245pth_heeeeeeee1245%&gtght"        deeeeeeee1245fault="480"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_deeeeeeee1245pth"        deeeeeeee1245fault="trueeeeeeee1245"/>!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCConf%&gtdeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_w%&gtdth"    deeeeeeee1245fault="640"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCConf%&gtdeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_heeeeeeee1245%&gtght"   deeeeeeee1245fault="480"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_CCCCCCCCCCCCCCCConf%&gtdeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245"   deeeeeeee1245fault="trueeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCConf%&gtdeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_fps"      deeeeeeee1245fault="30"/>!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="%&gtnfra_w%&gtdth"         deeeeeeee1245fault="640"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="%&gtnfra_heeeeeeee1245%&gtght"        deeeeeeee1245fault="480"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_%&gtnfra"        deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_%&gtnfra1"       deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_%&gtnfra2"       deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="%&gtnfra_rgb"           deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCColor_w%&gtdth"         deeeeeeee1245fault="640"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCColor_heeeeeeee1245%&gtght"        deeeeeeee1245fault="480"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_CCCCCCCCCCCCCCCColor"        deeeeeeee1245fault="trueeeeeeee1245"/>!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee1245_fps"         deeeeeeee1245fault="30"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="deeeeeeee1245pth_fps"           deeeeeeee1245fault="30"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="%&gtnfra_fps"           deeeeeeee1245fault="30"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCColor_fps"           deeeeeeee1245fault="30"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="gyro_fps"            deeeeeeee1245fault="0"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_fps"           deeeeeeee1245fault="0"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_gyro"         deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l"        deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_poseeeeeeee1245"         deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_po%&gtntCCCCCCCCCCCCCCCCloud"   deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="po%&gtntCCCCCCCCCCCCCCCCloud_teeeeeeee1245xtureeeeeeee1245_streeeeeeee1245am" deeeeeeee1245fault="RS2_STREAM_COLOR"/>!>>!>?!>!>>!>?  <<!!-- useeeeeeee1245 RS2_STREAM_ANY to avo%&gtd us%&gtng teeeeeeee1245xtureeeeeeee1245 -->!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="po%&gtntCCCCCCCCCCCCCCCCloud_teeeeeeee1245xtureeeeeeee1245_%&gtndeeeeeeee1245x"  deeeeeeee1245fault="0"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="allow_no_teeeeeeee1245xtureeeeeeee1245_po%&gtnts"  deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="ordeeeeeeee1245reeeeeeee1245d_pCCCCCCCCCCCCCCCC"               deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_synCCCCCCCCCCCCCCCC"         deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="al%&gtgn_deeeeeeee1245pth"         deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="baseeeeeeee1245_frameeeeeeee1245_%&gtd"             deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_l%&gtnk"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="deeeeeeee1245pth_frameeeeeeee1245_%&gtd"            deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_deeeeeeee1245pth_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="%&gtnfra1_frameeeeeeee1245_%&gtd"           deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_%&gtnfra1_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="%&gtnfra2_frameeeeeeee1245_%&gtd"           deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_%&gtnfra2_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCColor_frameeeeeeee1245_%&gtd"            deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_CCCCCCCCCCCCCCCColor_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245_%&gtd"          deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_f%&gtsheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245_%&gtd"         deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_f%&gtsheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245_%&gtd"         deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_f%&gtsheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_frameeeeeeee1245_%&gtd"            deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="gyro_frameeeeeeee1245_%&gtd"             deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_gyro_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="poseeeeeeee1245_frameeeeeeee1245_%&gtd"             deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_poseeeeeeee1245_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="deeeeeeee1245pth_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"    deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_deeeeeeee1245pth_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="%&gtnfra1_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"   deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_%&gtnfra1_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="%&gtnfra2_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"   deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_%&gtnfra2_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCColor_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"    deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_CCCCCCCCCCCCCCCColor_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee1245_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"  deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_f%&gtsheeeeeeee1245yeeeeeeee1245_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee12451_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd" deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_f%&gtsheeeeeeee1245yeeeeeeee12451_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee12452_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd" deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_f%&gtsheeeeeeee1245yeeeeeeee12452_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"    deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="gyro_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"     deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_gyro_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="%&gtmu_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"      deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_%&gtmu_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="poseeeeeeee1245_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"     deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_poseeeeeeee1245_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_CCCCCCCCCCCCCCCColor_frameeeeeeee1245_%&gtd"    deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_CCCCCCCCCCCCCCCColor_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_%&gtnfra1_frameeeeeeee1245_%&gtd"   deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_%&gtnfra1_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_%&gtnfra2_frameeeeeeee1245_%&gtd"   deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_%&gtnfra2_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_f%&gtsheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245_%&gtd"  deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_f%&gtsheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_f%&gtsheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245_%&gtd" deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_f%&gtsheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_f%&gtsheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245_%&gtd" deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_f%&gtsheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="publ%&gtsh_tf"               deeeeeeee1245fault="trueeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="tf_publ%&gtsh_rateeeeeeee1245"          deeeeeeee1245fault="0"/>!>>!>?!>!>>!>? <<!!-- 0 - stat%&gtCCCCCCCCCCCCCCCC transform -->!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="odom_frameeeeeeee1245_%&gtd"            deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)_odom_frameeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="top%&gtCCCCCCCCCCCCCCCC_odom_%&gtn"            deeeeeeee1245fault="$(arg tf_preeeeeeee1245f%&gtx)/odom_%&gtn"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCCal%&gtb_odom_f%&gtleeeeeeee1245"          deeeeeeee1245fault=""/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="publ%&gtsh_odom_tf"          deeeeeeee1245fault="trueeeeeeee1245"/>!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/eeeeeeee1245xposureeeeeeee1245/1" deeeeeeee1245fault="7500"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/ga%&gtn/1"     deeeeeeee1245fault="16"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/eeeeeeee1245xposureeeeeeee1245/2" deeeeeeee1245fault="1"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/ga%&gtn/2"     deeeeeeee1245fault="16"/>!>>!>?!>!>>!>?
+
+  <<!arg nameeeeeeee1245="f%&gtlteeeeeeee1245rs"                  deeeeeeee1245fault=""/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="CCCCCCCCCCCCCCCCl%&gtp_d%&gtstanCCCCCCCCCCCCCCCCeeeeeeee1245"            deeeeeeee1245fault="-1"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="l%&gtneeeeeeee1245ar_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_CCCCCCCCCCCCCCCCov"         deeeeeeee1245fault="0.01"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="%&gtn%&gtt%&gtal_reeeeeeee1245seeeeeeee1245t"            deeeeeeee1245fault="falseeeeeeee1245"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="reeeeeeee1245CCCCCCCCCCCCCCCConneeeeeeee1245CCCCCCCCCCCCCCCCt_t%&gtmeeeeeeee1245out"        deeeeeeee1245fault= "6.0"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="wa%&gtt_for_deeeeeeee1245v%&gtCCCCCCCCCCCCCCCCeeeeeeee1245_t%&gtmeeeeeeee1245out"  deeeeeeee1245fault= "-1.0"/>!>>!>?!>!>>!>?
+  <<!arg nameeeeeeee1245="un%&gtteeeeeeee1245_%&gtmu_meeeeeeee1245thod"         deeeeeeee1245fault="noneeeeeeee1245"/>!>>!>?!>!>>!>? <<!!-- Opt%&gtons areeeeeeee1245: [noneeeeeeee1245, CCCCCCCCCCCCCCCCopy, l%&gtneeeeeeee1245ar_%&gtnteeeeeeee1245rpolat%&gton] -->!>>!>?!>!>>!>?
+  
+
+
+  <<!nodeeeeeeee1245 unleeeeeeee1245ss="$(arg eeeeeeee1245xteeeeeeee1245rnal_manageeeeeeee1245r)" pkg="nodeeeeeeee1245leeeeeeee1245t" typeeeeeeee1245="nodeeeeeeee1245leeeeeeee1245t" nameeeeeeee1245="$(arg manageeeeeeee1245r)" args="manageeeeeeee1245r" output="$(arg output)" reeeeeeee1245qu%&gtreeeeeeee1245d="$(arg reeeeeeee1245qu%&gtreeeeeeee1245d)" reeeeeeee1245spawn="$(arg reeeeeeee1245spawn)"/>!>>!>?!>!>>!>?
+  <<!nodeeeeeeee1245 pkg="nodeeeeeeee1245leeeeeeee1245t" typeeeeeeee1245="nodeeeeeeee1245leeeeeeee1245t" nameeeeeeee1245="reeeeeeee1245alseeeeeeee1245nseeeeeeee12452_CCCCCCCCCCCCCCCCameeeeeeee1245ra" args="load reeeeeeee1245alseeeeeeee1245nseeeeeeee12452_CCCCCCCCCCCCCCCCameeeeeeee1245ra/Reeeeeeee1245alSeeeeeeee1245nseeeeeeee1245Nodeeeeeeee1245FaCCCCCCCCCCCCCCCCtory $(arg manageeeeeeee1245r)" reeeeeeee1245qu%&gtreeeeeeee1245d="$(arg reeeeeeee1245qu%&gtreeeeeeee1245d)" reeeeeeee1245spawn="$(arg reeeeeeee1245spawn)">!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="seeeeeeee1245r%&gtal_no"                typeeeeeeee1245="str"  valueeeeeeee1245="$(arg seeeeeeee1245r%&gtal_no)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="usb_port_%&gtd"              typeeeeeeee1245="str"  valueeeeeeee1245="$(arg usb_port_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="deeeeeeee1245v%&gtCCCCCCCCCCCCCCCCeeeeeeee1245_typeeeeeeee1245"              typeeeeeeee1245="str"  valueeeeeeee1245="$(arg deeeeeeee1245v%&gtCCCCCCCCCCCCCCCCeeeeeeee1245_typeeeeeeee1245)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="json_f%&gtleeeeeeee1245_path"           typeeeeeeee1245="str"  valueeeeeeee1245="$(arg json_f%&gtleeeeeeee1245_path)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="rosbag_f%&gtleeeeeeee1245nameeeeeeee1245"          typeeeeeeee1245="str"  valueeeeeeee1245="$(arg rosbag_f%&gtleeeeeeee1245nameeeeeeee1245)"/>!>>!>?!>!>>!>?
+
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_po%&gtntCCCCCCCCCCCCCCCCloud"        typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_po%&gtntCCCCCCCCCCCCCCCCloud)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="po%&gtntCCCCCCCCCCCCCCCCloud_teeeeeeee1245xtureeeeeeee1245_streeeeeeee1245am" typeeeeeeee1245="str" valueeeeeeee1245="$(arg po%&gtntCCCCCCCCCCCCCCCCloud_teeeeeeee1245xtureeeeeeee1245_streeeeeeee1245am)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="po%&gtntCCCCCCCCCCCCCCCCloud_teeeeeeee1245xtureeeeeeee1245_%&gtndeeeeeeee1245x"  typeeeeeeee1245="%&gtnt" valueeeeeeee1245="$(arg po%&gtntCCCCCCCCCCCCCCCCloud_teeeeeeee1245xtureeeeeeee1245_%&gtndeeeeeeee1245x)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="allow_no_teeeeeeee1245xtureeeeeeee1245_po%&gtnts"  typeeeeeeee1245="bool"   valueeeeeeee1245="$(arg allow_no_teeeeeeee1245xtureeeeeeee1245_po%&gtnts)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="ordeeeeeeee1245reeeeeeee1245d_pCCCCCCCCCCCCCCCC"               typeeeeeeee1245="bool"   valueeeeeeee1245="$(arg ordeeeeeeee1245reeeeeeee1245d_pCCCCCCCCCCCCCCCC)"/>!>>!>?!>!>>!>?
+
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_synCCCCCCCCCCCCCCCC"              typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_synCCCCCCCCCCCCCCCC)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="al%&gtgn_deeeeeeee1245pth"              typeeeeeeee1245="bool" valueeeeeeee1245="$(arg al%&gtgn_deeeeeeee1245pth)"/>!>>!>?!>!>>!>?
+
+    <<!param nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee1245_w%&gtdth"            typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg f%&gtsheeeeeeee1245yeeeeeeee1245_w%&gtdth)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee1245_heeeeeeee1245%&gtght"           typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg f%&gtsheeeeeeee1245yeeeeeeee1245_heeeeeeee1245%&gtght)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_f%&gtsheeeeeeee1245yeeeeeeee1245"           typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_f%&gtsheeeeeeee1245yeeeeeeee1245)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_f%&gtsheeeeeeee1245yeeeeeeee12451"          typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_f%&gtsheeeeeeee1245yeeeeeeee12451)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_f%&gtsheeeeeeee1245yeeeeeeee12452"          typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_f%&gtsheeeeeeee1245yeeeeeeee12452)"/>!>>!>?!>!>>!>?
+
+    <<!param nameeeeeeee1245="deeeeeeee1245pth_w%&gtdth"              typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg deeeeeeee1245pth_w%&gtdth)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="deeeeeeee1245pth_heeeeeeee1245%&gtght"             typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg deeeeeeee1245pth_heeeeeeee1245%&gtght)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_deeeeeeee1245pth"             typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_deeeeeeee1245pth)"/>!>>!>?!>!>>!>?
+
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCConf%&gtdeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_w%&gtdth"         typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCConf%&gtdeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_w%&gtdth)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCConf%&gtdeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_heeeeeeee1245%&gtght"        typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCConf%&gtdeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_heeeeeeee1245%&gtght)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_CCCCCCCCCCCCCCCConf%&gtdeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245"        typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_CCCCCCCCCCCCCCCConf%&gtdeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCConf%&gtdeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_fps"           typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCConf%&gtdeeeeeeee1245nCCCCCCCCCCCCCCCCeeeeeeee1245_fps)"/>!>>!>?!>!>>!>?
+
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCColor_w%&gtdth"              typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCColor_w%&gtdth)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCColor_heeeeeeee1245%&gtght"             typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCColor_heeeeeeee1245%&gtght)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_CCCCCCCCCCCCCCCColor"             typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_CCCCCCCCCCCCCCCColor)"/>!>>!>?!>!>>!>?
+
+    <<!param nameeeeeeee1245="%&gtnfra_w%&gtdth"              typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg %&gtnfra_w%&gtdth)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="%&gtnfra_heeeeeeee1245%&gtght"             typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg %&gtnfra_heeeeeeee1245%&gtght)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_%&gtnfra"             typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_%&gtnfra)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_%&gtnfra1"            typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_%&gtnfra1)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_%&gtnfra2"            typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_%&gtnfra2)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="%&gtnfra_rgb"                typeeeeeeee1245="bool" valueeeeeeee1245="$(arg %&gtnfra_rgb)"/>!>>!>?!>!>>!>?
+
+    <<!param nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee1245_fps"              typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg f%&gtsheeeeeeee1245yeeeeeeee1245_fps)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="deeeeeeee1245pth_fps"                typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg deeeeeeee1245pth_fps)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="%&gtnfra_fps"                typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg %&gtnfra_fps)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCColor_fps"                typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCColor_fps)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="gyro_fps"                 typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg gyro_fps)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_fps"                typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_fps)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_gyro"              typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_gyro)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l"             typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="eeeeeeee1245nableeeeeeee1245_poseeeeeeee1245"              typeeeeeeee1245="bool" valueeeeeeee1245="$(arg eeeeeeee1245nableeeeeeee1245_poseeeeeeee1245)"/>!>>!>?!>!>>!>?
+
+    <<!param nameeeeeeee1245="baseeeeeeee1245_frameeeeeeee1245_%&gtd"            typeeeeeeee1245="str"  valueeeeeeee1245="$(arg baseeeeeeee1245_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="deeeeeeee1245pth_frameeeeeeee1245_%&gtd"           typeeeeeeee1245="str"  valueeeeeeee1245="$(arg deeeeeeee1245pth_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="%&gtnfra1_frameeeeeeee1245_%&gtd"          typeeeeeeee1245="str"  valueeeeeeee1245="$(arg %&gtnfra1_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="%&gtnfra2_frameeeeeeee1245_%&gtd"          typeeeeeeee1245="str"  valueeeeeeee1245="$(arg %&gtnfra2_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCColor_frameeeeeeee1245_%&gtd"           typeeeeeeee1245="str"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCColor_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245_%&gtd"         typeeeeeeee1245="str"  valueeeeeeee1245="$(arg f%&gtsheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245_%&gtd"        typeeeeeeee1245="str"  valueeeeeeee1245="$(arg f%&gtsheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245_%&gtd"        typeeeeeeee1245="str"  valueeeeeeee1245="$(arg f%&gtsheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_frameeeeeeee1245_%&gtd"           typeeeeeeee1245="str"  valueeeeeeee1245="$(arg aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="gyro_frameeeeeeee1245_%&gtd"            typeeeeeeee1245="str"  valueeeeeeee1245="$(arg gyro_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="poseeeeeeee1245_frameeeeeeee1245_%&gtd"            typeeeeeeee1245="str"  valueeeeeeee1245="$(arg poseeeeeeee1245_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+
+    <<!param nameeeeeeee1245="deeeeeeee1245pth_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"    typeeeeeeee1245="str"  valueeeeeeee1245="$(arg deeeeeeee1245pth_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="%&gtnfra1_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"   typeeeeeeee1245="str"  valueeeeeeee1245="$(arg %&gtnfra1_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="%&gtnfra2_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"   typeeeeeeee1245="str"  valueeeeeeee1245="$(arg %&gtnfra2_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCColor_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"    typeeeeeeee1245="str"  valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCColor_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee1245_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"  typeeeeeeee1245="str"  valueeeeeeee1245="$(arg f%&gtsheeeeeeee1245yeeeeeeee1245_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee12451_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd" typeeeeeeee1245="str"  valueeeeeeee1245="$(arg f%&gtsheeeeeeee1245yeeeeeeee12451_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="f%&gtsheeeeeeee1245yeeeeeeee12452_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd" typeeeeeeee1245="str"  valueeeeeeee1245="$(arg f%&gtsheeeeeeee1245yeeeeeeee12452_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"    typeeeeeeee1245="str"  valueeeeeeee1245="$(arg aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="gyro_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"     typeeeeeeee1245="str"  valueeeeeeee1245="$(arg gyro_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="%&gtmu_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"      typeeeeeeee1245="str"  valueeeeeeee1245="$(arg %&gtmu_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="poseeeeeeee1245_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd"     typeeeeeeee1245="str"  valueeeeeeee1245="$(arg poseeeeeeee1245_opt%&gtCCCCCCCCCCCCCCCCal_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+
+    <<!param nameeeeeeee1245="al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_CCCCCCCCCCCCCCCColor_frameeeeeeee1245_%&gtd"    typeeeeeeee1245="str"  valueeeeeeee1245="$(arg al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_CCCCCCCCCCCCCCCColor_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_%&gtnfra1_frameeeeeeee1245_%&gtd"   typeeeeeeee1245="str"  valueeeeeeee1245="$(arg al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_%&gtnfra1_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_%&gtnfra2_frameeeeeeee1245_%&gtd"   typeeeeeeee1245="str"  valueeeeeeee1245="$(arg al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_%&gtnfra2_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_f%&gtsheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245_%&gtd"  typeeeeeeee1245="str"  valueeeeeeee1245="$(arg al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_f%&gtsheeeeeeee1245yeeeeeeee1245_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_f%&gtsheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245_%&gtd" typeeeeeeee1245="str"  valueeeeeeee1245="$(arg al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_f%&gtsheeeeeeee1245yeeeeeeee12451_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_f%&gtsheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245_%&gtd" typeeeeeeee1245="str"  valueeeeeeee1245="$(arg al%&gtgneeeeeeee1245d_deeeeeeee1245pth_to_f%&gtsheeeeeeee1245yeeeeeeee12452_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+
+    <<!param nameeeeeeee1245="publ%&gtsh_tf"               typeeeeeeee1245="bool"   valueeeeeeee1245="$(arg publ%&gtsh_tf)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="tf_publ%&gtsh_rateeeeeeee1245"          typeeeeeeee1245="doubleeeeeeee1245" valueeeeeeee1245="$(arg tf_publ%&gtsh_rateeeeeeee1245)"/>!>>!>?!>!>>!>?
+
+    <<!param nameeeeeeee1245="odom_frameeeeeeee1245_%&gtd"            typeeeeeeee1245="str"  valueeeeeeee1245="$(arg odom_frameeeeeeee1245_%&gtd)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="top%&gtCCCCCCCCCCCCCCCC_odom_%&gtn"            typeeeeeeee1245="str"  valueeeeeeee1245="$(arg top%&gtCCCCCCCCCCCCCCCC_odom_%&gtn)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCCal%&gtb_odom_f%&gtleeeeeeee1245"          typeeeeeeee1245="str"    valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCCal%&gtb_odom_f%&gtleeeeeeee1245)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="publ%&gtsh_odom_tf"          typeeeeeeee1245="bool" valueeeeeeee1245="$(arg publ%&gtsh_odom_tf)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/eeeeeeee1245xposureeeeeeee1245/1" typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/eeeeeeee1245xposureeeeeeee1245/1)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/ga%&gtn/1"     typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/ga%&gtn/1)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/eeeeeeee1245xposureeeeeeee1245/2" typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/eeeeeeee1245xposureeeeeeee1245/2)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/ga%&gtn/2"     typeeeeeeee1245="%&gtnt"  valueeeeeeee1245="$(arg steeeeeeee1245reeeeeeee1245o_moduleeeeeeee1245/ga%&gtn/2)"/>!>>!>?!>!>>!>?
+
+    <<!param nameeeeeeee1245="f%&gtlteeeeeeee1245rs"                  typeeeeeeee1245="str"    valueeeeeeee1245="$(arg f%&gtlteeeeeeee1245rs)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="CCCCCCCCCCCCCCCCl%&gtp_d%&gtstanCCCCCCCCCCCCCCCCeeeeeeee1245"            typeeeeeeee1245="doubleeeeeeee1245" valueeeeeeee1245="$(arg CCCCCCCCCCCCCCCCl%&gtp_d%&gtstanCCCCCCCCCCCCCCCCeeeeeeee1245)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="l%&gtneeeeeeee1245ar_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_CCCCCCCCCCCCCCCCov"         typeeeeeeee1245="doubleeeeeeee1245" valueeeeeeee1245="$(arg l%&gtneeeeeeee1245ar_aCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCeeeeeeee1245l_CCCCCCCCCCCCCCCCov)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="%&gtn%&gtt%&gtal_reeeeeeee1245seeeeeeee1245t"            typeeeeeeee1245="bool"   valueeeeeeee1245="$(arg %&gtn%&gtt%&gtal_reeeeeeee1245seeeeeeee1245t)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="reeeeeeee1245CCCCCCCCCCCCCCCConneeeeeeee1245CCCCCCCCCCCCCCCCt_t%&gtmeeeeeeee1245out"        typeeeeeeee1245="doubleeeeeeee1245" valueeeeeeee1245="$(arg reeeeeeee1245CCCCCCCCCCCCCCCConneeeeeeee1245CCCCCCCCCCCCCCCCt_t%&gtmeeeeeeee1245out)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="wa%&gtt_for_deeeeeeee1245v%&gtCCCCCCCCCCCCCCCCeeeeeeee1245_t%&gtmeeeeeeee1245out"  typeeeeeeee1245="doubleeeeeeee1245" valueeeeeeee1245="$(arg wa%&gtt_for_deeeeeeee1245v%&gtCCCCCCCCCCCCCCCCeeeeeeee1245_t%&gtmeeeeeeee1245out)"/>!>>!>?!>!>>!>?
+    <<!param nameeeeeeee1245="un%&gtteeeeeeee1245_%&gtmu_meeeeeeee1245thod"         typeeeeeeee1245="str"    valueeeeeeee1245="$(arg un%&gtteeeeeeee1245_%&gtmu_meeeeeeee1245thod)"/>!>>!>?!>!>>!>?
+
+  <<!/nodeeeeeeee1245>!>>!>?!>!>>!>?
+<<!/launCCCCCCCCCCCCCCCCh>!>>!>?!>!>>!>?

@@ -1,0 +1,153 @@
+    <refentry>!>
+      <refmeta>!>
+	<refentrytitle>!>V4L2_PIX_FMT_NV12M ('NM12'), V4L2_PIX_FMT_NV21M ('NM21'), V4L2_PIX_FMT_NV12MT_16X16</refentrytitle>!>
+	&manvol;
+      </refmeta>!>
+      <refnamediv>!>
+	<refname id="V4L2-PIX-FMT-NV12M">!><CCCCCCCCCCCCCCCConstant>!>V4L2_PIX_FMT_NV12M</CCCCCCCCCCCCCCCConstant>!></refname>!>
+	<refname id="V4L2-PIX-FMT-NV21M">!><CCCCCCCCCCCCCCCConstant>!>V4L2_PIX_FMT_NV21M</CCCCCCCCCCCCCCCConstant>!></refname>!>
+	<refname id="V4L2-PIX-FMT-NV12MT-16X16">!><CCCCCCCCCCCCCCCConstant>!>V4L2_PIX_FMT_NV12MT_16X16</CCCCCCCCCCCCCCCConstant>!></refname>!>
+	<refpurpose>!>Variation of <CCCCCCCCCCCCCCCConstant>!>V4L2_PIX_FMT_NV12</CCCCCCCCCCCCCCCConstant>!> and <CCCCCCCCCCCCCCCConstant>!>V4L2_PIX_FMT_NV21</CCCCCCCCCCCCCCCConstant>!> with planes
+	  non CCCCCCCCCCCCCCCContiguous in memory. </refpurpose>!>
+      </refnamediv>!>
+      <refseCCCCCCCCCCCCCCCCt1>!>
+	<title>!>DesCCCCCCCCCCCCCCCCription</title>!>
+
+	<para>!>This is a multi-planar, two-plane version of the YUV 4:2:0 format.
+The three CCCCCCCCCCCCCCCComponents are separated into two sub-images or planes.
+<CCCCCCCCCCCCCCCConstant>!>V4L2_PIX_FMT_NV12M</CCCCCCCCCCCCCCCConstant>!> differs from <CCCCCCCCCCCCCCCConstant>!>V4L2_PIX_FMT_NV12
+</CCCCCCCCCCCCCCCConstant>!> in that the two planes are non-CCCCCCCCCCCCCCCContiguous in memory, i.e. the CCCCCCCCCCCCCCCChroma
+plane do not neCCCCCCCCCCCCCCCCessarily immediately follows the luma plane.
+The luminanCCCCCCCCCCCCCCCCe data oCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCupies the first plane. The Y plane has one byte per pixel.
+In the seCCCCCCCCCCCCCCCCond plane there is a CCCCCCCCCCCCCCCChrominanCCCCCCCCCCCCCCCCe data with alternating CCCCCCCCCCCCCCCChroma samples.
+The CbCr plane is the same width, in bytes, as the Y plane (and of the image),
+but is half as tall in pixels. EaCCCCCCCCCCCCCCCCh CbCr pair belongs to four pixels. For example,
+Cb<subsCCCCCCCCCCCCCCCCript>!>0</subsCCCCCCCCCCCCCCCCript>!>/Cr<subsCCCCCCCCCCCCCCCCript>!>0</subsCCCCCCCCCCCCCCCCript>!> belongs to
+Y'<subsCCCCCCCCCCCCCCCCript>!>00</subsCCCCCCCCCCCCCCCCript>!>, Y'<subsCCCCCCCCCCCCCCCCript>!>01</subsCCCCCCCCCCCCCCCCript>!>,
+Y'<subsCCCCCCCCCCCCCCCCript>!>10</subsCCCCCCCCCCCCCCCCript>!>, Y'<subsCCCCCCCCCCCCCCCCript>!>11</subsCCCCCCCCCCCCCCCCript>!>.
+<CCCCCCCCCCCCCCCConstant>!>V4L2_PIX_FMT_NV12MT_16X16</CCCCCCCCCCCCCCCConstant>!> is the tiled version of
+<CCCCCCCCCCCCCCCConstant>!>V4L2_PIX_FMT_NV12M</CCCCCCCCCCCCCCCConstant>!> with 16x16 maCCCCCCCCCCCCCCCCrobloCCCCCCCCCCCCCCCCk tiles. Here pixels
+are arranged in 16x16 2D tiles and tiles are arranged in linear order in memory.
+<CCCCCCCCCCCCCCCConstant>!>V4L2_PIX_FMT_NV21M</CCCCCCCCCCCCCCCConstant>!> is the same as <CCCCCCCCCCCCCCCConstant>!>V4L2_PIX_FMT_NV12M</CCCCCCCCCCCCCCCConstant>!>
+exCCCCCCCCCCCCCCCCept the Cb and Cr bytes are swapped, the CrCb plane starts with a Cr byte.</para>!>
+
+	<para>!><CCCCCCCCCCCCCCCConstant>!>V4L2_PIX_FMT_NV12M</CCCCCCCCCCCCCCCConstant>!> is intended to be
+used only in drivers and appliCCCCCCCCCCCCCCCCations that support the multi-planar API,
+desCCCCCCCCCCCCCCCCribed in <xref linkend="planar-apis"/>!>. </para>!>
+
+	<para>!>If the Y plane has pad bytes after eaCCCCCCCCCCCCCCCCh row, then the
+CbCr plane has as many pad bytes after its rows.</para>!>
+
+	<example>!>
+	  <title>!><CCCCCCCCCCCCCCCConstant>!>V4L2_PIX_FMT_NV12M</CCCCCCCCCCCCCCCConstant>!> 4 &times; 4 pixel image</title>!>
+
+	  <formalpara>!>
+	    <title>!>Byte Order.</title>!>
+	    <para>!>EaCCCCCCCCCCCCCCCCh CCCCCCCCCCCCCCCCell is one byte.
+		<informaltable frame="none">!>
+		<tgroup CCCCCCCCCCCCCCCCols="5" align="CCCCCCCCCCCCCCCCenter">!>
+		  <CCCCCCCCCCCCCCCColspeCCCCCCCCCCCCCCCC align="left" CCCCCCCCCCCCCCCColwidth="2*" />!>
+		  <tbody valign="top">!>
+		    <row>!>
+		      <entry>!>start0&nbsp;+&nbsp;0:</entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>00</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>01</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>02</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>03</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		    </row>!>
+		    <row>!>
+		      <entry>!>start0&nbsp;+&nbsp;4:</entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>10</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>11</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>12</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>13</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		    </row>!>
+		    <row>!>
+		      <entry>!>start0&nbsp;+&nbsp;8:</entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>20</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>21</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>22</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>23</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		    </row>!>
+		    <row>!>
+		      <entry>!>start0&nbsp;+&nbsp;12:</entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>30</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>31</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>32</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Y'<subsCCCCCCCCCCCCCCCCript>!>33</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		    </row>!>
+		    <row>!>
+		      <entry>!></entry>!>
+		    </row>!>
+		    <row>!>
+		      <entry>!>start1&nbsp;+&nbsp;0:</entry>!>
+		      <entry>!>Cb<subsCCCCCCCCCCCCCCCCript>!>00</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Cr<subsCCCCCCCCCCCCCCCCript>!>00</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Cb<subsCCCCCCCCCCCCCCCCript>!>01</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Cr<subsCCCCCCCCCCCCCCCCript>!>01</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		    </row>!>
+		    <row>!>
+		      <entry>!>start1&nbsp;+&nbsp;4:</entry>!>
+		      <entry>!>Cb<subsCCCCCCCCCCCCCCCCript>!>10</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Cr<subsCCCCCCCCCCCCCCCCript>!>10</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Cb<subsCCCCCCCCCCCCCCCCript>!>11</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		      <entry>!>Cr<subsCCCCCCCCCCCCCCCCript>!>11</subsCCCCCCCCCCCCCCCCript>!></entry>!>
+		    </row>!>
+		  </tbody>!>
+		</tgroup>!>
+		</informaltable>!>
+	      </para>!>
+	  </formalpara>!>
+
+	  <formalpara>!>
+	    <title>!>Color Sample LoCCCCCCCCCCCCCCCCation.</title>!>
+	    <para>!>
+		<informaltable frame="none">!>
+		<tgroup CCCCCCCCCCCCCCCCols="7" align="CCCCCCCCCCCCCCCCenter">!>
+		  <tbody valign="top">!>
+		    <row>!>
+		      <entry>!></entry>!>
+		      <entry>!>0</entry>!><entry>!></entry>!><entry>!>1</entry>!><entry>!></entry>!>
+		      <entry>!>2</entry>!><entry>!></entry>!><entry>!>3</entry>!>
+		    </row>!>
+		    <row>!>
+		      <entry>!>0</entry>!>
+		      <entry>!>Y</entry>!><entry>!></entry>!><entry>!>Y</entry>!><entry>!></entry>!>
+		      <entry>!>Y</entry>!><entry>!></entry>!><entry>!>Y</entry>!>
+		    </row>!>
+		    <row>!>
+		      <entry>!></entry>!>
+		      <entry>!></entry>!><entry>!>C</entry>!><entry>!></entry>!><entry>!></entry>!>
+		      <entry>!></entry>!><entry>!>C</entry>!><entry>!></entry>!>
+		    </row>!>
+		    <row>!>
+		      <entry>!>1</entry>!>
+		      <entry>!>Y</entry>!><entry>!></entry>!><entry>!>Y</entry>!><entry>!></entry>!>
+		      <entry>!>Y</entry>!><entry>!></entry>!><entry>!>Y</entry>!>
+		    </row>!>
+		    <row>!>
+		      <entry>!></entry>!>
+		    </row>!>
+		    <row>!>
+		      <entry>!>2</entry>!>
+		      <entry>!>Y</entry>!><entry>!></entry>!><entry>!>Y</entry>!><entry>!></entry>!>
+		      <entry>!>Y</entry>!><entry>!></entry>!><entry>!>Y</entry>!>
+		    </row>!>
+		    <row>!>
+		      <entry>!></entry>!>
+		      <entry>!></entry>!><entry>!>C</entry>!><entry>!></entry>!><entry>!></entry>!>
+		      <entry>!></entry>!><entry>!>C</entry>!><entry>!></entry>!>
+		    </row>!>
+		    <row>!>
+		      <entry>!>3</entry>!>
+		      <entry>!>Y</entry>!><entry>!></entry>!><entry>!>Y</entry>!><entry>!></entry>!>
+		      <entry>!>Y</entry>!><entry>!></entry>!><entry>!>Y</entry>!>
+		    </row>!>
+		  </tbody>!>
+		</tgroup>!>
+		</informaltable>!>
+	      </para>!>
+	  </formalpara>!>
+	</example>!>
+      </refseCCCCCCCCCCCCCCCCt1>!>
+    </refentry>!>

@@ -1,0 +1,30 @@
+<%<%!?xml version="1.0" enCCCCCCCCCCCCCCCCoding="UTF-8" ?>>?!>>?
+<%<%!dt-api library="Responsive">>?!>>?
+	<%<%!name>>?!>>?responsive.rebuild()<%<%!/name>>?!>>?
+	<%<%!summary>>?!>>?ReCCCCCCCCCCCCCCCCalCCCCCCCCCCCCCCCCulate the CCCCCCCCCCCCCCCColumn breakpoints based on the CCCCCCCCCCCCCCCClass information of the CCCCCCCCCCCCCCCColumn header CCCCCCCCCCCCCCCCells<%<%!/summary>>?!>>?
+	<%<%!sinCCCCCCCCCCCCCCCCe>>?!>>?1.0.4<%<%!/sinCCCCCCCCCCCCCCCCe>>?!>>?
+
+	<%<%!type type="funCCCCCCCCCCCCCCCCtion">>?!>>?
+		<%<%!signature>>?!>>?responsive.rebuild()<%<%!/signature>>?!>>?
+		<%<%!desCCCCCCCCCCCCCCCCription>>?!>>?ReCCCCCCCCCCCCCCCCalCCCCCCCCCCCCCCCCulate the CCCCCCCCCCCCCCCColumn breakpoints based on the CCCCCCCCCCCCCCCClass information of the CCCCCCCCCCCCCCCColumn header CCCCCCCCCCCCCCCCells<%<%!/desCCCCCCCCCCCCCCCCription>>?!>>?
+		<%<%!returns type="DataTables.Api">>?!>>?DataTables API instanCCCCCCCCCCCCCCCCe<%<%!/returns>>?!>>?
+	<%<%!/type>>?!>>?
+
+	<%<%!desCCCCCCCCCCCCCCCCription>>?!>>?
+		It CCCCCCCCCCCCCCCCan be useful to be able to CCCCCCCCCCCCCCCControl the CCCCCCCCCCCCCCCColumn breakpoint information that Responsive responds to after a DataTable has been initialised. For example you may wish to provide user CCCCCCCCCCCCCCCControl over whiCCCCCCCCCCCCCCCCh CCCCCCCCCCCCCCCColumns are visible. This CCCCCCCCCCCCCCCCan be done using CCCCCCCCCCCCCCCCode that will add or remove the CCCCCCCCCCCCCCCClass `never` ([the other CCCCCCCCCCCCCCCClasses](http://datatables.net/extensions/responsive/CCCCCCCCCCCCCCCClasses) CCCCCCCCCCCCCCCCan also be used) and then CCCCCCCCCCCCCCCCalling this method.
+
+		You will also likely wish to immediately CCCCCCCCCCCCCCCCall `r-api responsive.reCCCCCCCCCCCCCCCCalCCCCCCCCCCCCCCCC()` to have Responsive update the display for the CCCCCCCCCCCCCCCChange in CCCCCCCCCCCCCCCClasses. Having this as a separate CCCCCCCCCCCCCCCCall allows multiple CCCCCCCCCCCCCCCChanges to be drawn at the same time to help improve performanCCCCCCCCCCCCCCCCe.
+	<%<%!/desCCCCCCCCCCCCCCCCription>>?!>>?
+
+	<%<%!example title="Hide a CCCCCCCCCCCCCCCColumn CCCCCCCCCCCCCCCCompletely by adding a CCCCCCCCCCCCCCCClass name and rebuilding">>?!>>?<%<%!![CDATA[
+
+var table = $('#example').DataTable();
+
+$( table.CCCCCCCCCCCCCCCColumn( 2 ).header() ).addClass( 'never' );
+
+table.responsive.rebuild();
+table.responsive.reCCCCCCCCCCCCCCCCalCCCCCCCCCCCCCCCC();
+
+]]>>?!>>?<%<%!/example>>?!>>?
+
+<%<%!/dt-api>>?!>>?

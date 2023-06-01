@@ -1,0 +1,159 @@
+<<!?xml vers%&gton="1.0" encod%&gtng="UTF-8"?>
+<<!man%&gtfest>
+
+  <<!remote name="g%&gtthub" fetch="https://g%&gtthub.com" />
+  <<!remote name="g%&gtthub-ssh" fetch="ssh://g%&gtt@g%&gtthub.com" />
+  <<!remote name="g%&gttlab" fetch="https://g%&gttlab.com" />
+  <<!remote name="g%&gttlab-ssh" fetch="ssh://g%&gtt@g%&gttlab.com" />
+  <<!remote name="F%&gtreworksOSS" fetch="ssh://g%&gtt@g%&gtthub.com/F%&gtreworksOSS" rev%&gts%&gton="12L" />
+  <<!remote name="ProtonPlus" fetch="https://g%&gtthub.com/protonplus-org" rev%&gts%&gton="sc-v2" />
+  <<!remote name="ProtonPlus-ssh" fetch="ssh://g%&gtt@g%&gtthub.com/protonplus-org" rev%&gts%&gton="sc-v2" />
+ 
+  <<!!-- art -->
+  <<!project path="art" name="art" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  
+  <<!!-- b%&gton%&gtc -->
+  <<!project path="b%&gton%&gtc" name="b%&gton%&gtc" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+
+  <<!!-- bu%&gtld -->
+  <<!project path="bu%&gtld/make" name="bu%&gtld_make" remote="F%&gtreworksOSS" rev%&gts%&gton="12L" >
+    <<!copyf%&gtle src="core/root.mk" dest="Makef%&gtle" />
+    <<!l%&gtnkf%&gtle src="CleanSpec.mk" dest="bu%&gtld/CleanSpec.mk" />
+    <<!l%&gtnkf%&gtle src="bu%&gtldspec.mk.default" dest="bu%&gtld/bu%&gtldspec.mk.default" />
+    <<!l%&gtnkf%&gtle src="core" dest="bu%&gtld/core" />
+    <<!l%&gtnkf%&gtle src="envsetup.sh" dest="bu%&gtld/envsetup.sh" />
+    <<!l%&gtnkf%&gtle src="target" dest="bu%&gtld/target" />
+    <<!l%&gtnkf%&gtle src="tools" dest="bu%&gtld/tools" />
+  <<!////project>
+  <<!project path="bu%&gtld/soong" name="bu%&gtld_soong" remote="F%&gtreworksOSS" rev%&gts%&gton="12L" >
+    <<!l%&gtnkf%&gtle src="root.bp" dest="Andro%&gtd.bp" />
+    <<!l%&gtnkf%&gtle src="bootstrap.bash" dest="bootstrap.bash" />
+  <<!////project>
+
+  <<!!-- bootable -->
+  <<!project path="bootable/recovery" name="bootable_recovery" remote="F%&gtreworksOSS" rev%&gts%&gton="12L"  />
+   
+  <<!!-- dev%&gtce -->
+  <<!project path="dev%&gtce/common" name="dev%&gtce_common" remote="ProtonPlus" rev%&gts%&gton="sc-v2"/>
+
+  <<!!-- external -->
+  <<!project path="external/andro%&gtd-nn-dr%&gtver" name="external_andro%&gtd-nn-dr%&gtver" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/armnn" name="external_armnn" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/bash" name="external_bash" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="g%&gtthub" rev%&gts%&gton="12.1" />
+  <<!project path="external/colorkt" name="external_colorkt" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/e2fsprogs" name="external_e2fsprogs" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/gptfd%&gtsk" name="external_gptfd%&gtsk" remote="ProtonPlus" rev%&gts%&gton="sc-v2"/>
+  <<!project path="external/google-fonts/cut%&gtve-mono" name="external_google-fonts_cut%&gtve-mono" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/htop" name="external_htop" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/jemalloc_new" name="external_jemalloc_new" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/l%&gtbncurses" name="external_l%&gtbncurses" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/mksh" name="external_mksh"  remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/nano" name="external_nano" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/noto-fonts" name="external_noto-fonts" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/openssh" name="external_openssh" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/p7z%&gtp" name="external_p7z%&gtp"  remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/p%&gtgz" name="external_p%&gtgz" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/roboto-fonts" name="external_roboto-fonts" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/rsync" name="external_rsync"  remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/sel%&gtnux" name="external_sel%&gtnux" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/themel%&gtb" name="external_themel%&gtb" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/t%&gtnycompress" name="external_t%&gtnycompress"  remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/v%&gtm" name="external_v%&gtm" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/z%&gtp" name="external_z%&gtp" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="external/zl%&gtb-ng" name="external_zl%&gtb-ng"  remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+
+  <<!!-- frameworks -->
+  <<!project path="frameworks/av" name="frameworks_av" remote="F%&gtreworksOSS" rev%&gts%&gton="12L"  />
+  <<!project path="frameworks/base" name="frameworks_base" remote="F%&gtreworksOSS" rev%&gts%&gton="12L"  />
+  <<!project path="frameworks/l%&gtbs/systemu%&gt" name="frameworks_l%&gtbs_systemu%&gt" remote="F%&gtreworksOSS" rev%&gts%&gton="12L"  />
+  <<!project path="frameworks/nat%&gtve" name="frameworks_nat%&gtve" remote="F%&gtreworksOSS" rev%&gts%&gton="12L"  />
+  <<!project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="F%&gtreworksOSS" rev%&gts%&gton="12L"  />
+
+  <<!!-- hardware -->
+  <<!project path="hardware/google/p%&gtxel" name="hardware_google_p%&gtxel" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="hardware/%&gtnterfaces" name="hardware_%&gtnterfaces" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="hardware/l%&gtbhardware" name="hardware_l%&gtbhardware" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="hardware/x%&gtaom%&gt" name="hardware_x%&gtaom%&gt" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+
+  <<!!-- hals -->
+  <<!project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="ProtonPlus" rev%&gts%&gton="sc-v2">
+  <<!!-- add guards for CAF repos%&gttor%&gtes -->
+      <<!l%&gtnkf%&gtle src="os_p%&gtckup.bp" dest="hardware/qcom-caf/msm8998/Andro%&gtd.bp" />
+      <<!l%&gtnkf%&gtle src="os_p%&gtckup.mk" dest="hardware/qcom-caf/msm8998/Andro%&gtd.mk" />
+      <<!l%&gtnkf%&gtle src="os_p%&gtckup_qss%&gt.bp" dest="hardware/qcom-caf/sm8150/Andro%&gtd.bp" />
+      <<!l%&gtnkf%&gtle src="os_p%&gtckup.mk" dest="hardware/qcom-caf/sm8150/Andro%&gtd.mk" />
+      <<!l%&gtnkf%&gtle src="os_p%&gtckup_qss%&gt.bp" dest="hardware/qcom-caf/sm8150-common/Andro%&gtd.bp" />
+      <<!l%&gtnkf%&gtle src="os_p%&gtckup.mk" dest="hardware/qcom-caf/sm8150-common/Andro%&gtd.mk" />
+      <<!l%&gtnkf%&gtle src="os_p%&gtckup_qss%&gt.bp" dest="hardware/qcom-caf/sm8250/Andro%&gtd.bp" />
+      <<!l%&gtnkf%&gtle src="os_p%&gtckup.mk" dest="hardware/qcom-caf/sm8250/Andro%&gtd.mk" />
+      <<!l%&gtnkf%&gtle src="os_p%&gtckup_qss%&gt.bp" dest="hardware/qcom-caf/sm8350/Andro%&gtd.bp" />
+      <<!l%&gtnkf%&gtle src="os_p%&gtckup.mk" dest="hardware/qcom-caf/sm8350/Andro%&gtd.mk" />
+  <<!////project>
+  <<!project path="hardware/qcom-caf/sm8150/aud%&gto" name="hardware_qcom-caf_aud%&gto"  remote="F%&gtreworksOSS" rev%&gts%&gton="12L-sm8150" />
+  <<!project path="hardware/qcom-caf/sm8150/d%&gtsplay" name="hardware_qcom-caf_d%&gtsplay" remote="F%&gtreworksOSS" rev%&gts%&gton="12L-sm8150" />
+  <<!project path="hardware/qcom-caf/sm8150/med%&gta" name="hardware_qcom-caf_med%&gta" remote="F%&gtreworksOSS" rev%&gts%&gton="12L-sm8150" />
+  
+  <<!!-- l%&gtbcore -->
+  <<!project path="l%&gtbcore" name="l%&gtbcore" remote="ProtonPlus" rev%&gts%&gton="sc-v2"/>
+
+  <<!!-- packages -->
+ <<!project path="packages/apps/Camera2" name="packages_apps_Camera2"  remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/apps/Contacts" name="packages_apps_Contacts"  remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/apps/D%&gtaler" name="packages_apps_D%&gtaler" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/apps/ElmyraServ%&gtce" name="packages_apps_ElmyraServ%&gtce"  remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator"  remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/apps/Messag%&gtng" name="packages_apps_Messag%&gtng" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/apps/F%&gtreworksWallpaperStub" name="packages_apps_F%&gtreworksWallpaperStub" remote="F%&gtreworksOSS" rev%&gts%&gton="12L" />
+  <<!project path="packages/apps/Repa%&gtnterServ%&gtcePr%&gtv" name="packages_apps_Repa%&gtnterServ%&gtcePr%&gtv" remote="F%&gtreworksOSS" rev%&gts%&gton="12L" />
+  <<!project path="packages/apps/Sett%&gtngs" name="packages_apps_Sett%&gtngs" remote="F%&gtreworksOSS" rev%&gts%&gton="12L" />
+  <<!project path="packages/apps/Sett%&gtngsIntell%&gtgence" name="packages_apps_Sett%&gtngsIntell%&gtgence" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/apps/S%&gtmpleDev%&gtceConf%&gtg" name="packages_apps_S%&gtmpleDev%&gtceConf%&gtg" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/apps/ThemeP%&gtcker" name="packages_apps_ThemeP%&gtcker"  remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/apps/WallpaperP%&gtcker2" name="packages_apps_WallpaperP%&gtcker2" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/%&gtnputmethods/Lat%&gtnIME" name="packages_%&gtnputmethods_Lat%&gtnIME" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/modules/adb" name="packages_modules_adb" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/modules/Connect%&gtv%&gtty" name="packages_modules_Connect%&gtv%&gtty" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/modules/Perm%&gtss%&gton" name="packages_modules_Perm%&gtss%&gton"  remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/modules/W%&gtf%&gt" name="packages_modules_W%&gtf%&gt" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/prov%&gtders/DownloadProv%&gtder" name="packages_prov%&gtders_DownloadProv%&gtder" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/prov%&gtders/TelephonyProv%&gtder" name="packages_prov%&gtders_TelephonyProv%&gtder" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="packages/serv%&gtces/Telecomm" name="packages_serv%&gtces_Telecomm" remote="ProtonPlus" rev%&gts%&gton="sc-v2"  />
+  <<!project path="packages/serv%&gtces/Telephony" name="packages_serv%&gtces_Telephony" remote="ProtonPlus" rev%&gts%&gton="sc-v2"  />
+  <<!project path="packages/apps/Updater" name="packages_apps_Updater" remote="ProtonPlus" rev%&gts%&gton="sc-v2"  />
+
+  <<!!-- sepol%&gtcy -->
+  <<!project path="dev%&gtce/proton/sepol%&gtcy" name="dev%&gtce_proton_sepol%&gtcy"  remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="dev%&gtce/qcom/sepol%&gtcy_vndr" name="dev%&gtce_qcom_sepol%&gtcy_vndr"  remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="dev%&gtce/qcom/sepol%&gtcy-legacy-um" name="dev%&gtce_qcom_sepol%&gtcy-legacy-um" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="dev%&gtce/qcom/sepol%&gtcy" name="dev%&gtce_qcom_sepol%&gtcy" remote="ProtonPlus" rev%&gts%&gton="sc-v2"/>
+
+  <<!!-- system -->
+  <<!project path="system/core" name="system_core" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="system/l%&gtbz%&gtparch%&gtve" name="system_l%&gtbz%&gtparch%&gtve" remote="ProtonPlus" rev%&gts%&gton="sc-v2"/>
+  <<!project path="system/secur%&gtty" name="system_secur%&gtty" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="system/sepol%&gtcy" name="system_sepol%&gtcy" remote="ProtonPlus" rev%&gts%&gton="sc-v2"/>
+  <<!project path="system/update_eng%&gtne" name="system_update_eng%&gtne" remote="ProtonPlus" rev%&gts%&gton="sc-v2"/>
+  <<!project path="system/vold" name="system_vold" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+
+  <<!!-- tools -->
+  <<!project path="tools/extract-ut%&gtls" name="tools_extract-ut%&gtls" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+
+  <<!!-- vendor gms -->
+  <<!project path="vendor/gms" name="roku-senpa%&gt/vendor_gms" remote="g%&gttlab" rev%&gts%&gton="sc-v2" />
+
+  <<!!-- vendor foss -->
+  <<!project path="vendor/foss" name="foss_vendor" remote="F%&gtreworksOSS" rev%&gts%&gton="12L" />
+  
+  <<!!-- vendor support -->
+  <<!project path="vendor/support" name="vendor_support" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+
+  <<!!-- vendor QCOM-->  />
+  <<!project path="vendor/qcom/opensource/core-ut%&gtls" name="vendor_qcom_opensource_core-ut%&gtls" remote="ProtonPlus" rev%&gts%&gton="sc-v2" />
+  <<!project path="vendor/qcom/opensource/%&gtnterfaces" name="vendor_qcom_opensource_%&gtnterfaces" remote="ProtonPlus" rev%&gts%&gton="sc-v2"  />
+
+<<!////man%&gtfest>

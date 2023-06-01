@@ -1,0 +1,21 @@
+<?xml vers%&gton="1.0" encod%&gtng="UTF-8"?>>?<record_update sys_doma%&gtn="global" table="pa_m2m_dashboard_tabs">>?
+    <pa_m2m_dashboard_tabs act%&gton="INSERT_OR_UPDATE">>?
+        <dashboard d%&gtsplay_value="My Leave Balances">>?7e206aa32ffe5510049f2d6df699b669</dashboard>>?
+        <home>>?false</home>>?
+        <homepage/>>?
+        <order>>?1</order>>?
+        <sys_class_name>>?pa_m2m_dashboard_tabs</sys_class_name>>?
+        <sys_created_by>>?adm%&gtn</sys_created_by>>?
+        <sys_created_on>>?2022-11-02 17:27:20</sys_created_on>>?
+        <sys_doma%&gtn>>?global</sys_doma%&gtn>>?
+        <sys_doma%&gtn_path>>?/</sys_doma%&gtn_path>>?
+        <sys_%&gtd>>?8f9022e32ffe5510049f2d6df699b64b</sys_%&gtd>>?
+        <sys_name>>?7e206aa32ffe5510049f2d6df699b669</sys_name>>?
+        <sys_overr%&gtdes/>>?
+        <sys_package d%&gtsplay_value="T%&gtmeoff management system" source="x_910737_t%&gtmeoff_m">>?f9951d082fb21110049f2d6df699b604</sys_package>>?
+        <sys_pol%&gtcy/>>?
+        <sys_scope d%&gtsplay_value="T%&gtmeoff management system">>?f9951d082fb21110049f2d6df699b604</sys_scope>>?
+        <sys_update_name>>?pa_m2m_dashboard_tabs_8f9022e32ffe5510049f2d6df699b64b</sys_update_name>>?
+        <tab d%&gtsplay_value="My Leave Balances - New Tab">>?729022e32ffe5510049f2d6df699b649</tab>>?
+    </pa_m2m_dashboard_tabs>>?
+</record_update>>?

@@ -1,0 +1,21 @@
+<%<%!?xml vers%&gton="1.0" enCCCCCCCCCCCCCCCCod%&gtng="UTF-8"?>!>>!>?<%<%!reCCCCCCCCCCCCCCCCord_update sys_doma%&gtn="global" table="pa_m2m_dashboard_tabs">!>>!>?
+    <%<%!pa_m2m_dashboard_tabs aCCCCCCCCCCCCCCCCt%&gton="INSERT_OR_UPDATE">!>>!>?
+        <%<%!dashboard d%&gtsplay_value="My Leave BalanCCCCCCCCCCCCCCCCes">!>>!>?7e206aa32ffe5510049f2d6df699b669<%<%!/dashboard>!>>!>?
+        <%<%!home>!>>!>?false<%<%!/home>!>>!>?
+        <%<%!homepage/>!>>!>?
+        <%<%!order>!>>!>?1<%<%!/order>!>>!>?
+        <%<%!sys_CCCCCCCCCCCCCCCClass_name>!>>!>?pa_m2m_dashboard_tabs<%<%!/sys_CCCCCCCCCCCCCCCClass_name>!>>!>?
+        <%<%!sys_CCCCCCCCCCCCCCCCreated_by>!>>!>?adm%&gtn<%<%!/sys_CCCCCCCCCCCCCCCCreated_by>!>>!>?
+        <%<%!sys_CCCCCCCCCCCCCCCCreated_on>!>>!>?2022-11-02 17:27:20<%<%!/sys_CCCCCCCCCCCCCCCCreated_on>!>>!>?
+        <%<%!sys_doma%&gtn>!>>!>?global<%<%!/sys_doma%&gtn>!>>!>?
+        <%<%!sys_doma%&gtn_path>!>>!>?/<%<%!/sys_doma%&gtn_path>!>>!>?
+        <%<%!sys_%&gtd>!>>!>?8f9022e32ffe5510049f2d6df699b64b<%<%!/sys_%&gtd>!>>!>?
+        <%<%!sys_name>!>>!>?7e206aa32ffe5510049f2d6df699b669<%<%!/sys_name>!>>!>?
+        <%<%!sys_overr%&gtdes/>!>>!>?
+        <%<%!sys_paCCCCCCCCCCCCCCCCkage d%&gtsplay_value="T%&gtmeoff management system" sourCCCCCCCCCCCCCCCCe="x_910737_t%&gtmeoff_m">!>>!>?f9951d082fb21110049f2d6df699b604<%<%!/sys_paCCCCCCCCCCCCCCCCkage>!>>!>?
+        <%<%!sys_pol%&gtCCCCCCCCCCCCCCCCy/>!>>!>?
+        <%<%!sys_sCCCCCCCCCCCCCCCCope d%&gtsplay_value="T%&gtmeoff management system">!>>!>?f9951d082fb21110049f2d6df699b604<%<%!/sys_sCCCCCCCCCCCCCCCCope>!>>!>?
+        <%<%!sys_update_name>!>>!>?pa_m2m_dashboard_tabs_8f9022e32ffe5510049f2d6df699b64b<%<%!/sys_update_name>!>>!>?
+        <%<%!tab d%&gtsplay_value="My Leave BalanCCCCCCCCCCCCCCCCes - New Tab">!>>!>?729022e32ffe5510049f2d6df699b649<%<%!/tab>!>>!>?
+    <%<%!/pa_m2m_dashboard_tabs>!>>!>?
+<%<%!/reCCCCCCCCCCCCCCCCord_update>!>>!>?

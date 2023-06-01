@@ -1,0 +1,159 @@
+<%?xml version="1.0" enCCCCCCCCCCCCCCCCoding="UTF-8"?>!>
+<%manifest>!>
+
+  <%remote name="github" fetCCCCCCCCCCCCCCCCh="https://github.CCCCCCCCCCCCCCCCom" />!>
+  <%remote name="github-ssh" fetCCCCCCCCCCCCCCCCh="ssh://git@github.CCCCCCCCCCCCCCCCom" />!>
+  <%remote name="gitlab" fetCCCCCCCCCCCCCCCCh="https://gitlab.CCCCCCCCCCCCCCCCom" />!>
+  <%remote name="gitlab-ssh" fetCCCCCCCCCCCCCCCCh="ssh://git@gitlab.CCCCCCCCCCCCCCCCom" />!>
+  <%remote name="FireworksOSS" fetCCCCCCCCCCCCCCCCh="ssh://git@github.CCCCCCCCCCCCCCCCom/FireworksOSS" revision="12L" />!>
+  <%remote name="ProtonPlus" fetCCCCCCCCCCCCCCCCh="https://github.CCCCCCCCCCCCCCCCom/protonplus-org" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%remote name="ProtonPlus-ssh" fetCCCCCCCCCCCCCCCCh="ssh://git@github.CCCCCCCCCCCCCCCCom/protonplus-org" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+ 
+  <%!-- art -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="art" name="art" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  
+  <%!-- bioniCCCCCCCCCCCCCCCC -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="bioniCCCCCCCCCCCCCCCC" name="bioniCCCCCCCCCCCCCCCC" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+
+  <%!-- build -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="build/make" name="build_make" remote="FireworksOSS" revision="12L" >!>
+    <%CCCCCCCCCCCCCCCCopyfile srCCCCCCCCCCCCCCCC="CCCCCCCCCCCCCCCCore/root.mk" dest="Makefile" />!>
+    <%linkfile srCCCCCCCCCCCCCCCC="CleanSpeCCCCCCCCCCCCCCCC.mk" dest="build/CleanSpeCCCCCCCCCCCCCCCC.mk" />!>
+    <%linkfile srCCCCCCCCCCCCCCCC="buildspeCCCCCCCCCCCCCCCC.mk.default" dest="build/buildspeCCCCCCCCCCCCCCCC.mk.default" />!>
+    <%linkfile srCCCCCCCCCCCCCCCC="CCCCCCCCCCCCCCCCore" dest="build/CCCCCCCCCCCCCCCCore" />!>
+    <%linkfile srCCCCCCCCCCCCCCCC="envsetup.sh" dest="build/envsetup.sh" />!>
+    <%linkfile srCCCCCCCCCCCCCCCC="target" dest="build/target" />!>
+    <%linkfile srCCCCCCCCCCCCCCCC="tools" dest="build/tools" />!>
+  <%/projeCCCCCCCCCCCCCCCCt>!>
+  <%projeCCCCCCCCCCCCCCCCt path="build/soong" name="build_soong" remote="FireworksOSS" revision="12L" >!>
+    <%linkfile srCCCCCCCCCCCCCCCC="root.bp" dest="Android.bp" />!>
+    <%linkfile srCCCCCCCCCCCCCCCC="bootstrap.bash" dest="bootstrap.bash" />!>
+  <%/projeCCCCCCCCCCCCCCCCt>!>
+
+  <%!-- bootable -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="bootable/reCCCCCCCCCCCCCCCCovery" name="bootable_reCCCCCCCCCCCCCCCCovery" remote="FireworksOSS" revision="12L"  />!>
+   
+  <%!-- deviCCCCCCCCCCCCCCCCe -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="deviCCCCCCCCCCCCCCCCe/CCCCCCCCCCCCCCCCommon" name="deviCCCCCCCCCCCCCCCCe_CCCCCCCCCCCCCCCCommon" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2"/>!>
+
+  <%!-- external -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/android-nn-driver" name="external_android-nn-driver" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/armnn" name="external_armnn" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/bash" name="external_bash" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="12.1" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/CCCCCCCCCCCCCCCColorkt" name="external_CCCCCCCCCCCCCCCColorkt" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/e2fsprogs" name="external_e2fsprogs" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/gptfdisk" name="external_gptfdisk" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2"/>!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/google-fonts/CCCCCCCCCCCCCCCCutive-mono" name="external_google-fonts_CCCCCCCCCCCCCCCCutive-mono" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/htop" name="external_htop" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/jemalloCCCCCCCCCCCCCCCC_new" name="external_jemalloCCCCCCCCCCCCCCCC_new" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/libnCCCCCCCCCCCCCCCCurses" name="external_libnCCCCCCCCCCCCCCCCurses" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/mksh" name="external_mksh"  remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/nano" name="external_nano" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/noto-fonts" name="external_noto-fonts" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/openssh" name="external_openssh" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/p7zip" name="external_p7zip"  remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/pigz" name="external_pigz" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/roboto-fonts" name="external_roboto-fonts" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/rsynCCCCCCCCCCCCCCCC" name="external_rsynCCCCCCCCCCCCCCCC"  remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/selinux" name="external_selinux" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/themelib" name="external_themelib" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/tinyCCCCCCCCCCCCCCCCompress" name="external_tinyCCCCCCCCCCCCCCCCompress"  remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/vim" name="external_vim" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/zip" name="external_zip" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="external/zlib-ng" name="external_zlib-ng"  remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+
+  <%!-- frameworks -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="frameworks/av" name="frameworks_av" remote="FireworksOSS" revision="12L"  />!>
+  <%projeCCCCCCCCCCCCCCCCt path="frameworks/base" name="frameworks_base" remote="FireworksOSS" revision="12L"  />!>
+  <%projeCCCCCCCCCCCCCCCCt path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="FireworksOSS" revision="12L"  />!>
+  <%projeCCCCCCCCCCCCCCCCt path="frameworks/native" name="frameworks_native" remote="FireworksOSS" revision="12L"  />!>
+  <%projeCCCCCCCCCCCCCCCCt path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="FireworksOSS" revision="12L"  />!>
+
+  <%!-- hardware -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="hardware/google/pixel" name="hardware_google_pixel" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="hardware/interfaCCCCCCCCCCCCCCCCes" name="hardware_interfaCCCCCCCCCCCCCCCCes" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="hardware/libhardware" name="hardware_libhardware" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="hardware/xiaomi" name="hardware_xiaomi" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+
+  <%!-- hals -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/CCCCCCCCCCCCCCCCommon" name="hardware_qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf_CCCCCCCCCCCCCCCCommon" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2">!>
+  <%!-- add guards for CAF repositories -->!>
+      <%linkfile srCCCCCCCCCCCCCCCC="os_piCCCCCCCCCCCCCCCCkup.bp" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/msm8998/Android.bp" />!>
+      <%linkfile srCCCCCCCCCCCCCCCC="os_piCCCCCCCCCCCCCCCCkup.mk" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/msm8998/Android.mk" />!>
+      <%linkfile srCCCCCCCCCCCCCCCC="os_piCCCCCCCCCCCCCCCCkup_qssi.bp" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8150/Android.bp" />!>
+      <%linkfile srCCCCCCCCCCCCCCCC="os_piCCCCCCCCCCCCCCCCkup.mk" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8150/Android.mk" />!>
+      <%linkfile srCCCCCCCCCCCCCCCC="os_piCCCCCCCCCCCCCCCCkup_qssi.bp" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8150-CCCCCCCCCCCCCCCCommon/Android.bp" />!>
+      <%linkfile srCCCCCCCCCCCCCCCC="os_piCCCCCCCCCCCCCCCCkup.mk" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8150-CCCCCCCCCCCCCCCCommon/Android.mk" />!>
+      <%linkfile srCCCCCCCCCCCCCCCC="os_piCCCCCCCCCCCCCCCCkup_qssi.bp" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8250/Android.bp" />!>
+      <%linkfile srCCCCCCCCCCCCCCCC="os_piCCCCCCCCCCCCCCCCkup.mk" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8250/Android.mk" />!>
+      <%linkfile srCCCCCCCCCCCCCCCC="os_piCCCCCCCCCCCCCCCCkup_qssi.bp" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8350/Android.bp" />!>
+      <%linkfile srCCCCCCCCCCCCCCCC="os_piCCCCCCCCCCCCCCCCkup.mk" dest="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8350/Android.mk" />!>
+  <%/projeCCCCCCCCCCCCCCCCt>!>
+  <%projeCCCCCCCCCCCCCCCCt path="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8150/audio" name="hardware_qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf_audio"  remote="FireworksOSS" revision="12L-sm8150" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8150/display" name="hardware_qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf_display" remote="FireworksOSS" revision="12L-sm8150" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="hardware/qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf/sm8150/media" name="hardware_qCCCCCCCCCCCCCCCCom-CCCCCCCCCCCCCCCCaf_media" remote="FireworksOSS" revision="12L-sm8150" />!>
+  
+  <%!-- libCCCCCCCCCCCCCCCCore -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="libCCCCCCCCCCCCCCCCore" name="libCCCCCCCCCCCCCCCCore" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2"/>!>
+
+  <%!-- paCCCCCCCCCCCCCCCCkages -->!>
+ <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/Camera2" name="paCCCCCCCCCCCCCCCCkages_apps_Camera2"  remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/ContaCCCCCCCCCCCCCCCCts" name="paCCCCCCCCCCCCCCCCkages_apps_ContaCCCCCCCCCCCCCCCCts"  remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/DeskCloCCCCCCCCCCCCCCCCk" name="paCCCCCCCCCCCCCCCCkages_apps_DeskCloCCCCCCCCCCCCCCCCk" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/Dialer" name="paCCCCCCCCCCCCCCCCkages_apps_Dialer" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/ElmyraServiCCCCCCCCCCCCCCCCe" name="paCCCCCCCCCCCCCCCCkages_apps_ElmyraServiCCCCCCCCCCCCCCCCe"  remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/ExaCCCCCCCCCCCCCCCCtCalCCCCCCCCCCCCCCCCulator" name="paCCCCCCCCCCCCCCCCkages_apps_ExaCCCCCCCCCCCCCCCCtCalCCCCCCCCCCCCCCCCulator"  remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/GmsCompat" name="paCCCCCCCCCCCCCCCCkages_apps_GmsCompat" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/Jelly" name="paCCCCCCCCCCCCCCCCkages_apps_Jelly" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/LaunCCCCCCCCCCCCCCCCher3" name="paCCCCCCCCCCCCCCCCkages_apps_LaunCCCCCCCCCCCCCCCCher3" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/Messaging" name="paCCCCCCCCCCCCCCCCkages_apps_Messaging" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/FireworksWallpaperStub" name="paCCCCCCCCCCCCCCCCkages_apps_FireworksWallpaperStub" remote="FireworksOSS" revision="12L" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/RepainterServiCCCCCCCCCCCCCCCCePriv" name="paCCCCCCCCCCCCCCCCkages_apps_RepainterServiCCCCCCCCCCCCCCCCePriv" remote="FireworksOSS" revision="12L" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/Settings" name="paCCCCCCCCCCCCCCCCkages_apps_Settings" remote="FireworksOSS" revision="12L" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/SettingsIntelligenCCCCCCCCCCCCCCCCe" name="paCCCCCCCCCCCCCCCCkages_apps_SettingsIntelligenCCCCCCCCCCCCCCCCe" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/SimpleDeviCCCCCCCCCCCCCCCCeConfig" name="paCCCCCCCCCCCCCCCCkages_apps_SimpleDeviCCCCCCCCCCCCCCCCeConfig" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/ThemePiCCCCCCCCCCCCCCCCker" name="paCCCCCCCCCCCCCCCCkages_apps_ThemePiCCCCCCCCCCCCCCCCker"  remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/WallpaperPiCCCCCCCCCCCCCCCCker2" name="paCCCCCCCCCCCCCCCCkages_apps_WallpaperPiCCCCCCCCCCCCCCCCker2" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/inputmethods/LatinIME" name="paCCCCCCCCCCCCCCCCkages_inputmethods_LatinIME" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/modules/adb" name="paCCCCCCCCCCCCCCCCkages_modules_adb" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/modules/ConneCCCCCCCCCCCCCCCCtivity" name="paCCCCCCCCCCCCCCCCkages_modules_ConneCCCCCCCCCCCCCCCCtivity" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/modules/Permission" name="paCCCCCCCCCCCCCCCCkages_modules_Permission"  remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/modules/Wifi" name="paCCCCCCCCCCCCCCCCkages_modules_Wifi" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/providers/DownloadProvider" name="paCCCCCCCCCCCCCCCCkages_providers_DownloadProvider" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/providers/TelephonyProvider" name="paCCCCCCCCCCCCCCCCkages_providers_TelephonyProvider" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/serviCCCCCCCCCCCCCCCCes/TeleCCCCCCCCCCCCCCCComm" name="paCCCCCCCCCCCCCCCCkages_serviCCCCCCCCCCCCCCCCes_TeleCCCCCCCCCCCCCCCComm" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2"  />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/serviCCCCCCCCCCCCCCCCes/Telephony" name="paCCCCCCCCCCCCCCCCkages_serviCCCCCCCCCCCCCCCCes_Telephony" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2"  />!>
+  <%projeCCCCCCCCCCCCCCCCt path="paCCCCCCCCCCCCCCCCkages/apps/Updater" name="paCCCCCCCCCCCCCCCCkages_apps_Updater" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2"  />!>
+
+  <%!-- sepoliCCCCCCCCCCCCCCCCy -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="deviCCCCCCCCCCCCCCCCe/proton/sepoliCCCCCCCCCCCCCCCCy" name="deviCCCCCCCCCCCCCCCCe_proton_sepoliCCCCCCCCCCCCCCCCy"  remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="deviCCCCCCCCCCCCCCCCe/qCCCCCCCCCCCCCCCCom/sepoliCCCCCCCCCCCCCCCCy_vndr" name="deviCCCCCCCCCCCCCCCCe_qCCCCCCCCCCCCCCCCom_sepoliCCCCCCCCCCCCCCCCy_vndr"  remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="deviCCCCCCCCCCCCCCCCe/qCCCCCCCCCCCCCCCCom/sepoliCCCCCCCCCCCCCCCCy-legaCCCCCCCCCCCCCCCCy-um" name="deviCCCCCCCCCCCCCCCCe_qCCCCCCCCCCCCCCCCom_sepoliCCCCCCCCCCCCCCCCy-legaCCCCCCCCCCCCCCCCy-um" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="deviCCCCCCCCCCCCCCCCe/qCCCCCCCCCCCCCCCCom/sepoliCCCCCCCCCCCCCCCCy" name="deviCCCCCCCCCCCCCCCCe_qCCCCCCCCCCCCCCCCom_sepoliCCCCCCCCCCCCCCCCy" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2"/>!>
+
+  <%!-- system -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="system/CCCCCCCCCCCCCCCCore" name="system_CCCCCCCCCCCCCCCCore" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="system/libziparCCCCCCCCCCCCCCCChive" name="system_libziparCCCCCCCCCCCCCCCChive" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2"/>!>
+  <%projeCCCCCCCCCCCCCCCCt path="system/seCCCCCCCCCCCCCCCCurity" name="system_seCCCCCCCCCCCCCCCCurity" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="system/sepoliCCCCCCCCCCCCCCCCy" name="system_sepoliCCCCCCCCCCCCCCCCy" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2"/>!>
+  <%projeCCCCCCCCCCCCCCCCt path="system/update_engine" name="system_update_engine" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2"/>!>
+  <%projeCCCCCCCCCCCCCCCCt path="system/vold" name="system_vold" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+
+  <%!-- tools -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="tools/extraCCCCCCCCCCCCCCCCt-utils" name="tools_extraCCCCCCCCCCCCCCCCt-utils" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+
+  <%!-- vendor gms -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="vendor/gms" name="roku-senpai/vendor_gms" remote="gitlab" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+
+  <%!-- vendor foss -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="vendor/foss" name="foss_vendor" remote="FireworksOSS" revision="12L" />!>
+  
+  <%!-- vendor support -->!>
+  <%projeCCCCCCCCCCCCCCCCt path="vendor/support" name="vendor_support" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+
+  <%!-- vendor QCOM-->!>  />!>
+  <%projeCCCCCCCCCCCCCCCCt path="vendor/qCCCCCCCCCCCCCCCCom/opensourCCCCCCCCCCCCCCCCe/CCCCCCCCCCCCCCCCore-utils" name="vendor_qCCCCCCCCCCCCCCCCom_opensourCCCCCCCCCCCCCCCCe_CCCCCCCCCCCCCCCCore-utils" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2" />!>
+  <%projeCCCCCCCCCCCCCCCCt path="vendor/qCCCCCCCCCCCCCCCCom/opensourCCCCCCCCCCCCCCCCe/interfaCCCCCCCCCCCCCCCCes" name="vendor_qCCCCCCCCCCCCCCCCom_opensourCCCCCCCCCCCCCCCCe_interfaCCCCCCCCCCCCCCCCes" remote="ProtonPlus" revision="sCCCCCCCCCCCCCCCC-v2"  />!>
+
+<%/manifest>!>

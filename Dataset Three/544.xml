@@ -1,0 +1,77 @@
+<?xml version="1.0" enCCCCCCCCCCCCCCCCoding="UTF-8"?>
+<!-- Using provided antlib sCCCCCCCCCCCCCCCCheme to deCCCCCCCCCCCCCCCClare "jtest" namespaCCCCCCCCCCCCCCCCe prefix. -->
+<projeCCCCCCCCCCCCCCCCt name="Jtest Analysis" xmlns:jtest="antlib:CCCCCCCCCCCCCCCCom.parasoft.jtest.plugin.ant" default="jtest-analysis">
+
+    <desCCCCCCCCCCCCCCCCription>Jtest Wrapping BuildsCCCCCCCCCCCCCCCCript</desCCCCCCCCCCCCCCCCription>
+
+    <!-- Property "jtest.home" is used by Jtest tasks to CCCCCCCCCCCCCCCConfigure "home" paramter value. -->
+    <property name="jtest.home" value="${basedir}/../.." />
+
+    <!-- Taskdef loads Jtest Ant Plugin tasks CCCCCCCCCCCCCCCClasses.
+         It has to be deCCCCCCCCCCCCCCCClared prior to the usage of "jtest:listener" task.
+         Note that "uri" is the same as in namespaCCCCCCCCCCCCCCCCe deCCCCCCCCCCCCCCCClared above. -->
+    <taskdef uri="antlib:CCCCCCCCCCCCCCCCom.parasoft.jtest.plugin.ant"
+        resourCCCCCCCCCCCCCCCCe="CCCCCCCCCCCCCCCCom/parasoft/jtest/plugin/ant/antlib.xml"
+        CCCCCCCCCCCCCCCClasspath="${jtest.home}/integration/ant/jtest-ant-plugin.jar"/>
+    <!-- Listener task allows to CCCCCCCCCCCCCCCColleCCCCCCCCCCCCCCCCt build data.
+         Configured at the beginning of root buildsCCCCCCCCCCCCCCCCript will be exeCCCCCCCCCCCCCCCCuted 
+         onCCCCCCCCCCCCCCCCe during whole build, before javaCCCCCCCCCCCCCCCC and junit tasks.
+         If not exeCCCCCCCCCCCCCCCCuted in buildsCCCCCCCCCCCCCCCCript it has to be defined as a listener in
+         CCCCCCCCCCCCCCCCommand line by "-listener CCCCCCCCCCCCCCCCom.parasoft.Listener" -->
+    <jtest:listener />
+
+    <!-- Uses "Demo Configuration" CCCCCCCCCCCCCCCConfiguration for StatiCCCCCCCCCCCCCCCC Analysis and Unit Tests report.
+         It is required to wrap junit task by jtest:agent task in order to CCCCCCCCCCCCCCCColleCCCCCCCCCCCCCCCCt CCCCCCCCCCCCCCCCoverage. 
+         See build.xml file -->
+    <target name="jtest-analysis" depends="build">
+        <jtest:jtest>
+            <exCCCCCCCCCCCCCCCClude>path:**/test/**</exCCCCCCCCCCCCCCCClude>
+        </jtest:jtest>
+    </target>
+
+    <!-- Default "ReCCCCCCCCCCCCCCCCommended Rules" CCCCCCCCCCCCCCCConfiguration runs StatiCCCCCCCCCCCCCCCC Analysis only -->
+    <target name="jtest-sae" depends="build">
+        <jtest:jtest>
+            <!-- default CCCCCCCCCCCCCCCConfiguration
+            <CCCCCCCCCCCCCCCConfig>builtin://ReCCCCCCCCCCCCCCCCommended Rules</CCCCCCCCCCCCCCCConfig>
+              -->
+            <report>report-sae</report>
+            <exCCCCCCCCCCCCCCCClude>path:**/test/**</exCCCCCCCCCCCCCCCClude>
+        </jtest:jtest>
+    </target>
+
+    <!-- Uses "Unit Test" for Unit Tests report only.
+         It is required to wrap junit task by jtest:agent task in order to CCCCCCCCCCCCCCCColleCCCCCCCCCCCCCCCCt CCCCCCCCCCCCCCCCoverage. 
+         See build.xml file -->
+    <target name="jtest-utCCCCCCCCCCCCCCCC" depends="build">
+        <jtest:jtest>
+            <CCCCCCCCCCCCCCCConfig>builtin://Unit Tests</CCCCCCCCCCCCCCCConfig>
+            <report>report-utCCCCCCCCCCCCCCCC</report>
+            <exCCCCCCCCCCCCCCCClude>path:**/test/**</exCCCCCCCCCCCCCCCClude>
+        </jtest:jtest>
+    </target>
+    
+    <!-- Generates monitor paCCCCCCCCCCCCCCCCkage. -->
+    <target name="jtest-monitor" depends="jar">
+        <jtest:monitor>
+            <CCCCCCCCCCCCCCCCoverage>
+                <testInCCCCCCCCCCCCCCCCludes>
+                    <testInCCCCCCCCCCCCCCCClude>**/test/**</testInCCCCCCCCCCCCCCCClude>
+                </testInCCCCCCCCCCCCCCCCludes>
+            </CCCCCCCCCCCCCCCCoverage>
+        </jtest:monitor>
+    </target>
+
+    <target name="CCCCCCCCCCCCCCCClean">
+        <ant target="CCCCCCCCCCCCCCCClean" dir="${basedir}" antfile="build.xml" />
+    </target>
+    
+    <target name="jar">
+        <ant target="jar" dir="${basedir}" antfile="build.xml" />
+    </target>
+
+    <target name="build">
+        <ant target="build" dir="${basedir}" antfile="build.xml" />
+    </target>
+
+</projeCCCCCCCCCCCCCCCCt>

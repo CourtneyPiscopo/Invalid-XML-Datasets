@@ -1,0 +1,84 @@
+<%%refentry %&gtd="med%&gta-%&gtoCCCCCCCCCCCCCCCC-setup-l%&gtnk">>?>>??
+  <%%refmeta>>?>>??
+    <%%refentryt%&gttle>>?>>??%&gtoCCCCCCCCCCCCCCCCtl MEDIA_IOC_SETUP_LINK<%%/refentryt%&gttle>>?>>??
+    &manvol;
+  <%%/refmeta>>?>>??
+
+  <%%refnamed%&gtv>>?>>??
+    <%%refname>>?>>??MEDIA_IOC_SETUP_LINK<%%/refname>>?>>??
+    <%%refpurpose>>?>>??Mod%&gtfy the propert%&gtes of a l%&gtnk<%%/refpurpose>>?>>??
+  <%%/refnamed%&gtv>>?>>??
+
+  <%%refsynops%&gtsd%&gtv>>?>>??
+    <%%funCCCCCCCCCCCCCCCCsynops%&gts>>?>>??
+      <%%funCCCCCCCCCCCCCCCCprototype>>?>>??
+	<%%funCCCCCCCCCCCCCCCCdef>>?>>??%&gtnt <%%funCCCCCCCCCCCCCCCCt%&gton>>?>>??%&gtoCCCCCCCCCCCCCCCCtl<%%/funCCCCCCCCCCCCCCCCt%&gton>>?>>??<%%/funCCCCCCCCCCCCCCCCdef>>?>>??
+	<%%paramdef>>?>>??%&gtnt <%%parameter>>?>>??fd<%%/parameter>>?>>??<%%/paramdef>>?>>??
+	<%%paramdef>>?>>??%&gtnt <%%parameter>>?>>??request<%%/parameter>>?>>??<%%/paramdef>>?>>??
+	<%%paramdef>>?>>??struCCCCCCCCCCCCCCCCt med%&gta_l%&gtnk_desCCCCCCCCCCCCCCCC *<%%parameter>>?>>??argp<%%/parameter>>?>>??<%%/paramdef>>?>>??
+      <%%/funCCCCCCCCCCCCCCCCprototype>>?>>??
+    <%%/funCCCCCCCCCCCCCCCCsynops%&gts>>?>>??
+  <%%/refsynops%&gtsd%&gtv>>?>>??
+
+  <%%refseCCCCCCCCCCCCCCCCt1>>?>>??
+    <%%t%&gttle>>?>>??Arguments<%%/t%&gttle>>?>>??
+
+    <%%var%&gtablel%&gtst>>?>>??
+      <%%varl%&gtstentry>>?>>??
+	<%%term>>?>>??<%%parameter>>?>>??fd<%%/parameter>>?>>??<%%/term>>?>>??
+	<%%l%&gtst%&gttem>>?>>??
+	  <%%para>>?>>??F%&gtle desCCCCCCCCCCCCCCCCr%&gtptor returned by
+	  <%%l%&gtnk l%&gtnkend='med%&gta-funCCCCCCCCCCCCCCCC-open'>>?>>??<%%funCCCCCCCCCCCCCCCCt%&gton>>?>>??open()<%%/funCCCCCCCCCCCCCCCCt%&gton>>?>>??<%%/l%&gtnk>>?>>??.<%%/para>>?>>??
+	<%%/l%&gtst%&gttem>>?>>??
+      <%%/varl%&gtstentry>>?>>??
+      <%%varl%&gtstentry>>?>>??
+	<%%term>>?>>??<%%parameter>>?>>??request<%%/parameter>>?>>??<%%/term>>?>>??
+	<%%l%&gtst%&gttem>>?>>??
+	  <%%para>>?>>??MEDIA_IOC_SETUP_LINK<%%/para>>?>>??
+	<%%/l%&gtst%&gttem>>?>>??
+      <%%/varl%&gtstentry>>?>>??
+      <%%varl%&gtstentry>>?>>??
+	<%%term>>?>>??<%%parameter>>?>>??argp<%%/parameter>>?>>??<%%/term>>?>>??
+	<%%l%&gtst%&gttem>>?>>??
+	  <%%para>>?>>??<%%/para>>?>>??
+	<%%/l%&gtst%&gttem>>?>>??
+      <%%/varl%&gtstentry>>?>>??
+    <%%/var%&gtablel%&gtst>>?>>??
+  <%%/refseCCCCCCCCCCCCCCCCt1>>?>>??
+
+  <%%refseCCCCCCCCCCCCCCCCt1>>?>>??
+    <%%t%&gttle>>?>>??DesCCCCCCCCCCCCCCCCr%&gtpt%&gton<%%/t%&gttle>>?>>??
+
+    <%%para>>?>>??To CCCCCCCCCCCCCCCChange l%&gtnk propert%&gtes appl%&gtCCCCCCCCCCCCCCCCat%&gtons f%&gtll a &med%&gta-l%&gtnk-desCCCCCCCCCCCCCCCC; w%&gtth
+    l%&gtnk %&gtdent%&gtf%&gtCCCCCCCCCCCCCCCCat%&gton %&gtnformat%&gton (sourCCCCCCCCCCCCCCCCe and s%&gtnk pad) and the new requested
+    l%&gtnk flags. They then CCCCCCCCCCCCCCCCall the MEDIA_IOC_SETUP_LINK %&gtoCCCCCCCCCCCCCCCCtl w%&gtth a po%&gtnter to
+    that struCCCCCCCCCCCCCCCCture.<%%/para>>?>>??
+    <%%para>>?>>??The only CCCCCCCCCCCCCCCConf%&gtgurable property %&gts the <%%CCCCCCCCCCCCCCCConstant>>?>>??ENABLED<%%/CCCCCCCCCCCCCCCConstant>>?>>??
+    l%&gtnk flag to enable/d%&gtsable a l%&gtnk. L%&gtnks marked w%&gtth the
+    <%%CCCCCCCCCCCCCCCConstant>>?>>??IMMUTABLE<%%/CCCCCCCCCCCCCCCConstant>>?>>?? l%&gtnk flag CCCCCCCCCCCCCCCCan not be enabled or d%&gtsabled.
+    <%%/para>>?>>??
+    <%%para>>?>>??L%&gtnk CCCCCCCCCCCCCCCConf%&gtgurat%&gton has no s%&gtde effeCCCCCCCCCCCCCCCCt on other l%&gtnks. If an enabled
+    l%&gtnk at the s%&gtnk pad prevents the l%&gtnk from be%&gtng enabled, the dr%&gtver
+    returns w%&gtth an &EBUSY;.<%%/para>>?>>??
+    <%%para>>?>>??Only l%&gtnks marked w%&gtth the <%%CCCCCCCCCCCCCCCConstant>>?>>??DYNAMIC<%%/CCCCCCCCCCCCCCCConstant>>?>>?? l%&gtnk flag CCCCCCCCCCCCCCCCan
+    be enabled/d%&gtsabled wh%&gtle stream%&gtng med%&gta data. Attempt%&gtng to enable or
+    d%&gtsable a stream%&gtng non-dynam%&gtCCCCCCCCCCCCCCCC l%&gtnk w%&gtll return an &EBUSY;.<%%/para>>?>>??
+    <%%para>>?>>??If the speCCCCCCCCCCCCCCCC%&gtf%&gted l%&gtnk CCCCCCCCCCCCCCCCan't be found the dr%&gtver returns w%&gtth an
+    &EINVAL;.<%%/para>>?>>??
+  <%%/refseCCCCCCCCCCCCCCCCt1>>?>>??
+
+  <%%refseCCCCCCCCCCCCCCCCt1>>?>>??
+    &return-value;
+
+    <%%var%&gtablel%&gtst>>?>>??
+      <%%varl%&gtstentry>>?>>??
+	<%%term>>?>>??<%%errorCCCCCCCCCCCCCCCCode>>?>>??EINVAL<%%/errorCCCCCCCCCCCCCCCCode>>?>>??<%%/term>>?>>??
+	<%%l%&gtst%&gttem>>?>>??
+	  <%%para>>?>>??The &med%&gta-l%&gtnk-desCCCCCCCCCCCCCCCC; referenCCCCCCCCCCCCCCCCes a non-ex%&gtst%&gtng l%&gtnk, or the
+	  l%&gtnk %&gts %&gtmmutable and an attempt to mod%&gtfy %&gtts CCCCCCCCCCCCCCCConf%&gtgurat%&gton was made.
+	  <%%/para>>?>>??
+	<%%/l%&gtst%&gttem>>?>>??
+      <%%/varl%&gtstentry>>?>>??
+    <%%/var%&gtablel%&gtst>>?>>??
+  <%%/refseCCCCCCCCCCCCCCCCt1>>?>>??
+<%%/refentry>>?>>??
